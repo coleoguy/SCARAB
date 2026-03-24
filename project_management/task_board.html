@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCARAB - Task Board</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #ecf0f1 0%, #bdc3c7 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #2c3e50;
+        }
+
+        .container { max-width: 1700px; margin: 0 auto; }
+
+        header {
+            background: white;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 { font-size: 26px; margin-bottom: 12px; color: #1a5490; }
+
+        /* Stats bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+        .stat-item {
+            background: #f8f9fa;
+            padding: 10px 12px;
+            border-radius: 6px;
+            border-left: 4px solid #3498db;
+            text-align: center;
+        }
+        .stat-label { font-size: 10px; color: #7f8c8d; text-transform: uppercase; letter-spacing: 0.5px; }
+        .stat-value { font-size: 20px; font-weight: bold; color: #2c3e50; }
+        .stat-item.green { border-left-color: #27ae60; }
+        .stat-item.yellow { border-left-color: #f1c40f; }
+        .stat-item.orange { border-left-color: #e67e22; }
+        .stat-item.red { border-left-color: #e74c3c; }
+        .stat-item.critical { border-left-color: #8e44ad; background: #f4ecf7; }
+        .stat-item.claimed { border-left-color: #2980b9; background: #eaf2f8; }
+
+        /* Controls and filters */
+        .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 12px; }
+        .filter-group { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+        .filter-label { font-size: 11px; font-weight: 700; color: #7f8c8d; text-transform: uppercase; margin-right: 4px; }
+        .filter-btn {
+            padding: 4px 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: white;
+            color: #555;
+            cursor: pointer;
+            font-size: 11px;
+            transition: all 0.15s;
+        }
+        .filter-btn:hover { background: #f0f0f0; }
+        .filter-btn.active { background: #2c3e50; color: white; border-color: #2c3e50; }
+
+        /* Legend */
+        .legend { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 8px; }
+        .legend-item { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #555; }
+        .legend-color { width: 16px; height: 16px; border-radius: 3px; flex-shrink: 0; }
+
+        /* Board layout */
+        .board { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+        .column {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            max-height: calc(100vh - 280px);
+        }
+        .column-header {
+            padding: 14px 16px;
+            border-bottom: 3px solid #ecf0f1;
+            font-size: 15px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-shrink: 0;
+        }
+        .column-header.todo { border-color: #e74c3c; }
+        .column-header.in-progress { border-color: #f39c12; }
+        .column-header.done { border-color: #27ae60; }
+        .task-count {
+            background: #ecf0f1;
+            color: #7f8c8d;
+            font-size: 12px;
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
+        .column-content {
+            padding: 10px;
+            overflow-y: auto;
+            flex: 1;
+            min-height: 200px;
+        }
+
+        /* Phase groups */
+        .phase-group { margin-bottom: 12px; }
+        .phase-header {
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: #95a5a6;
+            padding: 6px 8px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            user-select: none;
+            border-radius: 4px;
+        }
+        .phase-header:hover { background: #f8f9fa; }
+        .phase-toggle::before { content: '\25BC'; font-size: 8px; }
+        .phase-header.collapsed .phase-toggle::before { content: '\25B6'; }
+        .phase-header.collapsed + .phase-tasks { display: none; }
+
+        /* Cards */
+        .card {
+            background: white;
+            border: 1px solid #e8e8e8;
+            border-radius: 6px;
+            padding: 10px 12px;
+            margin-bottom: 8px;
+            cursor: grab;
+            transition: box-shadow 0.15s, transform 0.1s;
+            border-left: 4px solid #bdc3c7;
+            position: relative;
+        }
+        .card:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.12); transform: translateY(-1px); }
+        .card.dragging { opacity: 0.4; }
+        .card.difficulty-green { border-left-color: #27ae60; }
+        .card.difficulty-yellow { border-left-color: #f1c40f; }
+        .card.difficulty-orange { border-left-color: #e67e22; }
+        .card.difficulty-red { border-left-color: #e74c3c; }
+        .card.critical-path { background: linear-gradient(135deg, #fdf2f8, #fce7f3); border-left-color: #8e44ad; }
+
+        .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+        .card-id { font-size: 11px; font-weight: 700; color: #7f8c8d; }
+        .card-badge {
+            font-size: 9px;
+            font-weight: 700;
+            color: white;
+            padding: 1px 6px;
+            border-radius: 3px;
+        }
+        .card-title { font-size: 13px; font-weight: 600; color: #2c3e50; margin-bottom: 6px; line-height: 1.3; }
+
+        /* Dual time display */
+        .card-times {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px;
+            margin-bottom: 6px;
+        }
+        .time-box {
+            background: #f8f9fa;
+            border-radius: 4px;
+            padding: 4px 6px;
+            text-align: center;
+        }
+        .time-label { font-size: 8px; text-transform: uppercase; letter-spacing: 0.5px; color: #95a5a6; font-weight: 600; }
+        .time-value { font-size: 11px; font-weight: 700; color: #2c3e50; }
+        .time-box.wall-clock { border-left: 2px solid #3498db; }
+        .time-box.hands-on { border-left: 2px solid #e67e22; }
+
+        .card-meta { font-size: 10px; color: #95a5a6; }
+        .card-folder { font-size: 9px; color: #bdc3c7; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 2px; }
+        .card-deps { margin-top: 2px; font-size: 9px; }
+        .deps-list { color: #b0b0b0; }
+
+        /* Claim system */
+        .claim-section {
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px dashed #e8e8e8;
+        }
+        .claim-btn {
+            width: 100%;
+            padding: 5px 8px;
+            border: 1px dashed #3498db;
+            border-radius: 4px;
+            background: #eaf2f8;
+            color: #2980b9;
+            cursor: pointer;
+            font-size: 11px;
+            font-weight: 600;
+            transition: all 0.15s;
+        }
+        .claim-btn:hover { background: #d4e6f1; }
+
+        .claimed-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+        .claimed-by {
+            font-size: 11px;
+            font-weight: 600;
+            color: #2980b9;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .claimed-by .avatar {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #2980b9;
+            color: white;
+            font-size: 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+        }
+        .timer-controls { display: flex; align-items: center; gap: 4px; }
+        .timer-btn {
+            padding: 2px 8px;
+            border: none;
+            border-radius: 3px;
+            font-size: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .timer-btn.start { background: #27ae60; color: white; }
+        .timer-btn.start:hover { background: #219a52; }
+        .timer-btn.pause { background: #f39c12; color: white; }
+        .timer-btn.pause:hover { background: #d68910; }
+        .timer-btn.unclaim { background: #e74c3c; color: white; font-size: 9px; padding: 2px 5px; }
+        .timer-btn.unclaim:hover { background: #c0392b; }
+        .timer-display {
+            font-family: 'SF Mono', 'Consolas', monospace;
+            font-size: 12px;
+            font-weight: 700;
+            color: #2c3e50;
+            min-width: 55px;
+            text-align: center;
+        }
+        .timer-display.running { color: #27ae60; }
+        .timer-display.paused { color: #f39c12; }
+        .timer-total {
+            font-size: 9px;
+            color: #95a5a6;
+            text-align: right;
+            margin-top: 2px;
+        }
+        .claimed-date { font-size: 9px; color: #b0b0b0; }
+
+        /* Student name modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.4);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+        .modal-overlay.active { display: flex; }
+        .modal {
+            background: white;
+            border-radius: 8px;
+            padding: 24px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            width: 340px;
+        }
+        .modal h3 { font-size: 16px; margin-bottom: 12px; }
+        .modal p { font-size: 12px; color: #7f8c8d; margin-bottom: 12px; }
+        .modal input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 2px solid #e8e8e8;
+            border-radius: 6px;
+            font-size: 14px;
+            margin-bottom: 12px;
+            outline: none;
+        }
+        .modal input:focus { border-color: #3498db; }
+        .modal-buttons { display: flex; gap: 8px; justify-content: flex-end; }
+        .modal-btn {
+            padding: 6px 16px;
+            border: none;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .modal-btn.cancel { background: #ecf0f1; color: #555; }
+        .modal-btn.confirm { background: #2980b9; color: white; }
+        .modal-btn.confirm:hover { background: #2471a3; }
+
+        /* Export section */
+        .export-bar {
+            margin-top: 16px;
+            display: flex;
+            gap: 8px;
+            justify-content: flex-end;
+        }
+        .export-btn {
+            padding: 6px 14px;
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+            background: white;
+            color: #555;
+            cursor: pointer;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .export-btn:hover { background: #f0f0f0; }
+
+        /* Scrollbars */
+        .column-content::-webkit-scrollbar { width: 5px; }
+        .column-content::-webkit-scrollbar-track { background: transparent; }
+        .column-content::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
+
+        @media (max-width: 1024px) {
+            .board { grid-template-columns: 1fr; }
+            .column { max-height: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SCARAB Task Board</h1>
+
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <div class="stat-label">Total</div>
+                    <div class="stat-value" id="stat-total">0</div>
+                </div>
+                <div class="stat-item green">
+                    <div class="stat-label">Quick &lt;2h</div>
+                    <div class="stat-value" id="stat-green">0</div>
+                </div>
+                <div class="stat-item yellow">
+                    <div class="stat-label">Half-Day</div>
+                    <div class="stat-value" id="stat-yellow">0</div>
+                </div>
+                <div class="stat-item orange">
+                    <div class="stat-label">Full Day</div>
+                    <div class="stat-value" id="stat-orange">0</div>
+                </div>
+                <div class="stat-item red">
+                    <div class="stat-label">Extended</div>
+                    <div class="stat-value" id="stat-red">0</div>
+                </div>
+                <div class="stat-item critical">
+                    <div class="stat-label">Critical Path</div>
+                    <div class="stat-value" id="stat-critical">0</div>
+                </div>
+                <div class="stat-item claimed">
+                    <div class="stat-label">Claimed</div>
+                    <div class="stat-value" id="stat-claimed">0</div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <div class="filter-group">
+                    <span class="filter-label">Phase:</span>
+                    <button class="filter-btn active" data-filter="phase" data-value="all">All</button>
+                    <button class="filter-btn" data-filter="phase" data-value="LR">Lit Rev</button>
+                    <button class="filter-btn" data-filter="phase" data-value="1">Ph 1</button>
+                    <button class="filter-btn" data-filter="phase" data-value="2">Ph 2</button>
+                    <button class="filter-btn" data-filter="phase" data-value="3">Ph 3</button>
+                    <button class="filter-btn" data-filter="phase" data-value="4">Ph 4</button>
+                </div>
+                <div class="filter-group">
+                    <span class="filter-label">Owner:</span>
+                    <button class="filter-btn active" data-filter="owner" data-value="all">All</button>
+                    <button class="filter-btn" data-filter="owner" data-value="CL">Claude</button>
+                    <button class="filter-btn" data-filter="owner" data-value="HB">Heath</button>
+                    <button class="filter-btn" data-filter="owner" data-value="Student">Student</button>
+                </div>
+                <div class="filter-group">
+                    <span class="filter-label">Difficulty:</span>
+                    <button class="filter-btn active" data-filter="difficulty" data-value="all">All</button>
+                    <button class="filter-btn" data-filter="difficulty" data-value="green">Quick</button>
+                    <button class="filter-btn" data-filter="difficulty" data-value="yellow">Half-Day</button>
+                    <button class="filter-btn" data-filter="difficulty" data-value="orange">Full Day</button>
+                    <button class="filter-btn" data-filter="difficulty" data-value="red">Extended</button>
+                </div>
+            </div>
+
+            <div class="legend">
+                <div class="legend-item"><div class="legend-color" style="background:#27ae60;"></div><span>Green: &lt;2 hrs</span></div>
+                <div class="legend-item"><div class="legend-color" style="background:#f1c40f;"></div><span>Yellow: 2-6 hrs</span></div>
+                <div class="legend-item"><div class="legend-color" style="background:#e67e22;"></div><span>Orange: 1-3 days</span></div>
+                <div class="legend-item"><div class="legend-color" style="background:#e74c3c;"></div><span>Red: &gt;3 days</span></div>
+                <div class="legend-item"><div class="legend-color" style="background:#8e44ad;"></div><span>Critical Path</span></div>
+                <div class="legend-item"><div class="legend-color" style="background:#3498db;border:2px dashed #2980b9;width:12px;height:12px;"></div><span>Wall-clock time</span></div>
+                <div class="legend-item"><div class="legend-color" style="background:#e67e22;border:2px solid #d35400;width:12px;height:12px;"></div><span>Hands-on time</span></div>
+            </div>
+
+            <div class="export-bar">
+                <button class="export-btn" onclick="exportTimesheet()">Export Timesheet (CSV)</button>
+                <button class="export-btn" onclick="exportBoardState()">Export Board State (JSON)</button>
+            </div>
+        </header>
+
+        <div class="board">
+            <div class="column">
+                <div class="column-header todo">
+                    <span>TO DO</span>
+                    <span class="task-count" id="count-todo">0</span>
+                </div>
+                <div class="column-content" id="column-todo" data-status="todo"></div>
+            </div>
+            <div class="column">
+                <div class="column-header in-progress">
+                    <span>IN PROGRESS</span>
+                    <span class="task-count" id="count-in-progress">0</span>
+                </div>
+                <div class="column-content" id="column-in-progress" data-status="in-progress"></div>
+            </div>
+            <div class="column">
+                <div class="column-header done">
+                    <span>DONE</span>
+                    <span class="task-count" id="count-done">0</span>
+                </div>
+                <div class="column-content" id="column-done" data-status="done"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Claim modal -->
+    <div class="modal-overlay" id="claim-modal">
+        <div class="modal">
+            <h3>Claim Task <span id="modal-task-id"></span></h3>
+            <p>Enter your name to claim this task. A timer will track your hands-on time.</p>
+            <input type="text" id="claim-name-input" placeholder="Your name (e.g. Sean, Kaya, Andres)" autocomplete="off" />
+            <div class="modal-buttons">
+                <button class="modal-btn cancel" onclick="closeClaimModal()">Cancel</button>
+                <button class="modal-btn confirm" onclick="confirmClaim()">Claim</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    // ========================================================================
+    // TASK DATA — wall_clock = total elapsed, hands_on = student active time
+    // ========================================================================
+    const TASKS = [
+        // Literature Review
+        { id:'LR.1', title:'Search Similar Projects', wall_clock:'~4 hrs', hands_on:'~4 hrs', difficulty:'yellow', owner:'CL', folder:'TASK_LR1_search_similar_projects/', phase:'LR', deps:[], status:'done' },
+        { id:'LR.2', title:'Zoonomia Landscape Review', wall_clock:'~4 hrs', hands_on:'~4 hrs', difficulty:'yellow', owner:'CL', folder:'TASK_LR2_zoonomia_landscape/', phase:'LR', deps:['LR.1'], status:'done' },
+        { id:'LR.3', title:'Preprint Strategy', wall_clock:'~1 hr', hands_on:'~1 hr', difficulty:'green', owner:'CL+HB', folder:'TASK_LR3_preprint_strategy/', phase:'LR', deps:['LR.2'], status:'done' },
+
+        // Phase 1: Genome Inventory
+        { id:'1.1', title:'Mine NCBI Genomes', wall_clock:'~4 hrs', hands_on:'~4 hrs', difficulty:'yellow', owner:'CL', folder:'PHASE_1.1_ncbi_mining/', phase:'1', deps:[], status:'done' },
+        { id:'1.2', title:'Mine Ensembl Genomes', wall_clock:'~3 hrs', hands_on:'~3 hrs', difficulty:'yellow', owner:'CL', folder:'PHASE_1.2_ensembl_mining/', phase:'1', deps:['1.1'], status:'done' },
+        { id:'1.3', title:'Merge & Deduplicate', wall_clock:'~1 hr', hands_on:'~1 hr', difficulty:'green', owner:'CL', folder:'PHASE_1.3_merge_deduplicate/', phase:'1', deps:['1.1','1.2'], status:'done' },
+        { id:'1.4', title:'Phylogenetic Placement', wall_clock:'~4 hrs', hands_on:'~4 hrs', difficulty:'yellow', owner:'HB', folder:'PHASE_1.4_phylogenetic_placement/', phase:'1', deps:['1.3'], status:'done' },
+        { id:'1.5', title:'FASTA URLs & Checksums', wall_clock:'~3 hrs', hands_on:'~3 hrs', difficulty:'yellow', owner:'CL', folder:'PHASE_1.5_fasta_urls/', phase:'1', deps:['1.4'], status:'done' },
+        { id:'1.6', title:'Build Constraint Tree', wall_clock:'~5 hrs', hands_on:'~5 hrs', difficulty:'yellow', owner:'CL+HB', folder:'PHASE_1.6_constraint_tree/', phase:'1', deps:['1.4'], status:'done' },
+        { id:'1.7', title:'Phase 1 QC Report', wall_clock:'~1 hr', hands_on:'~1 hr', difficulty:'green', owner:'CL+HB', folder:'PHASE_1.7_qc_report/', phase:'1', deps:['1.5','1.6'], status:'done' },
+
+        // Phase 1.8: Genome Downloads
+        { id:'1.8', title:'Download Genomes to Grace', wall_clock:'~6 hrs', hands_on:'~30 min', difficulty:'green', owner:'HB+CL', folder:'scripts/phase2/', phase:'1', deps:['1.5'], status:'done', criticalPath:true },
+        { id:'1.9', title:'Validate Downloads', wall_clock:'~10 min', hands_on:'~10 min', difficulty:'green', owner:'HB', folder:'scripts/phase2/', phase:'1', deps:['1.8'], status:'done' },
+
+        // Phase 2: Alignment & Synteny
+        { id:'2.1', title:'Grace Pipeline Setup', wall_clock:'~1 day', hands_on:'~3 hrs', difficulty:'orange', owner:'CL+HB', folder:'PHASE_2.1_pipeline_setup/', phase:'2', deps:['1.7'], status:'done' },
+        { id:'2.1b', title:'Build Nuclear BUSCO Guide Tree (15 proteins × 439 genomes)', wall_clock:'~2 hrs', hands_on:'~10 min', difficulty:'yellow', owner:'HB+CL', folder:'grace_upload_phase3/', phase:'2', deps:['2.1','1.9'], status:'done', criticalPath:true, notes:'439/439 molecular data, 0 grafted. Bug: 38 genomes had silent OOM kills; fixed by job 18110451.' },
+        { id:'2.1b2', title:'Re-root FastTree on Neuropterida (Cactus guide tree)', wall_clock:'~5 min', hands_on:'~5 min', difficulty:'green', owner:'HB', folder:'grace_upload_phase3/', phase:'2', deps:['2.1b'], status:'done', criticalPath:true, notes:'DONE 2026-03-23. 17/17 Neuropterida outgroup taxa found, monophyletic=TRUE. Cactus seqfile updated.' },
+        { id:'2.1d', title:'Request $SCRATCH quota increase to 5TB', wall_clock:'~1 day (ticket)', hands_on:'~5 min', difficulty:'green', owner:'HB', folder:'', phase:'2', deps:[], status:'in-progress', notes:'Draft in Gmail (id: 19d1ada6ff49d4ff). To: help@hprc.tamu.edu. Subject: $SCRATCH quota increase request -- Grace. SEND IT -- needed before full alignment.' },
+
+        // Phase 2P: Phylogenomics Pipeline (runs in parallel with Cactus)
+        { id:'P.1', title:'Map all BUSCO proteins to Tribolium chromosomes', wall_clock:'~1 hr', hands_on:'~10 min', difficulty:'green', owner:'CL', folder:'grace_upload_phase3/', phase:'2', deps:['2.1b'], status:'done', notes:'DONE 2026-03-23. Job 18112279. tBLASTn 13,663 BUSCO variants against icTriCast1.1. 1,286 unique genes mapped to 10 Tcas chromosomes. busco_tribolium_map.tsv created.' },
+        { id:'P.2', title:'Select BUSCO loci (SKIPPED — using all 1,286)', wall_clock:'N/A', hands_on:'N/A', difficulty:'green', owner:'HB', folder:'grace_upload_phase3/', phase:'2', deps:['P.1'], status:'done', notes:'SKIPPED 2026-03-23. Heath decided to use ALL 1,286 mapped genes for maximum phylogenetic power rather than subsampling.' },
+        { id:'P.3', title:'BLAST 1,286 BUSCO proteins × 439 genomes', wall_clock:'~2 days', hands_on:'~15 min', difficulty:'orange', owner:'HB', folder:'grace_upload_phase3/', phase:'2', deps:['P.2'], status:'in-progress', criticalPath:false, notes:'RUNNING 2026-03-23. Job 18114486 on long partition (48 cores, 128GB). First version failed (export -f + xargs exit 255); fixed with separate blast_one.sh wrapper script. ~5 hrs elapsed, ~1 day remaining.' },
+        { id:'P.4', title:'Per-gene MAFFT alignment (1,286 genes)', wall_clock:'~4-8 hrs', hands_on:'~10 min', difficulty:'yellow', owner:'CL', folder:'grace_upload_phase3/', phase:'2', deps:['P.3'], status:'todo', notes:'SLURM array: 1,286 jobs, each aligns one per-gene FASTA. MAFFT --auto. Outputs gene-specific alignment FASTA files for IQ-TREE.' },
+        { id:'P.4', title:'Per-gene MAFFT alignments (1,286 genes)', wall_clock:'~2-4 hrs', hands_on:'~10 min', difficulty:'yellow', owner:'CL', folder:'grace_upload_phase3/', phase:'2', deps:['P.3'], status:'todo', notes:'Same pipeline as 15-gene run, scaled up. MAFFT --auto per gene.' },
+        { id:'P.5', title:'Per-gene IQ-TREE trees (1,286 genes)', wall_clock:'~4-8 hrs', hands_on:'~10 min', difficulty:'yellow', owner:'CL', folder:'grace_upload_phase3/', phase:'2', deps:['P.4'], status:'todo', notes:'Embarrassingly parallel — 1,286 independent IQ-TREE jobs with ModelFinder + 1000 UFboot. SLURM array.' },
+        { id:'P.6', title:'ASTRAL-III species tree + concordance factors', wall_clock:'~30 min', hands_on:'~15 min', difficulty:'green', owner:'CL', folder:'grace_upload_phase3/', phase:'2', deps:['P.5'], status:'todo', notes:'Coalescent species tree from 1,286 gene trees. IQ-TREE gCF/sCF for per-node concordance. McKenna backbone constraint for unresolved deep nodes.' },
+        { id:'P.7', title:'Partitioned IQ-TREE on concatenated supermatrix', wall_clock:'~12-24 hrs', hands_on:'~10 min', difficulty:'yellow', owner:'CL', folder:'grace_upload_phase3/', phase:'2', deps:['P.4'], status:'todo', notes:'Gene-partitioned concatenation analysis as concordance check vs ASTRAL. 1,286 partitions, ModelFinder per partition.' },
+        { id:'P.8', title:'Compare ASTRAL vs concatenation; finalize rearrangement tree', wall_clock:'~2 hrs', hands_on:'~2 hrs', difficulty:'yellow', owner:'HB+CL', folder:'grace_upload_phase3/', phase:'2', deps:['P.6','P.7'], status:'todo', notes:'Where they agree = high confidence. Where they disagree = use McKenna backbone. Final tree for rearrangement mapping.' },
+        { id:'2.1c', title:'Test Alignment (5 genomes)', wall_clock:'1h 24m', hands_on:'~10 min', difficulty:'green', owner:'HB', folder:'grace_upload_phase3/', phase:'2', deps:['2.1b2'], status:'done', criticalPath:true, notes:'DONE 2026-03-23. Job 18117479. HAL produced, halStats reviewed: 5 genomes present, ancestral recovery 15-20%, all nodes have segments. Quality gate PENDING Heath approval before full alignment.' },
+        { id:'2.1e', title:'Assign Stevens elements (Tcas LG to A-H, X)', wall_clock:'~30 min', hands_on:'~30 min', difficulty:'green', owner:'CL', folder:'data/genomes/', phase:'2', deps:['P.1'], status:'done', notes:'DONE 2026-03-23. Bracewell et al. 2024 Table 3. LG2=E, LG3=A, LG4=G, LG5=D, LG6=H, LG7=B, LG8=F, LG9=C, LGX=X. LG10 not a Stevens element. Saved to data/genomes/stevens_elements.csv.' },
+        { id:'2.1f', title:'Filter genomes for alignment (quality thresholds)', wall_clock:'~10 min', hands_on:'~15 min', difficulty:'green', owner:'HB', folder:'grace_upload_phase3/', phase:'2', deps:['2.1c'], status:'todo', criticalPath:true, notes:'Run filter_genomes_for_alignment.R on Grace against actual seqfile. Thresholds: contig N50 >= 100kb, scaffolds <= 10,000. T. castaneum mandatory keep. Review exclusion list before proceeding. Produces cactus_seqfile_filtered.txt.' },
+        { id:'2.2', title:'Full Cactus Alignment (439 genomes, bigmem)', wall_clock:'~75 days (4-5 cycles)', hands_on:'~30 min setup', difficulty:'red', owner:'HB', folder:'grace_upload_phase3/', phase:'2', deps:['2.1c','2.1f'], status:'todo', criticalPath:true, notes:'sbatch run_full_alignment.slurm. Bigmem node (80 cores, 2.9 TB RAM), 18-day wall cycles with --restart. Start watchdog in tmux: bash cactus_watchdog.sh. Est. ~144,000 SUs total. Filtered seqfile required first.' },
+        { id:'2.2', title:'Full Alignment (439 genomes, xlong queue)', wall_clock:'~7-21 days', hands_on:'~30 min submit + check', difficulty:'red', owner:'HB', folder:'PHASE_2.2_full_alignment/', phase:'2', deps:['2.1c'], status:'todo', criticalPath:true },
+        { id:'2.3', title:'Extract Synteny Blocks', wall_clock:'~6 hrs (queue+run)', hands_on:'~30 min', difficulty:'yellow', owner:'CL', folder:'PHASE_2.3_hal_synteny_extraction/', phase:'2', deps:['2.2'], status:'todo' },
+        { id:'2.4', title:'Synteny QC', wall_clock:'~2 hrs', hands_on:'~2 hrs', difficulty:'green', owner:'Student', folder:'PHASE_2.4_synteny_qc/', phase:'2', deps:['2.3'], status:'todo' },
+        { id:'2.5', title:'Ancestral Reconstruction (RACA)', wall_clock:'~2 days', hands_on:'~2 hrs setup', difficulty:'orange', owner:'CL+HB', folder:'PHASE_2.5_ancestral_reconstruction/', phase:'2', deps:['2.4','1.6'], status:'todo' },
+        { id:'2.6', title:'Anchor Synteny to Ancestors', wall_clock:'~3 hrs', hands_on:'~3 hrs', difficulty:'yellow', owner:'CL', folder:'PHASE_2.6_synteny_anchoring/', phase:'2', deps:['2.4','2.5'], status:'todo' },
+        { id:'2.7', title:'Phase 2 Integration', wall_clock:'~1 hr', hands_on:'~1 hr', difficulty:'green', owner:'CL+HB', folder:'PHASE_2.7_integration_signoff/', phase:'2', deps:['2.6'], status:'todo' },
+
+        // Phase 3: Rearrangement Analysis
+        { id:'3.1', title:'Call Breakpoints', wall_clock:'~3 hrs', hands_on:'~3 hrs', difficulty:'yellow', owner:'CL', folder:'PHASE_3.1_breakpoint_calling/', phase:'3', deps:['2.6'], status:'todo' },
+        { id:'3.2', title:'Filter Rearrangements', wall_clock:'~4 hrs', hands_on:'~4 hrs', difficulty:'yellow', owner:'HB', folder:'PHASE_3.2_filtering/', phase:'3', deps:['3.1'], status:'todo' },
+        { id:'3.3', title:'Map Rearrangements to Phylogeny (ASTRAL tree)', wall_clock:'~3 hrs', hands_on:'~3 hrs', difficulty:'yellow', owner:'CL', folder:'PHASE_3.3_tree_mapping/', phase:'3', deps:['3.2','P.8'], status:'todo', notes:'Uses finalized ASTRAL/concordance tree, not FastTree. Branch-specific rearrangement events.' },
+        { id:'3.4', title:'Branch Statistics & Hotspots', wall_clock:'~2 hrs', hands_on:'~2 hrs', difficulty:'yellow', owner:'Student', folder:'PHASE_3.4_branch_stats/', phase:'3', deps:['3.3'], status:'todo' },
+        { id:'3.5', title:'Compare to Literature', wall_clock:'~3 hrs', hands_on:'~3 hrs', difficulty:'yellow', owner:'Student+HB', folder:'PHASE_3.5_literature_comparison/', phase:'3', deps:['3.3'], status:'todo' },
+        { id:'3.6', title:'Ancestral Karyotypes', wall_clock:'~2 hrs', hands_on:'~2 hrs', difficulty:'yellow', owner:'CL+HB', folder:'PHASE_3.6_ancestral_karyotypes/', phase:'3', deps:['3.3','2.5'], status:'todo' },
+        { id:'3.7', title:'Phase 3 Integration', wall_clock:'~1 hr', hands_on:'~1 hr', difficulty:'green', owner:'CL+HB', folder:'PHASE_3.7_integration_signoff/', phase:'3', deps:['3.6'], status:'todo' },
+
+        // Phase 4: Visualization & Manuscript
+        { id:'4.1', title:'Phylogenetic Tree Figure', wall_clock:'~4 hrs', hands_on:'~4 hrs', difficulty:'yellow', owner:'CL', folder:'PHASE_4.1_interactive_tree/', phase:'4', deps:['3.4','3.6'], status:'todo' },
+        { id:'4.2', title:'Synteny Dotplots', wall_clock:'~3 hrs', hands_on:'~3 hrs', difficulty:'yellow', owner:'CL+Student', folder:'PHASE_4.2_synteny_dotplots/', phase:'4', deps:['2.6'], status:'todo' },
+        { id:'4.3', title:'Hotspot Visualizations', wall_clock:'~2 hrs', hands_on:'~2 hrs', difficulty:'yellow', owner:'CL', folder:'PHASE_4.3_hotspot_viz/', phase:'4', deps:['3.4'], status:'todo' },
+        { id:'4.4', title:'Ancestral Karyotype Figures', wall_clock:'~3 hrs', hands_on:'~3 hrs', difficulty:'yellow', owner:'CL+HB', folder:'PHASE_4.4_ancestral_figures/', phase:'4', deps:['3.6'], status:'todo' },
+        { id:'4.5', title:'Data Release Package', wall_clock:'~1 hr', hands_on:'~1 hr', difficulty:'green', owner:'CL', folder:'PHASE_4.5_data_release/', phase:'4', deps:['3.7'], status:'todo' },
+        { id:'4.6', title:'Manuscript Figures & Results', wall_clock:'~5 days', hands_on:'~20 hrs', difficulty:'red', owner:'HB+CL', folder:'PHASE_4.6_manuscript_figures/', phase:'4', deps:['4.1','4.2','4.3','4.4','4.5'], status:'todo', criticalPath:true },
+        { id:'4.7', title:'Completion & Sign-Off', wall_clock:'~1 hr', hands_on:'~1 hr', difficulty:'green', owner:'HB', folder:'PHASE_4.7_completion_signoff/', phase:'4', deps:['4.6'], status:'todo' },
+        { id:'19', title:'Tree Calibration', wall_clock:'~2 hrs', hands_on:'~2 hrs', difficulty:'yellow', owner:'CL', folder:'', phase:'3', deps:['1.6'], status:'done' },
+        { id:'20', title:'Phase 3 Script Preparation', wall_clock:'~1 day', hands_on:'~4 hrs', difficulty:'orange', owner:'CL+HB', folder:'PHASE_3.0_scripts_prep/', phase:'3', deps:['2.1'], status:'done' },
+        { id:'3.5b', title:'Karyotype DB Compiled (121 spp + 144 genus)', wall_clock:'~2 hrs', hands_on:'~2 hrs', difficulty:'yellow', owner:'CL', folder:'data/karyotypes/', phase:'3', deps:['1.1'], status:'done' },
+        { id:'A.0', title:'Gene tree discordance × chromosomal breakpoints', wall_clock:'~1 week', hands_on:'~8 hrs', difficulty:'red', owner:'HB+CL', folder:'', phase:'3', deps:['P.6','3.1','2.3'], status:'todo', criticalPath:false, notes:'NOVEL: Map each of 1,286 BUSCO genes to genomic position in each species via Cactus HAL. Compute per-gene gCF at every node. Test whether discordant genes cluster near rearrangement breakpoints. Temporal dimension: at nodes with high rearrangement rates, is discordance elevated among breakpoint-proximal genes? Direct test of chromosomal speciation model (Rieseberg/Noor/Navarro-Barton) at 439-genome scale. Per-Stevens-element concordance factors. At least 2 figures.' },
+        { id:'A.1', title:'IDEA: Karyotype rate vs genomic rearrangement rate', wall_clock:'TBD', hands_on:'TBD', difficulty:'red', owner:'HB+CL', folder:'', phase:'3', deps:['3.3','3.5b'], status:'todo', notes:'UNIQUE: Correlate cytogenetic fusion/fission rates (Ruckman et al 2020) with Cactus-inferred inversion/translocation rates. Only possible in beetles.' },
+        { id:'A.2', title:'IDEA: Fragile-Y hypothesis tested genomically', wall_clock:'TBD', hands_on:'TBD', difficulty:'red', owner:'HB+CL', folder:'', phase:'3', deps:['3.3'], status:'todo', notes:'Trace X and neo-sex origins across 400+ spp. Test whether Y-bearing Stevens elements show elevated breakpoint density. Extends Blackmon & Demuth 2014.' },
+        { id:'A.3', title:'IDEA: Rearrangement rate shifts × diversification', wall_clock:'TBD', hands_on:'TBD', difficulty:'red', owner:'HB+CL', folder:'', phase:'3', deps:['3.4'], status:'todo', notes:'BAMM or similar for diversification rates; test correlation with branch rearrangement rates. White 1978 hypothesis never tested at genomic scale.' },
+        { id:'A.4', title:'IDEA: Breakpoint hotspot characterization', wall_clock:'TBD', hands_on:'TBD', difficulty:'orange', owner:'CL+HB', folder:'', phase:'3', deps:['3.4'], status:'todo', notes:'ID recurrent breakpoint regions across independent lineages. Test repeat/TE enrichment. Compare to mammalian EBRs. Needs RepeatMasker run on Grace.' },
+        { id:'A.5', title:'IDEA: Stevens element stability across 56 families', wall_clock:'TBD', hands_on:'TBD', difficulty:'yellow', owner:'CL+HB', folder:'', phase:'3', deps:['2.6'], status:'todo', notes:'Element conservation score across phylogeny. Are all 9 universal across 320 My? Any reciprocal translocations blurring boundaries?' },
+        { id:'A.6', title:'IDEA: Fusion partner asymmetry (size bias / X bias)', wall_clock:'TBD', hands_on:'TBD', difficulty:'yellow', owner:'CL+HB', folder:'', phase:'3', deps:['3.3'], status:'todo', notes:'Wright et al found Lep fusions biased toward shorter autosomes + Z. Test same in beetles with Xyp system.' }
+    ];
+
+    const PHASES = {
+        'LR': 'Literature Review',
+        '1': 'Phase 1: Genome Inventory & QC',
+        '2': 'Phase 2: Alignment & Synteny',
+        '3': 'Phase 3: Rearrangement Analysis',
+        '4': 'Phase 4: Visualization & Manuscript'
+    };
+
+    // ========================================================================
+    // STATE
+    // ========================================================================
+    const State = {
+        tasks: JSON.parse(JSON.stringify(TASKS)),
+        filters: { phase:'all', owner:'all', difficulty:'all' },
+        collapsed: new Set(),
+        // claim data: { taskId: { name, claimedAt, timerRunning, elapsedMs, lastStarted } }
+        claims: (function() {
+            // Pre-populate claims for completed tasks
+            var c = {};
+            var ownerMap = {
+                'CL': 'Claude (AI)',
+                'HB': 'Heath Blackmon',
+                'CL+HB': 'Claude + Heath',
+                'HB+CL': 'Heath + Claude',
+                'Student': 'Student',
+                'Student+HB': 'Student + Heath'
+            };
+            TASKS.forEach(function(t) {
+                if (t.status === 'done') {
+                    c[t.id] = {
+                        name: ownerMap[t.owner] || t.owner,
+                        claimedAt: '2026-03-21T09:00:00Z',
+                        timerRunning: false,
+                        elapsedMs: 0,
+                        lastStarted: null,
+                        completed: true
+                    };
+                } else if (t.status === 'in-progress') {
+                    c[t.id] = {
+                        name: ownerMap[t.owner] || t.owner,
+                        claimedAt: '2026-03-21T15:00:00Z',
+                        timerRunning: true,
+                        elapsedMs: 0,
+                        lastStarted: Date.now(),
+                        completed: false
+                    };
+                }
+            });
+            return c;
+        })(),
+        // Active timers
+        timerIntervals: {},
+
+        save() {
+            window.boardState = {
+                tasks: this.tasks,
+                claims: this.claims,
+                filters: this.filters,
+                collapsed: Array.from(this.collapsed),
+                exported: new Date().toISOString()
+            };
+        },
+
+        filtered() {
+            return this.tasks.filter(t => {
+                if (this.filters.phase !== 'all' && t.phase !== this.filters.phase) return false;
+                if (this.filters.owner !== 'all' && !t.owner.includes(this.filters.owner)) return false;
+                if (this.filters.difficulty !== 'all' && t.difficulty !== this.filters.difficulty) return false;
+                return true;
+            });
+        }
+    };
+
+    // ========================================================================
+    // CLAIM & TIMER
+    // ========================================================================
+    let pendingClaimTaskId = null;
+
+    function openClaimModal(taskId) {
+        pendingClaimTaskId = taskId;
+        document.getElementById('modal-task-id').textContent = taskId;
+        document.getElementById('claim-name-input').value = '';
+        document.getElementById('claim-modal').classList.add('active');
+        setTimeout(() => document.getElementById('claim-name-input').focus(), 100);
+    }
+
+    function closeClaimModal() {
+        document.getElementById('claim-modal').classList.remove('active');
+        pendingClaimTaskId = null;
+    }
+
+    function confirmClaim() {
+        const name = document.getElementById('claim-name-input').value.trim();
+        if (!name || !pendingClaimTaskId) return;
+        State.claims[pendingClaimTaskId] = {
+            name: name,
+            claimedAt: new Date().toISOString(),
+            timerRunning: false,
+            elapsedMs: 0,
+            lastStarted: null
+        };
+        State.save();
+        closeClaimModal();
+        renderBoard();
+    }
+
+    function unclaimTask(taskId) {
+        stopTimer(taskId);
+        delete State.claims[taskId];
+        State.save();
+        renderBoard();
+    }
+
+    function startTimer(taskId) {
+        const claim = State.claims[taskId];
+        if (!claim || claim.timerRunning) return;
+        claim.timerRunning = true;
+        claim.lastStarted = Date.now();
+        State.save();
+
+        State.timerIntervals[taskId] = setInterval(() => {
+            const display = document.getElementById(`timer-${taskId}`);
+            if (display) {
+                const elapsed = claim.elapsedMs + (Date.now() - claim.lastStarted);
+                display.textContent = formatMs(elapsed);
+                display.className = 'timer-display running';
+            }
+        }, 1000);
+
+        renderBoard();
+    }
+
+    function pauseTimer(taskId) {
+        const claim = State.claims[taskId];
+        if (!claim || !claim.timerRunning) return;
+        claim.elapsedMs += Date.now() - claim.lastStarted;
+        claim.timerRunning = false;
+        claim.lastStarted = null;
+        State.save();
+
+        if (State.timerIntervals[taskId]) {
+            clearInterval(State.timerIntervals[taskId]);
+            delete State.timerIntervals[taskId];
+        }
+
+        renderBoard();
+    }
+
+    function stopTimer(taskId) {
+        if (State.timerIntervals[taskId]) {
+            clearInterval(State.timerIntervals[taskId]);
+            delete State.timerIntervals[taskId];
+        }
+    }
+
+    function formatMs(ms) {
+        const totalSec = Math.floor(ms / 1000);
+        const hrs = Math.floor(totalSec / 3600);
+        const mins = Math.floor((totalSec % 3600) / 60);
+        const secs = totalSec % 60;
+        if (hrs > 0) return `${hrs}:${String(mins).padStart(2,'0')}:${String(secs).padStart(2,'0')}`;
+        return `${mins}:${String(secs).padStart(2,'0')}`;
+    }
+
+    function getCurrentElapsed(taskId) {
+        const claim = State.claims[taskId];
+        if (!claim) return 0;
+        if (claim.timerRunning && claim.lastStarted) {
+            return claim.elapsedMs + (Date.now() - claim.lastStarted);
+        }
+        return claim.elapsedMs;
+    }
+
+    // Handle enter key in modal
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Enter' && pendingClaimTaskId) confirmClaim();
+        if (e.key === 'Escape' && pendingClaimTaskId) closeClaimModal();
+    });
+
+    // ========================================================================
+    // RENDERING
+    // ========================================================================
+    function ownerColor(owner) {
+        const first = owner.split('+')[0].split('/')[0];
+        return { 'CL':'#3498db', 'HB':'#e74c3c', 'Student':'#27ae60' }[first] || '#95a5a6';
+    }
+
+    function createCard(task) {
+        const card = document.createElement('div');
+        card.className = `card difficulty-${task.difficulty}${task.criticalPath ? ' critical-path' : ''}`;
+        card.draggable = true;
+        card.dataset.taskId = task.id;
+
+        const claim = State.claims[task.id];
+        const elapsed = getCurrentElapsed(task.id);
+
+        let claimHTML;
+        if (claim && claim.completed) {
+            // Completed task — show who did it with a green checkmark
+            const initials = claim.name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0,2);
+            claimHTML = `
+                <div class="claim-section" style="border-top-color:#27ae60;">
+                    <div class="claimed-info">
+                        <div class="claimed-by">
+                            <span class="avatar" style="background:#27ae60;">${initials}</span>
+                            ${claim.name}
+                        </div>
+                        <div style="font-size:11px;font-weight:700;color:#27ae60;">Completed</div>
+                    </div>
+                </div>`;
+        } else if (claim) {
+            const initials = claim.name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0,2);
+            const timerClass = claim.timerRunning ? 'running' : (claim.elapsedMs > 0 ? 'paused' : '');
+            const btn = claim.timerRunning
+                ? `<button class="timer-btn pause" onclick="event.stopPropagation(); pauseTimer('${task.id}')">Pause</button>`
+                : `<button class="timer-btn start" onclick="event.stopPropagation(); startTimer('${task.id}')">Start</button>`;
+
+            claimHTML = `
+                <div class="claim-section">
+                    <div class="claimed-info">
+                        <div class="claimed-by">
+                            <span class="avatar">${initials}</span>
+                            ${claim.name}
+                        </div>
+                        <div class="timer-controls">
+                            <span class="timer-display ${timerClass}" id="timer-${task.id}">${formatMs(elapsed)}</span>
+                            ${btn}
+                            <button class="timer-btn unclaim" onclick="event.stopPropagation(); unclaimTask('${task.id}')" title="Release task">x</button>
+                        </div>
+                    </div>
+                    <div class="claimed-date">Claimed ${new Date(claim.claimedAt).toLocaleDateString()}</div>
+                </div>`;
+        } else {
+            claimHTML = `
+                <div class="claim-section">
+                    <button class="claim-btn" onclick="event.stopPropagation(); openClaimModal('${task.id}')">Claim this task</button>
+                </div>`;
+        }
+
+        card.innerHTML = `
+            <div class="card-header">
+                <div class="card-id">${task.id}</div>
+                <div class="card-badge" style="background:${ownerColor(task.owner)};">${task.owner.replace(/\+/g, '/')}</div>
+            </div>
+            <div class="card-title">${task.title}</div>
+            <div class="card-times">
+                <div class="time-box wall-clock">
+                    <div class="time-label">Wall Clock</div>
+                    <div class="time-value">${task.wall_clock}</div>
+                </div>
+                <div class="time-box hands-on">
+                    <div class="time-label">Hands-On</div>
+                    <div class="time-value">${task.hands_on}</div>
+                </div>
+            </div>
+            <div class="card-meta">
+                <div class="card-folder" title="${task.folder}">${task.folder}</div>
+                ${task.deps.length ? `<div class="card-deps"><span class="deps-list">Needs: ${task.deps.join(', ')}</span></div>` : ''}
+            </div>
+            ${claimHTML}
+        `;
+
+        card.addEventListener('dragstart', e => { draggedCard = card; card.classList.add('dragging'); e.dataTransfer.effectAllowed = 'move'; });
+        card.addEventListener('dragend', () => { card.classList.remove('dragging'); draggedCard = null; });
+
+        // Restart interval if timer was running
+        if (claim && claim.timerRunning && !State.timerIntervals[task.id]) {
+            State.timerIntervals[task.id] = setInterval(() => {
+                const display = document.getElementById(`timer-${task.id}`);
+                if (display) {
+                    display.textContent = formatMs(getCurrentElapsed(task.id));
+                    display.className = 'timer-display running';
+                }
+            }, 1000);
+        }
+
+        return card;
+    }
+
+    function renderBoard() {
+        ['todo', 'in-progress', 'done'].forEach(status => {
+            const col = document.getElementById(`column-${status}`);
+            col.innerHTML = '';
+            const tasks = State.filtered().filter(t => t.status === status);
+
+            // Group by phase
+            const groups = {};
+            tasks.forEach(t => { (groups[t.phase] = groups[t.phase] || []).push(t); });
+
+            Object.keys(PHASES).forEach(pk => {
+                if (!groups[pk]) return;
+                const group = document.createElement('div');
+                group.className = 'phase-group';
+
+                const header = document.createElement('div');
+                header.className = `phase-header${State.collapsed.has(pk+status) ? ' collapsed' : ''}`;
+                header.innerHTML = `<span class="phase-toggle"></span><span>${PHASES[pk]}</span><span style="margin-left:auto;font-size:10px;color:#95a5a6;">(${groups[pk].length})</span>`;
+                header.addEventListener('click', () => {
+                    const key = pk+status;
+                    State.collapsed.has(key) ? State.collapsed.delete(key) : State.collapsed.add(key);
+                    State.save();
+                    renderBoard();
+                });
+
+                const container = document.createElement('div');
+                container.className = 'phase-tasks';
+                groups[pk].forEach(t => container.appendChild(createCard(t)));
+
+                group.appendChild(header);
+                group.appendChild(container);
+                col.appendChild(group);
+            });
+
+            document.getElementById(`count-${status}`).textContent = tasks.length;
+        });
+
+        updateStats();
+    }
+
+    function updateStats() {
+        const f = State.filtered();
+        document.getElementById('stat-total').textContent = f.length;
+        document.getElementById('stat-green').textContent = f.filter(t => t.difficulty === 'green').length;
+        document.getElementById('stat-yellow').textContent = f.filter(t => t.difficulty === 'yellow').length;
+        document.getElementById('stat-orange').textContent = f.filter(t => t.difficulty === 'orange').length;
+        document.getElementById('stat-red').textContent = f.filter(t => t.difficulty === 'red').length;
+        document.getElementById('stat-critical').textContent = f.filter(t => t.criticalPath).length;
+        document.getElementById('stat-claimed').textContent = Object.keys(State.claims).length;
+    }
+
+    // ========================================================================
+    // DRAG & DROP
+    // ========================================================================
+    let draggedCard = null;
+
+    document.querySelectorAll('.column-content').forEach(col => {
+        col.addEventListener('dragover', e => { e.preventDefault(); e.dataTransfer.dropEffect = 'move'; });
+        col.addEventListener('drop', e => {
+            e.preventDefault();
+            if (!draggedCard) return;
+            const taskId = draggedCard.dataset.taskId;
+            const newStatus = e.currentTarget.dataset.status;
+            const task = State.tasks.find(t => t.id === taskId);
+            if (task) { task.status = newStatus; State.save(); renderBoard(); }
+        });
+    });
+
+    // ========================================================================
+    // FILTERS
+    // ========================================================================
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const type = btn.dataset.filter, val = btn.dataset.value;
+            document.querySelectorAll(`[data-filter="${type}"]`).forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            State.filters[type] = val;
+            State.save();
+            renderBoard();
+        });
+    });
+
+    // ========================================================================
+    // EXPORT
+    // ========================================================================
+    function exportTimesheet() {
+        let csv = 'Task ID,Title,Phase,Owner,Claimed By,Claimed Date,Timer Elapsed (min),Wall Clock Estimate,Hands-On Estimate,Status\n';
+        State.tasks.forEach(t => {
+            const claim = State.claims[t.id];
+            const elapsed = claim ? Math.round(getCurrentElapsed(t.id) / 60000) : 0;
+            csv += `"${t.id}","${t.title}","${PHASES[t.phase]}","${t.owner}","${claim ? claim.name : ''}","${claim ? claim.claimedAt : ''}",${elapsed},"${t.wall_clock}","${t.hands_on}","${t.status}"\n`;
+        });
+        downloadFile('coleoptera_timesheet_' + new Date().toISOString().slice(0,10) + '.csv', csv, 'text/csv');
+    }
+
+    function exportBoardState() {
+        State.save();
+        const json = JSON.stringify(window.boardState, null, 2);
+        downloadFile('board_state_' + new Date().toISOString().slice(0,10) + '.json', json, 'application/json');
+    }
+
+    function downloadFile(name, content, type) {
+        const blob = new Blob([content], { type });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url; a.download = name;
+        document.body.appendChild(a); a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+
+    // ========================================================================
+    // INIT
+    // ========================================================================
+    State.save();
+    renderBoard();
+    </script>
+</body>
+</html>

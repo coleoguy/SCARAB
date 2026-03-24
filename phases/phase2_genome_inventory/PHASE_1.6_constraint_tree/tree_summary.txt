@@ -1,0 +1,92 @@
+Constraint Tree Summary
+======================
+
+Date built: 2026-03-21 09:00:48
+Catalog source: /Users/blackmon/Desktop/files/SCARAB/phases/phase2_genome_inventory/PHASE_1.6_constraint_tree/../../../data/genomes/genome_catalog.csv
+
+SELECTION STATISTICS
+Total species in catalog: 1121
+Selected species (include_recommended='yes'): 652
+  - Coleoptera: 630
+  - Neuropterida: 22
+
+COLEOPTERA FAMILIES INCLUDED
+Total families with representatives: 56
+
+Anthicidae : 2 species
+Anthribidae : 5 species
+Apionidae : 6 species
+Attelabidae : 3 species
+Biphyllidae : 4 species
+Bostrichidae : 3 species
+Bothrideridae : 1 species
+Brentidae : 2 species
+Buprestidae : 7 species
+Cantharidae : 22 species
+Carabidae : 63 species
+Cerambycidae : 36 species
+Chrysomelidae : 93 species
+Ciidae : 1 species
+Cleridae : 3 species
+Coccinellidae : 34 species
+Cryptophagidae : 1 species
+Cucujidae : 1 species
+Curculionidae : 90 species
+Dascillidae : 1 species
+Dermestidae : 4 species
+Dytiscidae : 1 species
+Elateridae : 27 species
+Elmidae : 1 species
+Endomychidae : 2 species
+Erirhinidae : 2 species
+Eucnemidae : 1 species
+Geotrupidae : 2 species
+Glaphyridae : 1 species
+Histeridae : 1 species
+Hydrophilidae : 6 species
+Kateretidae : 1 species
+Lampyridae : 6 species
+Latridiidae : 1 species
+Leiodidae : 9 species
+Lucanidae : 6 species
+Melandryidae : 2 species
+Meloidae : 3 species
+Melyridae : 3 species
+Monotomidae : 2 species
+Mycetophagidae : 6 species
+Nitidulidae : 4 species
+Oedemeridae : 4 species
+Ptinidae : 3 species
+Pyrochroidae : 2 species
+Ripiphoridae : 1 species
+Salpingidae : 1 species
+Scarabaeidae : 46 species
+Scirtidae : 3 species
+Scraptiidae : 5 species
+Silphidae : 4 species
+Silvanidae : 3 species
+Staphylinidae : 38 species
+Tenebrionidae : 42 species
+Tetratomidae : 2 species
+Zopheridae : 7 species
+
+NEUROPTERIDA OUTGROUPS
+Raphidioptera species: 2
+Megaloptera species: 5
+Neuroptera species: 15
+
+TREE VALIDATION
+Total tips in tree (excluding missing): 554
+Duplicate tips: YES - ERROR
+Missing from tree: 67
+Extra in tree: 0
+
+TOPOLOGY
+Rooted on: Neuropterida
+Constraint topology follows: McKenna et al. (2019) Coleoptera backbone
+Within-family structure: Unresolved polytomies (suitable for Cactus)
+Branch lengths: Uniform 1.0
+
+FILES GENERATED
+- Newick tree: /Users/blackmon/Desktop/files/SCARAB/phases/phase2_genome_inventory/PHASE_1.6_constraint_tree/constraint_tree.nwk
+- Summary: /Users/blackmon/Desktop/files/SCARAB/phases/phase2_genome_inventory/PHASE_1.6_constraint_tree/tree_summary.txt

@@ -1,0 +1,57 @@
+# Large genome/alignment data -- never commit
+*.fna
+*.fna.gz
+*.fasta
+*.fa
+*.fa.gz
+*.hal
+*.bam
+*.bai
+*.sif
+*.zip
+*.tar.gz
+
+# BLAST databases
+*.nhr
+*.nin
+*.njs
+*.not
+*.nsq
+*.ndb
+*.ntf
+*.nto
+
+# SLURM logs
+*.err
+*.log
+scarab_*.out
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Mac cruft
+.DS_Store
+**/.DS_Store
+
+# Jobstore and work directories (Grace scratch only)
+work/
+tmp/
+jobstore*/
+
+# Large intermediates
+alignments/*.hal
+alignments/*.bz2
+synteny/*.psl
+synteny/*.chain
+ancestral/*.fa
+
+# PDF figures (generated)
+phases/**/*.pdf
+results/**/*.pdf
+manuscript/figures/*.pdf
+
+# Keep small data files
+!data/genomes/genome_catalog.csv
+!data/genomes/stevens_elements.csv

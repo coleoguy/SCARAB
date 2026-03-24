@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCARAB — Project Dashboard</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            min-height: 100vh;
+            padding: 24px;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 28px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #1e293b;
+        }
+        h1 { font-size: 28px; color: #f8fafc; letter-spacing: -0.5px; }
+        .subtitle { font-size: 13px; color: #64748b; margin-top: 4px; }
+        .last-updated { font-size: 12px; color: #475569; text-align: right; }
+        .last-updated strong { color: #94a3b8; }
+
+        /* Phase progress strip */
+        .phase-strip {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 12px;
+            margin-bottom: 28px;
+        }
+        .phase-card {
+            background: #1e293b;
+            border-radius: 10px;
+            padding: 16px;
+            border-left: 4px solid #334155;
+            position: relative;
+            overflow: hidden;
+        }
+        .phase-card.complete { border-left-color: #22c55e; }
+        .phase-card.active { border-left-color: #f59e0b; }
+        .phase-card.blocked { border-left-color: #64748b; }
+        .phase-label { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: #64748b; margin-bottom: 4px; }
+        .phase-name { font-size: 15px; font-weight: 700; color: #f1f5f9; margin-bottom: 8px; }
+        .phase-status {
+            display: inline-block;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .phase-status.complete { background: #14532d; color: #4ade80; }
+        .phase-status.active { background: #422006; color: #fbbf24; }
+        .phase-status.blocked { background: #1e293b; color: #64748b; }
+        .phase-bar {
+            height: 4px;
+            background: #334155;
+            border-radius: 2px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        .phase-bar-fill {
+            height: 100%;
+            border-radius: 2px;
+            transition: width 0.5s ease;
+        }
+        .phase-bar-fill.green { background: #22c55e; }
+        .phase-bar-fill.yellow { background: #f59e0b; }
+        .phase-bar-fill.gray { background: #475569; }
+
+        /* Main grid */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 28px;
+        }
+
+        .panel {
+            background: #1e293b;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .panel-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .panel-title .icon { font-size: 16px; }
+
+        /* Active jobs */
+        .job-row {
+            display: grid;
+            grid-template-columns: 100px 1fr 120px 80px;
+            gap: 12px;
+            align-items: center;
+            padding: 10px 12px;
+            background: #0f172a;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            font-size: 13px;
+        }
+        .job-id { font-family: 'SF Mono', 'Consolas', monospace; color: #38bdf8; font-weight: 600; }
+        .job-name { color: #e2e8f0; }
+        .job-time { color: #94a3b8; font-family: monospace; }
+        .job-status-badge {
+            font-size: 10px;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 4px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .job-status-badge.running { background: #14532d; color: #4ade80; }
+        .job-status-badge.pending { background: #422006; color: #fbbf24; }
+        .job-status-badge.failed { background: #450a0a; color: #f87171; }
+
+        /* Critical path */
+        .path-step {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 0;
+            border-bottom: 1px solid #1e293b;
+        }
+        .path-step:last-child { border-bottom: none; }
+        .path-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        .path-dot.done { background: #22c55e; }
+        .path-dot.active { background: #f59e0b; animation: pulse 2s infinite; }
+        .path-dot.pending { background: #334155; border: 2px solid #475569; }
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(245,158,11,0.4); }
+            50% { box-shadow: 0 0 0 6px rgba(245,158,11,0); }
+        }
+        .path-label { font-size: 13px; color: #cbd5e1; flex: 1; }
+        .path-label.done { color: #64748b; text-decoration: line-through; }
+        .path-arrow { color: #334155; font-size: 10px; margin-left: -6px; }
+
+        /* Stats boxes */
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+            margin-bottom: 28px;
+        }
+        .stat-box {
+            background: #1e293b;
+            border-radius: 10px;
+            padding: 16px;
+            text-align: center;
+        }
+        .stat-number { font-size: 32px; font-weight: 800; color: #f8fafc; line-height: 1; }
+        .stat-label { font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 6px; }
+        .stat-box.accent .stat-number { color: #38bdf8; }
+        .stat-box.green .stat-number { color: #4ade80; }
+        .stat-box.amber .stat-number { color: #fbbf24; }
+        .stat-box.red .stat-number { color: #f87171; }
+
+        /* Phylogenomics pipeline */
+        .pipeline {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            flex-wrap: wrap;
+            margin-top: 8px;
+        }
+        .pipe-step {
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        .pipe-step.done { background: #14532d; color: #4ade80; }
+        .pipe-step.running { background: #422006; color: #fbbf24; animation: pulse 2s infinite; }
+        .pipe-step.pending { background: #1e293b; color: #475569; border: 1px solid #334155; }
+        .pipe-arrow { color: #334155; font-size: 14px; }
+
+        /* Deadline alert */
+        .deadline-alert {
+            background: linear-gradient(135deg, #1e1b4b, #312e81);
+            border: 1px solid #4338ca;
+            border-radius: 10px;
+            padding: 16px 20px;
+            margin-bottom: 28px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .deadline-icon { font-size: 24px; }
+        .deadline-text { flex: 1; }
+        .deadline-title { font-size: 14px; font-weight: 700; color: #c7d2fe; }
+        .deadline-detail { font-size: 12px; color: #818cf8; margin-top: 2px; }
+        .deadline-countdown {
+            font-size: 24px;
+            font-weight: 800;
+            color: #a5b4fc;
+            text-align: right;
+        }
+        .deadline-countdown small { font-size: 11px; font-weight: 400; color: #6366f1; display: block; }
+
+        /* Chromosome distribution */
+        .chr-bar-container { margin-top: 12px; }
+        .chr-row {
+            display: grid;
+            grid-template-columns: 60px 1fr 40px;
+            gap: 8px;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+        .chr-label { font-size: 11px; color: #94a3b8; text-align: right; font-family: monospace; }
+        .chr-bar-bg { background: #0f172a; height: 14px; border-radius: 3px; overflow: hidden; }
+        .chr-bar-fg { height: 100%; border-radius: 3px; background: linear-gradient(90deg, #3b82f6, #6366f1); }
+        .chr-count { font-size: 11px; color: #64748b; font-family: monospace; }
+
+        /* Full width panel */
+        .full-width { grid-column: 1 / -1; }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #1e293b;
+            font-size: 11px;
+            color: #334155;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>SCARAB Project Dashboard</h1>
+                <div class="subtitle">Synteny, Chromosomes and Rearrangements Across Beetles &mdash; 439 genomes</div>
+            </div>
+            <div class="last-updated">
+                <strong>Last updated:</strong> 2026-03-23 17:00 CT<br>
+                Day 3 of 35 &bull; PI: Heath Blackmon
+            </div>
+        </header>
+
+        <!-- Deadline Alert -->
+        <div class="deadline-alert">
+            <div class="deadline-icon">&#9888;</div>
+            <div class="deadline-text">
+                <div class="deadline-title">Google.org AI for Science Grant</div>
+                <div class="deadline-detail">~$2-3M &bull; AI-Native Biology initiative at TAMU</div>
+            </div>
+            <div class="deadline-countdown">
+                25 days<small>deadline April 17, 2026</small>
+            </div>
+        </div>
+
+        <!-- Key Stats -->
+        <div class="stats-row">
+            <div class="stat-box accent">
+                <div class="stat-number">439</div>
+                <div class="stat-label">Genomes</div>
+            </div>
+            <div class="stat-box green">
+                <div class="stat-number">1,286</div>
+                <div class="stat-label">BUSCO Loci</div>
+            </div>
+            <div class="stat-box amber">
+                <div class="stat-number">1</div>
+                <div class="stat-label">Jobs Running</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">39</div>
+                <div class="stat-label">AI Tasks</div>
+            </div>
+        </div>
+
+        <!-- Phase Progress -->
+        <div class="phase-strip">
+            <div class="phase-card complete">
+                <div class="phase-label">Phase 1</div>
+                <div class="phase-name">Literature</div>
+                <span class="phase-status complete">Complete</span>
+                <div class="phase-bar"><div class="phase-bar-fill green" style="width:100%"></div></div>
+            </div>
+            <div class="phase-card complete">
+                <div class="phase-label">Phase 2</div>
+                <div class="phase-name">Genomes</div>
+                <span class="phase-status complete">Complete</span>
+                <div class="phase-bar"><div class="phase-bar-fill green" style="width:100%"></div></div>
+            </div>
+            <div class="phase-card active">
+                <div class="phase-label">Phase 3</div>
+                <div class="phase-name">Alignment</div>
+                <span class="phase-status active">Running</span>
+                <div class="phase-bar"><div class="phase-bar-fill yellow" style="width:35%"></div></div>
+            </div>
+            <div class="phase-card blocked">
+                <div class="phase-label">Phase 4</div>
+                <div class="phase-name">Rearrangements</div>
+                <span class="phase-status blocked">Blocked</span>
+                <div class="phase-bar"><div class="phase-bar-fill gray" style="width:0%"></div></div>
+            </div>
+            <div class="phase-card blocked">
+                <div class="phase-label">Phase 5</div>
+                <div class="phase-name">Viz &amp; Manuscript</div>
+                <span class="phase-status blocked">Partial</span>
+                <div class="phase-bar"><div class="phase-bar-fill gray" style="width:20%"></div></div>
+            </div>
+        </div>
+
+        <!-- Main Grid -->
+        <div class="main-grid">
+            <!-- Active Jobs -->
+            <div class="panel">
+                <div class="panel-title"><span class="icon">&#9881;</span> Active Grace Jobs</div>
+                <div class="job-row">
+                    <div class="job-id">18114486</div>
+                    <div class="job-name">P3 BLAST &mdash; 1,286 loci &times; 439 genomes</div>
+                    <div class="job-time">~1d 20h left</div>
+                    <div class="job-status-badge running">Running</div>
+                </div>
+                <div style="margin-top: 16px;">
+                    <div class="panel-title" style="margin-bottom: 8px;"><span class="icon">&#128200;</span> Completed Jobs</div>
+                    <div class="job-row" style="opacity: 0.6;">
+                        <div class="job-id">18117479</div>
+                        <div class="job-name">Cactus test &mdash; 5 genomes (halStats reviewed)</div>
+                        <div class="job-time">1h 24m</div>
+                        <div class="job-status-badge" style="background:#14532d;color:#4ade80;">Done</div>
+                    </div>
+                    <div class="job-row" style="opacity: 0.6;">
+                        <div class="job-id">18112279</div>
+                        <div class="job-name">P1 &mdash; BUSCO &rarr; Tribolium mapping</div>
+                        <div class="job-time">1h</div>
+                        <div class="job-status-badge" style="background:#14532d;color:#4ade80;">Done</div>
+                    </div>
+                    <div class="job-row" style="opacity: 0.6;">
+                        <div class="job-id">18110451</div>
+                        <div class="job-name">Fix 38 OOM genomes + rebuild tree</div>
+                        <div class="job-time">1h 44m</div>
+                        <div class="job-status-badge" style="background:#14532d;color:#4ade80;">Done</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Critical Path (Cactus track) -->
+            <div class="panel">
+                <div class="panel-title"><span class="icon">&#127919;</span> Critical Path &mdash; Cactus Alignment</div>
+                <div class="path-step"><div class="path-dot done"></div><div class="path-label done">Download 439 genomes</div></div>
+                <div class="path-step"><div class="path-dot done"></div><div class="path-label done">Build 15-gene guide tree (FastTree)</div></div>
+                <div class="path-step"><div class="path-dot done"></div><div class="path-label done">Re-root on Neuropterida (17/17 taxa)</div></div>
+                <div class="path-step"><div class="path-dot done"></div><div class="path-label done">Test alignment &mdash; 5 genomes (job 18117479, 1h 24m)</div></div>
+                <div class="path-step"><div class="path-dot active"></div><div class="path-label">Heath approves test HAL &rarr; run filter_genomes_for_alignment.R on Grace</div></div>
+                <div class="path-step"><div class="path-dot pending"></div><div class="path-label">Review exclusion list &rarr; approve filtered seqfile</div></div>
+                <div class="path-step"><div class="path-dot pending"></div><div class="path-label">Full Cactus alignment &mdash; bigmem, ~75 days (4-5 cycles, watchdog auto-resubmits)</div></div>
+                <div class="path-step"><div class="path-dot pending"></div><div class="path-label">Extract synteny blocks (halSynteny)</div></div>
+                <div class="path-step"><div class="path-dot pending"></div><div class="path-label">Ancestral reconstruction (RACA)</div></div>
+                <div class="path-step"><div class="path-dot pending"></div><div class="path-label">Call rearrangement breakpoints</div></div>
+            </div>
+
+            <!-- Phylogenomics Pipeline -->
+            <div class="panel full-width">
+                <div class="panel-title"><span class="icon">&#127795;</span> Phylogenomics Pipeline &mdash; 1,286-Locus ASTRAL Tree</div>
+                <div class="pipeline">
+                    <div class="pipe-step done">P.1 Map BUSCOs</div>
+                    <div class="pipe-arrow">&rarr;</div>
+                    <div class="pipe-step done">P.2 Select (all 1,286)</div>
+                    <div class="pipe-arrow">&rarr;</div>
+                    <div class="pipe-step running">P.3 BLAST 1,286&times;439</div>
+                    <div class="pipe-arrow">&rarr;</div>
+                    <div class="pipe-step pending">P.4 MAFFT align</div>
+                    <div class="pipe-arrow">&rarr;</div>
+                    <div class="pipe-step pending">P.5 IQ-TREE genes</div>
+                    <div class="pipe-arrow">&rarr;</div>
+                    <div class="pipe-step pending">P.6 ASTRAL + gCF</div>
+                    <div class="pipe-arrow">&rarr;</div>
+                    <div class="pipe-step pending">P.8 Finalize tree</div>
+                </div>
+                <div class="pipeline" style="margin-top: 4px; margin-left: 338px;">
+                    <div class="pipe-arrow" style="transform: rotate(135deg); margin-left: 80px;">&#8600;</div>
+                    <div class="pipe-step pending">P.7 Concat IQ-TREE</div>
+                    <div class="pipe-arrow">&rarr;</div>
+                    <span style="font-size: 11px; color: #475569;">(concordance check)</span>
+                </div>
+            </div>
+
+            <!-- Chromosome Distribution -->
+            <div class="panel">
+                <div class="panel-title"><span class="icon">&#129516;</span> BUSCO Genes per Tribolium Chromosome</div>
+                <div class="chr-bar-container">
+                    <div class="chr-row"><div class="chr-label">LG1/X</div><div class="chr-bar-bg"><div class="chr-bar-fg" style="width:100%"></div></div><div class="chr-count">190 &mdash; <span style="color:#fbbf24">X</span></div></div>
+                    <div class="chr-row"><div class="chr-label">LG5</div><div class="chr-bar-bg"><div class="chr-bar-fg" style="width:93%"></div></div><div class="chr-count">177 &mdash; <span style="color:#4ade80">D</span></div></div>
+                    <div class="chr-row"><div class="chr-label">LG3</div><div class="chr-bar-bg"><div class="chr-bar-fg" style="width:90%"></div></div><div class="chr-count">171 &mdash; <span style="color:#4ade80">A</span></div></div>
+                    <div class="chr-row"><div class="chr-label">LG2</div><div class="chr-bar-bg"><div class="chr-bar-fg" style="width:78%"></div></div><div class="chr-count">148 &mdash; <span style="color:#4ade80">E</span></div></div>
+                    <div class="chr-row"><div class="chr-label">LG4</div><div class="chr-bar-bg"><div class="chr-bar-fg" style="width:75%"></div></div><div class="chr-count">142 &mdash; <span style="color:#4ade80">G</span></div></div>
+                    <div class="chr-row"><div class="chr-label">LG9</div><div class="chr-bar-bg"><div class="chr-bar-fg" style="width:65%"></div></div><div class="chr-count">123 &mdash; <span style="color:#4ade80">C</span></div></div>
+                    <div class="chr-row"><div class="chr-label">LG6</div><div class="chr-bar-bg"><div class="chr-bar-fg" style="width:59%"></div></div><div class="chr-count">112 &mdash; <span style="color:#4ade80">H</span></div></div>
+                    <div class="chr-row"><div class="chr-label">LG7</div><div class="chr-bar-bg"><div class="chr-bar-fg" style="width:42%"></div></div><div class="chr-count">80 &mdash; <span style="color:#4ade80">B</span></div></div>
+                    <div class="chr-row"><div class="chr-label">LG8</div><div class="chr-bar-bg"><div class="chr-bar-fg" style="width:41%"></div></div><div class="chr-count">77 &mdash; <span style="color:#4ade80">F</span></div></div>
+                    <div class="chr-row"><div class="chr-label">LG10</div><div class="chr-bar-bg"><div class="chr-bar-fg" style="width:34%"></div></div><div class="chr-count">65 &mdash; <span style="color:#ef4444">none</span></div></div>
+                </div>
+                <div style="font-size: 11px; color: #4ade80; margin-top: 8px; text-align: center;">&#10003; Stevens elements assigned (Bracewell et al. 2024) &mdash; LG10 not conserved</div>
+            </div>
+
+            <!-- Next Actions -->
+            <div class="panel">
+                <div class="panel-title"><span class="icon">&#9889;</span> Next Actions</div>
+                <div style="font-size: 13px; line-height: 2;">
+                    <div><span style="color:#22c55e;">&#10003;</span> <strong>Cactus test done</strong> &mdash; halStats reviewed, 5 genomes aligned (pending approval)</div>
+                    <div><span style="color:#22c55e;">&#10003;</span> <strong>Stevens elements assigned</strong> &mdash; stevens_elements.csv created (Bracewell 2024)</div>
+                    <div><span style="color:#f59e0b;">&#9679;</span> <strong>Approve test HAL</strong> &rarr; run filter_genomes_for_alignment.R on Grace</div>
+                    <div><span style="color:#f59e0b;">&#9679;</span> <strong>Check P3 BLAST</strong> (job 18114486) &mdash; submit P4/P5 when done</div>
+                    <div><span style="color:#f87171;">&#9679;</span> <strong>Send quota email</strong> &mdash; draft in Gmail, to: help@hprc.tamu.edu, subject: $SCRATCH quota increase request</div>
+                    <div><span style="color:#f87171;">&#9679;</span> <strong>Google.org grant</strong> &mdash; April 17 deadline (25 days), #1 strategic priority</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Manuscript Status -->
+        <div class="main-grid">
+            <div class="panel full-width">
+                <div class="panel-title"><span class="icon">&#128196;</span> Manuscript Status</div>
+                <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; text-align: center;">
+                    <div>
+                        <div style="font-size: 11px; color: #64748b; margin-bottom: 4px;">Introduction</div>
+                        <span class="phase-status complete">Draft</span>
+                    </div>
+                    <div>
+                        <div style="font-size: 11px; color: #64748b; margin-bottom: 4px;">Methods</div>
+                        <span class="phase-status complete">Draft</span>
+                    </div>
+                    <div>
+                        <div style="font-size: 11px; color: #64748b; margin-bottom: 4px;">Results</div>
+                        <span class="phase-status active">Partial</span>
+                    </div>
+                    <div>
+                        <div style="font-size: 11px; color: #64748b; margin-bottom: 4px;">Discussion</div>
+                        <span class="phase-status blocked">Pending</span>
+                    </div>
+                    <div>
+                        <div style="font-size: 11px; color: #64748b; margin-bottom: 4px;">Figures</div>
+                        <span class="phase-status blocked">S1-S5 done</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            SCARAB &mdash; Blackmon Lab, Texas A&amp;M University &bull; Target: bioRxiv preprint by 2026-05-02
+        </footer>
+    </div>
+</body>
+</html>
