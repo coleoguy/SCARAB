@@ -200,7 +200,7 @@ def download_one(acc, species, outdir, log_fh, min_size_bytes=1_000_000):
         file_url,
     ]
 
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
 
     if result.returncode == 0 and os.path.exists(outpath) and \
             os.path.getsize(outpath) >= min_size_bytes:
