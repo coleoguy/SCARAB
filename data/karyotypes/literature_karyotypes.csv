@@ -1,0 +1,440 @@
+species,tip_label,family,order,role,match_level,diploid_number_2n,sex_chromosome_system,meioformula,n_records,diploid_range,notes,citation,source
+Abax parallelepipedus,Abax_parallelepipedus,Carabidae,Coleoptera,ingroup,species,35,XO,2n=35M 17+XO,1,,,"Yadav, Lyapunova, Korablev, Baklushiskaya-Yani, and Vorontosov (1991)",Blackmon_Coleoptera_Karyotype_DB
+Abscondita terminalis,Abscondita_terminalis,Lampyridae,Coleoptera,ingroup,none,,,,0,,,,
+Acanthacorydalis orientalis,Acanthacorydalis_orientalis,Corydalidae,Megaloptera,outgroup,none,,,,0,,,,
+Acanthoscelides obtectus,Acanthoscelides_obtectus,Chrysomelidae,Coleoptera,ingroup,species,20,XY,2n=20M/2n=20F 9+XY,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Actenicerus siaelandicus,Actenicerus_siaelandicus,Elateridae,Coleoptera,ingroup,none,,,,0,,,,
+Acupalpus dubius,Acupalpus_dubius,Carabidae,Coleoptera,ingroup,genus,22,XY,,3,22;39;45,Genus-level: 3 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Acupalpus parvulus,Acupalpus_parvulus,Carabidae,Coleoptera,ingroup,genus,22,XY,,3,22;39;45,Genus-level: 3 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Adalia bipunctata,Adalia_bipunctata,Coccinellidae,Coleoptera,ingroup,species,20,XY,2n=20M 9+XY,2,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Adalia decempunctata,Adalia_decempunctata,Coccinellidae,Coleoptera,ingroup,genus,20,Xyp,,3,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Adelopsella bosnica,Adelopsella_bosnica,Leiodidae,Coleoptera,ingroup,none,,,,0,,,,
+Aegialia arenaria,Aegialia_arenaria,Scarabaeidae,Coleoptera,ingroup,genus,20,XY,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Aethina tumida,Aethina_tumida,Nitidulidae,Coleoptera,ingroup,none,,,,0,,,,
+Agelastica alni,Agelastica_alni,Chrysomelidae,Coleoptera,ingroup,genus,24,Xyr,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Agonum fuliginosum,Agonum_fuliginosum,Carabidae,Coleoptera,ingroup,species,37,XO,2n=37M 18+XO,1,,,Serrano and Yadav (1984),Blackmon_Coleoptera_Karyotype_DB
+Agonum gracile,Agonum_gracile,Carabidae,Coleoptera,ingroup,species,35,,2n=35-36M,1,,,Serrano and Galian (1998),Blackmon_Coleoptera_Karyotype_DB
+Agonum viduum,Agonum_viduum,Carabidae,Coleoptera,ingroup,genus,37,XO,,24,34;35;36;37;39;43,Genus-level: 21 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Agrilus biguttatus,Agrilus_biguttatus,Buprestidae,Coleoptera,ingroup,genus,20,Xyp,,8,20;22,Genus-level: 7 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Agrilus cyanescens,Agrilus_cyanescens,Buprestidae,Coleoptera,ingroup,genus,20,Xyp,,8,20;22,Genus-level: 7 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Agrilus mali,Agrilus_mali,Buprestidae,Coleoptera,ingroup,genus,20,Xyp,,8,20;22,Genus-level: 7 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Agrilus planipennis,Agrilus_planipennis,Buprestidae,Coleoptera,ingroup,genus,20,Xyp,,8,20;22,Genus-level: 7 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Agriotes ferrugineipennis,Agriotes_ferrugineipennis,Elateridae,Coleoptera,ingroup,genus,19,XO,,4,19;20,Genus-level: 4 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Agriotes lineatus,Agriotes_lineatus,Elateridae,Coleoptera,ingroup,species,19,XO,2n=19M 9+XO,1,,,"Schneider, Carraro, et al. (2007)",Blackmon_Coleoptera_Karyotype_DB
+Agriotes mancus,Agriotes_mancus,Elateridae,Coleoptera,ingroup,species,19,XO,2n=19M 9+XO,1,,,"Schneider, Carraro, et al. (2007)",Blackmon_Coleoptera_Karyotype_DB
+Agriotes obscurus,Agriotes_obscurus,Elateridae,Coleoptera,ingroup,species,19,XO,2n=19M 9+XO,1,,,"Schneider, Carraro, et al. (2007)",Blackmon_Coleoptera_Karyotype_DB
+Agriotes sputator,Agriotes_sputator,Elateridae,Coleoptera,ingroup,species,20,Xyp,2n=20M 9+Xyp,1,,,"Schneider, Carraro, et al. (2007)",Blackmon_Coleoptera_Karyotype_DB
+Agrypnus murinus,Agrypnus_murinus,Elateridae,Coleoptera,ingroup,genus,17,XO,,2,11;17,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Aleochara curtula,Aleochara_curtula,Staphylinidae,Coleoptera,ingroup,genus,18,NeoXY,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Altica lythri,Altica_lythri,Chrysomelidae,Coleoptera,ingroup,species,24,Xy+,2n=24M 11+Xy+,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Amara aenea,Amara_aenea,Carabidae,Coleoptera,ingroup,species,35,XO,2n=35M 17+XO,1,,,Serrano and Yadav (1984),Blackmon_Coleoptera_Karyotype_DB
+Amara convexiuscula,Amara_convexiuscula,Carabidae,Coleoptera,ingroup,genus,37,XO,,24,20;21;22;24;26;30;32;33;34;35;37;41,Genus-level: 23 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Amara familiaris,Amara_familiaris,Carabidae,Coleoptera,ingroup,species,34,NeoXY,2n=34M 16+NeoXY,2,33;34,,Serrano and Yadav (1984),Blackmon_Coleoptera_Karyotype_DB
+Amara ovata,Amara_ovata,Carabidae,Coleoptera,ingroup,genus,37,XO,,24,20;21;22;24;26;30;32;33;34;35;37;41,Genus-level: 23 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Ampedus sanguinolentus,Ampedus_sanguinolentus,Elateridae,Coleoptera,ingroup,genus,19,XO,,9,19;21,Genus-level: 7 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Amphimallon solstitiale,Amphimallon_solstitiale,Scarabaeidae,Coleoptera,ingroup,genus,20,XY,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Anaglyptus mysticus,Anaglyptus_mysticus,Cerambycidae,Coleoptera,ingroup,none,,,,0,,,,
+Anaspis frontalis,Anaspis_frontalis,Scraptiidae,Coleoptera,ingroup,none,,,,0,,,,
+Anaspis maculata,Anaspis_maculata,Scraptiidae,Coleoptera,ingroup,none,,,,0,,,,
+Anaspis regimbarti,Anaspis_regimbarti,Scraptiidae,Coleoptera,ingroup,none,,,,0,,,,
+Anisosticta novemdecimpunctata,Anisosticta_novemdecimpunctata,Coccinellidae,Coleoptera,ingroup,none,,,,0,,,,
+Anobium punctatum,Anobium_punctatum,Ptinidae,Coleoptera,ingroup,none,,,,0,,,,
+Anoplophora chinensis,Anoplophora_chinensis,Cerambycidae,Coleoptera,ingroup,species,30,XY,2n=30M 14+XY,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Anoplophora glabripennis,Anoplophora_glabripennis,Cerambycidae,Coleoptera,ingroup,species,20,Xyp,2n=20M 9+Xyp,1,,,Ping et al. (2010),Blackmon_Coleoptera_Karyotype_DB
+Anoplophora malasiaca,Anoplophora_malasiaca,Cerambycidae,Coleoptera,ingroup,species,30,Xyp,2n=30M 14+Xyp,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Anthobium unicolor,Anthobium_unicolor,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Anthocomus fasciatus,Anthocomus_fasciatus,Melyridae,Coleoptera,ingroup,none,,,,0,,,,
+Anthonomus grandis grandis,Anthonomus_grandis_grandis,Curculionidae,Coleoptera,ingroup,genus,32,Xyp,,15,19;26;28;30;32;34;36;42;43;44,Genus-level: 7 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Anthonomus grandis thurberiae,Anthonomus_grandis_thurberiae,Curculionidae,Coleoptera,ingroup,genus,32,Xyp,,15,19;26;28;30;32;34;36;42;43;44,Genus-level: 7 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Anthonomus rubi,Anthonomus_rubi,Curculionidae,Coleoptera,ingroup,genus,32,Xyp,,15,19;26;28;30;32;34;36;42;43;44,Genus-level: 7 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Anthroherpon ganglbaueri,Anthroherpon_ganglbaueri,Leiodidae,Coleoptera,ingroup,none,,,,0,,,,
+Aphidecta obliterata,Aphidecta_obliterata,Coccinellidae,Coleoptera,ingroup,species,19,XO,2n=19M/2n=20F 9+XO,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Aphodius fimetarius,Aphodius_fimetarius,Scarabaeidae,Coleoptera,ingroup,species,20,XY,2n=20M 9+XY,1,,,Wilson (2001),Blackmon_Coleoptera_Karyotype_DB
+Aphodius granarius,Aphodius_granarius,Scarabaeidae,Coleoptera,ingroup,genus,20,XY,,43,19;20;22,Genus-level: 43 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Aphodius sticticus,Aphodius_sticticus,Scarabaeidae,Coleoptera,ingroup,species,20,XY,2n=20M 9+XY,1,,,Wilson and Angus (2004a),Blackmon_Coleoptera_Karyotype_DB
+Aplotarsus incanus,Aplotarsus_incanus,Elateridae,Coleoptera,ingroup,none,,,,0,,,,
+Apoderus coryli,Apoderus_coryli,Attelabidae,Coleoptera,ingroup,species,28,Xyp,2n=28M 13+Xyp,1,,,"Rozek, Lachowska, Petitpierre, and Holecova (2004)",Blackmon_Coleoptera_Karyotype_DB
+Aquatica leii,Aquatica_leii,Lampyridae,Coleoptera,ingroup,none,,,,0,,,,
+Arhopalus rusticus,Arhopalus_rusticus,Cerambycidae,Coleoptera,ingroup,none,,,,0,,,,
+Arhopalus unicolor,Arhopalus_unicolor,Cerambycidae,Coleoptera,ingroup,none,,,,0,,,,
+Aromia moschata,Aromia_moschata,Cerambycidae,Coleoptera,ingroup,none,,,,0,,,,
+Aspidapion aeneum,Aspidapion_aeneum,Apionidae,Coleoptera,ingroup,none,,,,0,,,,
+Attagenus pellio,Attagenus_pellio,Dermestidae,Coleoptera,ingroup,genus,18,Xyp,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Aulacophora lewisii,Aulacophora_lewisii,Chrysomelidae,Coleoptera,ingroup,genus,30,XXY,,10,30;57;58;59,Genus-level: 5 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Barypeithes pellucidus,Barypeithes_pellucidus,Curculionidae,Coleoptera,ingroup,species,22,Xyp,2n=22M 10+Xyp,2,,,S. Smith and Virkki (1978); Lachowska (2008),Blackmon_Coleoptera_Karyotype_DB
+Bathyscidius tristiculus,Bathyscidius_tristiculus,Leiodidae,Coleoptera,ingroup,none,,,,0,,,,
+Batocera lineolata,Batocera_lineolata,Cerambycidae,Coleoptera,ingroup,species,20,Xyp,2n=20M 9+Xyp,1,,,LiJuan et al. (2013),Blackmon_Coleoptera_Karyotype_DB
+Betulapion simile,Betulapion_simile,Apionidae,Coleoptera,ingroup,none,,,,0,,,,
+Biphyllus lunatus,Biphyllus_lunatus,Biphyllidae,Coleoptera,ingroup,none,,,,0,,,,
+Bitoma crenata,Bitoma_crenata,Zopheridae,Coleoptera,ingroup,none,,,,0,,,,
+Blaps rhynchoptera,Blaps_rhynchoptera,Tenebrionidae,Coleoptera,ingroup,genus,36,XXXY,,15,19;21;25;34;35;36;37;38,Genus-level: 13 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Brachynemurus nebulosus,Brachynemurus_nebulosus,Myrmeleontidae,Neuroptera,outgroup,none,,,,0,,,,
+Brachypterus glaber,Brachypterus_glaber,Kateretidae,Coleoptera,ingroup,none,,,,0,,,,
+Brassicogethes aeneus,Brassicogethes_aeneus,Nitidulidae,Coleoptera,ingroup,none,,,,0,,,,
+Brontispa longissima,Brontispa_longissima,Chrysomelidae,Coleoptera,ingroup,none,,,,0,,,,
+Bruchidius siliquastri,Bruchidius_siliquastri,Chrysomelidae,Coleoptera,ingroup,genus,20,Xyp,,9,20;22,Genus-level: 9 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Bruchidius varius,Bruchidius_varius,Chrysomelidae,Coleoptera,ingroup,genus,20,Xyp,,9,20;22,Genus-level: 9 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Bruchidius villosus,Bruchidius_villosus,Chrysomelidae,Coleoptera,ingroup,genus,20,Xyp,,9,20;22,Genus-level: 9 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Calathus fuscipes,Calathus_fuscipes,Carabidae,Coleoptera,ingroup,species,37,XO,2n=37M 18+XO,4,37;39,,Serrano and Yadav (1984),Blackmon_Coleoptera_Karyotype_DB
+Calathus melanocephalus,Calathus_melanocephalus,Carabidae,Coleoptera,ingroup,species,37,XO,2n=37M 18+XO,2,37;38,,Serrano and Yadav (1984),Blackmon_Coleoptera_Karyotype_DB
+Callosobruchus maculatus,Callosobruchus_maculatus,Chrysomelidae,Coleoptera,ingroup,species,20,XY,2n=19M/2n=20F 9+XO,4,19;20,,"S. Smith and Virkki (1978); R. Angus, Dellow, Winder, and Credland (2011)",Blackmon_Coleoptera_Karyotype_DB
+Calodromius spilotus,Calodromius_spilotus,Carabidae,Coleoptera,ingroup,none,,,,0,,,,
+Calosoma granatense,Calosoma_granatense,Carabidae,Coleoptera,ingroup,genus,28,XY,,7,27;28,Genus-level: 6 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Calosoma tepidum,Calosoma_tepidum,Carabidae,Coleoptera,ingroup,genus,28,XY,,7,27;28,Genus-level: 6 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Calosoma wilkesii,Calosoma_wilkesii,Carabidae,Coleoptera,ingroup,genus,28,XY,,7,27;28,Genus-level: 6 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Calvia quattuordecimguttata,Calvia_quattuordecimguttata,Coccinellidae,Coleoptera,ingroup,genus,20,,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Cantharis decipiens,Cantharis_decipiens,Cantharidae,Coleoptera,ingroup,genus,13,XO,,14,13;14;20,Genus-level: 13 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Cantharis flavilabris,Cantharis_flavilabris,Cantharidae,Coleoptera,ingroup,genus,13,XO,,14,13;14;20,Genus-level: 13 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Cantharis lateralis,Cantharis_lateralis,Cantharidae,Coleoptera,ingroup,species,13,XO,2n=13M/2n=14F 6+XO,1,,,James and Angus (2007),Blackmon_Coleoptera_Karyotype_DB
+Cantharis nigra,Cantharis_nigra,Cantharidae,Coleoptera,ingroup,species,13,XO,2n=13M/2n=14F 6+XO,1,,,James and Angus (2007),Blackmon_Coleoptera_Karyotype_DB
+Cantharis pallida,Cantharis_pallida,Cantharidae,Coleoptera,ingroup,species,13,XO,2n=13M/2n=14F 6+XO,1,,,James and Angus (2007),Blackmon_Coleoptera_Karyotype_DB
+Cantharis rufa,Cantharis_rufa,Cantharidae,Coleoptera,ingroup,species,13,XO,2n=13M/2n=14F 6+XO,1,,,James and Angus (2007),Blackmon_Coleoptera_Karyotype_DB
+Cantharis rustica,Cantharis_rustica,Cantharidae,Coleoptera,ingroup,species,13,XO,2n=13M/2n=14F 6+XO,1,,,James and Angus (2007),Blackmon_Coleoptera_Karyotype_DB
+Canthon chalcites,Canthon_chalcites,Scarabaeidae,Coleoptera,ingroup,genus,20,Xyp,,6,18;20,Genus-level: 6 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Carabus banonii,Carabus_banonii,Carabidae,Coleoptera,ingroup,genus,28,XY,,77,17;25;26;27;28;29,Genus-level: 48 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Carabus blaptoides fortunei,Carabus_blaptoides_fortunei,Carabidae,Coleoptera,ingroup,genus,28,XY,,77,17;25;26;27;28;29,Genus-level: 48 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Carabus esakii,Carabus_esakii,Carabidae,Coleoptera,ingroup,genus,28,XY,,77,17;25;26;27;28;29,Genus-level: 48 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Carabus nemoralis,Carabus_nemoralis,Carabidae,Coleoptera,ingroup,species,28,XO,2n=27M 13+XO,4,27;28;29,,Serrano and Yadav (1984),Blackmon_Coleoptera_Karyotype_DB
+Carabus problematicus,Carabus_problematicus,Carabidae,Coleoptera,ingroup,species,28,XY,2n=28M 13+XY,2,,,Serrano and Yadav (1984),Blackmon_Coleoptera_Karyotype_DB
+Carabus staehlini,Carabus_staehlini,Carabidae,Coleoptera,ingroup,genus,28,XY,,77,17;25;26;27;28;29,Genus-level: 48 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Cartodere bifasciata,Cartodere_bifasciata,Latridiidae,Coleoptera,ingroup,none,,,,0,,,,
+Catharsius molossus,Catharsius_molossus,Scarabaeidae,Coleoptera,ingroup,species,20,XY,2n=20M 9+XY,3,,,"Yadav, Pillai, and Karamjeet (1979); S. Smith and Virkki (1978)",Blackmon_Coleoptera_Karyotype_DB
+Catops nigricans,Catops_nigricans,Leiodidae,Coleoptera,ingroup,genus,22,Xyp,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Cedrorum azoricus,Cedrorum_azoricus,Carabidae,Coleoptera,ingroup,none,,,,0,,,,
+Cetonia aurata,Cetonia_aurata,Scarabaeidae,Coleoptera,ingroup,species,20,XY,2n=20M 9+XY,1,,,"Yadav, Pillai, and Karamjeet (1979)",Blackmon_Coleoptera_Karyotype_DB
+Ceutorhynchus assimilis,Ceutorhynchus_assimilis,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Ceutorhynchus obstrictus,Ceutorhynchus_obstrictus,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Chaetocnema hortensis,Chaetocnema_hortensis,Chrysomelidae,Coleoptera,ingroup,genus,22,Xyp,,6,20;22;26,Genus-level: 6 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Chrysina gloriosa,Chrysina_gloriosa,Scarabaeidae,Coleoptera,ingroup,none,,,,0,,,,
+Chrysolina americana,Chrysolina_americana,Chrysomelidae,Coleoptera,ingroup,species,24,Xyp,2n=24M 11+Xyp,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Chrysolina graminis,Chrysolina_graminis,Chrysomelidae,Coleoptera,ingroup,species,24,Xyp,2n=24M 11+Xyp,1,,,"Rozek, Lachowska, Petitpierre, and Holecova (2004)",Blackmon_Coleoptera_Karyotype_DB
+Chrysolina haemoptera,Chrysolina_haemoptera,Chrysomelidae,Coleoptera,ingroup,species,40,Xyp,2n=40M 19+Xyp,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Chrysolina herbacea,Chrysolina_herbacea,Chrysomelidae,Coleoptera,ingroup,species,24,Xyp,2n=24M 11+Xyp,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Chrysolina hyperici,Chrysolina_hyperici,Chrysomelidae,Coleoptera,ingroup,genus,24,Xyp,,64,22;23;24;26;30;31;32;36;38;40;41;42;45;46;47,Genus-level: 48 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Chrysolina oricalcia,Chrysolina_oricalcia,Chrysomelidae,Coleoptera,ingroup,species,40,Xyp,2n=40M 19+Xyp,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Chrysomela aeneicollis,Chrysomela_aeneicollis,Chrysomelidae,Coleoptera,ingroup,genus,34,Xyp,,9,34;35,Genus-level: 7 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Chrysomela populi,Chrysomela_populi,Chrysomelidae,Coleoptera,ingroup,species,34,Xyp,2n=34M 16+Xyp,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Chrysomela saliceti,Chrysomela_saliceti,Chrysomelidae,Coleoptera,ingroup,genus,34,Xyp,,9,34;35,Genus-level: 7 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Chrysopa pallens,Chrysopa_pallens,Chrysopidae,Neuroptera,outgroup,none,,,,0,,,,
+Chrysoperla carnea,Chrysoperla_carnea,Chrysopidae,Neuroptera,outgroup,species_literature,12,XY,,1,,Chrysopidae conserved at 2n=12,"Cabral-de-Mello et al. 2025, Genome",literature_manual
+Chrysoperla zastrowi sillemi,Chrysoperla_zastrowi_sillemi,Chrysopidae,Neuroptera,outgroup,none,,,,0,,,,
+Cis bilamellatus,Cis_bilamellatus,Ciidae,Coleoptera,ingroup,genus,14,,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Clivina fossor,Clivina_fossor,Carabidae,Coleoptera,ingroup,species,44,XY,2n=44M/2n=44F 21+XY,2,44;46,,Serrano and Galian (1998),Blackmon_Coleoptera_Karyotype_DB
+Coccidula rufa,Coccidula_rufa,Coccinellidae,Coleoptera,ingroup,species,20,Xyp,2n=20M 9+Xyp,1,,,Beauchamp and Angus (2006),Blackmon_Coleoptera_Karyotype_DB
+Coccinella magnifica,Coccinella_magnifica,Coccinellidae,Coleoptera,ingroup,genus,20,Xyp,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Coccinella septempunctata,Coccinella_septempunctata,Coccinellidae,Coleoptera,ingroup,species,20,,2n=20M,1,,,Rozek and Holecova (2001),Blackmon_Coleoptera_Karyotype_DB
+Coccinella transversoguttata,Coccinella_transversoguttata,Coccinellidae,Coleoptera,ingroup,genus,20,Xyp,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Coelostoma orbiculare,Coelostoma_orbiculare,Hydrophilidae,Coleoptera,ingroup,species,28,Xy,2n=28�M 13+Xy,1,,,Angus et al (2020),Blackmon_Coleoptera_Karyotype_DB
+Colydium elongatum,Colydium_elongatum,Zopheridae,Coleoptera,ingroup,none,,,,0,,,,
+Conwentzia psociformis,Conwentzia_psociformis,Coniopterygidae,Neuroptera,outgroup,none,,,,0,,,,
+Crepidodera aurata,Crepidodera_aurata,Chrysomelidae,Coleoptera,ingroup,none,,,,0,,,,
+Crepidodera aurea,Crepidodera_aurea,Chrysomelidae,Coleoptera,ingroup,none,,,,0,,,,
+Crepidodera fulvicornis,Crepidodera_fulvicornis,Chrysomelidae,Coleoptera,ingroup,none,,,,0,,,,
+Crioceris asparagi,Crioceris_asparagi,Chrysomelidae,Coleoptera,ingroup,species,16,Xyp,2n=16M 7+Xyp,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Crudosilis ruficollis,Crudosilis_ruficollis,Cantharidae,Coleoptera,ingroup,none,,,,0,,,,
+Cryptocephalus moraei,Cryptocephalus_moraei,Chrysomelidae,Coleoptera,ingroup,species,30,Xyr,2n=30M 14+Xyr,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Cryptocephalus primarius,Cryptocephalus_primarius,Chrysomelidae,Coleoptera,ingroup,species,40,Xyp,2n=40M 19+Xyp,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Cryptocephalus pusillus,Cryptocephalus_pusillus,Chrysomelidae,Coleoptera,ingroup,genus,30,Xyp,,31,16;24;28;30;32;40,Genus-level: 29 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Cryptolaemus montrouzieri,Cryptolaemus_montrouzieri,Coccinellidae,Coleoptera,ingroup,species,22,Xyp,2n=22M 10+Xyp,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Cryptophagus acutangulus,Cryptophagus_acutangulus,Cryptophagidae,Coleoptera,ingroup,none,,,,0,,,,
+Cryptorhynchus lapathi,Cryptorhynchus_lapathi,Curculionidae,Coleoptera,ingroup,genus,22,,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Ctenicera cuprea,Ctenicera_cuprea,Elateridae,Coleoptera,ingroup,genus,19,XO,,19,17;19;20;21;22,Genus-level: 17 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Curculio caryae,Curculio_caryae,Curculionidae,Coleoptera,ingroup,genus,26,Xyp,,25,22;24;26;28;32;34,Genus-level: 19 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Curculio glandium,Curculio_glandium,Curculionidae,Coleoptera,ingroup,genus,26,Xyp,,25,22;24;26;28;32;34,Genus-level: 19 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Cylas formicarius,Cylas_formicarius,Brentidae,Coleoptera,ingroup,species,22,Xyp,2n=22M 10+Xyp,2,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Cynaeus angustus,Cynaeus_angustus,Tenebrionidae,Coleoptera,ingroup,species,20,Xyp,2n=20M 9+Xyp,1,,,Juan and Petitpierre (1991),Blackmon_Coleoptera_Karyotype_DB
+Dailognatha quadricollis,Dailognatha_quadricollis,Tenebrionidae,Coleoptera,ingroup,genus,20,Xyp,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Dalopius marginatus,Dalopius_marginatus,Elateridae,Coleoptera,ingroup,none,,,,0,,,,
+Dalotia coriaria,Dalotia_coriaria,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Dascillus cervinus,Dascillus_cervinus,Dascillidae,Coleoptera,ingroup,none,,,,0,,,,
+Dastarcus helophoroides,Dastarcus_helophoroides,Bothrideridae,Coleoptera,ingroup,none,,,,0,,,,
+Dendarus foraminosus,Dendarus_foraminosus,Tenebrionidae,Coleoptera,ingroup,none,,,,0,,,,
+Dendroctonus frontalis,Dendroctonus_frontalis,Curculionidae,Coleoptera,ingroup,species,16,Xyp,2n=16M 7+Xyp,3,12;16,This morphotype occurs from southern US to Central America; This morphotype occurs in S. America and appears to be a distinct or incipient species,S. Smith and Virkki (1978); Armendariz-Toledano et al. (2014),Blackmon_Coleoptera_Karyotype_DB
+Dendroctonus ponderosae,Dendroctonus_ponderosae,Curculionidae,Coleoptera,ingroup,species,24,NeoXY,2n=24M 11+NeoXY,1,,,Lanier and Wood (1968),Blackmon_Coleoptera_Karyotype_DB
+Dendroctonus valens,Dendroctonus_valens,Curculionidae,Coleoptera,ingroup,species,28,Xyp,2n=28M 13+Xyp,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Denticollis linearis,Denticollis_linearis,Elateridae,Coleoptera,ingroup,none,,,,0,,,,
+Diabrotica balteata,Diabrotica_balteata,Chrysomelidae,Coleoptera,ingroup,species,19,XO,2n=19M/2n=20F 9+XO,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Diabrotica undecimpunctata,Diabrotica_undecimpunctata,Chrysomelidae,Coleoptera,ingroup,species,19,XO,2n=19M/2n=20F 9+XO,5,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Diabrotica virgifera virgifera,Diabrotica_virgifera_virgifera,Chrysomelidae,Coleoptera,ingroup,genus,19,XO,,36,19;20;21,Genus-level: 28 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Diaperis boleti,Diaperis_boleti,Tenebrionidae,Coleoptera,ingroup,species,14,NeoXY,2n=14M 6+NeoXY,1,,,Juan and Petitpierre (1991),Blackmon_Coleoptera_Karyotype_DB
+Dicheirus dilatatus,Dicheirus_dilatatus,Carabidae,Coleoptera,ingroup,none,,,,0,,,,
+Digitonthophagus gazella,Digitonthophagus_gazella,Scarabaeidae,Coleoptera,ingroup,species,20,XY,2n=20M 9+XY,3,,,"D. C. Cabral-de Mello, Oliveira, de Moura, and Martins (2011); Wilson and Angus (2005a); D. C. Cabral-de Mello, de Oliveira, Ramos, and de Moura (2008)",Blackmon_Coleoptera_Karyotype_DB
+Diorhabda carinata,Diorhabda_carinata,Chrysomelidae,Coleoptera,ingroup,genus,40,,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Diorhabda carinulata,Diorhabda_carinulata,Chrysomelidae,Coleoptera,ingroup,genus,40,,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Diorhabda elongata,Diorhabda_elongata,Chrysomelidae,Coleoptera,ingroup,genus,40,,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Diorhabda sublineata,Diorhabda_sublineata,Chrysomelidae,Coleoptera,ingroup,genus,40,,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Diplocoelus fagi,Diplocoelus_fagi,Biphyllidae,Coleoptera,ingroup,none,,,,0,,,,
+Diploeciton nevermanni,Diploeciton_nevermanni,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Distenia gracilis,Distenia_gracilis,Cerambycidae,Coleoptera,ingroup,species,20,,2n=20M,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Donacia provostii,Donacia_provostii,Chrysomelidae,Coleoptera,ingroup,genus,30,Xyp,,7,28;30,Genus-level: 7 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Dorcus hopei,Dorcus_hopei,Lucanidae,Coleoptera,ingroup,genus,18,NeoXY,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Dorcus parallelipipedus,Dorcus_parallelipipedus,Lucanidae,Coleoptera,ingroup,species,18,NeoXY,2n=18M 8+NeoXY,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Dorysthenes granulosus,Dorysthenes_granulosus,Cerambycidae,Coleoptera,ingroup,none,,,,0,,,,
+Drilus flavescens,Drilus_flavescens,Elateridae,Coleoptera,ingroup,none,,,,0,,,,
+Dromius quadrimaculatus,Dromius_quadrimaculatus,Carabidae,Coleoptera,ingroup,genus,25,XO,,3,,Genus-level: 3 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Drusilla canaliculata,Drusilla_canaliculata,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Dynastes grantii,Dynastes_grantii,Scarabaeidae,Coleoptera,ingroup,genus,18,NeoXY,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Dynastes hercules hercules,Dynastes_hercules_hercules,Scarabaeidae,Coleoptera,ingroup,genus,18,NeoXY,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Dynastes hercules paschoali,Dynastes_hercules_paschoali,Scarabaeidae,Coleoptera,ingroup,genus,18,NeoXY,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Dynastes hercules reidi,Dynastes_hercules_reidi,Scarabaeidae,Coleoptera,ingroup,genus,18,NeoXY,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Dynastes hercules septentrionalis,Dynastes_hercules_septentrionalis,Scarabaeidae,Coleoptera,ingroup,genus,18,NeoXY,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Dynastes hyllus,Dynastes_hyllus,Scarabaeidae,Coleoptera,ingroup,genus,18,NeoXY,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Dynastes maya,Dynastes_maya,Scarabaeidae,Coleoptera,ingroup,genus,18,NeoXY,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Dynastes tityus,Dynastes_tityus,Scarabaeidae,Coleoptera,ingroup,species,18,NeoXY,2n=18M 8+NeoXY,1,,,A. Dutrillaux and Dutrillaux (2012),Blackmon_Coleoptera_Karyotype_DB
+Eledona agricola,Eledona_agricola,Tenebrionidae,Coleoptera,ingroup,none,,,,0,,,,
+Elmis aenea,Elmis_aenea,Elmidae,Coleoptera,ingroup,none,,,,0,,,,
+Endomychus armeniacus,Endomychus_armeniacus,Endomychidae,Coleoptera,ingroup,none,,,,0,,,,
+Endomychus coccineus,Endomychus_coccineus,Endomychidae,Coleoptera,ingroup,none,,,,0,,,,
+Eucryptorrhynchus brandti,Eucryptorrhynchus_brandti,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Eucryptorrhynchus scrobiculatus,Eucryptorrhynchus_scrobiculatus,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Eulagius filicornis,Eulagius_filicornis,Mycetophagidae,Coleoptera,ingroup,none,,,,0,,,,
+Euwallacea fornicatus,Euwallacea_fornicatus,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Euwallacea similis,Euwallacea_similis,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Galeruca laticollis,Galeruca_laticollis,Chrysomelidae,Coleoptera,ingroup,genus,38,Xyp,,7,38;40;44;46,Genus-level: 7 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Galerucella nymphaeae,Galerucella_nymphaeae,Chrysomelidae,Coleoptera,ingroup,genus,34,Xyp,,11,16;26;34;38;44,Genus-level: 11 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Galerucella sagittariae,Galerucella_sagittariae,Chrysomelidae,Coleoptera,ingroup,genus,34,Xyp,,11,16;26;34;38;44,Genus-level: 11 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Gastrophysa polygoni,Gastrophysa_polygoni,Chrysomelidae,Coleoptera,ingroup,genus,30,Xyp,,3,24;28;30,Genus-level: 3 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Gastrophysa viridula,Gastrophysa_viridula,Chrysomelidae,Coleoptera,ingroup,species,28,Xyp,2n=28M 13+Xyp,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Geotrupes spiniger,Geotrupes_spiniger,Geotrupidae,Coleoptera,ingroup,species,22,XY,2n=22M 10+XY,3,20;22,,"Wilson and Angus (2004c); Yadav, Pillai, and Karamjeet (1979); R. Angus (2011)",Blackmon_Coleoptera_Karyotype_DB
+Gnatocerus cornutus,Gnatocerus_cornutus,Tenebrionidae,Coleoptera,ingroup,none,,,,0,,,,
+Gonodera luperus,Gonodera_luperus,Tenebrionidae,Coleoptera,ingroup,none,,,,0,,,,
+Graciliella metohijensis,Graciliella_metohijensis,Leiodidae,Coleoptera,ingroup,none,,,,0,,,,
+Grammoptera ruficornis,Grammoptera_ruficornis,Cerambycidae,Coleoptera,ingroup,none,,,,0,,,,
+Grypus equiseti,Grypus_equiseti,Erirhinidae,Coleoptera,ingroup,none,,,,0,,,,
+Hallomenus binotatus,Hallomenus_binotatus,Tetratomidae,Coleoptera,ingroup,none,,,,0,,,,
+Halyzia sedecimguttata,Halyzia_sedecimguttata,Coccinellidae,Coleoptera,ingroup,none,,,,0,,,,
+Harmonia axyridis,Harmonia_axyridis,Coccinellidae,Coleoptera,ingroup,genus,16,Xyp,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Harmonia quadripunctata,Harmonia_quadripunctata,Coccinellidae,Coleoptera,ingroup,genus,16,Xyp,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Harpalus anxius,Harpalus_anxius,Carabidae,Coleoptera,ingroup,species,37,XO,2n=37M 18+XO,1,,,Serrano and Yadav (1984),Blackmon_Coleoptera_Karyotype_DB
+Harpalus rubripes,Harpalus_rubripes,Carabidae,Coleoptera,ingroup,species,37,XO,2n=37M 18+XO,1,,,Serrano and Yadav (1984),Blackmon_Coleoptera_Karyotype_DB
+Harpalus rufipes,Harpalus_rufipes,Carabidae,Coleoptera,ingroup,species,37,XO,2n=37M 18+XO,1,,,Serrano and Galian (1998),Blackmon_Coleoptera_Karyotype_DB
+Hemicrepidius hirtus,Hemicrepidius_hirtus,Elateridae,Coleoptera,ingroup,none,,,,0,,,,
+Hermaeophaga mercurialis,Hermaeophaga_mercurialis,Chrysomelidae,Coleoptera,ingroup,genus,17,XXY,,2,16;17,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Herpes porcellus,Herpes_porcellus,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Hippodamia convergens,Hippodamia_convergens,Coccinellidae,Coleoptera,ingroup,species,20,Xyp,2n=20M 9+Xyp,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Hippodamia variegata,Hippodamia_variegata,Coccinellidae,Coleoptera,ingroup,genus,20,Xyp,,8,,Genus-level: 7 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Hololepta plana,Hololepta_plana,Histeridae,Coleoptera,ingroup,none,,,,0,,,,
+Holotrichia oblita,Holotrichia_oblita,Scarabaeidae,Coleoptera,ingroup,genus,20,Xyp,,3,18;20,Genus-level: 3 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Hycleus marcipoli,Hycleus_marcipoli,Meloidae,Coleoptera,ingroup,none,,,,0,,,,
+Hypera rumicis,Hypera_rumicis,Curculionidae,Coleoptera,ingroup,genus,22,Xyp,,10,20;22,Genus-level: 8 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Hypothenemus hampei,Hypothenemus_hampei,Curculionidae,Coleoptera,ingroup,genus,15,XXY,,2,14;15,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Ichthyurus bourgeoisi,Ichthyurus_bourgeoisi,Cantharidae,Coleoptera,ingroup,none,,,,0,,,,
+Ips nitidus,Ips_nitidus,Curculionidae,Coleoptera,ingroup,genus,32,Xyp,,37,16;20;26;30;32;48,Genus-level: 30 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Ips sexdentatus,Ips_sexdentatus,Curculionidae,Coleoptera,ingroup,species,26,Xyp,2n=26M/2n=26F 12+Xyp,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Ips typographus,Ips_typographus,Curculionidae,Coleoptera,ingroup,species,26,Xyp,2n=26M/2n=26F 12+Xyp,2,26;30,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Kibakoganea sinica,Kibakoganea_sinica,Scarabaeidae,Coleoptera,ingroup,none,,,,0,,,,
+Kibakoganea tamdaoensis,Kibakoganea_tamdaoensis,Scarabaeidae,Coleoptera,ingroup,none,,,,0,,,,
+Kyklioacalles roboris,Kyklioacalles_roboris,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Labidomera clivicollis,Labidomera_clivicollis,Chrysomelidae,Coleoptera,ingroup,species,33,XO,2n=33M 16+XO,2,,Subsequent studies failed to replicate,"Hsiao and Hsiao (1983); Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Laccobius striatulus,Laccobius_striatulus,Hydrophilidae,Coleoptera,ingroup,species,18,,2n=18�M,1,,,Angus et al (2020),Blackmon_Coleoptera_Karyotype_DB
+Lagria hirta,Lagria_hirta,Tenebrionidae,Coleoptera,ingroup,none,,,,0,,,,
+Laparocerus anagae,Laparocerus_anagae,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Larinus minutus,Larinus_minutus,Curculionidae,Coleoptera,ingroup,genus,40,Xyp,,5,36;38;40,Genus-level: 5 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Larinus planus,Larinus_planus,Curculionidae,Coleoptera,ingroup,genus,40,Xyp,,5,36;38;40,Genus-level: 5 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Larinus ursus,Larinus_ursus,Curculionidae,Coleoptera,ingroup,genus,40,Xyp,,5,36;38;40,Genus-level: 5 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Lasiorhynchites cavifrons,Lasiorhynchites_cavifrons,Attelabidae,Coleoptera,ingroup,none,,,,0,,,,
+Latheticus oryzae,Latheticus_oryzae,Tenebrionidae,Coleoptera,ingroup,species,20,Xyp,2n=20M 9+Xyp,1,,,Juan and Petitpierre (1991),Blackmon_Coleoptera_Karyotype_DB
+Lathrobium brunnipes,Lathrobium_brunnipes,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Leiosoma deflexum,Leiosoma_deflexum,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Leistus fulvibarbis,Leistus_fulvibarbis,Carabidae,Coleoptera,ingroup,none,,,,0,,,,
+Leistus rufomarginatus,Leistus_rufomarginatus,Carabidae,Coleoptera,ingroup,none,,,,0,,,,
+Leistus spinibarbis,Leistus_spinibarbis,Carabidae,Coleoptera,ingroup,none,,,,0,,,,
+Leonhardella angulicollis,Leonhardella_angulicollis,Leiodidae,Coleoptera,ingroup,none,,,,0,,,,
+Leptinotarsa decemlineata,Leptinotarsa_decemlineata,Chrysomelidae,Coleoptera,ingroup,genus,35,XO,,18,23;33;35;36,Genus-level: 16 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Leptodirus hochenwartii,Leptodirus_hochenwartii,Leiodidae,Coleoptera,ingroup,none,,,,0,,,,
+Leptura quadrifasciata,Leptura_quadrifasciata,Cerambycidae,Coleoptera,ingroup,genus,20,,,3,,Genus-level: 3 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Lesteva pubescens,Lesteva_pubescens,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Lesteva punctata,Lesteva_punctata,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Lethrus apterus,Lethrus_apterus,Geotrupidae,Coleoptera,ingroup,none,,,,0,,,,
+Librodor japonicus,Librodor_japonicus,Nitidulidae,Coleoptera,ingroup,none,,,,0,,,,
+Limonius poneli,Limonius_poneli,Elateridae,Coleoptera,ingroup,genus,17,XO,,2,17;20,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Liophloeus tessulatus,Liophloeus_tessulatus,Curculionidae,Coleoptera,ingroup,species,22,Xyp,2n=22M/2n=22F 10+Xyp,2,22;29,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Liopterus haemorrhoidalis,Liopterus_haemorrhoidalis,Dytiscidae,Coleoptera,ingroup,none,,,,0,,,,
+Lochmaea capreae,Lochmaea_capreae,Chrysomelidae,Coleoptera,ingroup,species,34,,2n=34M,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Lochmaea crataegi,Lochmaea_crataegi,Chrysomelidae,Coleoptera,ingroup,genus,34,,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Longitarsus dorsalis,Longitarsus_dorsalis,Chrysomelidae,Coleoptera,ingroup,genus,30,XY,,25,26;28;30;32,Genus-level: 24 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Longitarsus flavicornis,Longitarsus_flavicornis,Chrysomelidae,Coleoptera,ingroup,genus,30,XY,,25,26;28;30;32,Genus-level: 24 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Lordithon lunulatus,Lordithon_lunulatus,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Lucanus miwai,Lucanus_miwai,Lucanidae,Coleoptera,ingroup,genus,22,XY,,2,22;26,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Luciola italica,Luciola_italica,Lampyridae,Coleoptera,ingroup,genus,17,XO,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Magdalis barbicornis,Magdalis_barbicornis,Curculionidae,Coleoptera,ingroup,genus,30,Xyp,,8,16;30;32;34,Genus-level: 6 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Magdalis cerasi,Magdalis_cerasi,Curculionidae,Coleoptera,ingroup,genus,30,Xyp,,8,16;30;32;34,Genus-level: 6 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Malachius bipustulatus,Malachius_bipustulatus,Melyridae,Coleoptera,ingroup,none,,,,0,,,,
+Malthinus flaveolus,Malthinus_flaveolus,Cantharidae,Coleoptera,ingroup,genus,12,,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Malthinus seriepunctatus,Malthinus_seriepunctatus,Cantharidae,Coleoptera,ingroup,species,12,,2n=12F,1,,,James and Angus (2007),Blackmon_Coleoptera_Karyotype_DB
+Malthodes marginatus,Malthodes_marginatus,Cantharidae,Coleoptera,ingroup,genus,11,XO,,2,11;12,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Malthodes minimus,Malthodes_minimus,Cantharidae,Coleoptera,ingroup,species,12,,2n=12F,1,,,James and Angus (2007),Blackmon_Coleoptera_Karyotype_DB
+Marronus borbonicus,Marronus_borbonicus,Scarabaeidae,Coleoptera,ingroup,none,,,,0,,,,
+Megalocaria dilatata,Megalocaria_dilatata,Coccinellidae,Coleoptera,ingroup,none,,,,0,,,,
+Megatoma undata,Megatoma_undata,Dermestidae,Coleoptera,ingroup,none,,,,0,,,,
+Melanotus villosus,Melanotus_villosus,Elateridae,Coleoptera,ingroup,genus,19,XO,,9,12;19,Genus-level: 9 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Melinopterus prodromus,Melinopterus_prodromus,Scarabaeidae,Coleoptera,ingroup,none,,,,0,,,,
+Melolontha melolontha,Melolontha_melolontha,Scarabaeidae,Coleoptera,ingroup,species,20,XY,2n=20M 9+XY,1,,,Giannoulis et al. (2011),Blackmon_Coleoptera_Karyotype_DB
+Metoecus paradoxus,Metoecus_paradoxus,Ripiphoridae,Coleoptera,ingroup,none,,,,0,,,,
+Micromus angulatus,Micromus_angulatus,Hemerobiidae,Neuroptera,outgroup,none,,,,0,,,,
+Microrhagus pygmaeus,Microrhagus_pygmaeus,Eucnemidae,Coleoptera,ingroup,none,,,,0,,,,
+Mongoloraphidia duomilia,Mongoloraphidia_duomilia,Raphidiidae,Raphidioptera,outgroup,none,,,,0,,,,
+Monochamus alternatus,Monochamus_alternatus,Cerambycidae,Coleoptera,ingroup,species,20,Xyp,2n=20M 9+Xyp,1,,,Ping et al. (2010),Blackmon_Coleoptera_Karyotype_DB
+Monochamus saltuarius,Monochamus_saltuarius,Cerambycidae,Coleoptera,ingroup,species,20,Xyp,2n=20M/2n=20F 9+Xyp,1,,,"Cesari, Marescalchi, Francardi, and Mantovani (2005)",Blackmon_Coleoptera_Karyotype_DB
+Monochamus scutellatus,Monochamus_scutellatus,Cerambycidae,Coleoptera,ingroup,species,20,Xyp,2n=20M 9+Xyp,2,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Monochamus sutor,Monochamus_sutor,Cerambycidae,Coleoptera,ingroup,species,20,Xyp,2n=20M 9+Xyp,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Monolepta hieroglyphica,Monolepta_hieroglyphica,Chrysomelidae,Coleoptera,ingroup,genus,18,Xyp,,4,18;26,Genus-level: 3 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Mononychus punctumalbum,Mononychus_punctumalbum,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Monotoma picipes,Monotoma_picipes,Monotomidae,Coleoptera,ingroup,none,,,,0,,,,
+Morimus asper,Morimus_asper,Cerambycidae,Coleoptera,ingroup,genus,24,Xyp,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Morimus orientalis,Morimus_orientalis,Cerambycidae,Coleoptera,ingroup,species,24,Xyp,2n=24M 11+Xyp,1,,,"Okutaner, Ozdikmen, Yuuksel, and Kocak (2011a)",Blackmon_Coleoptera_Karyotype_DB
+Mycetophagus atomarius,Mycetophagus_atomarius,Mycetophagidae,Coleoptera,ingroup,none,,,,0,,,,
+Mycetophagus piceus,Mycetophagus_piceus,Mycetophagidae,Coleoptera,ingroup,none,,,,0,,,,
+Mylabris quadripunctata,Mylabris_quadripunctata,Meloidae,Coleoptera,ingroup,genus,22,Xyp,,5,20;22,Genus-level: 5 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Mylabris sibirica,Mylabris_sibirica,Meloidae,Coleoptera,ingroup,genus,22,Xyp,,5,20;22,Genus-level: 5 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Myrrha octodecimguttata,Myrrha_octodecimguttata,Coccinellidae,Coleoptera,ingroup,none,,,,0,,,,
+Nacerdes melanura,Nacerdes_melanura,Oedemeridae,Coleoptera,ingroup,none,,,,0,,,,
+Nadezhdiella cantori,Nadezhdiella_cantori,Cerambycidae,Coleoptera,ingroup,none,,,,0,,,,
+Nalassus laevioctostriatus,Nalassus_laevioctostriatus,Tenebrionidae,Coleoptera,ingroup,genus,20,Xyp,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Nebria brevicollis,Nebria_brevicollis,Carabidae,Coleoptera,ingroup,species,30,,2n=30M,1,,,Serrano and Yadav (1984),Blackmon_Coleoptera_Karyotype_DB
+Nebria salina,Nebria_salina,Carabidae,Coleoptera,ingroup,genus,46,,,11,30;34;38;40;42;46;52,Genus-level: 11 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Nedyus quadrimaculatus,Nedyus_quadrimaculatus,Curculionidae,Coleoptera,ingroup,species,28,Xyp,2n=28M 13+Xyp,1,,,"Lachowska, Holecova, and Rozek (1998)",Blackmon_Coleoptera_Karyotype_DB
+Neocrepidodera transversa,Neocrepidodera_transversa,Chrysomelidae,Coleoptera,ingroup,species,38,Xyp,2n=38M 18+Xyp,1,,,"Rozek, Lachowska, Petitpierre, and Holecova (2004)",Blackmon_Coleoptera_Karyotype_DB
+Neoneuromus ignobilis,Neoneuromus_ignobilis,Corydalidae,Megaloptera,outgroup,none,,,,0,,,,
+Nicrophorus investigator,Nicrophorus_investigator,Silphidae,Coleoptera,ingroup,genus,13,XO,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Nineta flava,Nineta_flava,Chrysopidae,Neuroptera,outgroup,none,,,,0,,,,
+Nothochrysa capitata,Nothochrysa_capitata,Chrysopidae,Neuroptera,outgroup,none,,,,0,,,,
+Notiophilus biguttatus,Notiophilus_biguttatus,Carabidae,Coleoptera,ingroup,genus,24,,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Notoxus monoceros,Notoxus_monoceros,Anthicidae,Coleoptera,ingroup,genus,18,Xyp,,3,,Genus-level: 3 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Octodonta nipae,Octodonta_nipae,Chrysomelidae,Coleoptera,ingroup,none,,,,0,,,,
+Ocypus olens,Ocypus_olens,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Ocys tachysoides,Ocys_tachysoides,Carabidae,Coleoptera,ingroup,none,,,,0,,,,
+Odontolabis cuvera,Odontolabis_cuvera,Lucanidae,Coleoptera,ingroup,genus,29,XO,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Oedemera lurida,Oedemera_lurida,Oedemeridae,Coleoptera,ingroup,genus,22,Xyp,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Ontholestes murinus,Ontholestes_murinus,Staphylinidae,Coleoptera,ingroup,genus,26,Xyp,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Onthophagus binodis,Onthophagus_binodis,Scarabaeidae,Coleoptera,ingroup,genus,20,Xyp,,50,18;20,Genus-level: 44 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Onthophagus sagittarius,Onthophagus_sagittarius,Scarabaeidae,Coleoptera,ingroup,genus,20,Xyp,,50,18;20,Genus-level: 44 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Onthophagus taurus,Onthophagus_taurus,Scarabaeidae,Coleoptera,ingroup,species,20,XY,2n=20M 9+XY,2,,,"Yadav, Pillai, and Karamjeet (1979); Wilson and Angus (2005a)",Blackmon_Coleoptera_Karyotype_DB
+Ophonus ardosiacus,Ophonus_ardosiacus,Carabidae,Coleoptera,ingroup,species,37,XO,2n=37M 18+XO,1,,,Serrano and Galian (1998),Blackmon_Coleoptera_Karyotype_DB
+Ophraella communa,Ophraella_communa,Chrysomelidae,Coleoptera,ingroup,species,34,,2n=34M,1,,,"Petitpierre, Segarra, and Juan (1993)",Blackmon_Coleoptera_Karyotype_DB
+Opilo mollis,Opilo_mollis,Cleridae,Coleoptera,ingroup,none,,,,0,,,,
+Orchesia undulata,Orchesia_undulata,Melandryidae,Coleoptera,ingroup,none,,,,0,,,,
+Orchestes rusci,Orchestes_rusci,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Oryctes borbonicus,Oryctes_borbonicus,Scarabaeidae,Coleoptera,ingroup,genus,18,NeoXY,,4,18;20,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Oryctes rhinoceros,Oryctes_rhinoceros,Scarabaeidae,Coleoptera,ingroup,species,18,NeoXY,2n=18M 8+NeoXY,2,18;20,,"Yadav, Pillai, and Karamjeet (1979); A. Dutrillaux, Mamuris, and Dutrillaux (2013)",Blackmon_Coleoptera_Karyotype_DB
+Osmylus fulvicephalus,Osmylus_fulvicephalus,Osmylidae,Neuroptera,outgroup,none,,,,0,,,,
+Othius punctulatus,Othius_punctulatus,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Otiorhynchus rugosostriatus,Otiorhynchus_rugosostriatus,Curculionidae,Coleoptera,ingroup,genus,22,Xyp,,93,20;22;28;29;30;32;33;34;40;43;44;54,Genus-level: 58 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Oxystoma pomonae,Oxystoma_pomonae,Apionidae,Coleoptera,ingroup,genus,22,Xyp,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Pachyrhinus lethierryi,Pachyrhinus_lethierryi,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Pachyrhynchus sulphureomaculatus,Pachyrhynchus_sulphureomaculatus,Curculionidae,Coleoptera,ingroup,genus,22,Xyp,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Paederus riparius,Paederus_riparius,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Pediacus dermestoides,Pediacus_dermestoides,Cucujidae,Coleoptera,ingroup,none,,,,0,,,,
+Phaedon cochleariae,Phaedon_cochleariae,Chrysomelidae,Coleoptera,ingroup,species,34,Xyp,2n=34M 16+Xyp,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Phaleria cadaverina,Phaleria_cadaverina,Tenebrionidae,Coleoptera,ingroup,genus,20,Xyp,,2,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Phanaeus vindex,Phanaeus_vindex,Scarabaeidae,Coleoptera,ingroup,species,12,NeoXY,2n=12M 5+NeoXY,2,,,"Yadav, Pillai, and Karamjeet (1979)",Blackmon_Coleoptera_Karyotype_DB
+Philonthus cognatus,Philonthus_cognatus,Staphylinidae,Coleoptera,ingroup,genus,31,Xyp,,5,24;31;36;40;56,Genus-level: 5 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Philonthus spinipes,Philonthus_spinipes,Staphylinidae,Coleoptera,ingroup,genus,31,Xyp,,5,24;31;36;40;56,Genus-level: 5 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Philopedon plagiatum,Philopedon_plagiatum,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Phosphuga atrata,Phosphuga_atrata,Silphidae,Coleoptera,ingroup,species,34,Xyp,2n=34M 16+Xyp,1,,,"Vorontsov, Yadav, Lyapunova, Korablev, and Yani (1984)",Blackmon_Coleoptera_Karyotype_DB
+Photinus pyralis,Photinus_pyralis,Lampyridae,Coleoptera,ingroup,species,19,XO,2n=19M 9+XO,1,,,Wasserman and Ehrman (1986),Blackmon_Coleoptera_Karyotype_DB
+Phratora vitellinae,Phratora_vitellinae,Chrysomelidae,Coleoptera,ingroup,species,34,Xyp,2n=34M 16+Xyp,1,,,Petitpierre and Mikhailov (2013),Blackmon_Coleoptera_Karyotype_DB
+Phyllobius argentatus,Phyllobius_argentatus,Curculionidae,Coleoptera,ingroup,species,22,Xyp,2n=22M 10+Xyp,1,,,"Lachowska, Holecova, and Rozek (1998)",Blackmon_Coleoptera_Karyotype_DB
+Phyllobius pyri,Phyllobius_pyri,Curculionidae,Coleoptera,ingroup,species,22,Xyp,2n=22M 10+Xyp,1,,,"Lachowska, Holecova, and Rozek (1998)",Blackmon_Coleoptera_Karyotype_DB
+Phyllobius virideaeris,Phyllobius_virideaeris,Curculionidae,Coleoptera,ingroup,genus,22,Xyp,,22,22;24,Genus-level: 21 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Phyllotreta cruciferae,Phyllotreta_cruciferae,Chrysomelidae,Coleoptera,ingroup,genus,32,Xyp,,3,30;32,Genus-level: 3 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Phyllotreta striolata,Phyllotreta_striolata,Chrysomelidae,Coleoptera,ingroup,genus,32,Xyp,,3,30;32,Genus-level: 3 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Plagiodera versicolora,Plagiodera_versicolora,Chrysomelidae,Coleoptera,ingroup,species,28,Xyp,2n=28M 13+Xyp,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Platydracus latebricola,Platydracus_latebricola,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Platypus cylindrus,Platypus_cylindrus,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Platyrhinus resinosus,Platyrhinus_resinosus,Anthribidae,Coleoptera,ingroup,none,,,,0,,,,
+Platystomos albinus,Platystomos_albinus,Anthribidae,Coleoptera,ingroup,genus,22,Xyp,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Podabrus alpinus,Podabrus_alpinus,Cantharidae,Coleoptera,ingroup,none,,,,0,,,,
+Podagrica fuscicornis,Podagrica_fuscicornis,Chrysomelidae,Coleoptera,ingroup,species,40,Xyp,2n=40M 19+Xyp,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Poecilus cupreus,Poecilus_cupreus,Carabidae,Coleoptera,ingroup,species,43,XO,2n=43M 21+XO,2,43;44,,"Yadav, Lyapunova, Korablev, Baklushiskaya-Yani, and Vorontosov (1991)",Blackmon_Coleoptera_Karyotype_DB
+Pogonocherus hispidulus,Pogonocherus_hispidulus,Cerambycidae,Coleoptera,ingroup,species,20,Xyp,2n=20M 9+Xyp,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Polydrusus cervinus,Polydrusus_cervinus,Curculionidae,Coleoptera,ingroup,genus,22,Xyp,,16,20;22;30;33,Genus-level: 13 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Polydrusus impressifrons,Polydrusus_impressifrons,Curculionidae,Coleoptera,ingroup,species,20,,2n=20M,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Polydrusus pterygomalis,Polydrusus_pterygomalis,Curculionidae,Coleoptera,ingroup,genus,22,Xyp,,16,20;22;30;33,Genus-level: 13 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Polydrusus tereticollis,Polydrusus_tereticollis,Curculionidae,Coleoptera,ingroup,genus,22,Xyp,,16,20;22;30;33,Genus-level: 13 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Popillia japonica,Popillia_japonica,Scarabaeidae,Coleoptera,ingroup,species,18,XY,2n=18M 8+XY,1,,,"Yadav, Pillai, and Karamjeet (1979)",Blackmon_Coleoptera_Karyotype_DB
+Prionocyphon serricornis,Prionocyphon_serricornis,Scirtidae,Coleoptera,ingroup,none,,,,0,,,,
+Prionychus ater,Prionychus_ater,Tenebrionidae,Coleoptera,ingroup,none,,,,0,,,,
+Promethis valgipes,Promethis_valgipes,Tenebrionidae,Coleoptera,ingroup,none,,,,0,,,,
+Propomacrus cypriacus,Propomacrus_cypriacus,Glaphyridae,Coleoptera,ingroup,genus,20,XY,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Propylea japonica,Propylea_japonica,Coccinellidae,Coleoptera,ingroup,genus,20,,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Propylea quattuordecimpunctata,Propylea_quattuordecimpunctata,Coccinellidae,Coleoptera,ingroup,genus,20,,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Prosopocoilus inquinatus,Prosopocoilus_inquinatus,Lucanidae,Coleoptera,ingroup,genus,20,Xyp,,2,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Protaetia brevitarsis,Protaetia_brevitarsis,Scarabaeidae,Coleoptera,ingroup,genus,20,XY,,15,19;20,Genus-level: 12 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Pseudeuparius sepicola,Pseudeuparius_sepicola,Anthribidae,Coleoptera,ingroup,none,,,,0,,,,
+Pseudocistela ceramboides,Pseudocistela_ceramboides,Tenebrionidae,Coleoptera,ingroup,none,,,,0,,,,
+Psylliodes chrysocephalus,Psylliodes_chrysocephalus,Chrysomelidae,Coleoptera,ingroup,species,36,Xyp,2n=36M 17+Xyp,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Pterostichus diligens,Pterostichus_diligens,Carabidae,Coleoptera,ingroup,species,30,XY,2n=30M 14+XY,1,,,Serrano and Yadav (1984),Blackmon_Coleoptera_Karyotype_DB
+Pterostichus madidus,Pterostichus_madidus,Carabidae,Coleoptera,ingroup,species,37,XO,2n=37M 18+XO,1,,,"Yadav, Lyapunova, Korablev, Baklushiskaya-Yani, and Vorontosov (1991)",Blackmon_Coleoptera_Karyotype_DB
+Pterostichus niger,Pterostichus_niger,Carabidae,Coleoptera,ingroup,species,37,XO,2n=37M 18+XO,1,,,Serrano and Yadav (1984),Blackmon_Coleoptera_Karyotype_DB
+Pterostichus vernalis,Pterostichus_vernalis,Carabidae,Coleoptera,ingroup,genus,37,XO,,58,28;30;32;34;37;38;46,Genus-level: 51 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Pycnomerus fuliginosus,Pycnomerus_fuliginosus,Zopheridae,Coleoptera,ingroup,none,,,,0,,,,
+Pyrochroa serraticornis,Pyrochroa_serraticornis,Pyrochroidae,Coleoptera,ingroup,none,,,,0,,,,
+Pyrocoelia pectoralis,Pyrocoelia_pectoralis,Lampyridae,Coleoptera,ingroup,none,,,,0,,,,
+Quedius lateralis,Quedius_lateralis,Staphylinidae,Coleoptera,ingroup,genus,33,XO,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Radziella styx,Radziella_styx,Leiodidae,Coleoptera,ingroup,none,,,,0,,,,
+Rhagium mordax,Rhagium_mordax,Cerambycidae,Coleoptera,ingroup,species,20,,2n=20F,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Rhagonycha fulva,Rhagonycha_fulva,Cantharidae,Coleoptera,ingroup,species,13,XO,2n=13M/2n=14F 6+XO,1,,,James and Angus (2007),Blackmon_Coleoptera_Karyotype_DB
+Rhagonycha lignosa,Rhagonycha_lignosa,Cantharidae,Coleoptera,ingroup,species,14,,2n=14F,1,,,James and Angus (2007),Blackmon_Coleoptera_Karyotype_DB
+Rhagonycha lutea,Rhagonycha_lutea,Cantharidae,Coleoptera,ingroup,species,13,XO,2n=13M/2n=14F 6+XO,1,,,James and Angus (2007),Blackmon_Coleoptera_Karyotype_DB
+Rhizotrogus aestivus,Rhizotrogus_aestivus,Scarabaeidae,Coleoptera,ingroup,none,,,,0,,,,
+Rhynchophorus ferrugineus,Rhynchophorus_ferrugineus,Curculionidae,Coleoptera,ingroup,species,22,Xyp,2n=22M 10+Xyp,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Rhyzobius forestieri,Rhyzobius_forestieri,Coccinellidae,Coleoptera,ingroup,genus,16,NeoXY,,3,16;17;18,Genus-level: 3 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Rhyzopertha dominica,Rhyzopertha_dominica,Bostrichidae,Coleoptera,ingroup,none,,,,0,,,,
+Rutpela maculata,Rutpela_maculata,Cerambycidae,Coleoptera,ingroup,none,,,,0,,,,
+Salpingus planirostris,Salpingus_planirostris,Salpingidae,Coleoptera,ingroup,none,,,,0,,,,
+Sambus kanssuensis,Sambus_kanssuensis,Buprestidae,Coleoptera,ingroup,none,,,,0,,,,
+Scaphidium quadrimaculatum,Scaphidium_quadrimaculatum,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Scarites abbreviatus,Scarites_abbreviatus,Carabidae,Coleoptera,ingroup,genus,37,XO,,14,15;37;39;41;45;52;53;57;61,Genus-level: 10 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Schizotus pectinicornis,Schizotus_pectinicornis,Pyrochroidae,Coleoptera,ingroup,none,,,,0,,,,
+Serangium japonicum,Serangium_japonicum,Coccinellidae,Coleoptera,ingroup,none,,,,0,,,,
+Serica brunnea,Serica_brunnea,Scarabaeidae,Coleoptera,ingroup,genus,20,Xyp,,5,,Genus-level: 5 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Serrognathus titanus,Serrognathus_titanus,Lucanidae,Coleoptera,ingroup,none,,,,0,,,,
+Sialis fuliginosa,Sialis_fuliginosa,Sialidae,Megaloptera,outgroup,none,,,,0,,,,
+Sialis lutaria,Sialis_lutaria,Sialidae,Megaloptera,outgroup,none,,,,0,,,,
+Silvanus unidentatus,Silvanus_unidentatus,Silvanidae,Coleoptera,ingroup,none,,,,0,,,,
+Sisyphus schaefferi,Sisyphus_schaefferi,Scarabaeidae,Coleoptera,ingroup,species,20,XY,2n=20M 9+XY,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Sisyra nigra,Sisyra_nigra,Sisyridae,Neuroptera,outgroup,none,,,,0,,,,
+Sisyra terminalis,Sisyra_terminalis,Sisyridae,Neuroptera,outgroup,none,,,,0,,,,
+Sitona lineatus,Sitona_lineatus,Curculionidae,Coleoptera,ingroup,species,22,Xyp,2n=22M 10+Xyp,1,,,"Lachowska, Holecova, and Rozek (2004)",Blackmon_Coleoptera_Karyotype_DB
+Sitophilus oryzae,Sitophilus_oryzae,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Sitophilus zeamais,Sitophilus_zeamais,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Sphaeridium bipustulatum,Sphaeridium_bipustulatum,Hydrophilidae,Coleoptera,ingroup,species,24,Xyp,2n=24M 11+Xyp,1,,,"R. Angus, Shaarawi, and Wilson (2000)",Blackmon_Coleoptera_Karyotype_DB
+Sphaeroderma testaceum,Sphaeroderma_testaceum,Chrysomelidae,Coleoptera,ingroup,species,52,XY,2n=52M 25+XY,1,,,"Petitpierre, Segarra, Yadav, and Virkki (1988)",Blackmon_Coleoptera_Karyotype_DB
+Staphylinus erythropterus,Staphylinus_erythropterus,Staphylinidae,Coleoptera,ingroup,genus,44,XY,,2,40;44,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Stenocarus ruficornis,Stenocarus_ruficornis,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Stenolophus ochropezus,Stenolophus_ochropezus,Carabidae,Coleoptera,ingroup,genus,24,XY,,6,24;25;26;36;38,Genus-level: 6 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Stenosis austini,Stenosis_austini,Tenebrionidae,Coleoptera,ingroup,genus,20,Xyp,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Stenurella melanura,Stenurella_melanura,Cerambycidae,Coleoptera,ingroup,none,,,,0,,,,
+Stenus bimaculatus,Stenus_bimaculatus,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Stictoleptura scutellata,Stictoleptura_scutellata,Cerambycidae,Coleoptera,ingroup,none,,,,0,,,,
+Subcoccinella vigintiquattuorpunctata,Subcoccinella_vigintiquattuorpunctata,Coccinellidae,Coleoptera,ingroup,none,,,,0,,,,
+Tachinus rufipes,Tachinus_rufipes,Staphylinidae,Coleoptera,ingroup,genus,26,XY,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Tachyporus hypnorum,Tachyporus_hypnorum,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Taeniapion urticarium,Taeniapion_urticarium,Apionidae,Coleoptera,ingroup,none,,,,0,,,,
+Taphrorychus bicolor,Taphrorychus_bicolor,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Tarphius canariensis,Tarphius_canariensis,Zopheridae,Coleoptera,ingroup,none,,,,0,,,,
+Tenebrio molitor,Tenebrio_molitor,Tenebrionidae,Coleoptera,ingroup,species,20,XY,2n=20M 9+XY,3,,,Juan and Petitpierre (1991),Blackmon_Coleoptera_Karyotype_DB
+Tetraopes melanurus,Tetraopes_melanurus,Cerambycidae,Coleoptera,ingroup,genus,20,XY,,4,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Tetraopes sublaevis,Tetraopes_sublaevis,Cerambycidae,Coleoptera,ingroup,genus,20,XY,,4,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Tetraopes tetrophthalmus,Tetraopes_tetrophthalmus,Cerambycidae,Coleoptera,ingroup,genus,20,XY,,4,,Genus-level: 2 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Tetropium fuscum,Tetropium_fuscum,Cerambycidae,Coleoptera,ingroup,species,22,Xyp,2n=22M 10+Xyp,1,,,S. Smith and Virkki (1978),Blackmon_Coleoptera_Karyotype_DB
+Thanatophilus sinuatus,Thanatophilus_sinuatus,Silphidae,Coleoptera,ingroup,species,26,Xyp,2n=26M 12+Xyp,1,,,"Vorontsov, Yadav, Lyapunova, Korablev, and Yani (1984)",Blackmon_Coleoptera_Karyotype_DB
+Tillus elongatus,Tillus_elongatus,Cleridae,Coleoptera,ingroup,none,,,,0,,,,
+Tomicus yunnanensis,Tomicus_yunnanensis,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Tribolium castaneum,Tribolium_castaneum,Tenebrionidae,Coleoptera,ingroup,species,20,Xyp,2n=20M 9+Xyp,1,,,Juan and Petitpierre (1991),Blackmon_Coleoptera_Karyotype_DB
+Tribolium confusum,Tribolium_confusum,Tenebrionidae,Coleoptera,ingroup,species,18,NeoXY,2n=18M 8+NeoXY,1,,,Juan and Petitpierre (1991),Blackmon_Coleoptera_Karyotype_DB
+Tribolium freemani,Tribolium_freemani,Tenebrionidae,Coleoptera,ingroup,species,20,Xyp,2n=20M 9+Xyp,1,,,Juan and Petitpierre (1991),Blackmon_Coleoptera_Karyotype_DB
+Tribolium madens,Tribolium_madens,Tenebrionidae,Coleoptera,ingroup,species,20,XY,2n=20M 9+XY,1,,,Juan and Petitpierre (1991),Blackmon_Coleoptera_Karyotype_DB
+Trigonoscuta pilosa,Trigonoscuta_pilosa,Curculionidae,Coleoptera,ingroup,none,,,,0,,,,
+Trypoxylus dichotomus,Trypoxylus_dichotomus,Scarabaeidae,Coleoptera,ingroup,none,,,,0,,,,
+Tytthaspis sedecimpunctata,Tytthaspis_sedecimpunctata,Coccinellidae,Coleoptera,ingroup,none,,,,0,,,,
+Uleiota planata,Uleiota_planata,Silvanidae,Coleoptera,ingroup,none,,,,0,,,,
+Ulomoides dermestoides,Ulomoides_dermestoides,Tenebrionidae,Coleoptera,ingroup,none,,,,0,,,,
+Xantholinus longiventris,Xantholinus_longiventris,Staphylinidae,Coleoptera,ingroup,none,,,,0,,,,
+Xanthostigma xanthostigma,Xanthostigma_xanthostigma,Raphidiidae,Raphidioptera,outgroup,none,,,,0,,,,
+Xestobium rufovillosum,Xestobium_rufovillosum,Ptinidae,Coleoptera,ingroup,none,,,,0,,,,
+Xyleborus affinis,Xyleborus_affinis,Curculionidae,Coleoptera,ingroup,genus,40,,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Xyleborus bispinatus,Xyleborus_bispinatus,Curculionidae,Coleoptera,ingroup,genus,40,,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Zophobas atratus,Zophobas_atratus,Tenebrionidae,Coleoptera,ingroup,genus,20,Xyp,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB
+Zophobas morio,Zophobas_morio,Tenebrionidae,Coleoptera,ingroup,genus,20,Xyp,,1,,Genus-level: 1 congeneric spp in DB,,Blackmon_Coleoptera_Karyotype_DB

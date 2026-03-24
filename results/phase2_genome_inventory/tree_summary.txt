@@ -1,0 +1,26 @@
+CONSTRAINT TREE SUMMARY
+==================================================
+Generated: 2026-03-21
+Backbone: McKenna et al. (2019) Systematic Entomology
+
+Total tips: 439
+  Coleoptera: 422
+  Neuropterida: 17
+  Duplicate tips: 0
+
+Coleoptera clade tips:
+  Adephaga: 45 tips, 2 families
+  Scirtoidea: 1 tips, 1 families
+  Elateriformia: 44 tips, 5 families
+  Staphyliniformia: 38 tips, 5 families
+  Scarabaeiformia: 44 tips, 3 families
+  Cucujiformia: 250 tips, 40 families
+
+Neuropterida outgroup tips:
+  Neuroptera: 11 tips
+  Megaloptera: 4 tips
+  Raphidioptera: 2 tips
+
+Resolution: Polytomies within families
+Branch lengths: Uniform (1.0)
+Root: Between Coleoptera and Neuropterida

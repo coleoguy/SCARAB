@@ -1,0 +1,18 @@
+RESTRICTION STATUS AUDIT REPORT
+==================================================
+Date: 2026-03-21
+Total genomes audited: 687
+
+LOW risk: 687 genomes
+
+MEDIUM-RISK GENOMES (need student verification):
+See: restrictions_to_verify.csv (0 rows)
+
+Most common actions needed:
+
+STUDENT INSTRUCTIONS:
+1. Open restrictions_to_verify.csv
+2. For each row, visit the BioProject URL
+3. Check for data use policies, embargo notices, consortium agreements
+4. Fill in 'student_verified' (date) and 'final_status' columns
+5. Save and return to Heath for review

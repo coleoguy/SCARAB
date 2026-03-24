@@ -1,0 +1,54 @@
+============================================================
+GENOME CATALOG CLEANUP REPORT
+Date: 2026-03-21
+============================================================
+
+Input assemblies: 1121
+GCA/GCF mirror pairs removed: 22
+After dedup: 1099
+Primary selections (1 per species): 687
+  Coleoptera: 560
+  Neuropterida: 127
+
+ASSEMBLY LEVEL (primary selections):
+  Chromosome: 383
+  Scaffold: 242
+  Contig: 61
+  Complete Genome: 1
+
+QUALITY HEURISTIC (primary selections):
+  yes: 439
+  no: 204
+  conditional: 44
+
+FAMILIES (Coleoptera, top 20):
+  Chrysomelidae: 74
+  Curculionidae: 66
+  Staphylinidae: 59
+  Carabidae: 53
+  Scarabaeidae: 53
+  Cerambycidae: 34
+  Coccinellidae: 27
+  Tenebrionidae: 25
+  Elateridae: 22
+  Cantharidae: 18
+  Meloidae: 13
+  Leiodidae: 10
+  Lampyridae: 9
+  Hydrophilidae: 9
+  Lucanidae: 6
+  Silphidae: 5
+  Buprestidae: 5
+  Anthribidae: 4
+  Zopheridae: 4
+  Apionidae: 4
+
+SUBORDERS:
+  Polyphaga: 505
+  Adephaga: 54
+  Archostemata: 1
+
+OUTGROUP ORDERS:
+  Neuroptera: 120
+  Megaloptera: 4
+  Raphidioptera: 3
