@@ -12,6 +12,33 @@ SCARAB = 478-beetle whole-genome alignment (ProgressiveCactus) to map chromosoma
 - **$SCRATCH** = `/scratch/user/blackmon/scarab`
 - **NetID**: blackmon
 
+## Grace Resource Limits (per user, verified 2026-03-27)
+
+| Limit | Value | Source |
+|-------|-------|--------|
+| Max submitted jobs (all queues) | 500 | QOS "normal" MaxSubmitJobs |
+| Max concurrent cores (all queues) | 6,144 | QOS "normal" MaxTRESPU |
+| Max SLURM array size | 1,001 (0-1000) | scontrol MaxArraySize |
+| Scratch quota | 7 TB (expanded from 1 TB) | Approved 2026-03 |
+
+### Partition Limits
+
+| Partition | Max Wall | Max Nodes | Max Cores | Notes |
+|-----------|----------|-----------|-----------|-------|
+| short | 2 hr | 32 | 1,536 | Default partition |
+| medium | 1 day | 128 | 6,144 | Gene trees, Cactus preprocess |
+| long | 7 days | 64 | 3,072 | Deeper Cactus alignment levels |
+| xlong | 21 days | 32 | 1,536 | Single-node Cactus (fallback) |
+| bigmem | 2 days | 4 | 192 | 3 TB RAM nodes |
+| gpu | 4 days | 32 | 1,536 | A100, RTX 6000, T4 GPUs |
+
+### Practical Implications for SCARAB
+
+- SLURM arrays >1000 tasks must be split into multiple submissions
+- At 4 cores/gene-tree job: max ~500 concurrent gene jobs (job slot limited, not core limited)
+- Cactus decomposed levels: leaf levels use medium (1-day wall); deep levels use long (7-day wall)
+- Low-priority queue (if SUs exceeded): max 50 jobs, 500 cores, preemptible
+
 ## Key Paths on Grace
 
 | What | Path |
