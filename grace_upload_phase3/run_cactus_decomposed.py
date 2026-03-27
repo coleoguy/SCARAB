@@ -42,7 +42,8 @@ SING = "singularity exec --cleanenv -B {pd}:{pd} -B /tmp:/tmp {c}".format(
 # Resource tiers by tree depth
 RESOURCE_TIERS = [
     # (max_depth, cores, mem_gb, wall_time, partition)
-    (1,   8,   32,  "4:00:00",   "short"),
+    # Grace: short=2h, medium=1d, long=7d, xlong=21d
+    (2,   8,   32,  "12:00:00",  "medium"),
     (4,  16,   64,  "12:00:00",  "medium"),
     (10, 32,  128,  "1-00:00:00", "long"),
     (20, 48,  192,  "2-00:00:00", "long"),
