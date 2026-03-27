@@ -14,7 +14,7 @@
 # To check: tmux attach -t cactus_watch
 # ============================================================================
 
-SLURM_SCRIPT="${SCRATCH}/scarab/grace_upload_phase3/run_full_alignment.slurm"
+SLURM_SCRIPT="${SCRATCH}/scarab/run_full_alignment.slurm"
 LOG_DIR="${SCRATCH}/scarab/work/logs"
 MAX_CYCLES=6           # safety limit: stop after this many auto-resubmissions
 POLL_INTERVAL=300      # check every 5 minutes
