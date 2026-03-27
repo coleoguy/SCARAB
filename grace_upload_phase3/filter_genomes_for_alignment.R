@@ -96,10 +96,10 @@ cat_df <- read.csv(opt$catalog, stringsAsFactors = FALSE)
 # Extract assembly accession from fasta path (handles both ncbi_dataset and flat formats)
 # e.g. "genomes/GCA_964197645.1/ncbi_dataset/.../GCA_964197645.1_*.fna" -> "GCA_964197645.1"
 # e.g. "genomes/GCA_044115395.1_icAgrPube1_p1.1_genomic.fna.gz"         -> "GCA_044115395.1"
-seqfile_df$accession <- regmatches(
-  seqfile_df$fasta_path,
-  regexpr("GCA_[0-9]+\\.[0-9]+", seqfile_df$fasta_path)
-)
+# Also handles GCF_ RefSeq accessions.
+acc_pat <- "G[A-Z]{2}_[0-9]+\\.[0-9]+"
+m <- regexpr(acc_pat, seqfile_df$fasta_path)
+seqfile_df$accession <- ifelse(m > 0, regmatches(seqfile_df$fasta_path, m), NA_character_)
 
 # Join on accession (one catalog row per assembly, no duplicates)
 joined <- merge(seqfile_df,
