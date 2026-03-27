@@ -20,7 +20,7 @@
 
 #SBATCH --job-name=scarab_gene
 #SBATCH --partition=medium
-#SBATCH --time=4:00:00
+#SBATCH --time=12:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
@@ -39,7 +39,7 @@ PHYLO_DIR="${PROJECT_DIR}/phylogenomics"
 SEQ_DIR="${PHYLO_DIR}/per_gene_seqs"
 ALN_DIR="${PHYLO_DIR}/per_gene_alignments"
 TREE_DIR="${PHYLO_DIR}/per_gene_trees"
-LOCI_FILE="${PHYLO_DIR}/loci_for_trees.txt"
+LOCI_FILE="${PHYLO_DIR}/remaining_loci.txt"
 
 mkdir -p "${ALN_DIR}" "${TREE_DIR}" "${PHYLO_DIR}/logs"
 
