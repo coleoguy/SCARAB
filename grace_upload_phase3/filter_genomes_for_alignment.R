@@ -101,12 +101,15 @@ acc_pat <- "G[A-Z]{2}_[0-9]+\\.[0-9]+"
 m <- regexpr(acc_pat, seqfile_df$fasta_path)
 seqfile_df$accession <- ifelse(m > 0, regmatches(seqfile_df$fasta_path, m), NA_character_)
 
-# Join on accession (one catalog row per assembly, no duplicates)
+# Join on accession (one catalog row per assembly)
 joined <- merge(seqfile_df,
                 cat_df[, c("assembly_accession", "species_name", "contig_N50",
                             "scaffold_N50", "number_of_scaffolds",
                             "assembly_level", "genome_size_mb")],
                 by.x = "accession", by.y = "assembly_accession", all.x = TRUE)
+
+# Deduplicate: if an accession appears twice in catalog, keep first match
+joined <- joined[!duplicated(joined$tip_label), ]
 
 # Handle unmatched (catalog info missing)
 n_unmatched <- sum(is.na(joined$contig_N50))
@@ -220,7 +223,7 @@ write.tree(pruned_tree, file = opt$outtree)
 
 # Report CSV
 cat(sprintf("Writing filter report: %s\n", opt$outreport))
-report <- joined[, c("tip_label", "species_name", "assembly_accession",
+report <- joined[, c("tip_label", "species_name", "accession",
                       "contig_N50", "scaffold_N50", "number_of_scaffolds",
                       "assembly_level", "genome_size_mb",
                       "fail_contig_n50", "fail_scaffold_count",
