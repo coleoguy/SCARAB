@@ -57,8 +57,7 @@ echo "CPUs: ${NCPUS}"
 echo "============================================================"
 echo ""
 
-module load GCC/12.2.0 MAFFT/7.520-with-extensions
-module load IQ-TREE/2.2.6
+module load GCC/12.3.0 OpenMPI/4.1.5 MAFFT/7.520-with-extensions IQ-TREE/2.3.6
 
 mkdir -p "${ALN_DIR}" "${TREE_DIR}"
 

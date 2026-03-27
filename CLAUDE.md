@@ -48,8 +48,8 @@ module load GCC/12.2.0 MAFFT/7.520-with-extensions
 # R
 module purge && module load GCC/13.3.0 R/4.4.2
 
-# IQ-TREE
-module load GCC/12.2.0 OpenMPI/4.1.4 IQ-TREE/2.2.2.7
+# IQ-TREE (also works for MAFFT together: module load GCC/12.3.0 OpenMPI/4.1.5 MAFFT/7.520-with-extensions IQ-TREE/2.3.6)
+module load GCC/12.3.0 OpenMPI/4.1.5 IQ-TREE/2.3.6
 
 # FastTree
 module load GCC/12.2.0 FastTree/2.1.11
