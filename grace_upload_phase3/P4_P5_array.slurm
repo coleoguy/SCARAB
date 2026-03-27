@@ -19,7 +19,7 @@
 # ============================================================================
 
 #SBATCH --job-name=scarab_gene
-#SBATCH --partition=short
+#SBATCH --partition=medium
 #SBATCH --time=4:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
