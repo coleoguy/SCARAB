@@ -93,16 +93,20 @@ cat(sprintf("Genomes in seqfile: %d\n\n", nrow(seqfile_df)))
 cat("Reading catalog:", opt$catalog, "\n")
 cat_df <- read.csv(opt$catalog, stringsAsFactors = FALSE)
 
-# Normalize species names: replace spaces with underscores for joining
-cat_df$tip_match <- gsub(" ", "_", cat_df$species_name)
-seqfile_df$tip_match <- seqfile_df$tip_label  # seqfile tips already use underscores
+# Extract assembly accession from fasta path (handles both ncbi_dataset and flat formats)
+# e.g. "genomes/GCA_964197645.1/ncbi_dataset/.../GCA_964197645.1_*.fna" -> "GCA_964197645.1"
+# e.g. "genomes/GCA_044115395.1_icAgrPube1_p1.1_genomic.fna.gz"         -> "GCA_044115395.1"
+seqfile_df$accession <- regmatches(
+  seqfile_df$fasta_path,
+  regexpr("GCA_[0-9]+\\.[0-9]+", seqfile_df$fasta_path)
+)
 
-# Join on normalized name
-joined <- merge(seqfile_df, cat_df[, c("tip_match", "species_name", "contig_N50",
-                                        "scaffold_N50", "number_of_scaffolds",
-                                        "assembly_level", "assembly_accession",
-                                        "genome_size_mb")],
-                by = "tip_match", all.x = TRUE)
+# Join on accession (one catalog row per assembly, no duplicates)
+joined <- merge(seqfile_df,
+                cat_df[, c("assembly_accession", "species_name", "contig_N50",
+                            "scaffold_N50", "number_of_scaffolds",
+                            "assembly_level", "genome_size_mb")],
+                by.x = "accession", by.y = "assembly_accession", all.x = TRUE)
 
 # Handle unmatched (catalog info missing)
 n_unmatched <- sum(is.na(joined$contig_N50))
