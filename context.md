@@ -14,28 +14,26 @@ Construct a systematic, genome-scale atlas of chromosomal rearrangements (fusion
 - Establish baseline metrics for chromosomal evolution in the most species-rich eukaryotic order
 
 ## Current Status
-**Phase 3: Whole-Genome Alignment — IN PROGRESS** (2026-03-24). Phases 1-2 COMPLETE.
+**Phase 3: Whole-Genome Alignment — IN PROGRESS** (2026-03-27). Phases 1-2 COMPLETE.
 
-**Today's accomplishments (2026-03-24):**
-- 39/39 recovery genomes downloaded to Grace ($SCRATCH/scarab/genomes/)
-- Python-based download script written (download_recovery_genomes.py) replacing broken bash version; Python 3.6 compatible (Grace constraint)
-- Data-driven 478-taxon starting tree strategy finalized: BLAST 15 marker proteins against recovery genomes, find nearest neighbor by shared gene count, graft onto 439-taxon tree, use as IQ-TREE -t starting topology
-- Scrapped hardcoded taxonomic grafting approach (integrate_recovery_genomes.R) in favor of data-driven approach
-- build_478_starting_tree.slurm: ready to submit (independent of P3 jobs, runs its own 15-protein BLAST)
-- iqtree_478.slurm: ready to submit after build_478_starting_tree.slurm completes
-- P3 recovery BLAST submitted: job 18122417 (medium partition, 39 recovery genomes x 1,286 BUSCO loci)
-- GitHub repo coleoguy/SCARAB: fully current (153+ files, all scripts synced)
-- Scratch quota increase email sent to help@hprc.tamu.edu (requesting 7 TB, account 02-133547-00003); awaiting approval
+**Accomplishments (2026-03-27):**
+- Grace cleanup complete: removed ~707 MB of intermediate files (blast_per_genome/, query_proteins/, old working dirs)
+- P3 BLAST (job 18159931): COMPLETE. 1,286 per-gene FASTAs in phylogenomics/per_gene_seqs/. 1,284 genes with >=50 taxa (min=39, max=478, mean=402).
+- IQ-TREE 478-taxon guide tree: DONE (nuclear_markers/iqtree_478/scarab_478.treefile = nuclear_guide_tree_478_iqtree.nwk). Branch lengths: max=1.53 (Otiorhynchus_rugosostriatus), all <25.0 Cactus limit. PENDING quality gate approval from Heath.
+- cactus_seqfile_478.txt: 478 taxa, all paths verified. Fixed 2 name mismatches (Nebria_ingens_riversi, Neoclytus_acuminatus_acuminatus). Added 2 missing taxa (Agriotes_pubescens .1, Dermolepida_albohirtum .1, genome files on disk).
+- filter_genomes_for_alignment.R: fixed catalog join bug. 478 → 466 taxa (12 excluded by N50/scaffold QC). cactus_seqfile_filtered.txt and guide_tree_filtered.nwk written. PENDING quality gate approval from Heath.
+- P4/P5 (MAFFT + per-gene IQ-TREE gene trees): submitted, job 18175381, long partition, running.
+- R packages installed to $HOME/R/library: optparse, ape. Load with R_LIBS_USER=$HOME/R/library.
+- Module fixes: MAFFT/7.520 requires GCC/12.3.0; IQ-TREE/2.2.6 does not exist, use IQ-TREE/2.3.6 with GCC/12.3.0 OpenMPI/4.1.5.
 
 **Currently running on Grace:**
-- Job 18114486: P3 BLAST (439 original taxa x 1,286 loci) -- running 16h+, ~31h remaining
-- Job 18122417: P3 recovery BLAST (39 recovery taxa x 1,286 loci) -- just started, ~2h estimated
+- Job 18175381: P4/P5 MAFFT + per-gene IQ-TREE (1,286 loci), long partition, 48h wall
 
 **Pending (in order):**
-1. Submit build_478_starting_tree.slurm now (independent, ~30 min)
-2. After P3 recovery finishes: P4 MAFFT concat for 478 taxa
-3. After build_478_starting_tree finishes: sbatch iqtree_478.slurm (48h wall, will finish faster with good starting tree)
-4. After quota increase approved + IQ-TREE tree ready: sbatch run_full_alignment.slurm + start cactus_watchdog.sh in tmux
+1. Heath quality gate approval of IQ-TREE 478-taxon tree (see stats below)
+2. Heath quality gate approval of filter results (12 excluded taxa -- see list below)
+3. After quota increase approved + both quality gates pass: sbatch run_full_alignment.slurm + cactus_watchdog.sh in tmux
+4. After P4/P5 finishes: sbatch P6_astral_species_tree.slurm
 
 ---
 
@@ -305,4 +303,4 @@ Never use emdashes in any project text. Prefer commas, parentheses, colons, semi
 
 ---
 
-**Last Updated**: 2026-03-24 (All 39 recovery genomes downloaded; data-driven 478-taxon guide tree pipeline in place; P3 recovery BLAST running; GitHub fully synced)
+**Last Updated**: 2026-03-27 (Grace cleanup; P3 complete; IQ-TREE tree done; filter run (466 taxa); P4/P5 running; quality gate approval pending)
