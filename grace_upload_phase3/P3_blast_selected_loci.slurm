@@ -1,246 +1,210 @@
 #!/bin/bash
 # ============================================================================
-# P3_blast_selected_loci.slurm — SUPERSEDED by P3_blast_1286_loci.slurm on Grace
-# Original plan: 300-500 loci. Actual: 1,286 loci (all mapped genes).
-# The running version on Grace is: $SCRATCH/scarab/phylogenomics/P3_blast_1286_loci.slurm
+# P3_blast_selected_loci.slurm — tBLASTn 1,286 BUSCO loci × 478 genomes
 # ============================================================================
 #
-# Purpose:
-#   Search each selected BUSCO protein against all 439 genomes to extract
-#   orthologs for gene tree inference.
+# Searches all selected BUSCO proteins against all 478 genome assemblies
+# and builds per-gene FASTA files for phylogenomics (P4-P7).
 #
-# Strategy:
-#   - Process loci in batches (12 parallel BLAST jobs to limit memory)
-#   - For each locus: tBLASTn against all 439 genomes (concatenated DB)
-#   - Filter: ≥100 aa alignment, ≥30% identity, best hit per genome
-#   - Output: per-locus FASTA files with protein sequences from all taxa
+# Steps:
+#   1. Build per-genome BLAST databases (skips existing)
+#   2. tBLASTn 1,286 proteins × all genomes (skips completed genomes)
+#   3. Parse BLAST results → per-gene FASTA files (all taxa, overwrite)
+#
+# Idempotent: safe to resubmit after failure — completed steps are skipped.
+# On failure at step 3 (per-gene FASTA building), steps 1-2 are skipped
+# entirely since all DBs and TSVs already exist.
 #
 # Prerequisites:
-#   P1 + P2 complete, selected_loci.txt and selected_proteins.fasta exist
-#   All 439 genomes in $SCRATCH/scarab/genomes/
+#   - phylogenomics/selected_proteins.fasta (1,286 query proteins)
+#   - phylogenomics/busco_tribolium_map.tsv
+#   - All 478 genomes in $SCRATCH/scarab/genomes/
+#   - data/tree_tip_mapping.csv
 #
-# Resources: 1 node, 48 cores, 128GB, ~24-48 hours
+# Output:
+#   - phylogenomics/blast_per_genome/{ACCESSION}.tsv (one per genome)
+#   - phylogenomics/per_gene_seqs/{GENE}.fasta (one per locus, 478 taxa)
 #
-# Usage:
-#   sbatch P3_blast_selected_loci.slurm
+# Last run: job 18159931 (2026-03-26) — step 3 fix for missing export
 # ============================================================================
 
-#SBATCH --job-name=scarab_P3_blast
+#SBATCH --job-name=scarab_P3
 #SBATCH --partition=long
 #SBATCH --time=2-00:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=48
 #SBATCH --mem=128G
-#SBATCH --output=scarab_P3_blast_%j.log
-#SBATCH --error=scarab_P3_blast_%j.err
+#SBATCH --output=scarab_P3_%j.log
+#SBATCH --error=scarab_P3_%j.err
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=coleoguy@gmail.com
 
 set -euo pipefail
 
-# ============================================================================
-# CONFIGURATION
-# ============================================================================
-
 PROJECT_DIR="${SCRATCH}/scarab"
-GENOME_DIR="${PROJECT_DIR}/genomes"
 PHYLO_DIR="${PROJECT_DIR}/phylogenomics"
-LOCI_LIST="${PHYLO_DIR}/selected_loci.txt"
-BUSCO_PROTEINS="${PROJECT_DIR}/nuclear_markers/busco_insecta_odb10/ancestral_variants"
+GENOME_DIR="${PROJECT_DIR}/genomes"
+SELECTED="${PHYLO_DIR}/selected_proteins.fasta"
 TIP_MAP="${PROJECT_DIR}/data/tree_tip_mapping.csv"
-
-BLAST_DIR="${PHYLO_DIR}/blast_results"
+BLAST_DIR="${PHYLO_DIR}/blast_per_genome"
 SEQ_DIR="${PHYLO_DIR}/per_gene_seqs"
-
-NCPUS=${SLURM_CPUS_PER_TASK:-48}
-MAX_PARALLEL=12      # parallel BLAST jobs (128GB / 12 ≈ 10GB each)
-MIN_HIT_LENGTH=100   # minimum alignment length (aa)
-MIN_PIDENT=30.0      # minimum identity (%)
-
-echo "============================================================"
-echo "SCARAB P.3 — tBLASTn Selected Loci × 439 Genomes"
-echo "Job ID: ${SLURM_JOB_ID:-local}"
-echo "Started: $(date)"
-echo "Node: $(hostname)"
-echo "CPUs: ${NCPUS}, Max parallel: ${MAX_PARALLEL}"
-echo "============================================================"
-echo ""
-
-# ============================================================================
-# 0. VERIFY INPUTS
-# ============================================================================
-
-echo "[0] Verifying inputs..."
-
-if [ ! -f "${LOCI_LIST}" ]; then
-    echo "ERROR: ${LOCI_LIST} not found. Run P2_select_loci.sh first."
-    exit 1
-fi
-
-N_LOCI=$(wc -l < "${LOCI_LIST}")
-echo "  Loci to process: ${N_LOCI}"
-
-N_GENOMES=$(find "${GENOME_DIR}" -name "*.fna" | wc -l)
-echo "  Genomes available: ${N_GENOMES}"
-
-if [ "${N_GENOMES}" -lt 439 ]; then
-    echo "WARNING: Expected 439 genomes, found ${N_GENOMES}"
-fi
-
-mkdir -p "${BLAST_DIR}" "${SEQ_DIR}"
-
-# ============================================================================
-# 1. BUILD PER-GENOME BLAST DATABASES (if not already done)
-# ============================================================================
-
-echo "[1] Building/verifying per-genome BLAST databases..."
-
-module load GCC/12.2.0 BLAST+/2.14.0
-
 DB_DIR="${PHYLO_DIR}/blast_dbs"
-mkdir -p "${DB_DIR}"
+NCPUS=${SLURM_CPUS_PER_TASK:-48}
+MAX_PARALLEL=12
 
-build_db() {
-    local genome_fna="$1"
-    local basename=$(basename "${genome_fna}" .fna)
-    local db_path="${DB_DIR}/${basename}"
-    if [ ! -f "${db_path}.nhr" ] && [ ! -f "${db_path}.nsq" ]; then
-        makeblastdb -in "${genome_fna}" -dbtype nucl -out "${db_path}" \
-            -title "${basename}" > /dev/null 2>&1
+echo "============================================================"
+echo "SCARAB P.3 — tBLASTn 1,286 Loci x 478 Genomes"
+echo "Job: ${SLURM_JOB_ID}, Started: $(date)"
+echo "Node: $(hostname), CPUs: ${NCPUS}"
+echo "============================================================"
+
+module load GCC/12.2.0 OpenMPI/4.1.4 BLAST+/2.14.0
+
+mkdir -p "${BLAST_DIR}" "${SEQ_DIR}" "${DB_DIR}"
+
+# Step 1: Build BLAST databases for all genomes
+echo "[1] Building per-genome BLAST databases..."
+N_BUILT=0
+N_SKIP=0
+for FNA in $(find "${GENOME_DIR}" -name "*.fna"); do
+    ACC=$(echo "$FNA" | grep -oP 'GC[AF]_[0-9]+\.[0-9]+' | head -1)
+    DBPATH="${DB_DIR}/${ACC}"
+    if [ -f "${DBPATH}.nsq" ] || [ -f "${DBPATH}.ndb" ]; then
+        N_SKIP=$((N_SKIP + 1))
+        continue
     fi
-}
-export -f build_db
-export DB_DIR
-
-# Build DBs in parallel (quick, mostly I/O)
-find "${GENOME_DIR}" -name "*.fna" | \
-    xargs -P ${MAX_PARALLEL} -I{} bash -c 'build_db "$@"' _ {}
-
-N_DBS=$(ls "${DB_DIR}"/*.nsq 2>/dev/null | wc -l)
-echo "  BLAST databases ready: ${N_DBS}"
-
-# ============================================================================
-# 2. BUILD TIP NAME LOOKUP
-# ============================================================================
-
-echo "[2] Building accession → tip name lookup..."
-
-# TIP_MAP format: accession,species_name,tip_label,...
-# We need: genome filename → tip label
-declare -A ACC_TO_TIP
-
-if [ -f "${TIP_MAP}" ]; then
-    while IFS=',' read -r acc species tip rest; do
-        # Skip header
-        [ "${acc}" = "accession" ] && continue
-        ACC_TO_TIP["${acc}"]="${tip}"
-    done < "${TIP_MAP}"
-    echo "  Loaded ${#ACC_TO_TIP[@]} accession→tip mappings"
-else
-    echo "WARNING: ${TIP_MAP} not found. Using filenames as tip labels."
-fi
-
-# ============================================================================
-# 3. tBLASTn EACH LOCUS × ALL GENOMES
-# ============================================================================
-
-echo "[3] Running tBLASTn for ${N_LOCI} loci..."
-
-COMPLETED=0
-FAILED=0
-
-process_locus() {
-    local BUSCO_ID="$1"
-    local QUERY_FA="${BUSCO_PROTEINS}/${BUSCO_ID}.faa"
-    local OUT_DIR="${SEQ_DIR}/${BUSCO_ID}"
-    local BLAST_RESULT="${BLAST_DIR}/${BUSCO_ID}_hits.tsv"
-    local GENE_FASTA="${SEQ_DIR}/${BUSCO_ID}.fasta"
-
-    if [ ! -f "${QUERY_FA}" ]; then
-        echo "  SKIP: No FASTA for ${BUSCO_ID}" >&2
-        return 1
-    fi
-
-    # Skip if already done
-    if [ -f "${GENE_FASTA}" ] && [ -s "${GENE_FASTA}" ]; then
-        return 0
-    fi
-
-    # Query protein sequence
-    QUERY_SEQ=$(grep -v "^>" "${QUERY_FA}" | tr -d '\n')
-    QUERY_LEN=${#QUERY_SEQ}
-
-    # BLAST against all genome DBs, collect best hit per genome
-    > "${BLAST_RESULT}"
-
-    for DB_FILE in "${DB_DIR}"/*.nsq; do
-        DB_BASE="${DB_FILE%.nsq}"
-        DB_NAME=$(basename "${DB_BASE}")
-
-        tblastn -query "${QUERY_FA}" \
-                -db "${DB_BASE}" \
-                -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore sseq" \
-                -evalue 1e-5 \
-                -max_target_seqs 1 \
-                -num_threads 1 \
-                2>/dev/null | \
-            awk -v db="${DB_NAME}" -v minlen="${MIN_HIT_LENGTH}" -v minpid="${MIN_PIDENT}" \
-                -F'\t' '$4 >= minlen && $3 >= minpid { print db "\t" $0; exit }' \
-                >> "${BLAST_RESULT}"
-    done
-
-    # Extract protein sequences and build per-gene FASTA
-    > "${GENE_FASTA}"
-
-    while IFS=$'\t' read -r db_name qid sid pident alen mm gapopen qs qe ss se eval bits sseq; do
-        # Get tip label
-        local tip="${db_name}"
-        # Clean up protein sequence (remove gaps from translated hit)
-        local clean_seq=$(echo "${sseq}" | tr -d '-' | tr -d '*')
-        if [ -n "${clean_seq}" ]; then
-            echo ">${tip}" >> "${GENE_FASTA}"
-            echo "${clean_seq}" >> "${GENE_FASTA}"
-        fi
-    done < "${BLAST_RESULT}"
-
-    local n_taxa=$(grep -c "^>" "${GENE_FASTA}" 2>/dev/null || echo 0)
-    echo "  ${BUSCO_ID}: ${n_taxa} taxa" >&2
-}
-
-export -f process_locus
-export BUSCO_PROTEINS BLAST_DIR SEQ_DIR DB_DIR MIN_HIT_LENGTH MIN_PIDENT
-
-# Process loci with controlled parallelism
-cat "${LOCI_LIST}" | xargs -P ${MAX_PARALLEL} -I{} bash -c 'process_locus "$@"' _ {}
-
-# ============================================================================
-# 4. SUMMARY
-# ============================================================================
-
-echo ""
-echo "[4] Summary..."
-
-N_DONE=0
-N_GOOD=0
-for FASTA in "${SEQ_DIR}"/*.fasta; do
-    [ -f "${FASTA}" ] || continue
-    N_DONE=$((N_DONE + 1))
-    N_TAXA=$(grep -c "^>" "${FASTA}" 2>/dev/null || echo 0)
-    if [ "${N_TAXA}" -ge 100 ]; then
-        N_GOOD=$((N_GOOD + 1))
-    fi
+    makeblastdb -in "$FNA" -dbtype nucl -out "$DBPATH" -title "$ACC" >/dev/null 2>&1 || echo "  WARN: failed $ACC"
+    N_BUILT=$((N_BUILT + 1))
 done
+N_TOTAL=$((N_BUILT + N_SKIP))
+echo "  Databases: ${N_TOTAL} (${N_BUILT} new, ${N_SKIP} existing)"
+
+# Step 2: BLAST all genomes with the 1,286 selected proteins
+echo "[2] Running tBLASTn per genome (${MAX_PARALLEL} parallel)..."
+
+DB_LIST="${PHYLO_DIR}/db_list.txt"
+> "${DB_LIST}"
+for DBFILE in "${DB_DIR}"/*.nsq "${DB_DIR}"/*.ndb; do
+    [ -f "$DBFILE" ] || continue
+    ACC=$(basename "$DBFILE" | sed 's/\.\(nsq\|ndb\)$//')
+    OUTFILE="${BLAST_DIR}/${ACC}.tsv"
+    if [ -f "$OUTFILE" ] && [ -s "$OUTFILE" ]; then
+        continue
+    fi
+    echo "${ACC}" >> "${DB_LIST}"
+done
+sort -u "${DB_LIST}" -o "${DB_LIST}"
+N_TODO=$(wc -l < "${DB_LIST}")
+echo "  Genomes to BLAST: ${N_TODO}"
+
+WRAPPER="${PHYLO_DIR}/blast_one.sh"
+cat > "${WRAPPER}" << 'INNER'
+#!/bin/bash
+ACC="$1"
+DB_DIR="$2"
+BLAST_DIR="$3"
+SELECTED="$4"
+DBPREFIX="${DB_DIR}/${ACC}"
+OUTFILE="${BLAST_DIR}/${ACC}.tsv"
+tblastn -query "${SELECTED}" \
+        -db "${DBPREFIX}" \
+        -out "${OUTFILE}" \
+        -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore sseq" \
+        -evalue 1e-5 \
+        -max_target_seqs 1 \
+        -num_threads 1 \
+        2>/dev/null
+echo "  Done: ${ACC} ($(wc -l < "${OUTFILE}") hits)" >&2
+INNER
+chmod +x "${WRAPPER}"
+
+cat "${DB_LIST}" | xargs -P ${MAX_PARALLEL} -I{} bash "${WRAPPER}" {} "${DB_DIR}" "${BLAST_DIR}" "${SELECTED}"
+
+N_DONE=$(ls "${BLAST_DIR}"/*.tsv 2>/dev/null | wc -l)
+echo "  BLAST results: ${N_DONE} genomes"
+
+# Step 3: Parse BLAST results into per-gene FASTA files
+# NOTE: export required so Python heredoc can read these as os.environ vars
+echo "[3] Building per-gene FASTA files..."
+export PHYLO_DIR PROJECT_DIR
+python3 << 'PYEOF'
+import os, glob
+
+phylo_dir = os.environ["PHYLO_DIR"]
+project_dir = os.environ["PROJECT_DIR"]
+blast_dir = os.path.join(phylo_dir, "blast_per_genome")
+seq_dir = os.path.join(phylo_dir, "per_gene_seqs")
+
+# Load tip mapping: accession -> tip_label
+acc_to_tip = {}
+with open(os.path.join(project_dir, "data", "tree_tip_mapping.csv")) as f:
+    for line in f:
+        parts = line.strip().split(",")
+        if len(parts) >= 3:
+            acc_to_tip[parts[2]] = parts[0]
+print("  Tip mappings: {}".format(len(acc_to_tip)))
+
+# gene_seqs: {gene_id: {tip_label: protein_seq}}
+gene_seqs = {}
+n_files = 0
+
+for blast_file in sorted(glob.glob(os.path.join(blast_dir, "*.tsv"))):
+    acc = os.path.basename(blast_file).replace(".tsv", "")
+    tip = acc_to_tip.get(acc, acc)
+    n_files += 1
+
+    best = {}
+    try:
+        with open(blast_file) as f:
+            for line in f:
+                cols = line.strip().split("\t")
+                if len(cols) < 13:
+                    continue
+                qid = cols[0]
+                pident = float(cols[2])
+                alen = int(cols[3])
+                bitscore = float(cols[11])
+                sseq = cols[12].replace("-", "").replace("*", "")
+
+                if alen < 100 or pident < 30.0:
+                    continue
+
+                gene = qid.rsplit("_", 1)[0] if "_" in qid and qid.rsplit("_", 1)[1].isdigit() else qid
+
+                if gene not in best or bitscore > best[gene][0]:
+                    best[gene] = (bitscore, sseq)
+    except Exception:
+        continue
+
+    for gene, (bs, seq) in best.items():
+        if gene not in gene_seqs:
+            gene_seqs[gene] = {}
+        gene_seqs[gene][tip] = seq
+
+os.makedirs(seq_dir, exist_ok=True)
+n_good = 0
+for gene in sorted(gene_seqs):
+    outpath = os.path.join(seq_dir, "{}.fasta".format(gene))
+    taxa = gene_seqs[gene]
+    with open(outpath, "w") as f:
+        for tip in sorted(taxa):
+            f.write(">{}\n{}\n".format(tip, taxa[tip]))
+    if len(taxa) >= 50:
+        n_good += 1
+
+print("  BLAST files parsed: {}".format(n_files))
+print("  Total genes: {}".format(len(gene_seqs)))
+print("  Genes with >=50 taxa: {}".format(n_good))
+taxa_counts = [len(v) for v in gene_seqs.values()]
+if taxa_counts:
+    print("  Taxa per gene: min={} max={} mean={:.0f}".format(
+        min(taxa_counts), max(taxa_counts), sum(taxa_counts)/len(taxa_counts)))
+PYEOF
 
 echo ""
 echo "============================================================"
-echo "P.3 COMPLETE"
+echo "P.3 COMPLETE — $(date)"
+echo "  Per-gene FASTAs: ${SEQ_DIR}/"
+echo "  NEXT: sbatch P4_P5_align_and_gene_trees.slurm"
 echo "============================================================"
-echo "  Loci processed: ${N_DONE} / ${N_LOCI}"
-echo "  Loci with ≥100 taxa: ${N_GOOD}"
-echo "  Results: ${SEQ_DIR}/"
-echo ""
-echo "NEXT STEP: P.4 — Per-gene MAFFT alignments"
-echo "  Submit: sbatch P4_align_and_gene_trees.slurm"
-echo "============================================================"
-echo "Finished: $(date)"
