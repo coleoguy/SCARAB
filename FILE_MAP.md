@@ -65,20 +65,20 @@ Workflow: edit here → `git push` → `git pull` on Grace → run from `$SCRATC
 | Script | Purpose | Status |
 |--------|---------|--------|
 | `P1_map_busco_to_tribolium.sh` | Map 1,367 BUSCO proteins → Tribolium chromosomes (Stevens elements) | DONE (job 18112279) |
-| `P3_blast_selected_loci.slurm` | tBLASTn 1,286 × 478 genomes → per-gene FASTAs | RUNNING (job 18152861) |
-| `P4_P5_align_and_gene_trees.slurm` | MAFFT per-gene alignment + IQ-TREE per-gene trees | PENDING |
+| `P3_blast_selected_loci.slurm` | tBLASTn 1,286 × 478 genomes → per-gene FASTAs | DONE (job 18159931) |
+| `P4_P5_array.slurm` | SLURM array: MAFFT + IQ-TREE per gene (1 gene per task) | RUNNING (489/1284 done) |
 | `P6_astral_species_tree.slurm` | ASTRAL-III species tree + gCF/sCF concordance | PENDING |
 | `P7_concat_iqtree.slurm` | Partitioned IQ-TREE concatenation (concordance check) | PENDING |
 
-#### Cactus Whole-Genome Alignment
+#### Cactus Whole-Genome Alignment (decomposed)
 | Script | Purpose | Status |
 |--------|---------|--------|
-| `setup_phase3.sh` | One-time: pull Cactus v2.9.3 Singularity container, build seqfile | DONE |
-| `build_seqfile.sh` | Map tree tips → genome FASTA paths → Cactus seqfile | DONE |
-| `filter_genomes_for_alignment.R` | QC filter: N50 ≥100 kb, ≤10k scaffolds | DONE |
-| `test_alignment.slurm` | 5-genome Cactus test (quality gate) | DONE, PASSED (job 18117479) |
-| `run_full_alignment.slurm` | Full 478-genome Cactus alignment (bigmem, 18-day wall, restart-safe) | BLOCKED (quota + guide tree) |
-| `cactus_watchdog.sh` | Auto-resubmit on wall-time kill (run in tmux on login node) | READY |
+| `run_cactus_decomposed.py` | Master submission: level-by-level with QC gates | RUNNING (preprocess) |
+| `build_combined_blastdb.slurm` | Single BLAST db for all 478 genomes | RUNNING |
+| `filter_genomes_for_alignment.R` | QC filter: N50 ≥100 kb, ≤10k scaffolds (478→466) | DONE |
+| `test_alignment.slurm` | 5-genome Cactus test (quality gate) | DONE, PASSED |
+| `run_full_alignment.slurm` | Single-node fallback (bigmem, 18-day wall) | AVAILABLE |
+| `cactus_watchdog.sh` | Auto-resubmit for single-node mode | AVAILABLE |
 
 #### `grace_upload_phase3/deprecated/`
 | Script | Why deprecated |
@@ -113,7 +113,7 @@ Local analysis and reference scripts. Not run on Grace.
 |-----------|---------|--------|
 | `scripts/phase2/` | Genome download, validation, tree calibration (Python + R) | Active reference |
 | `scripts/phase3/deprecated/` | Old setup_phase3.sh and build_seqfile.sh (superseded by grace_upload_phase3/) | Deprecated |
-| `scripts/phase4/` | Placeholder for rearrangement calling scripts | Future |
+| `scripts/phase4/` | `discordance_x_breakpoints.R`: gene tree discordance x chromosomal breakpoints (4 stages) | Ready for Stage A after P6/P7 |
 | `scripts/phase5/` | Placeholder for visualization scripts | Future |
 
 ---
@@ -127,7 +127,7 @@ Local analysis and reference scripts. Not run on Grace.
 | `data/genomes/tree_tip_mapping.csv` | 439 tip labels → genome accessions → metadata |
 | `data/genomes/constraint_tree.nwk` | 439-tip unrooted constraint tree |
 | `data/genomes/constraint_tree_calibrated.nwk` | 439-tip tree with divergence times (Ma, 29 fossil calibrations) |
-| `data/genomes/stevens_elements.csv` | Tribolium chromosome → Stevens element mapping |
+| `data/genomes/stevens_elements.csv` | icTriCast1.1 chr → Tcas5.2 LG → Stevens element (A-H,X) with BUSCO loci counts |
 | `data/karyotypes/literature_karyotypes.csv` | Empirical karyotypes for 439 species (60.4% coverage) |
 | `data/alignments/` | Future: Cactus HAL files |
 | `data/synteny/` | Future: synteny blocks |

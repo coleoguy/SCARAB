@@ -14,26 +14,30 @@ Construct a systematic, genome-scale atlas of chromosomal rearrangements (fusion
 - Establish baseline metrics for chromosomal evolution in the most species-rich eukaryotic order
 
 ## Current Status
-**Phase 3: Whole-Genome Alignment — IN PROGRESS** (2026-03-27). Phases 1-2 COMPLETE.
+**Phase 3: Whole-Genome Alignment — IN PROGRESS** (2026-03-28). Phases 1-2 COMPLETE.
 
-**Accomplishments (2026-03-27):**
-- Grace cleanup complete: removed ~707 MB of intermediate files (blast_per_genome/, query_proteins/, old working dirs)
-- P3 BLAST (job 18159931): COMPLETE. 1,286 per-gene FASTAs in phylogenomics/per_gene_seqs/. 1,284 genes with >=50 taxa (min=39, max=478, mean=402).
-- IQ-TREE 478-taxon guide tree: DONE (nuclear_markers/iqtree_478/scarab_478.treefile = nuclear_guide_tree_478_iqtree.nwk). Branch lengths: max=1.53 (Otiorhynchus_rugosostriatus), all <25.0 Cactus limit. PENDING quality gate approval from Heath.
-- cactus_seqfile_478.txt: 478 taxa, all paths verified. Fixed 2 name mismatches (Nebria_ingens_riversi, Neoclytus_acuminatus_acuminatus). Added 2 missing taxa (Agriotes_pubescens .1, Dermolepida_albohirtum .1, genome files on disk).
-- filter_genomes_for_alignment.R: fixed catalog join bug. 478 → 466 taxa (12 excluded by N50/scaffold QC). cactus_seqfile_filtered.txt and guide_tree_filtered.nwk written. PENDING quality gate approval from Heath.
-- P4/P5 (MAFFT + per-gene IQ-TREE gene trees): submitted, job 18175381, long partition, running.
-- R packages installed to $HOME/R/library: optparse, ape. Load with R_LIBS_USER=$HOME/R/library.
-- Module fixes: MAFFT/7.520 requires GCC/12.3.0; IQ-TREE/2.2.6 does not exist, use IQ-TREE/2.3.6 with GCC/12.3.0 OpenMPI/4.1.5.
+**Accomplishments (2026-03-28):**
+- Decomposed Cactus pipeline (`run_cactus_decomposed.py`): level-by-level submission with quality gates between levels. `cactus-prepare` decomposes alignment into 465 sub-problems across 33 tree-depth levels.
+- Cactus preprocess: RUNNING (15 jobs, genome masking for 466 taxa)
+- Cactus L1 (145 leaf-pair blast+align): ready to submit when preprocess completes
+- P4/P5 gene trees: 489/1,284 done, 151 running as SLURM array. Auto-cleanup of IQ-TREE intermediates.
+- Genome filter: 478 → 466 taxa (12 excluded). Tree binarized (fixed root trifurcation from R ape). Support values stripped.
+- Stevens element mapping COMPLETE: all 1,286 BUSCO loci mapped to Stevens elements via BLASTn of Tcas5.2 LGs against icTriCast1.1. File: `busco_tribolium_stevens_map.tsv`.
+- Combined BLAST database: building single db for all 478 genomes (replaces 3,900 individual db files).
+- Inode limit management: scripts auto-clean Toil jobstores and IQ-TREE intermediates. Individual blast_dbs deleted (79 GB, 3,900 files freed). File count stable at ~43K/250K.
+- Discordance x breakpoint analysis script: `scripts/phase4/discordance_x_breakpoints.R` (4 stages, ready to run when gene trees and Cactus complete).
 
 **Currently running on Grace:**
-- Job 18175381: P4/P5 MAFFT + per-gene IQ-TREE (1,286 loci), long partition, 48h wall
+- Cactus preprocess: 15 jobs (14 running, 1 done)
+- Gene tree array: ~151 running (489/1,284 complete)
+- Combined BLAST db build: 1 job
 
 **Pending (in order):**
-1. Heath quality gate approval of IQ-TREE 478-taxon tree (see stats below)
-2. Heath quality gate approval of filter results (12 excluded taxa -- see list below)
-3. After quota increase approved + both quality gates pass: sbatch run_full_alignment.slurm + cactus_watchdog.sh in tmux
-4. After P4/P5 finishes: sbatch P6_astral_species_tree.slurm
+1. Cactus preprocess finishes → submit L1 (145 leaf-pair blast+align)
+2. L1 finishes → QC sub-HALs → Heath approves → submit L2 (88 jobs) → continue through L33
+3. Gene trees finish (1,284 total) → submit P6 (ASTRAL) → P7 (concatenation)
+4. After P6/P7: run Stage A of discordance analysis (gCF by Stevens element)
+5. After Cactus complete: breakpoint calling → Stage B discordance analysis
 
 ---
 
@@ -303,4 +307,4 @@ Never use emdashes in any project text. Prefer commas, parentheses, colons, semi
 
 ---
 
-**Last Updated**: 2026-03-27 (Grace cleanup; P3 complete; IQ-TREE tree done; filter run (466 taxa); P4/P5 running; quality gate approval pending)
+**Last Updated**: 2026-03-28 (Decomposed Cactus pipeline running; gene trees 489/1284; Stevens element mapping complete; discordance analysis script written; inode management fixed)

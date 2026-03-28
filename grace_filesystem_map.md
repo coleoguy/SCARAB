@@ -1,6 +1,6 @@
 # Grace Filesystem Map — SCARAB Project
 
-**Last updated**: 2026-03-27
+**Last updated**: 2026-03-28
 **Base path**: `$SCRATCH/scarab` → `/scratch/user/blackmon/scarab`
 **NetID**: blackmon
 
@@ -9,7 +9,10 @@
 ## Active Jobs
 | Job ID | Name | Status | Notes |
 |--------|------|--------|-------|
-| 18175381 | scarab_P45_trees | RUNNING | MAFFT + IQ-TREE per-gene trees (1,286 loci), long partition, 48h wall |
+| 18187964 | cactus_prep | RUNNING | Cactus preprocess (466 genomes, 15 array tasks) |
+| 18187979 | scarab_gene | RUNNING | Gene trees SLURM array (489/1284 done, ~151 running) |
+| 18188132 | scarab_blastdb | RUNNING | Building combined 478-genome BLAST database |
+| (pending) | cactus_L1 | QUEUED | 145 leaf-pair blast+align, submits after preprocess |
 
 ---
 
@@ -144,9 +147,12 @@ module load GCC/12.2.0 FastTree/2.1.11                           # FastTree
 
 | Location | Size | Notes |
 |----------|------|-------|
-| `genomes/` | ~296 GB | 478 FASTA assemblies |
+| `genomes/` | ~304 GB | 478 FASTA assemblies |
 | `cactus_v2.9.3.sif` | ~374 MB | Container |
-| `phylogenomics/blast_dbs/` | ~79 GB | BLAST databases (478 genomes) |
+| `blastdb/` | ~80 GB (building) | Combined 478-genome BLAST db (~10 files) |
 | `nuclear_markers/insecta_odb10/` | ~2 GB | BUSCO database |
-| **Total used** | **~377 GB** | Of 1 TB quota (7 TB requested, pending) |
+| **Total used** | **~850 GB** | Of 7 TB quota (approved) |
+| **Files used** | **~43K** | Of 250K limit (inode increase requested to 500K) |
 | **Needed for full alignment** | ~500 GB additional | HAL files + working dirs |
+
+**DELETED**: `phylogenomics/blast_dbs/` (79 GB, 3,900 files) replaced by combined `blastdb/`.
