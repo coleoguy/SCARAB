@@ -309,6 +309,14 @@ CMD=$(sed -n "${{SLURM_ARRAY_TASK_ID}}p" {cmd_list})
 echo "Task $SLURM_ARRAY_TASK_ID: $CMD"
 echo "Started: $(date)"
 {sing} $CMD
+
+# Clean up jobstore immediately (saves thousands of inodes)
+JOBSTORE_ID=$(echo "$CMD" | grep -o 'jobstore/[0-9]*' | head -1)
+if [ -n "$JOBSTORE_ID" ] && [ -d "{project_dir}/$JOBSTORE_ID" ]; then
+    rm -rf "{project_dir}/$JOBSTORE_ID"
+    echo "Cleaned $JOBSTORE_ID"
+fi
+
 echo "Completed: $(date)"
 """.format(
             partition=PREPROCESS_PARTITION,
@@ -320,6 +328,7 @@ echo "Completed: $(date)"
             mail=MAIL_USER,
             cmd_list=cmd_list,
             sing=SING,
+            project_dir=PROJECT_DIR,
         ))
 
     # Submit
@@ -414,6 +423,19 @@ echo "=== BLAST ==="
 {sing} $BLAST_CMD
 echo "=== ALIGN ==="
 {sing} $ALIGN_CMD
+
+# Clean up jobstore immediately (saves thousands of inodes per task)
+JOBSTORE_ID=$(echo "$BLAST_CMD" | grep -o 'jobstore/[0-9]*' | head -1)
+if [ -n "$JOBSTORE_ID" ] && [ -d "{project_dir}/$JOBSTORE_ID" ]; then
+    rm -rf "{project_dir}/$JOBSTORE_ID"
+    echo "Cleaned $JOBSTORE_ID"
+fi
+JOBSTORE_ID2=$(echo "$ALIGN_CMD" | grep -o 'jobstore/[0-9]*' | head -1)
+if [ -n "$JOBSTORE_ID2" ] && [ "$JOBSTORE_ID2" != "$JOBSTORE_ID" ] && [ -d "{project_dir}/$JOBSTORE_ID2" ]; then
+    rm -rf "{project_dir}/$JOBSTORE_ID2"
+    echo "Cleaned $JOBSTORE_ID2"
+fi
+
 echo "Completed: $(date)"
 """.format(
             level=level,
@@ -426,6 +448,7 @@ echo "Completed: $(date)"
             mail=MAIL_USER,
             cmd_list=cmd_list,
             sing=SING,
+            project_dir=PROJECT_DIR,
         ))
 
     # Check for dependency on previous level

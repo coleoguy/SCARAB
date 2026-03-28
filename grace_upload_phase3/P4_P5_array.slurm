@@ -89,6 +89,10 @@ iqtree2 -s "${ALN}" \
     2>/dev/null
 
 if [ -f "${TREE_PREFIX}.treefile" ]; then
+    # Clean IQ-TREE intermediates immediately (save inodes)
+    rm -f "${TREE_PREFIX}.ckp.gz" "${TREE_PREFIX}.contree" "${TREE_PREFIX}.splits.nex" \
+          "${TREE_PREFIX}.bionj" "${TREE_PREFIX}.iqtree" "${TREE_PREFIX}.log" \
+          "${TREE_PREFIX}.model.gz" "${TREE_PREFIX}.uniqueseq.phy" "${TREE_PREFIX}.mldist"
     echo "${BUSCO_ID}: done $(date)"
 else
     echo "${BUSCO_ID}: IQ-TREE failed"
