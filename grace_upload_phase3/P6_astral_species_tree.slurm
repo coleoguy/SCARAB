@@ -165,22 +165,32 @@ PYEOF
 # ============================================================================
 
 echo ""
-echo "[3] Computing concordance factors (gCF + likelihood-based sCF)..."
+echo "[3a] Computing gene concordance factors (gCF)..."
 
-CF_PREFIX="${ASTRAL_DIR}/concordance"
+GCF_PREFIX="${ASTRAL_DIR}/concordance_gcf"
 
 iqtree2 -t "${ROOTED_TREE}" \
         --gcf "${GENE_TREES_RAW}" \
+        --prefix "${GCF_PREFIX}" \
+        2>&1 | tail -20
+
+echo "  gCF results: ${GCF_PREFIX}.cf.stat"
+echo "  gCF-annotated tree: ${GCF_PREFIX}.cf.tree"
+
+echo ""
+echo "[3b] Computing site concordance factors (sCF, likelihood-based)..."
+
+SCF_PREFIX="${ASTRAL_DIR}/concordance_scf"
+
+iqtree2 -t "${ROOTED_TREE}" \
         -s "${SUPERMATRIX}" \
         --scfl 100 \
-        --df-tree \
-        --prefix "${CF_PREFIX}" \
+        --prefix "${SCF_PREFIX}" \
         -nt "${NCPUS}" \
         2>&1 | tail -20
 
-echo "  Concordance factors: ${CF_PREFIX}.cf.stat"
-echo "  Annotated tree: ${CF_PREFIX}.cf.tree"
-echo "  Discordant trees: ${CF_PREFIX}.cf.stat.discordance (for sDF1/sDF2 analysis)"
+echo "  sCF results: ${SCF_PREFIX}.cf.stat"
+echo "  sCF-annotated tree: ${SCF_PREFIX}.cf.tree"
 
 # ============================================================================
 # 4. PER-ELEMENT CONCORDANCE (for analysis A.0)
