@@ -21,12 +21,12 @@
 # ============================================================================
 
 #SBATCH --job-name=scarab_P7_concat
-#SBATCH --partition=long
-#SBATCH --time=7-00:00:00
+#SBATCH --partition=bigmem
+#SBATCH --time=2-00:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=48
-#SBATCH --mem=128G
+#SBATCH --mem=750G
 #SBATCH --output=scarab_P7_concat_%j.log
 #SBATCH --error=scarab_P7_concat_%j.err
 #SBATCH --mail-type=END,FAIL
@@ -77,7 +77,7 @@ iqtree2 -s "${SUPERMATRIX}" \
         -bb 1000 \
         -alrt 1000 \
         -nt "${NCPUS}" \
-        --mem 120G \
+        --mem 700G \
         2>&1 | tail -30
 
 # ============================================================================
