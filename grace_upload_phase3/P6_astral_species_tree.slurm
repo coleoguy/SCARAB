@@ -20,12 +20,12 @@
 # ============================================================================
 
 #SBATCH --job-name=scarab_P6_astral
-#SBATCH --partition=medium
-#SBATCH --time=12:00:00
+#SBATCH --partition=bigmem
+#SBATCH --time=2-00:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=48
-#SBATCH --mem=64G
+#SBATCH --mem=750G
 #SBATCH --output=scarab_P6_astral_%j.log
 #SBATCH --error=scarab_P6_astral_%j.err
 #SBATCH --mail-type=END,FAIL
