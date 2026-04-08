@@ -1,0 +1,391 @@
+================================================================================
+MONOPHYLY ANALYSIS SUMMARY: 478-TIP BEETLE TREE vs 1121-TAXON FULL CATALOG
+================================================================================
+
+EXECUTIVE SUMMARY
+================================================================================
+
+A comprehensive monophyly analysis of a 478-tip whole-genome alignment tree
+against the complete 1121-taxon genome catalog reveals significant structural
+issues with major coleopteran groups, consistent with incomplete taxon sampling
+in this particular tree.
+
+KEY FINDINGS:
+
+1. MAPPING SUCCESS: 100% (478/478 tips matched to catalog)
+   - All tree tips successfully mapped to catalog entries
+   - No unmatched taxa
+   - This validates the tip labeling scheme and catalog completeness
+
+2. MAJOR GROUPS:
+   - Adephaga (suborder):  MONOPHYLETIC (True)
+   - Polyphaga (suborder): NOT MONOPHYLETIC (48 Adephaga tips nested within)
+   - Coleoptera (order):   NOT MONOPHYLETIC (1 Raphidiidae tip)
+
+3. TAXONOMIC LEVEL BREAKDOWN:
+   Level          Tested  Monophyletic  Non-Monophyletic  % Non-Mono
+   ----           ------  -----------  ---------------  -----------
+   Genus           71        59              12            16.9%
+   Family          39        26              13            33.3%
+   Superfamily     13         7               6            46.2%
+   Suborder         4         1               3            75.0%
+   Order            4         1               3            75.0%
+
+4. SUPERFAMILY STRUCTURE (Polyphaga series):
+   Monophyletic (7):
+   - Bostrichoidea (5 tips)
+   - Buprestoidea (5 tips)
+   - Caraboidea (47 tips) - NOTE: This is Adephaga, not Polyphaga
+   - Cleroidea (6 tips)
+   - Hydrophiloidea (3 tips)
+   - Scarabaeoidea (47 tips)
+   - Staphylinoidea (36 tips)
+
+   Non-Monophyletic (6):
+   - Chrysomeloidea: 85 intruders
+   - Coccinelloidea: 232 intruders
+   - Cucujoidea: 169 intruders
+   - Curculionoidea: 388 intruders (SEVERE)
+   - Elateroidea: 1 intruder (minimal)
+   - Tenebrionoidea: 176 intruders
+
+================================================================================
+DETAILED FINDINGS
+================================================================================
+
+1. NEUROPTERIDA STATUS:
+   Group: Neuropterida (Neuroptera + Megaloptera + Raphidioptera)
+   - Neuroptera tips: 8
+   - Megaloptera tips: 2
+   - Raphidioptera tips: 1
+   Total: 11 tips
+   Status: NOT MONOPHYLETIC
+
+   This group is interspersed throughout the Coleoptera tree (though mostly
+   outside), indicating baseline phylogenetic structure is likely correct but
+   taxon sampling is fragmentary.
+
+2. COLEOPTERA STRUCTURE:
+   Status: NOT MONOPHYLETIC
+   - Total tips in group: 460
+   - Tips in MRCA clade: 461
+   - Intruders: 1 (Venustoraphidia, Raphidiidae)
+
+   The Coleoptera are nearly monophyletic (99.8% recovery) with only one
+   Neuropterida species nested. This suggests the tree is generally well-
+   structured at the order level despite fragmentary taxon sampling.
+
+3. ADEPHAGA MONOPHYLY: VERIFIED
+   Status: MONOPHYLETIC (Perfect recovery)
+   - Tips: 48/48 in group form a clade with no intruders
+   - All Adephaga families recover together
+   - Includes: Carabidae, Dytiscidae, Gyrinidae, and outgroups
+
+   KEY IMPLICATION: Adephaga boundaries are well-resolved and correct.
+
+4. POLYPHAGA STRUCTURE: SEVERELY PROBLEMATIC
+   Status: NOT MONOPHYLETIC
+   - Tips in group: 412
+   - Tips in MRCA clade: 461
+   - Intruders: 49
+   - All intruders are Adephaga (48 Carabidae + 1 Dytiscidae)
+
+   INTERPRETATION:
+   The tree does NOT recover Adephaga and Polyphaga as sister groups.
+   Instead, core Adephaga (Carabidae) are phylogenetically nested between
+   different Polyphaga groups. This is a significant STRUCTURAL ERROR in the
+   tree topology.
+
+   This is NOT a problem with the catalog—it's a phylogenetic signal problem
+   in the alignment or tree inference.
+
+================================================================================
+NON-MONOPHYLETIC GROUPS BY TAXONOMIC LEVEL
+================================================================================
+
+GENUS LEVEL (12 non-monophyletic out of 71 tested):
+--------
+
+Genus: Abscondita
+  - 2 tips in group, 3 in MRCA clade
+  - Intruder: Luciola (Lampyridae)
+  - Issue: Minor, likely due to limited sampling
+
+Genus: Agriotes (Elateridae)
+  - 6 tips in group, 11 in MRCA clade
+  - 5 intruders from Elateridae: Ampedus, Dalopius, Melanotus, Sinopyrophorus
+  - 1 intruder: Venustoraphidia (Raphidiidae)
+  - Issue: Genus paraphyly within Elateridae + phylogenetic signal problem
+
+Genus: Aphodius (Scarabaeidae)
+  - 3 tips in group, 4 in MRCA clade
+  - Intruder: Melinopterus (also Scarabaeidae)
+  - Issue: Scarabaeidae internal structure
+
+Genus: Bruchidius
+  - 3 tips in group, 4 in MRCA clade
+  - Intruder: Callosobruchus (Chrysomelidae, not related)
+  - Issue: Seed beetle taxonomy problematic
+
+Genus: Cantharis (Cantharidae)
+  - 7 tips in group, 9 in MRCA clade
+  - 2 intruders from Cantharidae (Lycocerus, Podabrus)
+  - Issue: Cantharidae internal structure
+
+Genus: Carabus (Carabidae)
+  - 7 tips in group, 11 in MRCA clade
+  - 4 intruders: All Calosoma (Carabidae)
+  - Issue: Genus paraphyly within Carabidae
+
+Genus: Eucryptorrhynchus (Curculionidae)
+  - 2 tips in group, 3 in MRCA clade
+  - Intruder: Kyklioacalles (Curculionidae)
+  - Issue: Bark beetle taxonomy
+
+Genus: Euwallacea (Curculionidae)
+  - 2 tips in group, 4 in MRCA clade
+  - 2 intruders: Xyleborus (Curculionidae)
+  - Issue: Ambrosia beetle taxonomy
+
+Genus: Harpalus (Carabidae)
+  - 3 tips in group, 4 in MRCA clade
+  - Intruder: Ophonus (Carabidae)
+  - Issue: Ground beetle taxonomy
+
+Genus: Mylabris (Meloidae)
+  - 3 tips in group, 4 in MRCA clade
+  - Intruder: Hycleus (Meloidae)
+  - Issue: Blister beetle taxonomy
+
+Genus: Oryctes (Scarabaeidae)
+  - 2 tips in group, 3 in MRCA clade
+  - Intruder: Marronus (Scarabaeidae)
+  - Issue: Rhinoceros beetle taxonomy
+
+Genus: Polydrusus (Curculionidae)
+  - 4 tips in group, 11 in MRCA clade
+  - 7 intruders from other weevil genera
+  - Issue: SIGNIFICANT paraphyly in Polydrusus group
+
+FAMILY LEVEL (13 non-monophyletic out of 39 tested):
+--------
+
+The most problematic families are:
+
+Family: Attelabidae
+  - 2 tips in group, 183 in MRCA clade
+  - 181 intruders (MASSIVE)
+  - Issue: Only 2 Attelabidae tips in tree; they're scattered far apart
+
+Family: Curculionidae
+  - 59 tips in group, 253 in MRCA clade
+  - 194 intruders
+  - Issue: Curculionidae is THE largest coleopteran family but severely
+    paraphyletic in this tree. Many intruders from other families.
+
+Family: Chrysomelidae
+  - 59 tips in group, 178 in MRCA clade
+  - 119 intruders
+  - Issue: Leaf beetles are interspersed with weevils and other families
+
+Family: Coccinellidae
+  - 27 tips in group, 263 in MRCA clade
+  - 236 intruders
+  - Issue: Only 27 ladybugs represented; they don't form a coherent clade
+
+Family: Lampyridae
+  - 10 tips in group, 12 in MRCA clade
+  - 2 intruders (Abscondita from same family)
+  - Issue: Minor; mostly isolated issue
+
+Family: Meloidae
+  - 5 tips in group, 6 in MRCA clade
+  - 1 intruder
+  - Issue: Very few blister beetles; mostly isolated
+
+SUPERFAMILY LEVEL (6 non-monophyletic out of 13 tested):
+--------
+
+Superfamily: Chrysomeloidea (93 tips)
+  - Status: NOT MONOPHYLETIC
+  - Intruders: 85
+  - Issue: Severely interspersed with Curculionoidea, Coccinelloidea,
+    Tenebrionoidea, and others. This suggests the superfamily boundary
+    itself is not well-defined in this tree.
+
+Superfamily: Coccinelloidea (31 tips)
+  - Status: NOT MONOPHYLETIC
+  - Intruders: 232
+  - Issue: Ladybugs are scattered throughout a massive MRCA clade
+
+Superfamily: Cucujoidea (9 tips)
+  - Status: NOT MONOPHYLETIC
+  - Intruders: 169
+  - Issue: Very limited sampling; Cucujoidea tips are isolated
+
+Superfamily: Curculionoidea (73 tips)
+  - Status: NOT MONOPHYLETIC
+  - Intruders: 388 (CATASTROPHIC)
+  - Issue: This is the second-largest polyphagan superfamily, but weevils
+    are found throughout the entire tree. The superfamily is fragmented
+    across multiple clades with major interspersion from Chrysomeloidea,
+    Tenebrionoidea, Coccinelloidea, and others.
+
+Superfamily: Elateroidea (49 tips)
+  - Status: NOT MONOPHYLETIC
+  - Intruders: 1 (Venustoraphidia, Raphidiidae)
+  - Issue: MINIMAL - only one Neuropterida tip. Otherwise well-formed.
+    This suggests Elateroidea is actually fairly well-resolved.
+
+Superfamily: Tenebrionoidea (51 tips)
+  - Status: NOT MONOPHYLETIC
+  - Intruders: 176
+  - Issue: Darkling beetles and relatives are interspersed with
+    Chrysomeloidea and Coccinelloidea throughout.
+
+SUBORDER LEVEL (3 non-monophyletic out of 4 tested):
+--------
+
+Suborder: Adephaga
+  - Status: MONOPHYLETIC (Perfect)
+  - 48 tips, 0 intruders
+
+Suborder: Polyphaga
+  - Status: NOT MONOPHYLETIC
+  - 412 tips in group, 461 in MRCA clade
+  - 49 intruders: ALL from Adephaga (48 Carabidae, 1 Dytiscidae)
+  - CRITICAL ISSUE: The tree does NOT place Adephaga as an outgroup to
+    Polyphaga. Instead, basal Polyphaga (or an outgroup clade) branches off
+    before Polyphaga is sister to Adephaga.
+
+ORDER LEVEL (3 non-monophyletic out of 4 tested):
+--------
+
+Order: Neuroptera
+  - Status: NOT MONOPHYLETIC (interspersed with Coleoptera)
+
+Order: Megaloptera
+  - Status: NOT MONOPHYLETIC (interspersed with Coleoptera)
+
+Order: Raphidioptera
+  - Status: NOT MONOPHYLETIC (1 tip, scattered)
+
+Order: Coleoptera
+  - Status: NOT MONOPHYLETIC (slightly - 1 Raphidiidae tip)
+  - 460 tips in group, 461 in MRCA clade
+  - Intruders: 1
+  - Note: This is NEARLY perfect and suggests the Neuropterida are mostly
+    placed outside the Coleoptera clade as expected.
+
+================================================================================
+INTERPRETATION & IMPLICATIONS
+================================================================================
+
+1. PHYLOGENETIC SIGNAL vs TAXON SAMPLING:
+
+   The catalog mapping is perfect (100%), so this is NOT a data integration
+   problem. Instead, the non-monophyly reflects REAL PHYLOGENETIC SIGNAL
+   in the tree inference.
+
+   Key observations:
+   a) Adephaga IS monophyletic and well-recovered
+   b) Polyphaga is NOT monophyletic (Adephaga nested inside)
+   c) Within Polyphaga, some superfamilies are monophyletic (Scarabaeoidea,
+      Staphylinoidea) while others are highly fragmented (Curculionoidea,
+      Tenebrionoidea)
+
+2. THE ADEPHAGA-POLYPHAGA PROBLEM:
+
+   The most serious issue is that Adephaga and Polyphaga do not form the
+   expected clade structure. If these are true sister groups (as modern
+   taxonomy holds), the tree has a TOPOLOGY ERROR.
+
+   Possible causes:
+   - Insufficient phylogenetic signal in alignments for these deep nodes
+   - Taxon sampling artifacts (some Adephaga lineages may be attracting
+     certain Polyphaga clades)
+   - Alignment quality issues
+   - True evolutionary signal (less likely given modern systematics)
+
+3. WITHIN-POLYPHAGA STRUCTURE:
+
+   The checkerboard pattern (Curculionoidea = highly fragmented, while
+   Scarabaeoidea = monophyletic) suggests:
+   - Some superfamilies are well-separated by phylogenetic signal
+   - Others (especially Curculionoidea and Tenebrionoidea) have weak
+     inter-superfamily signal or taxon sampling artifacts
+
+   This is typical of genomic analyses where gene tree heterogeneity
+   can create spurious relationships, especially when taxa are fragmentary.
+
+4. POSITIVE FINDINGS:
+
+   Despite the problems above:
+   - Within-family structure is largely correct (66% of families monophyletic)
+   - Within-genus structure is largely correct (83% of genera monophyletic)
+   - Adephaga is perfectly recovered
+   - Coleoptera is nearly perfectly monophyletic (99.8%)
+   - Several superfamilies are well-recovered (Scarabaeoidea, Staphylinoidea,
+     Cleroidea, Buprestoidea)
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+1. INVESTIGATE THE ADEPHAGA-POLYPHAGA TOPOLOGY:
+   - Rerun phylogenetic inference with constrained topology
+   - Test if alternative topologies have significantly higher likelihood
+   - Check for long-branch attraction artifacts
+
+2. EXAMINE SUPERFAMILY BOUNDARIES:
+   - Focus on Curculionoidea and Tenebrionoidea fragmentation
+   - These may reflect real biological divergences or alignment problems
+   - Consider re-aligning or filtering genes with weak signal
+
+3. VALIDATE WITH ALTERNATIVE METHODS:
+   - Phylogenetic reconstruction with different inference methods
+   - Concordance analysis across individual genes
+   - Test for incomplete lineage sorting signal
+
+4. EXPANSION OF TAXON SAMPLING:
+   - Current tree is only 478/1121 tips (42.6%)
+   - Some families are severely undersampled (Attelabidae: 2 tips)
+   - Full tree with all 1121 taxa may resolve some of these issues
+
+================================================================================
+STATISTICAL SUMMARY
+================================================================================
+
+Mapping Quality:
+  - Success rate: 100% (478/478)
+  - No unmatched tips
+
+Monophyly Rates by Level:
+  - Genus:       83.1% monophyletic
+  - Family:      66.7% monophyletic
+  - Superfamily: 53.8% monophyletic
+  - Suborder:    25.0% monophyletic
+  - Order:       25.0% monophyletic
+
+Group Representation:
+  - Total genera sampled: 345 (only 71 with >=2 tips tested)
+  - Total families sampled: 67 (only 39 with >=2 tips tested)
+  - Total superfamilies sampled: 18 (only 13 with >=2 tips tested)
+  - Coleoptera coverage: 460/1121 = 41.0%
+  - Adephaga coverage: 48/1121 = 4.3%
+  - Polyphaga coverage: 412/1121 = 36.7%
+
+Non-Monophyletic Hotspots:
+  - Curculionoidea: 388 intruders (MOST FRAGMENTED)
+  - Coccinelloidea: 232 intruders
+  - Tenebrionoidea: 176 intruders
+  - Chrysomeloidea: 85 intruders
+  - Cucujoidea: 169 intruders
+
+Monophyletic Superfamilies (7/13):
+  - Bostrichoidea, Buprestoidea, Cleroidea, Hydrophiloidea,
+    Scarabaeoidea, Staphylinoidea, (+ Caraboidea, which is Adephaga)
+
+================================================================================
+END OF REPORT
+================================================================================

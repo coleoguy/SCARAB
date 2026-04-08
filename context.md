@@ -14,28 +14,42 @@ Construct a systematic, genome-scale atlas of chromosomal rearrangements (fusion
 - Establish baseline metrics for chromosomal evolution in the most species-rich eukaryotic order
 
 ## Current Status
-**Phase 3: Whole-Genome Alignment — IN PROGRESS** (2026-03-28). Phases 1-2 COMPLETE.
+**Phase 3: Whole-Genome Alignment — IN PROGRESS** (2026-03-30). Phases 1-2 COMPLETE.
 
-**Accomplishments (2026-03-28):**
+**Accomplishments (2026-03-30):**
 - Decomposed Cactus pipeline (`run_cactus_decomposed.py`): level-by-level submission with quality gates between levels. `cactus-prepare` decomposes alignment into 465 sub-problems across 33 tree-depth levels.
-- Cactus preprocess: RUNNING (15 jobs, genome masking for 466 taxa)
-- Cactus L1 (145 leaf-pair blast+align): ready to submit when preprocess completes
-- P4/P5 gene trees: 489/1,284 done, 151 running as SLURM array. Auto-cleanup of IQ-TREE intermediates.
+- Cactus preprocess: COMPLETE (15 jobs, 466 masked genomes, 297 GB, 0 failures). QC passed 2026-03-28.
+- Cactus L1 (145 leaf-pair blast+align): RUNNING (attempt 4, 2026-03-30). 26/145 HALs complete. Jobs 18207057 (medium, 117 tasks) + 18207058 (long, tasks 2+22 for timeout pairs).
+- Combined BLAST database: COMPLETE (job 18199244). Single db for all 478 genomes at `$SCRATCH/scarab/blastdb/scarab_478`.
+- P4/P5 gene trees: 814/1,286 trees done. 472 remaining: v4a (job 18207075, loci 1-381) RUNNING, v4b (loci 382-472, 91 tasks) waiting for SLURM slots.
 - Genome filter: 478 → 466 taxa (12 excluded). Tree binarized (fixed root trifurcation from R ape). Support values stripped.
 - Stevens element mapping COMPLETE: all 1,286 BUSCO loci mapped to Stevens elements via BLASTn of Tcas5.2 LGs against icTriCast1.1. File: `busco_tribolium_stevens_map.tsv`.
-- Combined BLAST database: building single db for all 478 genomes (replaces 3,900 individual db files).
-- Inode limit management: scripts auto-clean Toil jobstores and IQ-TREE intermediates. Individual blast_dbs deleted (79 GB, 3,900 files freed). File count stable at ~43K/250K.
+- Inode limit management: EXIT trap with `|| true` fix, %10 throttle, HAL-exists skip check, sweeper script. Inode quota increase to 500K requested from HPRC (email draft ready, 2026-03-29).
 - Discordance x breakpoint analysis script: `scripts/phase4/discordance_x_breakpoints.R` (4 stages, ready to run when gene trees and Cactus complete).
 
-**Currently running on Grace:**
-- Cactus preprocess: 15 jobs (14 running, 1 done)
-- Gene tree array: ~151 running (489/1,284 complete)
-- Combined BLAST db build: 1 job
+**L1 failure history:**
+- Attempt 1 (job 18193705, 2026-03-28): 4/145 completed, 8 OOM (32G cap), ~20 disk-quota, rest cancelled. Root cause: 145 concurrent tasks × 6,500 jobstore files = 250K inode quota exceeded.
+- Attempt 2 (job 18199217, 2026-03-29): 14/145 completed (14 HAL files), 145 failed (inode wall again), 4 OOM (tasks 6,9 peaked at 63G/57G vs 64G cap). Per-task cleanup only fired on success — failed tasks left jobstores.
+- Attempt 3 (job 18202969, 2026-03-30): 26/145 HALs produced. 12 tasks falsely reported FAILED — EXIT trap `&&` chain returned non-zero when Cactus already cleaned its own jobstore. 2 genuine timeouts (tasks 2, 22 need >12h). 10 tasks cancelled mid-run when job cancelled for script fix.
+- Attempt 4 (jobs 18207057+18207058, 2026-03-30): Fixed script (`|| true` in cleanup, HAL skip check). 117 medium-partition tasks + 2 long-partition tasks (7-day wall).
+
+**L1 QC (26 completed HAL files):**
+- 4 ancestors spot-checked: Anc047 (Carabus), Anc056 (Leistus), Anc057 (Nebria), Anc063 (Calosoma)
+- Alignment coverage: 52-70% of child genomes aligned at 1x (expected for congeneric beetle pairs)
+- Ancestor sizes: 133-159 Mb (52-74% of smaller child genome — TE collapse expected)
+- Multi-mapping: <3% at 2x+ (clean 1:1 orthology)
+- Fragmentation: 122-220 ancestor scaffolds (20-40 major scaffolds >1 Mb carry bulk)
+
+**Currently running on Grace (2026-03-30):**
+- Cactus L1: jobs 18207057 (10 running, 107 pending, medium) + 18207058 (2 running, long). 26/145 HALs done.
+- Gene trees v4a: job 18207075 (381 tasks, %50 throttle). 814/1,286 done.
+- Gene trees v4b: 91 tasks pending submission (SLURM 500-job limit reached).
+- Scratch usage: ~960 GB / 7 TB, ~17K / 250K inodes (after jobstore cleanup)
 
 **Pending (in order):**
-1. Cactus preprocess finishes → submit L1 (145 leaf-pair blast+align)
+1. Gene tree v4b (91 loci): submit `P4_P5_array_v4b.slurm` once L1 tasks free SLURM slots
 2. L1 finishes → QC sub-HALs → Heath approves → submit L2 (88 jobs) → continue through L33
-3. Gene trees finish (1,284 total) → submit P6 (ASTRAL) → P7 (concatenation)
+3. Gene trees finish (1,286 total) → submit P6 (ASTRAL) → P7 (concatenation)
 4. After P6/P7: run Stage A of discordance analysis (gCF by Stevens element)
 5. After Cactus complete: breakpoint calling → Stage B discordance analysis
 
@@ -62,10 +76,9 @@ Construct a systematic, genome-scale atlas of chromosomal rearrangements (fusion
 - **Rearrangement mapping tree** = Full phylogenomics pipeline with 1,286 BUSCO loci:
   1. ~~Map all 1,367 BUSCO insecta_odb10 proteins to Tribolium chromosomes~~ DONE (1,286 genes mapped, job 18112279)
   2. ~~Select loci~~ SKIPPED (using all 1,286 genes)
-  3. tBLASTn 1,286 genes x 439 genomes -- RUNNING (job 18114486)
-     tBLASTn 1,286 genes x 39 recovery genomes -- RUNNING (job 18122417)
-  4. Per-gene MAFFT alignments (478 taxa) -- PENDING P4
-  5. Per-gene IQ-TREE trees (1,286 trees) -- PENDING P5
+  3. tBLASTn 1,286 genes x 478 genomes -- COMPLETE (1,286 per-gene FASTA files)
+  4. Per-gene MAFFT alignments (478 taxa) -- IN PROGRESS (~860/1,286 aligned)
+  5. Per-gene IQ-TREE trees (1,286 trees) -- IN PROGRESS (814/1,286 trees, 472 rerunning)
   6. ASTRAL-III species tree + gCF/sCF -- PENDING P6
   7. Partitioned IQ-TREE concatenation -- PENDING P7
 
@@ -156,8 +169,10 @@ $SCRATCH/scarab/
 │   ├── busco_tribolium_map.tsv  # DONE (1,286 genes)
 │   ├── selected_loci.txt        # DONE
 │   ├── selected_proteins.fasta  # DONE
-│   ├── per_gene_seqs/           # IN PROGRESS (P3 job 18114486 + 18122417)
-│   └── [P4-P7 outputs pending]
+│   ├── per_gene_seqs/           # DONE (1,286 FASTA files)
+│   ├── per_gene_alignments/     # IN PROGRESS (861/1,286 MAFFT alignments)
+│   ├── per_gene_trees/          # IN PROGRESS (777/1,286 IQ-TREE gene trees)
+│   └── [P6-P7 outputs pending]
 ├── cactus_seqfile.txt           # 439-taxon seqfile (current)
 ├── cactus_seqfile_478.txt       # PENDING (after IQ-TREE tree ready)
 ├── cactus_seqfile_filtered.txt  # PENDING (after filter_genomes_for_alignment.R)
@@ -265,7 +280,7 @@ Even if a SLURM job exits 0 and a quality gate script says "PASSED," the assista
 - File transfer: sftp (not scp -- Duo 2FA causes timeout)
 - Container runtime: Singularity (not Docker)
 - Python version: 3.6 (use stdout=subprocess.PIPE, stderr=subprocess.PIPE, not capture_output=True)
-- Scratch quota: 1 TB (increase to 7 TB requested 2026-03-24, account 02-133547-00003)
+- Scratch quota: 7 TB (expanded from 1 TB, approved 2026-03). Current usage: ~960 GB (14%). Inode limit: 250K (increase to 500K requested 2026-03-29)
 
 ---
 
@@ -307,4 +322,4 @@ Never use emdashes in any project text. Prefer commas, parentheses, colons, semi
 
 ---
 
-**Last Updated**: 2026-03-28 (Decomposed Cactus pipeline running; gene trees 489/1284; Stevens element mapping complete; discordance analysis script written; inode management fixed)
+**Last Updated**: 2026-03-29 (L1 resubmitted with 64G/throttle after OOM+inode fix; gene trees 777/1286 with 300 rerunning; combined BLASTDB done; inode increase requested)

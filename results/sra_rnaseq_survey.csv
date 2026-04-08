@@ -1,0 +1,440 @@
+species_name,tip_label,family,clade,total_rnaseq_runs,male_runs,female_runs,unknown_sex_runs,has_male,has_female,has_both_sexes,tissues,platforms,example_accessions
+Abax parallelepipedus,Abax_parallelepipedus,Carabidae,Adephaga,1,0,0,1,False,False,False,,ILLUMINA,ERX11698129
+Abscondita terminalis,Abscondita_terminalis,Lampyridae,Elateriformia,14,5,5,4,True,True,True,adult,ILLUMINA,SRX6649365; SRX6649351; SRX6649350; SRX6649349; SRX6649348
+Acanthacorydalis orientalis,Acanthacorydalis_orientalis,Corydalidae,Megaloptera,1,0,0,1,False,False,False,,ILLUMINA,SRX21957606
+Acanthoscelides obtectus,Acanthoscelides_obtectus,Chrysomelidae,Cucujiformia,72,35,35,2,True,True,True,abdomen; head+thorax; whole body; whole insect,DNBSEQ; ILLUMINA,SRX18723103; SRX18723102; SRX18723101; SRX18723100; SRX18723099
+Actenicerus siaelandicus,Actenicerus_siaelandicus,Elateridae,Elateriformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14197810
+Acupalpus dubius,Acupalpus_dubius,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Acupalpus parvulus,Acupalpus_parvulus,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Adalia bipunctata,Adalia_bipunctata,Coccinellidae,Cucujiformia,19,0,0,19,False,False,False,whole body,ILLUMINA,ERX14954923; ERX14954921; ERX14954924; ERX14954918; ERX14954917
+Adalia decempunctata,Adalia_decempunctata,Coccinellidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12016762
+Adelopsella bosnica,Adelopsella_bosnica,Leiodidae,Staphyliniformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13270900
+Aegialia arenaria,Aegialia_arenaria,Scarabaeidae,Scarabaeiformia,0,0,0,0,False,False,False,,,
+Aethina tumida,Aethina_tumida,Nitidulidae,Cucujiformia,61,6,13,42,True,True,True,eggs and neonate larvae; female antennae; female forelegs; male antennae; male forelegs; pool of half beetle; various; whole bodies; whole body; whole individual,DNBSEQ; ILLUMINA,SRX28328202; SRX27748862; SRX27748861; SRX27748860; SRX27748859
+Agelastica alni,Agelastica_alni,Chrysomelidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX10349574
+Agonum fuliginosum,Agonum_fuliginosum,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Agonum gracile,Agonum_gracile,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Agonum viduum,Agonum_viduum,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Agrilus biguttatus,Agrilus_biguttatus,Buprestidae,Elateriformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14546113
+Agrilus cyanescens,Agrilus_cyanescens,Buprestidae,Elateriformia,0,0,0,0,False,False,False,,,
+Agrilus mali,Agrilus_mali,Buprestidae,Elateriformia,1,0,0,1,False,False,False,whole larva,PACBIO_SMRT,SRX29868159
+Agrilus planipennis,Agrilus_planipennis,Buprestidae,Elateriformia,28,1,8,19,True,True,True,entire body; fat body; head; midgut; whole organism,ILLUMINA; LS454,SRX7914170; SRX7914169; SRX7914168; SRX7914167; SRX7914166
+Agriotes ferrugineipennis,Agriotes_ferrugineipennis,Elateridae,Elateriformia,1,0,0,1,False,False,False,head,ILLUMINA,SRX28393428
+Agriotes lineatus,Agriotes_lineatus,Elateridae,Elateriformia,2,0,0,2,False,False,False,whole organism,ILLUMINA,SRX27568126; ERX9217790
+Agriotes mancus,Agriotes_mancus,Elateridae,Elateriformia,1,0,0,1,False,False,False,head,ILLUMINA,SRX28393446
+Agriotes obscurus,Agriotes_obscurus,Elateridae,Elateriformia,1,0,0,1,False,False,False,whole organism,ILLUMINA,SRX27568133
+Agriotes sputator,Agriotes_sputator,Elateridae,Elateriformia,1,0,0,1,False,False,False,head,ILLUMINA,SRX28393435
+Agrypnus murinus,Agrypnus_murinus,Elateridae,Elateriformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11656466
+Aleochara curtula,Aleochara_curtula,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Altica lythri,Altica_lythri,Chrysomelidae,Cucujiformia,14,7,7,0,True,True,True,whole beetle,ILLUMINA,SRX25348857; SRX25348856; SRX25348855; SRX25348854; SRX25348853
+Amara aenea,Amara_aenea,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Amara convexiuscula,Amara_convexiuscula,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Amara familiaris,Amara_familiaris,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Amara ovata,Amara_ovata,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Ampedus sanguinolentus,Ampedus_sanguinolentus,Elateridae,Elateriformia,0,0,0,0,False,False,False,,,
+Amphimallon solstitiale,Amphimallon_solstitiale,Scarabaeidae,Scarabaeiformia,2,0,0,2,False,False,False,muscle,ILLUMINA,ERX12234887; SRX19355997
+Anaglyptus mysticus,Anaglyptus_mysticus,Cerambycidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Anaspis frontalis,Anaspis_frontalis,Scraptiidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Anaspis maculata,Anaspis_maculata,Scraptiidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12864169
+Anaspis regimbarti,Anaspis_regimbarti,Scraptiidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Anisosticta novemdecimpunctata,Anisosticta_novemdecimpunctata,Coccinellidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Anobium punctatum,Anobium_punctatum,Ptinidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Anoplophora chinensis,Anoplophora_chinensis,Cerambycidae,Cucujiformia,11,0,0,11,False,False,False,antenna; antennal; whole body,ILLUMINA,SRX30586089; SRX7010356; SRX7010355; SRX7010354; SRX7010353
+Anoplophora glabripennis,Anoplophora_glabripennis,Cerambycidae,Cucujiformia,196,1,63,132,True,True,True,antenna; anterior midgut; body; fat body; female midgut; gut; hindgut; malpighian tubules; midgut; supraesophageal ganglia,ILLUMINA,SRX31536631; SRX31536630; SRX31536629; SRX31536628; SRX31536627
+Anoplophora malasiaca,Anoplophora_malasiaca,Cerambycidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Anthobium unicolor,Anthobium_unicolor,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Anthocomus fasciatus,Anthocomus_fasciatus,Melyridae,Cucujiformia,0,0,0,0,False,False,False,,,
+Anthonomus grandis grandis,Anthonomus_grandis_grandis,Curculionidae,Cucujiformia,13,0,0,13,False,False,False,whole body,ILLUMINA,SRX19176128; SRX19176127; SRX19176126; SRX19176125; SRX19176124
+Anthonomus grandis thurberiae,Anthonomus_grandis_thurberiae,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Anthonomus rubi,Anthonomus_rubi,Curculionidae,Cucujiformia,1,0,1,0,False,True,False,head and thorax,ILLUMINA,SRX30083960
+Anthroherpon ganglbaueri,Anthroherpon_ganglbaueri,Leiodidae,Staphyliniformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13270904
+Aphidecta obliterata,Aphidecta_obliterata,Coccinellidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Aphodius fimetarius,Aphodius_fimetarius,Scarabaeidae,Scarabaeiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14546108
+Aphodius granarius,Aphodius_granarius,Scarabaeidae,Scarabaeiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12465329
+Aphodius sticticus,Aphodius_sticticus,Scarabaeidae,Scarabaeiformia,0,0,0,0,False,False,False,,,
+Aplotarsus incanus,Aplotarsus_incanus,Elateridae,Elateriformia,0,0,0,0,False,False,False,,,
+Apoderus coryli,Apoderus_coryli,Attelabidae,Cucujiformia,1,0,0,1,False,False,False,whole body,ILLUMINA,SRX9535374
+Aquatica leii,Aquatica_leii,Lampyridae,Elateriformia,82,0,0,82,False,False,False,abdominal v4-v5 cuticle; adult light organ; adult whole body; entire insect; larvae; sixth instar larvae; whole body,BGISEQ; DNBSEQ; ILLUMINA,SRX31299479; SRX31299478; SRX31299477; SRX31299476; SRX31299475
+Arhopalus rusticus,Arhopalus_rusticus,Cerambycidae,Cucujiformia,4,0,0,4,False,False,False,missing,ILLUMINA,ERX12734313; SRX21864272; SRX21864271; SRX21864270
+Arhopalus unicolor,Arhopalus_unicolor,Cerambycidae,Cucujiformia,9,3,3,3,True,True,True,complete insect,ILLUMINA,SRX26230917; SRX26230916; SRX26230915; SRX26230914; SRX26230913
+Aromia moschata,Aromia_moschata,Cerambycidae,Cucujiformia,2,0,0,2,False,False,False,midgut,ILLUMINA,ERX14546142; SRX7845201
+Aspidapion aeneum,Aspidapion_aeneum,Apionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Attagenus pellio,Attagenus_pellio,Dermestidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Aulacophora lewisii,Aulacophora_lewisii,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Barypeithes pellucidus,Barypeithes_pellucidus,Curculionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11656572
+Bathyscidius tristiculus,Bathyscidius_tristiculus,Leiodidae,Staphyliniformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13270905
+Batocera lineolata,Batocera_lineolata,Cerambycidae,Cucujiformia,5,0,0,5,False,False,False,mesosma; metasoma; whole body,ILLUMINA,SRX30378087; SRX10459902; SRX10459901; SRX10459900; SRX10459899
+Betulapion simile,Betulapion_simile,Apionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Biphyllus lunatus,Biphyllus_lunatus,Biphyllidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Bitoma crenata,Bitoma_crenata,Zopheridae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11751060
+Blaps rhynchoptera,Blaps_rhynchoptera,Tenebrionidae,Cucujiformia,2,0,0,2,False,False,False,"muscle and defensive gland tissue; thoracic muscles, foot",ILLUMINA; OXFORD_NANOPORE,SRX23959370; SRX12383451
+Brachynemurus nebulosus,Brachynemurus_nebulosus,Myrmeleontidae,Neuroptera,0,0,0,0,False,False,False,,,
+Brachypterus glaber,Brachypterus_glaber,Kateretidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13400222
+Brassicogethes aeneus,Brassicogethes_aeneus,Nitidulidae,Cucujiformia,5,0,0,5,False,False,False,,BGISEQ; ILLUMINA; LS454,SRX14206037; ERX233972; ERX233971; ERX233970; SRX366924
+Brontispa longissima,Brontispa_longissima,Chrysomelidae,Cucujiformia,12,3,2,7,True,True,True,antenna; egg; mixed sample; terminal abdomen; whole body,ILLUMINA,SRX23886742; SRX23886741; SRX23886740; SRX23886739; SRX23886738
+Bruchidius siliquastri,Bruchidius_siliquastri,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Bruchidius varius,Bruchidius_varius,Chrysomelidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13780069
+Bruchidius villosus,Bruchidius_villosus,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Calathus fuscipes,Calathus_fuscipes,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Calathus melanocephalus,Calathus_melanocephalus,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Callosobruchus maculatus,Callosobruchus_maculatus,Chrysomelidae,Cucujiformia,349,27,95,78,True,True,True,abdomen; head; whole body,ILLUMINA,SRX32082343; SRX32082342; SRX32082341; SRX32082340; SRX32082339
+Calodromius spilotus,Calodromius_spilotus,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Calosoma granatense,Calosoma_granatense,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Calosoma tepidum,Calosoma_tepidum,Carabidae,Adephaga,1,0,0,1,False,False,False,whole body,PACBIO_SMRT,SRX26093716
+Calosoma wilkesii,Calosoma_wilkesii,Carabidae,Adephaga,1,0,0,1,False,False,False,whole body,PACBIO_SMRT,SRX26093713
+Calvia quattuordecimguttata,Calvia_quattuordecimguttata,Coccinellidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12201667
+Cantharis decipiens,Cantharis_decipiens,Cantharidae,Elateriformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13400261
+Cantharis flavilabris,Cantharis_flavilabris,Cantharidae,Elateriformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12016758
+Cantharis lateralis,Cantharis_lateralis,Cantharidae,Elateriformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11656507
+Cantharis nigra,Cantharis_nigra,Cantharidae,Elateriformia,0,0,0,0,False,False,False,,,
+Cantharis pallida,Cantharis_pallida,Cantharidae,Elateriformia,0,0,0,0,False,False,False,,,
+Cantharis rufa,Cantharis_rufa,Cantharidae,Elateriformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12016751
+Cantharis rustica,Cantharis_rustica,Cantharidae,Elateriformia,1,0,0,1,False,False,False,,ILLUMINA,ERX8976893
+Canthon chalcites,Canthon_chalcites,Scarabaeidae,Scarabaeiformia,0,0,0,0,False,False,False,,,
+Carabus banonii,Carabus_banonii,Carabidae,Adephaga,2,0,0,2,False,False,False,,ILLUMINA,ERX14169061; ERX14169060
+Carabus blaptoides fortunei,Carabus_blaptoides_fortunei,Carabidae,Adephaga,20,5,5,10,True,True,True,head; legs; thorax; whole body,ILLUMINA,DRX404661; DRX404660; DRX404657; DRX404656; DRX404653
+Carabus esakii,Carabus_esakii,Carabidae,Adephaga,12,6,6,0,True,True,True,,ILLUMINA,DRX334646; DRX334645; DRX334644; DRX334643; DRX334642
+Carabus nemoralis,Carabus_nemoralis,Carabidae,Adephaga,1,0,0,1,False,False,False,,ILLUMINA,ERX14197806
+Carabus problematicus,Carabus_problematicus,Carabidae,Adephaga,2,0,0,2,False,False,False,,ILLUMINA,ERX11418662; ERX11235640
+Carabus staehlini,Carabus_staehlini,Carabidae,Adephaga,1,0,1,0,False,True,False,,ILLUMINA,ERX15434682
+Cartodere bifasciata,Cartodere_bifasciata,Latridiidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12465335
+Catharsius molossus,Catharsius_molossus,Scarabaeidae,Scarabaeiformia,4,4,0,0,True,False,False,reproductive tissues,ILLUMINA,SRX10301363; SRX10301362; SRX10301245; SRX10301244
+Catops nigricans,Catops_nigricans,Leiodidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Cedrorum azoricus,Cedrorum_azoricus,Carabidae,Adephaga,1,0,1,0,False,True,False,,ILLUMINA,ERX14896803
+Cetonia aurata,Cetonia_aurata,Scarabaeidae,Scarabaeiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11043099
+Ceutorhynchus assimilis,Ceutorhynchus_assimilis,Curculionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX6562755
+Ceutorhynchus obstrictus,Ceutorhynchus_obstrictus,Curculionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12864171
+Chaetocnema hortensis,Chaetocnema_hortensis,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Chrysina gloriosa,Chrysina_gloriosa,Scarabaeidae,Scarabaeiformia,0,0,0,0,False,False,False,,,
+Chrysolina americana,Chrysolina_americana,Chrysomelidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13780065
+Chrysolina graminis,Chrysolina_graminis,Chrysomelidae,Cucujiformia,1,1,0,0,True,False,False,,ILLUMINA,ERX12111217
+Chrysolina haemoptera,Chrysolina_haemoptera,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Chrysolina herbacea,Chrysolina_herbacea,Chrysomelidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX16295524
+Chrysolina hyperici,Chrysolina_hyperici,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Chrysolina oricalcia,Chrysolina_oricalcia,Chrysomelidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12016746
+Chrysomela aeneicollis,Chrysomela_aeneicollis,Chrysomelidae,Cucujiformia,127,67,56,4,True,True,True,head; larva abdomen; ovary; testes; whole body,ILLUMINA,SRX24891442; SRX24891441; SRX24891440; SRX24891439; SRX20387307
+Chrysomela populi,Chrysomela_populi,Chrysomelidae,Cucujiformia,17,0,0,17,False,False,False,fatbody; gland; gut; malpighian tubules,ILLUMINA,SRX512037; SRX512036; SRX512035; SRX512034; SRX391636
+Chrysomela saliceti,Chrysomela_saliceti,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Chrysopa pallens,Chrysopa_pallens,Chrysopidae,Neuroptera,14,0,1,13,False,True,False,missing; whole body,ILLUMINA,SRX10401616; SRX10401615; SRX10401614; SRX10401613; SRX10401612
+Chrysoperla carnea,Chrysoperla_carnea,Chrysopidae,Neuroptera,10,0,0,10,False,False,False,body; head; head+body; rest of body w/o gut and head; whole gut,ILLUMINA,ERX12545881; ERX12545880; ERX12545882; ERX11698122; SRX6750276
+Chrysoperla zastrowi sillemi,Chrysoperla_zastrowi_sillemi,Chrysopidae,Neuroptera,4,0,0,4,False,False,False,3rd instar larvae; whole insect,ILLUMINA,SRX1879300; SRX1879299; SRX1879298; SRX1879297
+Cis bilamellatus,Cis_bilamellatus,Ciidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Clivina fossor,Clivina_fossor,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Coccidula rufa,Coccidula_rufa,Coccinellidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Coccinella magnifica,Coccinella_magnifica,Coccinellidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Coccinella septempunctata,Coccinella_septempunctata,Coccinellidae,Cucujiformia,129,18,60,51,True,True,True,4th instar larva; abdomen; adult; antenna; brain; fat-body; fatbody; female adult; gut; head,BGISEQ; DNBSEQ; ILLUMINA,SRX31465765; SRX31465764; SRX31465763; SRX31465762; SRX31465761
+Coccinella transversoguttata,Coccinella_transversoguttata,Coccinellidae,Cucujiformia,6,1,1,4,True,True,True,missing; whole insect,ILLUMINA; PACBIO_SMRT,SRX31417782; SRX30251055; SRX7441135; SRX7441134; SRX7441129
+Coelostoma orbiculare,Coelostoma_orbiculare,Hydrophilidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Colydium elongatum,Colydium_elongatum,Zopheridae,Cucujiformia,1,0,0,1,False,False,False,whole body,ILLUMINA,SRX18287593
+Conwentzia psociformis,Conwentzia_psociformis,Coniopterygidae,Neuroptera,0,0,0,0,False,False,False,,,
+Crepidodera aurata,Crepidodera_aurata,Chrysomelidae,Cucujiformia,2,0,0,2,False,False,False,whole insect,ILLUMINA,ERX13500828; SRX20709663
+Crepidodera aurea,Crepidodera_aurea,Chrysomelidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12138220
+Crepidodera fulvicornis,Crepidodera_fulvicornis,Chrysomelidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13780104
+Crioceris asparagi,Crioceris_asparagi,Chrysomelidae,Cucujiformia,2,0,0,2,False,False,False,whole insect,ILLUMINA,ERX13363598; SRX20709672
+Crudosilis ruficollis,Crudosilis_ruficollis,Cantharidae,Elateriformia,0,0,0,0,False,False,False,,,
+Cryptocephalus moraei,Cryptocephalus_moraei,Chrysomelidae,Cucujiformia,2,0,0,2,False,False,False,whole insect,ILLUMINA,ERX11656476; SRX20709643
+Cryptocephalus primarius,Cryptocephalus_primarius,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Cryptocephalus pusillus,Cryptocephalus_pusillus,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Cryptolaemus montrouzieri,Cryptolaemus_montrouzieri,Coccinellidae,Cucujiformia,116,17,40,59,True,True,True,4 instar larva whole body; abdomen; antenna; gut; head; leg; thorax; total body; whole body; whole individual,ILLUMINA,SRX28434087; SRX28434086; SRX28434085; SRX28434084; SRX28434083
+Cryptophagus acutangulus,Cryptophagus_acutangulus,Cryptophagidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Cryptorhynchus lapathi,Cryptorhynchus_lapathi,Curculionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14197811
+Ctenicera cuprea,Ctenicera_cuprea,Elateridae,Elateriformia,1,0,0,1,False,False,False,,ILLUMINA,ERX10931485
+Curculio caryae,Curculio_caryae,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Curculio glandium,Curculio_glandium,Curculionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13168037
+Cylas formicarius,Cylas_formicarius,Brentidae,Cucujiformia,4,1,1,2,True,True,True,female antennae; male antennae; whole body,ILLUMINA,SRX10726264; SRX2441545; SRX2441544; SRX1508049
+Cynaeus angustus,Cynaeus_angustus,Tenebrionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Dailognatha quadricollis,Dailognatha_quadricollis,Tenebrionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12725796
+Dalopius marginatus,Dalopius_marginatus,Elateridae,Elateriformia,0,0,0,0,False,False,False,,,
+Dalotia coriaria,Dalotia_coriaria,Staphylinidae,Staphyliniformia,56,51,3,2,True,True,True,abdominal segment 6; abdominal segment 7; abdominal_segment_6; abdominal_segment_7; antenna; bezoquinone_cells_d1; head; larva; pupa; solvent_cells_d2,ILLUMINA,SRX19638833; SRX19638832; SRX19638831; SRX19638816; SRX19638815
+Dascillus cervinus,Dascillus_cervinus,Dascillidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11043092
+Dastarcus helophoroides,Dastarcus_helophoroides,Bothrideridae,Cucujiformia,37,9,15,13,True,True,True,whole body; whole female pupae; whole insect,ILLUMINA,SRX30261740; SRX30261739; SRX30261738; SRX30261737; SRX30261736
+Dendarus foraminosus,Dendarus_foraminosus,Tenebrionidae,Cucujiformia,1,1,0,0,True,False,False,,ILLUMINA,ERX12733285
+Dendroctonus frontalis,Dendroctonus_frontalis,Curculionidae,Cucujiformia,16,8,6,2,True,True,True,whole organism,ILLUMINA,SRX24311723; SRX24311722; SRX24311721; SRX24311720; SRX24311719
+Dendroctonus ponderosae,Dendroctonus_ponderosae,Curculionidae,Cucujiformia,112,38,58,16,True,True,True,anterior midgut; ehad; fat body; full body; head; larval; midgut/fat body; ovaries; testes; whole insect,ILLUMINA,SRX9162752; SRX9162751; SRX9162750; SRX9162749; SRX9162748
+Dendroctonus valens,Dendroctonus_valens,Curculionidae,Cucujiformia,38,0,12,26,False,True,False,gut; insect; whole adult; whole larva,ILLUMINA,SRX24373771; SRX24373770; SRX24373769; SRX24373768; SRX24373767
+Denticollis linearis,Denticollis_linearis,Elateridae,Elateriformia,0,0,0,0,False,False,False,,,
+Diabrotica balteata,Diabrotica_balteata,Chrysomelidae,Cucujiformia,2,0,0,2,False,False,False,,PACBIO_SMRT,ERX6562194; ERX6562193
+Diabrotica undecimpunctata,Diabrotica_undecimpunctata,Chrysomelidae,Cucujiformia,65,4,19,42,True,True,True,whole body; whole larvae; whole organism,ILLUMINA,SRX27727607; SRX27727606; SRX27727605; SRX27727604; SRX27727603
+Diabrotica virgifera virgifera,Diabrotica_virgifera_virgifera,Chrysomelidae,Cucujiformia,202,21,72,107,True,True,True,larva; midgut; missing; whole; whole body; whole insect; whole larva; whole organism,ILLUMINA; LS454; PACBIO_SMRT,SRX15211806; SRX15211805; SRX15211804; SRX15211803; SRX15211802
+Diaperis boleti,Diaperis_boleti,Tenebrionidae,Cucujiformia,1,0,0,1,False,False,False,whole body,ILLUMINA,SRX18287599
+Dicheirus dilatatus,Dicheirus_dilatatus,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Digitonthophagus gazella,Digitonthophagus_gazella,Scarabaeidae,Scarabaeiformia,36,30,6,0,True,True,True,epidermis; foretibia; hindtibia,ILLUMINA,SRX10475355; SRX10475354; SRX10475353; SRX10475352; SRX10475351
+Diorhabda carinata,Diorhabda_carinata,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Diorhabda carinulata,Diorhabda_carinulata,Chrysomelidae,Cucujiformia,18,12,6,0,True,True,True,abdomen; head; thorax,ILLUMINA; PACBIO_SMRT,SRX16447046; SRX16447045; SRX16447044; SRX16388695; SRX16388694
+Diorhabda elongata,Diorhabda_elongata,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Diorhabda sublineata,Diorhabda_sublineata,Chrysomelidae,Cucujiformia,6,0,6,0,False,True,False,abdomen; head; thorax,ILLUMINA; PACBIO_SMRT,SRX16441319; SRX16441318; SRX16441317; SRX16396138; SRX16396137
+Diplocoelus fagi,Diplocoelus_fagi,Biphyllidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Diploeciton nevermanni,Diploeciton_nevermanni,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Distenia gracilis,Distenia_gracilis,Cerambycidae,Cucujiformia,1,0,1,0,False,True,False,whole body,ILLUMINA,SRX31144365
+Donacia provostii,Donacia_provostii,Chrysomelidae,Cucujiformia,3,0,0,3,False,False,False,119.62 e 33.32 n; 119.62 e 33.33 n; 119.62 e 33.34 n,ILLUMINA,SRX9775616; SRX9775615; SRX9775614
+Dorcus hopei,Dorcus_hopei,Lucanidae,Scarabaeiformia,17,1,0,16,True,False,False,head muscle; wing,ILLUMINA,SRX20589142; SRX11392445; SRX11392444; SRX11392443; SRX11392442
+Dorcus parallelipipedus,Dorcus_parallelipipedus,Lucanidae,Scarabaeiformia,2,0,0,2,False,False,False,muscle,ILLUMINA,ERX13400214; SRX19356012
+Dorysthenes granulosus,Dorysthenes_granulosus,Cerambycidae,Cucujiformia,1,0,0,1,False,False,False,whole body,ILLUMINA,SRX30401816
+Drilus flavescens,Drilus_flavescens,Elateridae,Elateriformia,0,0,0,0,False,False,False,,,
+Dromius quadrimaculatus,Dromius_quadrimaculatus,Carabidae,Adephaga,1,0,0,1,False,False,False,,ILLUMINA,ERX13400228
+Drusilla canaliculata,Drusilla_canaliculata,Staphylinidae,Staphyliniformia,4,2,2,0,True,True,True,body without head; head,ILLUMINA,SRX12280923; SRX12280922; SRX12280921; SRX12280920
+Dynastes grantii,Dynastes_grantii,Scarabaeidae,Scarabaeiformia,0,0,0,0,False,False,False,,,
+Dynastes hercules hercules,Dynastes_hercules_hercules,Scarabaeidae,Scarabaeiformia,0,0,0,0,False,False,False,,,
+Dynastes hercules paschoali,Dynastes_hercules_paschoali,Scarabaeidae,Scarabaeiformia,0,0,0,0,False,False,False,,,
+Dynastes hercules reidi,Dynastes_hercules_reidi,Scarabaeidae,Scarabaeiformia,1,1,0,0,True,False,False,"brain, antenna, testis, prothorax, thorax tissues",ILLUMINA,SRX28844776
+Dynastes hercules septentrionalis,Dynastes_hercules_septentrionalis,Scarabaeidae,Scarabaeiformia,0,0,0,0,False,False,False,,,
+Dynastes hyllus,Dynastes_hyllus,Scarabaeidae,Scarabaeiformia,0,0,0,0,False,False,False,,,
+Dynastes maya,Dynastes_maya,Scarabaeidae,Scarabaeiformia,5,5,0,0,True,False,False,musscle,ILLUMINA,SRX17216229; SRX17216228; SRX17216227; SRX17216226; SRX17216225
+Dynastes tityus,Dynastes_tityus,Scarabaeidae,Scarabaeiformia,0,0,0,0,False,False,False,,,
+Eledona agricola,Eledona_agricola,Tenebrionidae,Cucujiformia,2,0,0,2,False,False,False,whole body,ILLUMINA,ERX11787372; SRX18287604
+Elmis aenea,Elmis_aenea,Elmidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12138218
+Endomychus armeniacus,Endomychus_armeniacus,Endomychidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX15434685
+Endomychus coccineus,Endomychus_coccineus,Endomychidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11235645
+Eucryptorrhynchus brandti,Eucryptorrhynchus_brandti,Curculionidae,Cucujiformia,34,3,23,8,True,True,True,adults; antennae; eggs; larvae; leg; ovary; pupae,ILLUMINA,SRX19734762; SRX19734761; SRX19734760; SRX19734759; SRX19734758
+Eucryptorrhynchus scrobiculatus,Eucryptorrhynchus_scrobiculatus,Curculionidae,Cucujiformia,32,3,23,6,True,True,True,adults; antennae; larve; leg; ovary; pupae,ILLUMINA,SRX19734768; SRX19734767; SRX19734766; SRX19734765; SRX19734764
+Eulagius filicornis,Eulagius_filicornis,Mycetophagidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Euwallacea fornicatus,Euwallacea_fornicatus,Curculionidae,Cucujiformia,7,1,2,4,True,True,True,"missing; pupae; whole body, adult; whole individual",ILLUMINA; OXFORD_NANOPORE,SRX24933590; SRX24933589; SRX24933588; SRX23955164; SRX23955163
+Euwallacea similis,Euwallacea_similis,Curculionidae,Cucujiformia,1,0,1,0,False,True,False,"whole body, adult",ILLUMINA,SRX23955167
+Galeruca laticollis,Galeruca_laticollis,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Galerucella nymphaeae,Galerucella_nymphaeae,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Galerucella sagittariae,Galerucella_sagittariae,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Gastrophysa polygoni,Gastrophysa_polygoni,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Gastrophysa viridula,Gastrophysa_viridula,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Geotrupes spiniger,Geotrupes_spiniger,Geotrupidae,Scarabaeiformia,3,0,0,3,False,False,False,muscle,ILLUMINA,ERX11235651; ERX11235650; SRX19356009
+Gnatocerus cornutus,Gnatocerus_cornutus,Tenebrionidae,Cucujiformia,16,8,8,0,True,True,True,head; head and prothorax,ILLUMINA,DRX479471; DRX479470; DRX479469; DRX479468; DRX479467
+Gonodera luperus,Gonodera_luperus,Tenebrionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14692412
+Graciliella metohijensis,Graciliella_metohijensis,Leiodidae,Staphyliniformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13270907
+Grammoptera ruficornis,Grammoptera_ruficornis,Cerambycidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Grypus equiseti,Grypus_equiseti,Erirhinidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Hallomenus binotatus,Hallomenus_binotatus,Tetratomidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13400248
+Halyzia sedecimguttata,Halyzia_sedecimguttata,Coccinellidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX9660751
+Harmonia axyridis,Harmonia_axyridis,Coccinellidae,Cucujiformia,182,13,46,123,True,True,True,4th instar larva; adult body; adult's abdomen; all the body; antennae; body; fat-body; larva; midgut; missing,ILLUMINA; PACBIO_SMRT,DRX799001; DRX799000; DRX798999; DRX798998; DRX798997
+Harmonia quadripunctata,Harmonia_quadripunctata,Coccinellidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Harpalus anxius,Harpalus_anxius,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Harpalus rubripes,Harpalus_rubripes,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Harpalus rufipes,Harpalus_rufipes,Carabidae,Adephaga,1,0,0,1,False,False,False,,ILLUMINA,ERX12138233
+Hemicrepidius hirtus,Hemicrepidius_hirtus,Elateridae,Elateriformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11656523
+Hermaeophaga mercurialis,Hermaeophaga_mercurialis,Chrysomelidae,Cucujiformia,2,0,0,2,False,False,False,whole insect,ILLUMINA,ERX11656486; SRX20709664
+Herpes porcellus,Herpes_porcellus,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Hippodamia convergens,Hippodamia_convergens,Coccinellidae,Cucujiformia,16,0,16,0,False,True,False,whole body,ILLUMINA,SRX11722244; SRX11722243; SRX11722242; SRX11722241; SRX11722240
+Hippodamia variegata,Hippodamia_variegata,Coccinellidae,Cucujiformia,18,3,4,11,True,True,True,female antenna 1; female antenna 2; female antenna 3; male antenna 1; male antenna 2; male antenna 3; whole body; whole organism,ILLUMINA; PACBIO_SMRT,SRX26449927; SRX25693745; SRX25693744; SRX25693743; SRX25693742
+Hololepta plana,Hololepta_plana,Histeridae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Holotrichia oblita,Holotrichia_oblita,Scarabaeidae,Scarabaeiformia,32,15,16,1,True,True,True,mid gut; whole bady,ILLUMINA,SRX10917159; SRX10917158; SRX10917157; SRX10917156; SRX10917155
+Hycleus marcipoli,Hycleus_marcipoli,Meloidae,Cucujiformia,1,0,1,0,False,True,False,thorax,ILLUMINA,SRX27793332
+Hypera rumicis,Hypera_rumicis,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Hypothenemus hampei,Hypothenemus_hampei,Curculionidae,Cucujiformia,12,4,4,4,True,True,True,whole body,ILLUMINA,SRX8408987; SRX8408986; SRX4643836; SRX4643835; SRX4643834
+Ichthyurus bourgeoisi,Ichthyurus_bourgeoisi,Cantharidae,Elateriformia,2,2,0,0,True,False,False,whole body,ILLUMINA,SRX30298616; SRX30298614
+Ips nitidus,Ips_nitidus,Curculionidae,Cucujiformia,30,0,0,30,False,False,False,midgut; whole body,ILLUMINA,SRX19038379; SRX19038378; SRX19038377; SRX14985819; SRX14985818
+Ips sexdentatus,Ips_sexdentatus,Curculionidae,Cucujiformia,15,0,0,15,False,False,False,gut,ILLUMINA,SRX15629572; SRX15629571; SRX15629570; SRX15629569; SRX15629568
+Ips typographus,Ips_typographus,Curculionidae,Cucujiformia,155,38,53,64,True,True,True,antennae; fat body; fed male head; fed male midgut; golden female fatbody; golden female head; golden female midgut; golden male fatbody; golden male head; golden male midgut,ILLUMINA,SRX30400883; SRX30400882; SRX30400881; SRX30400880; SRX30400879
+Kibakoganea sinica,Kibakoganea_sinica,Scarabaeidae,Scarabaeiformia,0,0,0,0,False,False,False,,,
+Kibakoganea tamdaoensis,Kibakoganea_tamdaoensis,Scarabaeidae,Scarabaeiformia,1,0,1,0,False,True,False,insect,ILLUMINA,SRX26847780
+Kyklioacalles roboris,Kyklioacalles_roboris,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Labidomera clivicollis,Labidomera_clivicollis,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Laccobius striatulus,Laccobius_striatulus,Hydrophilidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Lagria hirta,Lagria_hirta,Tenebrionidae,Cucujiformia,1,0,1,0,False,True,False,,ILLUMINA,ERX11043079
+Laparocerus anagae,Laparocerus_anagae,Curculionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX16161545
+Larinus minutus,Larinus_minutus,Curculionidae,Cucujiformia,1,0,0,1,False,False,False,whole organism,ILLUMINA,SRX27568535
+Larinus planus,Larinus_planus,Curculionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14999719
+Larinus ursus,Larinus_ursus,Curculionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14368148
+Lasiorhynchites cavifrons,Lasiorhynchites_cavifrons,Attelabidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Latheticus oryzae,Latheticus_oryzae,Tenebrionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Lathrobium brunnipes,Lathrobium_brunnipes,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Leiosoma deflexum,Leiosoma_deflexum,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Leistus fulvibarbis,Leistus_fulvibarbis,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Leistus rufomarginatus,Leistus_rufomarginatus,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Leistus spinibarbis,Leistus_spinibarbis,Carabidae,Adephaga,1,0,0,1,False,False,False,,ILLUMINA,ERX12138203
+Leonhardella angulicollis,Leonhardella_angulicollis,Leiodidae,Staphyliniformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13270908
+Leptinotarsa decemlineata,Leptinotarsa_decemlineata,Chrysomelidae,Cucujiformia,1369,21,21,158,True,True,True,"aedeagus; fat body; fat body female; fat body male; fat body, midgut,malpighian tubules pooled; fatbody; feces_0 hours; feces_96 hours; fertilized egg; genital ducts",DNBSEQ; ILLUMINA; PACBIO_SMRT,SRX29926839; SRX29926838; SRX29926837; SRX29926836; SRX29926835
+Leptodirus hochenwartii,Leptodirus_hochenwartii,Leiodidae,Staphyliniformia,2,0,0,2,False,False,False,whole body,ILLUMINA,ERX10349534; SRX18835733
+Leptura quadrifasciata,Leptura_quadrifasciata,Cerambycidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14197783
+Lesteva pubescens,Lesteva_pubescens,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Lesteva punctata,Lesteva_punctata,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Lethrus apterus,Lethrus_apterus,Geotrupidae,Scarabaeiformia,40,20,20,0,True,True,True,head,ILLUMINA,SRX26314786; SRX26313083; SRX26313082; SRX26313081; SRX26313080
+Librodor japonicus,Librodor_japonicus,Nitidulidae,Cucujiformia,1,0,1,0,False,True,False,body,ILLUMINA,SRX27182025
+Limonius poneli,Limonius_poneli,Elateridae,Elateriformia,0,0,0,0,False,False,False,,,
+Liophloeus tessulatus,Liophloeus_tessulatus,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Liopterus haemorrhoidalis,Liopterus_haemorrhoidalis,Dytiscidae,Adephaga,0,0,0,0,False,False,False,,,
+Lochmaea capreae,Lochmaea_capreae,Chrysomelidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX10650723
+Lochmaea crataegi,Lochmaea_crataegi,Chrysomelidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13400204
+Longitarsus dorsalis,Longitarsus_dorsalis,Chrysomelidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13528024
+Longitarsus flavicornis,Longitarsus_flavicornis,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Lordithon lunulatus,Lordithon_lunulatus,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Lucanus miwai,Lucanus_miwai,Lucanidae,Scarabaeiformia,0,0,0,0,False,False,False,,,
+Luciola italica,Luciola_italica,Lampyridae,Elateriformia,26,12,14,0,True,True,True,47-swla-luita-14-f-h_head; 48-swla-luita-9-f-h_head; 49-swla-luita-5-f-h_head; 50-swla-luita-8-f-h_head; 51-swla-luita-2-f-h_head; 52-swla-luita-11-f-h_head; 53-swla-luita-3-f-h_head; 54-swla-luita-4-m-b_abdomen; 55-swla-luita-5-m-b_abdomen; 56-swla-luita-2-m-b_abdomen,ILLUMINA,SRX24147083; SRX24147082; SRX24147081; SRX24147080; SRX24147052
+Magdalis barbicornis,Magdalis_barbicornis,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Magdalis cerasi,Magdalis_cerasi,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Malachius bipustulatus,Malachius_bipustulatus,Melyridae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12016736
+Malthinus flaveolus,Malthinus_flaveolus,Cantharidae,Elateriformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13400218
+Malthinus seriepunctatus,Malthinus_seriepunctatus,Cantharidae,Elateriformia,0,0,0,0,False,False,False,,,
+Malthodes marginatus,Malthodes_marginatus,Cantharidae,Elateriformia,0,0,0,0,False,False,False,,,
+Malthodes minimus,Malthodes_minimus,Cantharidae,Elateriformia,0,0,0,0,False,False,False,,,
+Marronus borbonicus,Marronus_borbonicus,Scarabaeidae,Scarabaeiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX3806211
+Megalocaria dilatata,Megalocaria_dilatata,Coccinellidae,Cucujiformia,2,0,1,1,False,True,False,whole body,ILLUMINA; PACBIO_SMRT,SRX22130586; SRX8144148
+Megatoma undata,Megatoma_undata,Dermestidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Melanotus villosus,Melanotus_villosus,Elateridae,Elateriformia,0,0,0,0,False,False,False,,,
+Melinopterus prodromus,Melinopterus_prodromus,Scarabaeidae,Scarabaeiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11453889
+Melolontha melolontha,Melolontha_melolontha,Scarabaeidae,Scarabaeiformia,19,1,0,18,True,False,False,anterior midgut tissue; posterior midgut tissue,ILLUMINA,ERX9909287; SRX10826119; SRX10826118; SRX10826117; SRX10826116
+Metoecus paradoxus,Metoecus_paradoxus,Ripiphoridae,Cucujiformia,1,0,0,1,False,False,False,whole body,ILLUMINA,SRX26592352
+Micromus angulatus,Micromus_angulatus,Hemerobiidae,Neuroptera,3,0,0,3,False,False,False,,ILLUMINA; OXFORD_NANOPORE; PACBIO_SMRT,SRX27254125; SRX25418143; SRX25339377
+Microrhagus pygmaeus,Microrhagus_pygmaeus,Eucnemidae,Elateriformia,0,0,0,0,False,False,False,,,
+Mongoloraphidia duomilia,Mongoloraphidia_duomilia,Raphidiidae,Raphidioptera,2,0,2,0,False,True,False,tissue,ILLUMINA; PACBIO_SMRT,SRX24376629; SRX24364386
+Monochamus alternatus,Monochamus_alternatus,Cerambycidae,Cucujiformia,129,22,25,82,True,True,True,antenna; antennae; body; body of m. alternatus fumigated by (+)-alpha-pinene - replicate 1; body of m. alternatus fumigated by (+)-alpha-pinene - replicate 2; body of m. alternatus fumigated by (+)-alpha-pinene - replicate 3; body of m. alternatus under control - replicate 1; body of m. alternatus under control - replicate 2; body of m. alternatus under control - replicate 3; brain,ILLUMINA,SRX23859334; SRX23859333; SRX23859332; SRX23859331; SRX23859330
+Monochamus saltuarius,Monochamus_saltuarius,Cerambycidae,Cucujiformia,84,0,0,84,False,False,False,adult cuticle; adult gonad; adult trachea; complete insect; gut; larva; pupa; whole body of larvae,ILLUMINA,SRX18995029; SRX18994451; SRX18992744; SRX18992743; SRX18992742
+Monochamus scutellatus,Monochamus_scutellatus,Cerambycidae,Cucujiformia,13,6,7,0,True,True,True,antennae; whole body,ILLUMINA,SRX29604954; SRX15155659; SRX15155658; SRX15155657; SRX15155656
+Monochamus sutor,Monochamus_sutor,Cerambycidae,Cucujiformia,3,0,1,2,False,True,False,not applicable,ILLUMINA,SRX29500787; SRX29500786; SRX29500785
+Monolepta hieroglyphica,Monolepta_hieroglyphica,Chrysomelidae,Cucujiformia,12,0,0,12,False,False,False,whole organism,ILLUMINA,SRX26771991; SRX26771990; SRX26771989; SRX26771988; SRX26771987
+Mononychus punctumalbum,Mononychus_punctumalbum,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Monotoma picipes,Monotoma_picipes,Monotomidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Morimus asper,Morimus_asper,Cerambycidae,Cucujiformia,1,0,1,0,False,True,False,,ILLUMINA,ERX15434675
+Morimus orientalis,Morimus_orientalis,Cerambycidae,Cucujiformia,1,1,0,0,True,False,False,,ILLUMINA,ERX15434687
+Mycetophagus atomarius,Mycetophagus_atomarius,Mycetophagidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13400262
+Mycetophagus piceus,Mycetophagus_piceus,Mycetophagidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Mylabris quadripunctata,Mylabris_quadripunctata,Meloidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX15434678
+Mylabris sibirica,Mylabris_sibirica,Meloidae,Cucujiformia,1,0,0,1,False,False,False,whole body,ILLUMINA,SRX24528320
+Myrrha octodecimguttata,Myrrha_octodecimguttata,Coccinellidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Nacerdes melanura,Nacerdes_melanura,Oedemeridae,Cucujiformia,0,0,0,0,False,False,False,,,
+Nadezhdiella cantori,Nadezhdiella_cantori,Cerambycidae,Cucujiformia,1,0,0,1,False,False,False,whole body,ILLUMINA,SRX29540870
+Nalassus laevioctostriatus,Nalassus_laevioctostriatus,Tenebrionidae,Cucujiformia,2,0,0,2,False,False,False,whole body,ILLUMINA,ERX13363646; SRX18287633
+Nebria brevicollis,Nebria_brevicollis,Carabidae,Adephaga,1,0,0,1,False,False,False,,ILLUMINA,ERX12138200
+Nebria salina,Nebria_salina,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Nedyus quadrimaculatus,Nedyus_quadrimaculatus,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Neocrepidodera transversa,Neocrepidodera_transversa,Chrysomelidae,Cucujiformia,2,0,0,2,False,False,False,whole insect,ILLUMINA,ERX11235621; SRX20709665
+Neoneuromus ignobilis,Neoneuromus_ignobilis,Corydalidae,Megaloptera,4,0,2,2,False,True,False,newly hatched larvae; whole body; whole-body,BGISEQ; ILLUMINA; PACBIO_SMRT,SRX15958479; SRX15936880; SRX15936107; SRX15935659
+Nicrophorus investigator,Nicrophorus_investigator,Silphidae,Staphyliniformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11418658
+Nineta flava,Nineta_flava,Chrysopidae,Neuroptera,0,0,0,0,False,False,False,,,
+Nothochrysa capitata,Nothochrysa_capitata,Chrysopidae,Neuroptera,0,0,0,0,False,False,False,,,
+Notiophilus biguttatus,Notiophilus_biguttatus,Carabidae,Adephaga,1,0,0,1,False,False,False,,ILLUMINA,ERX13400236
+Notoxus monoceros,Notoxus_monoceros,Anthicidae,Cucujiformia,1,0,0,1,False,False,False,whole body,ILLUMINA,SRX9535380
+Octodonta nipae,Octodonta_nipae,Chrysomelidae,Cucujiformia,4,0,0,4,False,False,False,"mix sample of 50-60 eggs>30 larvae, ~20 pupae, ~20 adults",ILLUMINA,SRX21791473; SRX396789; SRX396780; SRX396790
+Ocypus olens,Ocypus_olens,Staphylinidae,Staphyliniformia,2,0,0,2,False,False,False,,ILLUMINA,ERX9660712; ERX5921423
+Ocys tachysoides,Ocys_tachysoides,Carabidae,Adephaga,1,1,0,0,True,False,False,"whole body except elytron, leg, antenna, genitalia",ILLUMINA,SRX24701793
+Odontolabis cuvera,Odontolabis_cuvera,Lucanidae,Scarabaeiformia,1,0,0,1,False,False,False,whole body,ILLUMINA,SRX27195217
+Oedemera lurida,Oedemera_lurida,Oedemeridae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11656474
+Ontholestes murinus,Ontholestes_murinus,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Onthophagus binodis,Onthophagus_binodis,Scarabaeidae,Scarabaeiformia,0,0,0,0,False,False,False,,,
+Onthophagus sagittarius,Onthophagus_sagittarius,Scarabaeidae,Scarabaeiformia,24,24,0,0,True,False,False,epidermis,ILLUMINA,SRX7782598; SRX7782597; SRX7782596; SRX7782595; SRX7782594
+Onthophagus taurus,Onthophagus_taurus,Scarabaeidae,Scarabaeiformia,547,105,95,0,True,True,True,epithelial tissue of anterior half of dorsal head cuticle; epithelial tissue of left elytra; epithelial tissue of left fore tibia; epithelial tissue of posterior half of dorsal head cuticle; epithelial tissue of ventral two posterior-most abdominal segments,ILLUMINA,SRX32212605; SRX32212604; SRX32212603; SRX32212602; SRX32212601
+Ophonus ardosiacus,Ophonus_ardosiacus,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Ophraella communa,Ophraella_communa,Chrysomelidae,Cucujiformia,38,13,16,9,True,True,True,antenna; body; female adults; ovary; the accessory gland; the testis,ILLUMINA,SRX23010954; SRX23010953; SRX23010952; SRX23010951; SRX23010950
+Opilo mollis,Opilo_mollis,Cleridae,Cucujiformia,0,0,0,0,False,False,False,,,
+Orchesia undulata,Orchesia_undulata,Melandryidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Orchestes rusci,Orchestes_rusci,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Oryctes borbonicus,Oryctes_borbonicus,Scarabaeidae,Scarabaeiformia,1,0,0,1,False,False,False,whole animal,ILLUMINA,SRX1458313
+Oryctes rhinoceros,Oryctes_rhinoceros,Scarabaeidae,Scarabaeiformia,26,0,5,21,False,True,False,"fat bodies, fore gut, mid gut, hind gut; fat body; gastric cecae; head and legs of larvae; hindgut wall; midgut wall; whole body",DNBSEQ; ILLUMINA; PACBIO_SMRT,SRX19336280; SRX19336279; SRX19336278; SRX19336277; SRX19336276
+Osmylus fulvicephalus,Osmylus_fulvicephalus,Osmylidae,Neuroptera,1,0,1,0,False,True,False,,ILLUMINA,ERX16161549
+Othius punctulatus,Othius_punctulatus,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Otiorhynchus rugosostriatus,Otiorhynchus_rugosostriatus,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Oxystoma pomonae,Oxystoma_pomonae,Apionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12138252
+Pachyrhinus lethierryi,Pachyrhinus_lethierryi,Curculionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14197827
+Pachyrhynchus sulphureomaculatus,Pachyrhynchus_sulphureomaculatus,Curculionidae,Cucujiformia,1,1,0,0,True,False,False,whole body,ILLUMINA,SRX11343582
+Paederus riparius,Paederus_riparius,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Pediacus dermestoides,Pediacus_dermestoides,Cucujidae,Cucujiformia,1,0,1,0,False,True,False,,ILLUMINA,ERX12465328
+Phaedon cochleariae,Phaedon_cochleariae,Chrysomelidae,Cucujiformia,19,0,0,19,False,False,False,"defensive glands; gut, fat body, malpighian tubules, glands",ILLUMINA; PACBIO_SMRT,ERX6994570; ERX6552037; ERX6552036; ERX2874151; ERX2874150
+Phaleria cadaverina,Phaleria_cadaverina,Tenebrionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Phanaeus vindex,Phanaeus_vindex,Scarabaeidae,Scarabaeiformia,15,0,15,0,False,True,False,whole body,ILLUMINA,SRX9235135; SRX9235134; SRX9235133; SRX9235132; SRX9235131
+Philonthus cognatus,Philonthus_cognatus,Staphylinidae,Staphyliniformia,1,0,0,1,False,False,False,,ILLUMINA,ERX9909282
+Philonthus spinipes,Philonthus_spinipes,Staphylinidae,Staphyliniformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12234886
+Philopedon plagiatum,Philopedon_plagiatum,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Phosphuga atrata,Phosphuga_atrata,Silphidae,Staphyliniformia,1,0,0,1,False,False,False,,ILLUMINA,ERX9660770
+Photinus pyralis,Photinus_pyralis,Lampyridae,Elateriformia,65,39,10,16,True,True,True,abdominal fat body; antennae; back legs; dissected photophore; egg; female spermatheca; female spermatophore digesting gland / bursa; female thorax; full body; gut,ILLUMINA; OXFORD_NANOPORE,SRX27029289; SRX27029288; SRX27029287; SRX27029286; SRX27029285
+Phratora vitellinae,Phratora_vitellinae,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Phyllobius argentatus,Phyllobius_argentatus,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Phyllobius pyri,Phyllobius_pyri,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Phyllobius virideaeris,Phyllobius_virideaeris,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Phyllotreta cruciferae,Phyllotreta_cruciferae,Chrysomelidae,Cucujiformia,1,0,0,1,False,False,False,whole adults,PACBIO_SMRT,SRX24998757
+Phyllotreta striolata,Phyllotreta_striolata,Chrysomelidae,Cucujiformia,10,3,5,2,True,True,True,adult; antenna; terminal abdomen; the whole worm; whole adults; whole body,BGISEQ; ILLUMINA; PACBIO_SMRT,SRX27371604; SRX27371603; SRX24998777; SRX19450558; SRX9535385
+Plagiodera versicolora,Plagiodera_versicolora,Chrysomelidae,Cucujiformia,38,0,0,38,False,False,False,body; carcass; chrysalides; gut; head; whole body,ILLUMINA,SRX29589370; SRX29589369; SRX29589368; SRX29589367; SRX29589366
+Platydracus latebricola,Platydracus_latebricola,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Platypus cylindrus,Platypus_cylindrus,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Platyrhinus resinosus,Platyrhinus_resinosus,Anthribidae,Cucujiformia,1,0,0,1,False,False,False,whole beetle,ILLUMINA,SRX20869068
+Platystomos albinus,Platystomos_albinus,Anthribidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14197801
+Podabrus alpinus,Podabrus_alpinus,Cantharidae,Elateriformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12016742
+Podagrica fuscicornis,Podagrica_fuscicornis,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Poecilus cupreus,Poecilus_cupreus,Carabidae,Adephaga,1,0,0,1,False,False,False,,ILLUMINA,ERX11656494
+Pogonocherus hispidulus,Pogonocherus_hispidulus,Cerambycidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Polydrusus cervinus,Polydrusus_cervinus,Curculionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12138204
+Polydrusus impressifrons,Polydrusus_impressifrons,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Polydrusus pterygomalis,Polydrusus_pterygomalis,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Polydrusus tereticollis,Polydrusus_tereticollis,Curculionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12016766
+Popillia japonica,Popillia_japonica,Scarabaeidae,Scarabaeiformia,79,4,4,71,True,True,True,fat body; whole body; whole insect body,ILLUMINA; LS454,SRX31807750; SRX31807749; SRX31807748; SRX31807747; SRX31807746
+Prionocyphon serricornis,Prionocyphon_serricornis,Scirtidae,Scirtoidea,0,0,0,0,False,False,False,,,
+Prionychus ater,Prionychus_ater,Tenebrionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14197814
+Promethis valgipes,Promethis_valgipes,Tenebrionidae,Cucujiformia,1,0,0,1,False,False,False,whole body,ILLUMINA,SRX30569967
+Propomacrus cypriacus,Propomacrus_cypriacus,Glaphyridae,Cucujiformia,1,0,1,0,False,True,False,,ILLUMINA,ERX16161551
+Propylea japonica,Propylea_japonica,Coccinellidae,Cucujiformia,55,0,12,43,False,True,False,4th instar larva; insect; insect body; whole body; whole worm,BGISEQ; ILLUMINA; PACBIO_SMRT,SRX19981025; SRX19981024; SRX19981023; SRX19981022; SRX19981021
+Propylea quattuordecimpunctata,Propylea_quattuordecimpunctata,Coccinellidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11483270
+Prosopocoilus inquinatus,Prosopocoilus_inquinatus,Lucanidae,Scarabaeiformia,2,0,0,2,False,False,False,body,ILLUMINA; OXFORD_NANOPORE,SRX22809845; SRX22809844
+Protaetia brevitarsis,Protaetia_brevitarsis,Scarabaeidae,Scarabaeiformia,161,1,4,156,True,True,True,adult whole body; antenna; egg; fat body; female adult; forewing; gut; head; hemocytes; hindgut,ILLUMINA; PACBIO_SMRT,SRX29728259; DRX652907; DRX652906; DRX652905; DRX652904
+Pseudeuparius sepicola,Pseudeuparius_sepicola,Anthribidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Pseudocistela ceramboides,Pseudocistela_ceramboides,Tenebrionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Psylliodes chrysocephalus,Psylliodes_chrysocephalus,Chrysomelidae,Cucujiformia,18,0,14,4,False,True,False,body tissue excluding gut; gut; pupa; whole body; whole-body,BGISEQ; DNBSEQ; ILLUMINA,SRX27020936; SRX27020935; SRX27020934; SRX27020933; SRX19261545
+Pterostichus diligens,Pterostichus_diligens,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Pterostichus madidus,Pterostichus_madidus,Carabidae,Adephaga,2,0,0,2,False,False,False,,ILLUMINA,ERX9660711; ERX8976894
+Pterostichus niger,Pterostichus_niger,Carabidae,Adephaga,1,0,0,1,False,False,False,,ILLUMINA,ERX11043087
+Pterostichus vernalis,Pterostichus_vernalis,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Pycnomerus fuliginosus,Pycnomerus_fuliginosus,Zopheridae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13400215
+Pyrochroa serraticornis,Pyrochroa_serraticornis,Pyrochroidae,Cucujiformia,2,0,0,2,False,False,False,whole body,ILLUMINA,ERX11656461; SRX18287657
+Pyrocoelia pectoralis,Pyrocoelia_pectoralis,Lampyridae,Elateriformia,6,6,0,0,True,False,False,luminous organ; non-luminous organ,DNBSEQ,SRX27837467; SRX27837466; SRX27837465; SRX27837464; SRX27837463
+Quedius lateralis,Quedius_lateralis,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Radziella styx,Radziella_styx,Leiodidae,Staphyliniformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14595568
+Rhagium mordax,Rhagium_mordax,Cerambycidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14197777
+Rhagonycha fulva,Rhagonycha_fulva,Cantharidae,Elateriformia,1,0,0,1,False,False,False,,ILLUMINA,ERX5921406
+Rhagonycha lignosa,Rhagonycha_lignosa,Cantharidae,Elateriformia,0,0,0,0,False,False,False,,,
+Rhagonycha lutea,Rhagonycha_lutea,Cantharidae,Elateriformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13400213
+Rhizotrogus aestivus,Rhizotrogus_aestivus,Scarabaeidae,Scarabaeiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14197822
+Rhynchophorus ferrugineus,Rhynchophorus_ferrugineus,Curculionidae,Cucujiformia,131,41,69,21,True,True,True,abdomen; antenna; antennae; body; embryos; fat body; gut; head; larvars; leg,ABI_SOLID; ILLUMINA; LS454; PACBIO_SMRT,SRX30755757; SRX30755756; SRX30755755; SRX30755754; SRX30755753
+Rhyzobius forestieri,Rhyzobius_forestieri,Coccinellidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Rhyzopertha dominica,Rhyzopertha_dominica,Bostrichidae,Cucujiformia,47,0,0,47,False,False,False,adults; carcass; gut; head; whole body (ch); whole body (ck); whole body (cn); whole body (cp); whole body (h); whole body (k),ILLUMINA,SRX26447584; SRX26447583; SRX26447582; SRX26447581; SRX26447573
+Rutpela maculata,Rutpela_maculata,Cerambycidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX9660754
+Salpingus planirostris,Salpingus_planirostris,Salpingidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11656490
+Sambus kanssuensis,Sambus_kanssuensis,Buprestidae,Elateriformia,0,0,0,0,False,False,False,,,
+Scaphidium quadrimaculatum,Scaphidium_quadrimaculatum,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Scarites abbreviatus,Scarites_abbreviatus,Carabidae,Adephaga,1,0,0,1,False,False,False,,ILLUMINA,ERX16161576
+Schizotus pectinicornis,Schizotus_pectinicornis,Pyrochroidae,Cucujiformia,1,0,1,0,False,True,False,,ILLUMINA,ERX11656528
+Serangium japonicum,Serangium_japonicum,Coccinellidae,Cucujiformia,10,0,2,8,False,True,False,adult body; whole body,ILLUMINA; OXFORD_NANOPORE,SRX24770210; SRX24770208; SRX8144169; SRX3563194; SRX3563193
+Serica brunnea,Serica_brunnea,Scarabaeidae,Scarabaeiformia,2,0,0,2,False,False,False,muscle,ILLUMINA,ERX13041558; SRX19355993
+Serrognathus titanus,Serrognathus_titanus,Lucanidae,Scarabaeiformia,1,0,0,1,False,False,False,whole body,ILLUMINA,SRX24526669
+Sialis fuliginosa,Sialis_fuliginosa,Sialidae,Megaloptera,1,0,0,1,False,False,False,,ILLUMINA,ERX10902217
+Sialis lutaria,Sialis_lutaria,Sialidae,Megaloptera,2,0,0,2,False,False,False,,ILLUMINA,ERX12082729; ERX10296435
+Silvanus unidentatus,Silvanus_unidentatus,Silvanidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11656512
+Sisyphus schaefferi,Sisyphus_schaefferi,Scarabaeidae,Scarabaeiformia,1,0,0,1,False,False,False,muscle,ILLUMINA,SRX19356008
+Sisyra nigra,Sisyra_nigra,Sisyridae,Neuroptera,1,0,0,1,False,False,False,,ILLUMINA,ERX11418666
+Sisyra terminalis,Sisyra_terminalis,Sisyridae,Neuroptera,1,0,0,1,False,False,False,,ILLUMINA,ERX13400223
+Sitona lineatus,Sitona_lineatus,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Sitophilus oryzae,Sitophilus_oryzae,Curculionidae,Cucujiformia,87,0,16,71,False,True,False,adult; bacteriome; bacteriomes; germarium; gut; head; midgut; ovaries; whole body; whole larvae,ILLUMINA; ION_TORRENT,SRX18952448; SRX18952447; SRX18952446; SRX18952445; SRX18952444
+Sitophilus zeamais,Sitophilus_zeamais,Curculionidae,Cucujiformia,16,1,1,14,True,True,True,antennae; not collected; whole body; whole insect; whole organism,BGISEQ; ILLUMINA,SRX27306935; SRX27306934; SRX27306933; SRX27306932; SRX27306931
+Sphaeridium bipustulatum,Sphaeridium_bipustulatum,Hydrophilidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Sphaeroderma testaceum,Sphaeroderma_testaceum,Chrysomelidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Staphylinus erythropterus,Staphylinus_erythropterus,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Stenocarus ruficornis,Stenocarus_ruficornis,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Stenolophus ochropezus,Stenolophus_ochropezus,Carabidae,Adephaga,0,0,0,0,False,False,False,,,
+Stenosis austini,Stenosis_austini,Tenebrionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX16161572
+Stenurella melanura,Stenurella_melanura,Cerambycidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX13400226
+Stenus bimaculatus,Stenus_bimaculatus,Staphylinidae,Staphyliniformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11418665
+Stictoleptura scutellata,Stictoleptura_scutellata,Cerambycidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX14197805
+Subcoccinella vigintiquattuorpunctata,Subcoccinella_vigintiquattuorpunctata,Coccinellidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11269978
+Tachinus rufipes,Tachinus_rufipes,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Tachyporus hypnorum,Tachyporus_hypnorum,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Taeniapion urticarium,Taeniapion_urticarium,Apionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Taphrorychus bicolor,Taphrorychus_bicolor,Curculionidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12233841
+Tarphius canariensis,Tarphius_canariensis,Zopheridae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX12671953
+Tenebrio molitor,Tenebrio_molitor,Tenebrionidae,Cucujiformia,291,16,19,165,True,True,True,24h whole body of tenebrio molitor injected by pbs; 24h whole body of tenebrio molitor injected by venom dppiv from scleroderma guani; 6h whole body of tenebrio molitor injected by pbs; 6h whole body of tenebrio molitor injected by venom dppiv from scleroderma guani; body; gut; larval gut; membranous wings; tissue sample (gut); whole body,ILLUMINA,SRX31022066; SRX31022065; SRX31022064; SRX31022063; SRX31022062
+Tetraopes melanurus,Tetraopes_melanurus,Cerambycidae,Cucujiformia,1,0,1,0,False,True,False,whole body,ILLUMINA,SRX29568849
+Tetraopes sublaevis,Tetraopes_sublaevis,Cerambycidae,Cucujiformia,1,0,1,0,False,True,False,whole body,ILLUMINA,SRX29568843
+Tetraopes tetrophthalmus,Tetraopes_tetrophthalmus,Cerambycidae,Cucujiformia,1,0,1,0,False,True,False,whole body,ILLUMINA,SRX29568846
+Tetropium fuscum,Tetropium_fuscum,Cerambycidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Thanatophilus sinuatus,Thanatophilus_sinuatus,Silphidae,Staphyliniformia,1,0,0,1,False,False,False,whole body,ILLUMINA,SRX29434692
+Tillus elongatus,Tillus_elongatus,Cleridae,Cucujiformia,0,0,0,0,False,False,False,,,
+Tomicus yunnanensis,Tomicus_yunnanensis,Curculionidae,Cucujiformia,14,2,3,9,True,True,True,"female reproductive systems; female residual bodies; insect individual; larvae, pupae and adults; male reproductive systems; male residual bodies; whole bodies; whole body",ILLUMINA,SRX32068678; SRX32068677; SRX32068676; SRX32068675; SRX32068674
+Tribolium castaneum,Tribolium_castaneum,Tenebrionidae,Cucujiformia,2143,0,27,173,False,True,False,fat body; gut; malpighian tubules; whole body; whole body homogenates; whole insect; whole larvae,BGISEQ; DNBSEQ; ILLUMINA,SRX32409487; SRX32409486; SRX32409485; SRX32409484; SRX32409483
+Tribolium confusum,Tribolium_confusum,Tenebrionidae,Cucujiformia,90,5,12,73,True,True,True,antennae; gut; head; head and prothorax; insect body; ovary; teste; whole beetle; whole body; whole organism,BGISEQ; DNBSEQ; ILLUMINA,SRX26232458; SRX26232457; SRX26232456; SRX26232455; SRX23146180
+Tribolium freemani,Tribolium_freemani,Tenebrionidae,Cucujiformia,39,6,12,21,True,True,True,gonadectomized carcass; head and prothorax; ovary; testes; whole beetle; whole body,ILLUMINA,SRX23146139; SRX23146138; SRX23146137; SRX23146136; SRX23146135
+Tribolium madens,Tribolium_madens,Tenebrionidae,Cucujiformia,18,0,7,11,False,True,False,whole beetle; whole body,ILLUMINA,SRX23146152; SRX23146151; SRX23146150; SRX23146149; SRX23146148
+Trigonoscuta pilosa,Trigonoscuta_pilosa,Curculionidae,Cucujiformia,3,0,0,3,False,False,False,whole individual,ILLUMINA,SRX24864126; SRX24864125; SRX24864124
+Trypoxylus dichotomus,Trypoxylus_dichotomus,Scarabaeidae,Scarabaeiformia,216,36,30,134,True,True,True,genitalia; hdhorn; head horn; hemocyte; hindgut; midgut; thorax horn; throax muscle; thxhorn; wings,ILLUMINA,DRX321809; DRX321808; DRX321807; DRX321806; DRX321805
+Tytthaspis sedecimpunctata,Tytthaspis_sedecimpunctata,Coccinellidae,Cucujiformia,1,0,1,0,False,True,False,,ILLUMINA,ERX12465352
+Uleiota planata,Uleiota_planata,Silvanidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11043116
+Ulomoides dermestoides,Ulomoides_dermestoides,Tenebrionidae,Cucujiformia,5,2,1,2,True,True,True,whole body,ILLUMINA,SRX25315246; SRX25315245; SRX25315244; SRX25315243; SRX25315242
+Xantholinus longiventris,Xantholinus_longiventris,Staphylinidae,Staphyliniformia,0,0,0,0,False,False,False,,,
+Xanthostigma xanthostigma,Xanthostigma_xanthostigma,Raphidiidae,Raphidioptera,0,0,0,0,False,False,False,,,
+Xestobium rufovillosum,Xestobium_rufovillosum,Ptinidae,Cucujiformia,1,0,0,1,False,False,False,,ILLUMINA,ERX11719353
+Xyleborus affinis,Xyleborus_affinis,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Xyleborus bispinatus,Xyleborus_bispinatus,Curculionidae,Cucujiformia,0,0,0,0,False,False,False,,,
+Zophobas atratus,Zophobas_atratus,Tenebrionidae,Cucujiformia,28,0,0,28,False,False,False,brain; carcass; central nerve system; fat body; fatbody; gut; hindgut; malpighian tubule; malpighian tubules; midgut,ILLUMINA,SRX22644566; SRX22644565; SRX19948689; SRX19948688; SRX19948687
+Zophobas morio,Zophobas_morio,Tenebrionidae,Cucujiformia,2,0,0,2,False,False,False,digestive tract; whole gut,ILLUMINA,SRX32479742; SRX14835442

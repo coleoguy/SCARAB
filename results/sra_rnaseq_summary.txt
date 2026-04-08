@@ -1,0 +1,18 @@
+SCARAB SRA RNA-seq Survey Summary
+==================================
+Total species queried: 439
+Species with any RNA-seq: 272 (62%)
+Species with male RNA-seq: 66 (15%)
+Species with female RNA-seq: 87 (20%)
+Species with BOTH sexes: 53 (12%)
+
+By clade:
+  Adephaga: 20/45 RNA-seq, 2/45 both sexes
+  Cucujiformia: 166/250 RNA-seq, 38/250 both sexes
+  Elateriformia: 27/44 RNA-seq, 4/44 both sexes
+  Megaloptera: 4/4 RNA-seq, 0/4 both sexes
+  Neuroptera: 7/11 RNA-seq, 0/11 both sexes
+  Raphidioptera: 1/2 RNA-seq, 0/2 both sexes
+  Scarabaeiformia: 31/44 RNA-seq, 7/44 both sexes
+  Scirtoidea: 0/1 RNA-seq, 0/1 both sexes
+  Staphyliniformia: 16/38 RNA-seq, 2/38 both sexes

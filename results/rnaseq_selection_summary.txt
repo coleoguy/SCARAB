@@ -1,0 +1,113 @@
+RNA-seq Run Selection Summary
+==================================================
+Both-sex species selected: 50
+Male-only species selected: 4
+Female-only species selected: 11
+Total species selected: 65
+Species dropped: 35
+
+Total runs selected: 297
+Total FASTQ files: 578
+Estimated download size: 832 GB
+
+Per-species details:
+  BOTH     Abscondita terminalis                    whole_body (tier 1): 3M + 3F — est 10.9 GB
+  BOTH     Acanthoscelides obtectus                 abdomen (tier 2: >=2 per sex): 3M + 3F — est 10.3 GB
+  BOTH     Aethina tumida                           antenna (tier 2: >=2 per sex): 3M + 3F — est 15.3 GB
+  BOTH     Agrilus planipennis                      whole_body (tier 1): 1M + 3F — est 24.9 GB
+  BOTH     Altica lythri                            whole_body (tier 1): 3M + 3F — est 22.9 GB
+  BOTH     Anoplophora glabripennis                 whole_body (tier 1): 1M + 1F — est 5.3 GB
+  BOTH     Arhopalus unicolor                       whole_body (tier 1): 3M + 3F — est 11.2 GB
+  BOTH     Brontispa longissima                     antenna (tier 3: >=1 per sex): 1M + 1F — est 3.9 GB
+  BOTH     Callosobruchus maculatus                 whole_body (tier 1): 3M + 3F — est 51.6 GB
+  BOTH     Carabus blaptoides fortunei              whole_body (tier 1): 3M + 3F — est 5.4 GB
+  BOTH     Carabus esakii                           unspecified (tier 4): 3M + 3F — est 9.4 GB
+  BOTH     Chrysomela aeneicollis                   whole_body (tier 1): 3M + 3F — est 15.5 GB
+  BOTH     Coccinella septempunctata                abdomen (tier 2: >=2 per sex): 3M + 3F — est 10.4 GB
+  BOTH     Cryptolaemus montrouzieri                abdomen (tier 2: >=2 per sex): 3M + 3F — est 10.8 GB
+  BOTH     Cylas formicarius                        antenna (tier 3: >=1 per sex): 1M + 1F — est 4.2 GB
+  BOTH     Dalotia coriaria                         whole_body (tier 1): 1M + 1F — est 8.6 GB
+  BOTH     Dastarcus helophoroides                  unspecified (tier 4): 3M + 3F — est 14.7 GB
+  BOTH     Dendroctonus frontalis                   whole_body (tier 1) [recovered at 2M threshold]: 3M + 3F — est 1.9 GB
+  BOTH     Dendroctonus ponderosae                  fat_body (tier 2: >=2 per sex): 3M + 3F — est 23.5 GB
+  BOTH     Diabrotica undecimpunctata               whole_body (tier 1): 3M + 3F — est 26.8 GB
+  BOTH     Diabrotica virgifera virgifera           whole_body (tier 1): 3M + 3F — est 18.9 GB
+  BOTH     Digitonthophagus gazella                 foretibia (tier 2: >=2 per sex): 3M + 3F — est 5.9 GB
+  BOTH     Drusilla canaliculata                    body without head (tier 3: >=1 per sex): 1M + 1F — est 14.7 GB
+  BOTH     Eucryptorrhynchus brandti                antenna (tier 2: >=2 per sex): 3M + 3F — est 12.3 GB
+  BOTH     Eucryptorrhynchus scrobiculatus          antenna (tier 2: >=2 per sex): 3M + 3F — est 12.7 GB
+  BOTH     Euwallacea fornicatus                    whole_body (tier 1): 1M + 2F — est 9.6 GB
+  BOTH     Gnatocerus cornutus                      head (tier 2: >=2 per sex): 3M + 3F — est 24.8 GB
+  BOTH     Harmonia axyridis                        whole_body (tier 1): 3M + 3F — est 15.8 GB
+  BOTH     Hippodamia variegata                     antenna (tier 2: >=2 per sex): 3M + 3F — est 38.4 GB
+  BOTH     Holotrichia oblita                       whole_body (tier 1): 3M + 3F — est 13.1 GB
+  BOTH     Hypothenemus hampei                      whole_body (tier 1): 3M + 3F — est 14.7 GB
+  BOTH     Ips typographus                          fat_body (tier 2: >=2 per sex): 3M + 3F — est 29.6 GB
+  BOTH     Leptinotarsa decemlineata                fat_body (tier 2: >=2 per sex): 3M + 3F — est 11.5 GB
+  BOTH     Lethrus apterus                          head (tier 2: >=2 per sex): 3M + 3F — est 29.5 GB
+  BOTH     Luciola italica                          abdomen (tier 2: >=2 per sex): 3M + 3F — est 17.5 GB
+  BOTH     Monochamus alternatus                    antenna (tier 2: >=2 per sex): 3M + 3F — est 13.7 GB
+  BOTH     Monochamus scutellatus                   antenna (tier 2: >=2 per sex): 3M + 3F — est 4.1 GB
+  BOTH     Onthophagus taurus                       whole_body (tier 1): 3M + 3F — est 9.9 GB
+  BOTH     Ophraella communa                        gonad (tier 2: >=2 per sex): 3M + 3F — est 27.2 GB
+  BOTH     Photinus pyralis                         whole_body (tier 1): 1M + 1F — est 5.3 GB
+  BOTH     Phyllotreta striolata                    antenna (tier 3: >=1 per sex): 1M + 1F — est 4.6 GB
+  BOTH     Popillia japonica                        whole_body (tier 1): 3M + 3F — est 19.6 GB
+  BOTH     Rhynchophorus ferrugineus                whole_body (tier 1): 3M + 3F — est 5.4 GB
+  BOTH     Sitophilus zeamais                       whole_body (tier 1): 1M + 1F — est 4.3 GB
+  BOTH     Tenebrio molitor                         whole_body (tier 1): 3M + 3F — est 16.3 GB
+  BOTH     Tomicus yunnanensis                      gonad (tier 2: >=2 per sex): 2M + 2F — est 8.2 GB
+  BOTH     Tribolium confusum                       head (tier 2: >=2 per sex): 3M + 3F — est 25.1 GB
+  BOTH     Tribolium freemani                       gonad (tier 2: >=2 per sex): 2M + 2F — est 3.0 GB
+  BOTH     Trypoxylus dichotomus                    hdhorn (tier 2: >=2 per sex): 3M + 3F — est 15.7 GB
+  BOTH     Ulomoides dermestoides                   whole_body (tier 1): 2M + 1F — est 5.0 GB
+  DROPPED  Anthonomus rubi                          dropped: only 1 female_only run(s), need >=2
+  DROPPED  Carabus staehlini                        dropped: only 1 female_only run(s), need >=2
+  DROPPED  Cedrorum azoricus                        dropped: only 1 female_only run(s), need >=2
+  DROPPED  Chrysolina graminis                      dropped: only 1 male_only run(s), need >=2
+  DROPPED  Chrysopa pallens                         dropped: only 1 female_only run(s), need >=2
+  DROPPED  Coccinella transversoguttata             dropped: no matched tissue (tissues: whole_body)
+  DROPPED  Dendarus foraminosus                     dropped: only 1 male_only run(s), need >=2
+  DROPPED  Diorhabda carinulata                     dropped: no matched tissue (tissues: abdomen, head, thorax, unspecified)
+  DROPPED  Distenia gracilis                        dropped: only 1 female_only run(s), need >=2
+  DROPPED  Dorcus hopei                             dropped: only 1 male_only run(s), need >=2
+  DROPPED  Dynastes hercules reidi                  dropped: no Illumina runs with known sex and >=5M spots
+  DROPPED  Euwallacea similis                       dropped: only 1 female_only run(s), need >=2
+  DROPPED  Hycleus marcipoli                        dropped: only 1 female_only run(s), need >=2
+  DROPPED  Kibakoganea tamdaoensis                  dropped: only 1 female_only run(s), need >=2
+  DROPPED  Lagria hirta                             dropped: only 1 female_only run(s), need >=2
+  DROPPED  Librodor japonicus                       dropped: only 1 female_only run(s), need >=2
+  DROPPED  Megalocaria dilatata                     dropped: no Illumina runs with known sex and >=5M spots
+  DROPPED  Melolontha melolontha                    dropped: only 1 male_only run(s), need >=2
+  DROPPED  Mongoloraphidia duomilia                 dropped: only 1 female_only run(s), need >=2
+  DROPPED  Monochamus sutor                         dropped: only 1 female_only run(s), need >=2
+  DROPPED  Morimus asper                            dropped: only 1 female_only run(s), need >=2
+  DROPPED  Morimus orientalis                       dropped: only 1 male_only run(s), need >=2
+  DROPPED  Neoneuromus ignobilis                    dropped: only 1 female_only run(s), need >=2
+  DROPPED  Ocys tachysoides                         dropped: only 1 male_only run(s), need >=2
+  DROPPED  Pachyrhynchus sulphureomaculatus         dropped: only 1 male_only run(s), need >=2
+  DROPPED  Pediacus dermestoides                    dropped: only 1 female_only run(s), need >=2
+  DROPPED  Protaetia brevitarsis                    dropped: no matched tissue (tissues: female adult, hemocyte, immature)
+  DROPPED  Psylliodes chrysocephalus                dropped: no Illumina runs with known sex and >=5M spots
+  DROPPED  Pyrocoelia pectoralis                    dropped: no Illumina runs with known sex and >=5M spots
+  DROPPED  Schizotus pectinicornis                  dropped: only 1 female_only run(s), need >=2
+  DROPPED  Serangium japonicum                      dropped: only 1 female_only run(s), need >=2
+  DROPPED  Tetraopes melanurus                      dropped: only 1 female_only run(s), need >=2
+  DROPPED  Tetraopes sublaevis                      dropped: only 1 female_only run(s), need >=2
+  DROPPED  Tetraopes tetrophthalmus                 dropped: only 1 female_only run(s), need >=2
+  DROPPED  Tytthaspis sedecimpunctata               dropped: only 1 female_only run(s), need >=2
+  FEMALE_ONLY  Dendroctonus valens                      female_only: 3 runs (whole_body) — est 6.8 GB
+  FEMALE_ONLY  Diorhabda sublineata                     female_only: 3 runs (mixed tissue) — est 11.2 GB
+  FEMALE_ONLY  Hippodamia convergens                    female_only: 3 runs (whole_body) — est 6.0 GB
+  FEMALE_ONLY  Oryctes rhinoceros                       female_only: 2 runs (gut) — est 2.3 GB
+  FEMALE_ONLY  Osmylus fulvicephalus                    female_only: 2 runs (unspecified) — est 15.3 GB
+  FEMALE_ONLY  Phanaeus vindex                          female_only: 3 runs (whole_body) — est 6.8 GB
+  FEMALE_ONLY  Propomacrus cypriacus                    female_only: 2 runs (unspecified) — est 11.9 GB
+  FEMALE_ONLY  Propylea japonica                        female_only: 3 runs (whole_body) — est 6.0 GB
+  FEMALE_ONLY  Sitophilus oryzae                        female_only: 3 runs (germarium) — est 4.8 GB
+  FEMALE_ONLY  Tribolium castaneum                      female_only: 3 runs (whole_body) — est 6.6 GB
+  FEMALE_ONLY  Tribolium madens                         female_only: 3 runs (whole_body) — est 5.8 GB
+  MALE_ONLY  Catharsius molossus                      male_only: 3 runs (gonad) — est 6.6 GB
+  MALE_ONLY  Dynastes maya                            male_only: 3 runs (musscle) — est 9.4 GB
+  MALE_ONLY  Ichthyurus bourgeoisi                    male_only: 2 runs (whole_body) — est 6.3 GB
+  MALE_ONLY  Onthophagus sagittarius                  male_only: 3 runs (epidermis) — est 2.0 GB

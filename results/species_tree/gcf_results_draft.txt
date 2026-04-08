@@ -1,0 +1,51 @@
+Gene Concordance Factor Results
+================================
+
+Gene concordance factors (gCF) were computed for all 474 internal branches
+of the 478-taxon wASTRAL species tree using 1,284 individual gene trees.
+
+Distribution of gCF values:
+  Mean gCF: 36.7% (SD = 24.4%)
+  Median gCF: 33.1%
+  Range: 0.5% - 93.4%
+
+  gCF >= 50% (majority gene tree support): 149 branches (31.4%)
+  gCF >= 33% (plurality support):          237 branches (50.0%)
+  gCF 20-33%:                               82 branches (17.3%)
+  gCF 10-20%:                               79 branches (16.7%)
+  gCF < 10% (essentially unresolved):       76 branches (16.0%)
+
+Quintiles:
+  20th percentile: 12.2%
+  40th percentile: 24.1%
+  60th percentile: 41.5%
+  80th percentile: 61.6%
+
+Discordance pattern:
+  Mean gDF1: 5.7%
+  Mean gDF2: 5.9%
+  Mean gDFP (polyphyly/gene tree noise): 51.7%
+
+  The gene discordance fractions gDF1 and gDF2 were highly symmetric
+  (means 5.7% vs 5.9%), consistent with incomplete lineage sorting (ILS)
+  as the dominant source of gene tree discordance. Only 2 of 470 branches
+  with >100 decisive gene trees (0.4%) showed strongly asymmetric
+  discordance (|gDF1 - gDF2| > 10 percentage points and ratio > 2x),
+  suggesting introgression is not a major confounding factor in this dataset.
+
+  The high polyphyly fraction (mean 51.7%) reflects the limited
+  phylogenetic signal in individual BUSCO protein alignments for resolving
+  deep divergences (~250 My). This is expected: individual loci of ~400-800
+  amino acids contain insufficient signal to resolve all 474 internal branches
+  of a 478-taxon tree, resulting in gene tree estimation error that manifests
+  as polyphyly rather than a specific alternative topology.
+
+Interpretation:
+  The 149 branches with gCF >= 50% represent clades where a clear majority
+  of gene trees agree — these are robust regardless of analytical method.
+  The 76 branches with gCF < 10% are nodes where gene trees provide
+  essentially no resolution, and where the species tree topology is driven
+  primarily by the quartet weighting in wASTRAL. For these nodes, site
+  concordance factors (sCF) computed from the full alignment will provide
+  more informative support values, as they leverage site-level signal that
+  individual gene trees cannot resolve.

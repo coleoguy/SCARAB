@@ -1,0 +1,55 @@
+=== Gene Concordance Factor Summary ===
+
+Total internal branches scored: 474
+Mean gCF: 36.7%
+Median gCF: 33.1%
+SD gCF: 24.4%
+Range: 0.5% - 93.4%
+
+--- Distribution ---
+gCF >= 50% (majority gene tree support): 149 (31.4%)
+gCF >= 33% (plurality support): 237 (50.0%)
+gCF 20-33%: 82 (17.3%)
+gCF 10-20%: 79 (16.7%)
+gCF < 10% (essentially unresolved): 76 (16.0%)
+
+--- Discordance Pattern ---
+Mean gDF1: 5.7%
+Mean gDF2: 5.9%
+Mean gDFP (polyphyly): 51.7%
+
+Branches with >100 decisive gene trees: 470
+Branches with asymmetric discordance (|gDF1-gDF2|>10%, ratio>2x): 2 (0.4%)
+  (Symmetric discordance = consistent with ILS; asymmetry may indicate introgression)
+
+--- Top 10 Highest gCF Branches ---
+  Branch 723: gCF=93.4%, gDF1=1.6%, gDF2=0.7%, gDFP=4.3%, N=1184
+  Branch 534: gCF=93.2%, gDF1=1.6%, gDF2=0.7%, gDFP=4.5%, N=1045
+  Branch 758: gCF=91.0%, gDF1=0.1%, gDF2=0.3%, gDFP=8.5%, N=648
+  Branch 665: gCF=89.2%, gDF1=0.4%, gDF2=0.5%, gDFP=10.0%, N=1092
+  Branch 537: gCF=86.0%, gDF1=5.0%, gDF2=3.6%, gDFP=5.4%, N=920
+  Branch 763: gCF=85.9%, gDF1=1.9%, gDF2=1.0%, gDFP=11.2%, N=792
+  Branch 811: gCF=85.6%, gDF1=3.9%, gDF2=4.2%, gDFP=6.3%, N=1061
+  Branch 945: gCF=85.0%, gDF1=0.0%, gDF2=0.2%, gDFP=14.8%, N=640
+  Branch 490: gCF=84.3%, gDF1=1.9%, gDF2=2.1%, gDFP=11.8%, N=1012
+  Branch 706: gCF=84.2%, gDF1=0.2%, gDF2=0.7%, gDFP=14.9%, N=1093
+
+--- Bottom 10 Lowest gCF Branches ---
+  Branch 683: gCF=0.5%, gDF1=1.0%, gDF2=6.3%, gDFP=92.2%, N=1121
+  Branch 684: gCF=0.8%, gDF1=1.2%, gDF2=0.7%, gDFP=97.3%, N=1161
+  Branch 504: gCF=0.9%, gDF1=1.0%, gDF2=2.1%, gDFP=96.0%, N=1262
+  Branch 507: gCF=1.0%, gDF1=1.4%, gDF2=2.4%, gDFP=95.2%, N=1272
+  Branch 681: gCF=1.2%, gDF1=1.4%, gDF2=1.6%, gDFP=95.8%, N=1254
+  Branch 516: gCF=1.3%, gDF1=0.7%, gDF2=0.6%, gDFP=97.4%, N=1257
+  Branch 685: gCF=1.3%, gDF1=0.4%, gDF2=0.6%, gDFP=97.7%, N=1269
+  Branch 505: gCF=1.4%, gDF1=0.8%, gDF2=0.9%, gDFP=96.9%, N=1284
+  Branch 518: gCF=1.4%, gDF1=0.5%, gDF2=2.0%, gDFP=96.0%, N=1110
+  Branch 769: gCF=1.4%, gDF1=1.1%, gDF2=11.1%, gDFP=86.3%, N=1172
+
+--- gCF Quintiles ---
+  0%: 0.5
+  20%: 12.2
+  40%: 24.1
+  60%: 41.5
+  80%: 61.6
+  100%: 93.4

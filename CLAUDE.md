@@ -20,7 +20,7 @@ SCARAB = 478-beetle whole-genome alignment (ProgressiveCactus) to map chromosoma
 | Max concurrent cores (all queues) | 6,144 | QOS "normal" MaxTRESPU |
 | Max SLURM array size | 1,001 (0-1000) | scontrol MaxArraySize |
 | Scratch quota (space) | 7 TB (expanded from 1 TB) | Approved 2026-03 |
-| Scratch quota (files) | 250,000 inodes | DEFAULT — request increase if needed |
+| Scratch quota (files) | 500,000+ inodes | Approved 2026-03; exceeded 500K without enforcement |
 
 ### Partition Limits
 
