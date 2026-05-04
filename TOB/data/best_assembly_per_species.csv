@@ -96,8 +96,6 @@ Caccobius schreberi,Scarabaeidae,Polyphaga,GCA_033557405.1,scarab,Contig,560,167
 Calathus fuscipes,Carabidae,Adephaga,GCA_978122415.1,scarab,Chromosome,6459000,1037.87,2
 Calathus melanocephalus,Carabidae,Adephaga,GCA_966096355.1,scarab,Chromosome,4009859,966.59,2
 Calligrapha alni,Chrysomelidae,Polyphaga,GCA_046129265.1,new_pull,Contig,39435,417.69,2
-Callosobruchus analis,Chrysomelidae,Polyphaga,GCA_947858975.1,new_pull,Contig,240251,1918.3,1
-Callosobruchus chinensis,Chrysomelidae,Polyphaga,GCA_944317955.1,new_pull,Contig,800721,1402.44,1
 Callosobruchus maculatus,Chrysomelidae,Polyphaga,GCA_040182625.1,scarab,Chromosome,1020411,1222.63,5
 Calodromius spilotus,Carabidae,Adephaga,GCA_977063495.1,scarab,Chromosome,9193000,992.3,2
 Calosoma granatense,Carabidae,Adephaga,GCA_022063505.1,scarab,Scaffold,14497,167.87,1
@@ -178,7 +176,7 @@ Dalotia coriaria,Staphylinidae,Polyphaga,GCA_025399875.2,new_pull,Scaffold,13657
 Dascillus cervinus,Dascillidae,Polyphaga,GCA_949768715.1,scarab,Chromosome,8885058,282.76,2
 Dastarcus helophoroides,Bothrideridae,Polyphaga,GCA_028583605.1,scarab,Chromosome,5669615,538.9,1
 Deinopsis erosa,Staphylinidae,Polyphaga,GCA_027574845.2,scarab,Scaffold,3487,152.98,2
-Dendarus foraminosus,Tenebrionidae,Polyphaga,GCA_964262855.1,new_pull,Chromosome,24404000,593.99,2
+Dendarus foraminosus,Tenebrionidae,Polyphaga,GCA_965152765.1,scarab,Chromosome,24404000,593.99,2
 Dendroctonus frontalis,Curculionidae,Polyphaga,GCA_040113315.1,scarab,Chromosome,24829404,173.6,1
 Dendroctonus ponderosae,Curculionidae,Polyphaga,GCA_020466585.2,scarab,Scaffold,26086,223.6,7
 Dendroctonus valens,Curculionidae,Polyphaga,GCA_024550625.1,scarab,Scaffold,985469,322.41,1
@@ -393,7 +391,6 @@ Nebria salina,Carabidae,Adephaga,GCA_944039245.1,scarab,Chromosome,3131785,256.7
 Nedyus quadrimaculatus,Curculionidae,Polyphaga,GCA_977969715.1,scarab,Chromosome,3660000,1228.36,2
 Neoclytus acuminatus,Cerambycidae,Polyphaga,GCA_047371185.1,scarab,Contig,52593577,508.41,1
 Neocrepidodera transversa,Chrysomelidae,Polyphaga,GCA_963243735.1,scarab,Chromosome,5881602,671.32,2
-Nicrophorus americanus,Silphidae,Polyphaga,GCA_055755885.1,new_pull,Chromosome,1030540,227.72,1
 Nicrophorus investigator,Silphidae,Polyphaga,GCA_963457615.1,scarab,Chromosome,3077846,202.29,2
 Nicrophorus orbicollis,Silphidae,Polyphaga,GCA_018845635.2,scarab,Scaffold,16089,226.7,2
 Nicrophorus vespilloides,Silphidae,Polyphaga,GCA_048003765.1,new_pull,Scaffold,4348815,199.92,2
@@ -467,7 +464,7 @@ Polydrusus pterygomalis,Curculionidae,Polyphaga,GCA_963969555.1,scarab,Chromosom
 Polydrusus tereticollis,Curculionidae,Polyphaga,GCA_963920685.1,scarab,Chromosome,4992693,1396.13,4
 Popillia japonica,Scarabaeidae,Polyphaga,GCA_042919755.1,new_pull,Scaffold,31226420,545.74,5
 Priacma serrata,Cupedidae,Archostemata,GCA_000281835.1,scarab,Contig,4805,12.08,1
-Prionocyphon serricornis,Scirtidae,Polyphaga,GCA_964417215.1,new_pull,Chromosome,23304763,711.54,4
+Prionocyphon serricornis,Scirtidae,Polyphaga,GCA_965648555.1,new_pull,Chromosome,6066410,421.17,4
 Prionychus ater,Tenebrionidae,Polyphaga,GCA_965112505.1,scarab,Chromosome,1817819,385.24,2
 Promethis valgipes,Tenebrionidae,Polyphaga,GCA_054205895.1,scarab,Chromosome,17096667,212.13,1
 Propomacrus cypriacus,Glaphyridae,Polyphaga,GCA_977019095.1,scarab,Chromosome,29712000,511.29,1

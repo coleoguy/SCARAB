@@ -43,13 +43,31 @@ OUT_PULL = os.path.normpath(os.path.join(REPO, 'TOB/data/accessions_to_pull.txt'
 EXCLUDE_SUBORDERS = {'apocrita', 'pulicomorpha'}
 MIN_SIZE_MB = 50.0
 
+# Accessions confirmed unavailable on 2026-05-03:
+#   GCA_055755885.1  Nicrophorus americanus      404 on FTP (recently submitted, not propagated?)
+#   GCA_944317955.1  Callosobruchus chinensis    status=suppressed
+#   GCA_947858975.1  Callosobruchus analis       status=suppressed
+#   GCA_964262855.1  Dendarus foraminosus        NCBI Datasets returns metadata-only stub
+#   GCA_964417215.1  Prionocyphon serricornis    NCBI Datasets returns metadata-only stub
+# The selector skips these so they are not chosen as winners.
+SUPPRESSED_ACCESSIONS = {
+    'GCA_055755885.1', 'GCA_944317955.1', 'GCA_947858975.1',
+    'GCA_964262855.1', 'GCA_964417215.1',
+}
+
 
 def is_pull_eligible(row):
-    """True if this NEW assembly passes the bleed-through + size filter.
+    """True if this NEW assembly passes the bleed-through + size filter
+    and has not been confirmed suppressed/unavailable.
 
-    SCARAB-existing rows are exempt — they're already on Grace, BUSCO
-    will catch any junk. The filter only restricts what we PULL.
+    SCARAB-existing rows are exempt from the bleed-through/size filter -
+    they're already on Grace, BUSCO will catch any junk. Suppressed
+    accessions are still filtered even if they're tagged in_scarab_catalog
+    (defensive; the SCARAB catalog predates the suppression).
     """
+    acc = (row.get('accession') or '').strip()
+    if acc in SUPPRESSED_ACCESSIONS:
+        return False
     if (row.get('in_scarab_catalog') or '').strip().lower() == 'yes':
         return True
     sub = (row.get('suborder') or '').strip().lower()
