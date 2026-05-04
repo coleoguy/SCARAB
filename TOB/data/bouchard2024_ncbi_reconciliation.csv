@@ -1,0 +1,791 @@
+bouchard_family,bouchard_subfamily,bouchard_authority,bouchard_superfamily,ncbi_taxid,ncbi_primary_name,ncbi_synonyms,match_status,notes
+Acanthocnemidae,,"Crowson, 1964",Cleroidea,186091,Acanthocnemidae,,exact,
+Ademosynidae,,"Ponomarenko, 1968",Permosynoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Aderidae,,"Csiki, 1909",Tenebrionoidea,219441,Aderidae,,exact,
+Agapythidae,,"Sen Gupta & Crowson, 1969",Cucujoidea,1605722,Agapythidae,,exact,
+Agyrtidae,,"C.G. Thomson, 1859",Staphylinoidea,66531,Agyrtidae,Agyrtinae|Necrophilinae|Pterolomatinae,exact,
+Akalyptoischiidae,,"Lord, Hartley, Lawrence, McHugh, Whiting & K.B. Miller, 2010",Coccinelloidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Alexiidae,,"Imhoff, 1856",Coccinelloidea,196995,Alexiidae,Sphaerosoma Leach 1819,exact,
+Alloioscarabaeidae,,"Bai, Ren & X.-K. Yang in Bai et al., 2012",Scarabaeoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Amphizoidae,,"J.L. LeConte, 1853",,107773,Amphizoidae,,exact,
+Anamorphidae,,"Strohecker, 1953",Coccinelloidea,2939017,Anamorphidae,,exact,
+Anthicidae,,"Latreille, 1819",Tenebrionoidea,219442,Anthicidae,,exact,
+Anthribidae,,"Billberg, 1820",Curculionoidea,110015,Anthribidae,,exact,
+Apophisandridae,,"Molino-Olmedo, 2017",Nitiduloidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Apotomouridae,,"Bao et al., 2018",Tenebrionoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Archeocrypticidae,,"Kaszab, 1964",Tenebrionoidea,219426,Archeocrypticidae,,exact,
+Artematopodidae,,"Lacordaire, 1857",Elateroidea,195313,Artematopodidae,,exact,
+Asiocoleidae,,"Rohdendorf, 1961",Asiocoleoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Aspidytidae,,"Ribera et al., 2002",,183863,Aspidytidae,,exact,
+Attelabidae,,"Billberg, 1820",Curculionoidea,122737,Attelabidae,,exact,
+Belidae,,"Schönherr, 1826",Curculionoidea,122753,Belidae,,exact,
+Belohinidae,,"Paulian, 1959",Scarabaeoidea,614208,Belohinidae,,exact,
+Berendtimiridae,,"Winkler, 1987",Elateroidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Biphyllidae,,"J.L. LeConte, 1861",Cleroidea,196969,Biphyllidae,Biphylidae,exact,
+Boganiidae,,"Sen Gupta & Crowson, 1966",Erotyloidea,196979,Boganiidae,,exact,
+Bolboceratidae,,"Mulsant, 1842",Scarabaeoidea,110049,Bolboceratidae,,exact,
+Boleopsidae,,"Kirejtshuk & Nel, 2013",Scirtoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Boridae,,"C.G. Thomson, 1859",Tenebrionoidea,295956,Boridae,,exact,
+Bostrichidae,,"Latreille, 1802",Bostrichoidea,92690,Bostrichidae,Bostrychidae,exact,
+Bothrideridae,,"Erichson, 1845",Coccinelloidea,196993,Bothrideridae,,exact,
+Brachypsectridae,,"G.H. Horn, 1881",Elateroidea,195311,Brachypsectridae,,exact,
+Brentidae,,"Billberg, 1820",Curculionoidea,122754,Brentidae,,exact,
+Buprestidae,,"Leach, 1815",Buprestoidea,50527,Buprestidae,,exact,
+Byrrhidae,,"Latreille, 1804",Byrrhoidea,174914,Byrrhidae,,exact,
+Byturidae,,"Gistel, 1848",Cleroidea,153015,Byturidae,,exact,
+Callirhipidae,,"Emden, 1924",Dryopoidea,186986,Callirhipidae,,exact,
+Cantharidae,,"Imhoff, 1856",Elateroidea,41097,Cantharidae,Telephoridae,exact,
+Carabidae,,"Latreille, 1802",,41073,Carabidae,,exact,
+Caridae,,"Thompson, 1992",Curculionoidea,1125798,Caridae,Carinae,exact,
+Catiniidae,,"Ponomarenko, 1968",Schizocoleoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Cavognathidae,,"Sen Gupta & Crowson, 1966",Cucujoidea,196988,Cavognathidae,,exact,
+Cerambycidae,,"Latreille, 1802",Chrysomeloidea,34667,Cerambycidae,,exact,
+Cerasommatidiidae,,"Brèthes, 1925",Coccinelloidea,3026514,Cerasommatidiidae,,exact,
+Cerophytidae,,"Latreille, 1834",Elateroidea,195306,Cerophytidae,,exact,
+Cerylonidae,,"Billberg, 1820",Coccinelloidea,196994,Cerylonidae,,exact,
+Chaetosomatidae,,"Crowson, 1952",Cleroidea,2571939,Chaetosomatidae,,exact,
+Chalcodryidae,,"Watt, 1974",Tenebrionoidea,219435,Chalcodryidae,,exact,
+Chelonariidae,,"Blanchard, 1845",Dryopoidea,186987,Chelonariidae,,exact,
+Chrysomelidae,,"Latreille, 1802",Chrysomeloidea,27439,Chrysomelidae,,exact,
+Cicindelidae,,"Latreille, 1802",,41064,Carabidae,,conflict,NCBI lumps Cicindelidae as Cicindelinae within Carabidae; Bouchard recognizes as separate family
+Ciidae,,"Leach, 1819",Tenebrionoidea,219428,Ciidae,,exact,
+Cimberididae,,"Gozis, 1882",Curculionoidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Clambidae,,"Fischer von Waldheim, 1821",Clamboidea,63910,Clambidae,,exact,
+Cleridae,,"Latreille, 1802",Cleroidea,186087,Cleridae,,exact,
+Cneoglossidae,,"Champion, 1897",Dryopoidea,186988,Cneoglossidae,,exact,
+Coccinellidae,,"Latreille, 1807",Coccinelloidea,7080,Coccinellidae,,exact,
+Coleopsidae,,"Kirejtshuk & Nel, 2016",Coleopsoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Colonidae,,"G.H. Horn, 1880",Staphylinoidea,111502,Leiodidae,,conflict,NCBI treats Colonidae as Coloninae within Leiodidae; Bouchard separates
+Colymbotethidae,,"Ponomarenko, 1994",,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Coprinisphaeridae,,"Genise, 2004",Scarabaeoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Coptoclavidae,,"Ponomarenko, 1961",,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Corylophidae,,"J.L. LeConte, 1852",Coccinelloidea,196998,Corylophidae,,exact,
+Cretohisteridae,,"Zhou et al., 2018",Histeroidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Cretophengodidae,,"Y.-D. Li et al., 2021",Elateroidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Crowsoniellidae,,"Iablokoff-Khnzorian, 1983",Cupedoidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Cryptophagidae,,"W. Kirby, 1826",Cucujoidea,196989,Cryptophagidae,,exact,
+Cucujidae,,"Latreille, 1802",Cucujoidea,41110,Cucujidae,,exact,
+Cupedidae,,"Laporte, 1838",Cupedoidea,50548,Cupedidae,,exact,
+Curculionidae,,"Latreille, 1802",Curculionoidea,7042,Curculionidae,,exact,
+Cyclaxyridae,,"Gimmel et al., 2009",Cucujoidea,295929,Cyclaxyridae,,exact,
+Dascillidae,,"Guérin-Méneville, 1843",Dascilloidea,110058,Dascillidae,,exact,
+Decliniidae,,"Nikitsky et al., 1994",Scirtoidea,110056,Decliniidae,,exact,
+Dermestidae,,"Latreille, 1804",Bostrichoidea,41094,Dermestidae,,exact,
+Derodontidae,,"J.L. LeConte, 1861",Clamboidea,174905,Derodontidae,,exact,
+Diphyllostomatidae,,"Holloway, 1972",Scarabaeoidea,110047,Diphyllostomatidae,,exact,
+Discolomatidae,,"G.H. Horn, 1878",Coccinelloidea,196996,Discolomatidae,Discolomidae,exact,
+Disteniidae,,"J. Thomson, 1861",Chrysomeloidea,51011,Cerambycidae,,conflict,NCBI treats Disteniidae as Disteniinae within Cerambycidae; Bouchard separates
+Dryopidae,,"Billberg, 1820",Dryopoidea,186976,Dryopidae,,exact,
+Dytiscidae,,"Leach, 1815",,50515,Dytiscidae,,exact,
+Elateridae,,"Leach, 1815",Elateroidea,30009,Elateridae,,exact,
+Elmidae,,"Curtis, 1830",Dryopoidea,186980,Elmidae,,exact,
+Elodophthalmidae,,"Kirejtshuk & Azar, 2008",Scirtoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Endomychidae,,"Leach, 1815",Coccinelloidea,196997,Endomychidae,,exact,
+Epimetopidae,,"Zaitzev, 1908",Hydrophiloidea,290654,Epimetopidae,,exact,
+Erotylidae,,"Latreille, 1802",Erotyloidea,196992,Erotylidae,,exact,
+Eucinetidae,,"Lacordaire, 1857",Clamboidea,110057,Eucinetidae,,exact,
+Eucnemidae,,"Eschscholtz, 1829",Elateroidea,195229,Eucnemidae,Melasidae,exact,
+Eulichadidae,,"Crowson, 1973",Dryopoidea,186985,Eulichadidae,,exact,
+Eupsilobiidae,,"Casey, 1895",Coccinelloidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Euxestidae,,"Grouvelle, 1908",Coccinelloidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Georissidae,,"Laporte, 1840",Hydrophiloidea,290634,Georissidae,,exact,
+Geotrupidae,,"Latreille, 1802",Scarabaeoidea,110052,Geotrupidae,,exact,
+Glaphyridae,,"W.S. MacLeay, 1819",Scarabaeoidea,110051,Glaphyridae,,exact,
+Glaresidae,,"Prudhomme de Borre, 1886",Scarabaeoidea,110045,Glaresidae,,exact,
+Gyrinidae,,"Latreille, 1810",,107778,Gyrinidae,,exact,
+Haliplidae,,"Aubé, 1836",,107851,Haliplidae,,exact,
+Helophoridae,,"Leach, 1815",Hydrophiloidea,154134,Helophoridae,,exact,
+Helotidae,,"Chapuis, 1876",Nitiduloidea,196980,Helotidae,,exact,
+Heteroceridae,,"W.S. MacLeay, 1825",Dryopoidea,186979,Heteroceridae,,exact,
+Histeridae,,"Gyllenhal, 1808",Histeroidea,110043,Histeridae,,exact,
+Hobartiidae,,"Sen Gupta & Crowson, 1966",Cucujoidea,196987,Hobartiidae,,exact,
+Hybosoridae,,"Erichson, 1847",Scarabaeoidea,110053,Hybosoridae,,exact,
+Hydraenidae,,"Mulsant, 1844",Staphylinoidea,110044,Hydraenidae,,exact,
+Hydrochidae,,"C.G. Thomson, 1859",Hydrophiloidea,154137,Hydrochidae,,exact,
+Hydrophilidae,,"Latreille, 1802",Hydrophiloidea,41102,Hydrophilidae,,exact,
+Hydroscaphidae,,"J.L. LeConte, 1874",Sphaeriusoidea,63908,Hydroscaphidae,,exact,
+Hygrobiidae,,"Régimbart, 1879",,107878,Hygrobiidae,,exact,
+Iberobaeniidae,,"Bocák et al., 2016",Elateroidea,1857315,Iberobaeniidae,,exact,
+Ischaliidae,,"Blair, 1920",Tenebrionoidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Jacobsoniidae,,"Heller, 1926",Staphylinoidea,186079,Jacobsoniidae,,exact,
+Jurasaidae,,"Rosa et al., 2020",Elateroidea,2707054,Jurasaidae,,exact,
+Kateretidae,,"W. Kirby, 1837",Nitiduloidea,295809,Kateretidae,Brachypteridae,exact,
+Labradorocoleidae,,"Ponomarenko, 1969",Permocupedoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Laemophloeidae,,"Ganglbauer, 1899",Cucujoidea,196984,Laemophloeidae,,exact,
+Lagrioididae,,"M. Abdullah & A. Abdullah, 1968",Tenebrionoidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Lamingtoniidae,,"Sen Gupta & Crowson, 1969",Cucujoidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Lampyridae,,"Rafinesque, 1815",Elateroidea,7049,Lampyridae,,exact,
+Latridiidae,,"Erichson, 1842",Coccinelloidea,196999,Latridiidae,Lathridiidae,exact,
+Leiodidae,,"Fleming, 1821",Staphylinoidea,66535,Leiodidae,,exact,
+Lepiceridae,,"Hinton, 1936",Lepiceroidea,110034,Lepiceridae,,exact,
+Liadytidae,,"Ponomarenko, 1977",,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Limnichidae,,"Erichson, 1846",Dryopoidea,186978,Limnichidae,,exact,
+Lophocateridae,,"Crowson, 1964",Cleroidea,2571920,Lophocateridae,,exact,
+Lucanidae,,"Latreille, 1804",Scarabaeoidea,41105,Lucanidae,,exact,
+Lutrochidae,,"Kasap & Crowson, 1975",Dryopoidea,186977,Lutrochidae,,exact,
+Lycidae,,"Laporte, 1838",Elateroidea,71195,Lycidae,,exact,
+Lymexylidae,,"Fleming, 1821",Lymexyloidea,295945,Lymexylidae,,exact,
+Mastigocoleidae,,"Tihelka et al., 2022",Dryopoidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Mauroniscidae,,"Majer, 1995",Cleroidea,1104670,Mauroniscidae,,exact,
+Megalopodidae,,"Latreille, 1802",Chrysomeloidea,7028,Chrysomelidae,,conflict,NCBI treats Megalopodidae as Megalopodinae within Chrysomelidae; Bouchard separates
+Melandryidae,,"Leach, 1815",Tenebrionoidea,219420,Melandryidae,,exact,
+Meloidae,,"Gyllenhal, 1810",Tenebrionoidea,34672,Meloidae,,exact,
+Melyridae,,"Leach, 1815",Cleroidea,186093,Melyridae,,exact,
+Meruidae,,"Spangler & Steiner, 2005",,535379,Meruidae,,exact,
+Mesocinetidae,,"Kirejtshuk & Ponomarenko, 2010",Clamboidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Mesophyletidae,,"Poinar, 2006",Curculionoidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Micromalthidae,,"Barber, 1913",Cupedoidea,110040,Micromalthidae,,exact,
+Monotomidae,,"Laporte, 1840",Nitiduloidea,196978,Monotomidae,Rhizophagidae,exact,
+Mordellidae,,"Latreille, 1802",Tenebrionoidea,219430,Mordellidae,,exact,
+Murmidiidae,,"Jacquelin du Val, 1858",Coccinelloidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Mycetaeidae,,"Jacquelin du Val, 1857",Coccinelloidea,2939021,Mycetaeidae,,exact,
+Mycetophagidae,,"Leach, 1815",Tenebrionoidea,219427,Mycetophagidae,,exact,
+Mycteridae,,"Perty, 1840",Tenebrionoidea,219443,Mycteridae,,exact,
+Myraboliidae,,"Lawrence & Britton, 1991",Cucujoidea,1605791,Myraboliidae,,exact,
+Mysteriomorphidae,,"Alekseev & Ellenberger, 2019",Elateroidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Nemonychidae,,"Bedel, 1882",Curculionoidea,27443,Nemonychidae,,exact,
+Nitidulidae,,"Latreille, 1802",Nitiduloidea,116151,Nitidulidae,,exact,
+Nosodendridae,,"Erichson, 1846",Nosodendroidea,186078,Nosodendridae,,exact,
+Noteridae,,"C.G. Thomson, 1860",,63901,Noteridae,,exact,
+Oborocoleidae,,"Kukalová, 1969",Permocupedoidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Ochodaeidae,,"Streubel, 1846",Scarabaeoidea,110055,Ochodaeidae,,exact,
+Oedemeridae,,"Latreille, 1810",Tenebrionoidea,116144,Oedemeridae,,exact,
+Omethidae,,"J.L. LeConte, 1861",Elateroidea,333885,Omethidae,,exact,
+Ommatidae,,"Sharp & Muir, 1912",Cupedoidea,110038,Ommatidae,,exact,
+Orsodacnidae,,"C.G. Thomson, 1859",Chrysomeloidea,131683,Orsodacnidae,Orsodacninae,exact,
+Oxypeltidae,,"Lacordaire, 1868",Chrysomeloidea,51011,Cerambycidae,,conflict,NCBI treats Oxypeltidae as Oxypeltinae within Cerambycidae; Bouchard separates
+Pallichnidae,,"Genise, 2004",Scarabaeoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Parahygrobiidae,,"Ponomarenko, 1977",,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Passalidae,,"Leach, 1815",Scarabaeoidea,110046,Passalidae,,exact,
+Passalopalpidae,,"Boucher & Bai, 2016",Scarabaeoidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Passandridae,,"Blanchard, 1845",Cucujoidea,196983,Passandridae,,exact,
+Peltidae,,"W. Kirby, 1837",Cleroidea,2571919,Peltidae,,exact,
+Permocupedidae,,"Martynov, 1933",Permocupedoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Permosynidae,,"Tillyard, 1924",Permosynoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Phalacridae,,"Leach, 1815",Cucujoidea,196986,Phalacridae,,exact,
+Phengodidae,,"J.L. LeConte, 1861",Elateroidea,94777,Phengodidae,,exact,
+Phloeostichidae,,"Reitter, 1911",Cucujoidea,196981,Phloeostichidae,,exact,
+Phloiophilidae,,"Kiesenwetter, 1863",Cleroidea,186088,Phloiophilidae,,exact,
+Phoroschizidae,,"Bouchard & Bousquet, 2020",Schizocoleoidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Phycosecidae,,"Crowson, 1952",Cleroidea,186092,Phycosecidae,,exact,
+Pleocomidae,,"J.L. LeConte, 1861",Scarabaeoidea,110050,Pleocomidae,,exact,
+Ponomarenkiumidae,,"Lawrence & Bouchard, 2022",,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Priasilphidae,,"Crowson, 1973",Cucujoidea,1702276,Priasilphidae,,exact,
+Prionoceridae,,"Lacordaire, 1857",Cleroidea,365805,Prionoceridae,Prionocerinae,exact,
+Promecheilidae,,"Lacordaire, 1859",Tenebrionoidea,1272939,Promecheilidae,,exact,
+Prostomidae,,"C.G. Thomson, 1859",Tenebrionoidea,219437,Prostomidae,,exact,
+Protelmidae,,"Jeannel, 1950",Dryopoidea,2211258,Protelmidae,,exact,
+Protocucujidae,,"Crowson, 1954",Nitiduloidea,196974,Protocucujidae,,exact,
+Protopeltidae,,"Crowson, 1966",Cleroidea,2571918,Protopeltidae,,exact,
+Psephenidae,,"Lacordaire, 1854",Dryopoidea,186983,Psephenidae,,exact,
+Pterogeniidae,,"Crowson, 1953",Tenebrionoidea,219425,Pterogeniidae,,exact,
+Ptiliidae,,"Erichson, 1845",Staphylinoidea,75545,Ptiliidae,,exact,
+Ptilodactylidae,,"Laporte, 1838",Dryopoidea,186984,Ptilodactylidae,,exact,
+Ptinidae,,"Latreille, 1802",Bostrichoidea,441274,Ptinidae,,exact,
+Pyrochroidae,,"Latreille, 1806",Tenebrionoidea,55098,Pyrochroidae,,exact,
+Pythidae,,"Solier, 1834",Tenebrionoidea,295957,Pythidae,,exact,
+Rentoniidae,,"Crowson, 1966",Cleroidea,2571912,Rentoniidae,,exact,
+Rhadalidae,,"J.L. LeConte, 1861",Cleroidea,2571938,Rhadalidae,,exact,
+Rhagophthalmidae,,"E. Olivier, 1907",Elateroidea,71489,Rhagophthalmidae,,exact,
+Rhinorhipidae,,"Lawrence, 1988",Rhinorhipoidea,195314,Rhinorhipidae,,exact,
+Rhipiceridae,,"Latreille, 1834",Dascilloidea,110059,Rhipiceridae,,exact,
+Rhombocoleidae,,"Rohdendorf, 1961",Rhombocoleoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Ripiphoridae,,"Laporte, 1840",Tenebrionoidea,50533,Ripiphoridae,Rhipiphoridae,exact,
+Salpingidae,,"Leach, 1815",Tenebrionoidea,295958,Salpingidae,Salphingidae,exact,
+Scarabaeidae,,"Latreille, 1802",Scarabaeoidea,7055,Scarabaeidae,,exact,
+Schizocoleidae,,"Rohdendorf, 1961",Schizocoleoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Schizopodidae,,"J.L. LeConte, 1859",Buprestoidea,1580803,Schizopodidae,,exact,
+Scirtidae,,"Fleming, 1821",Scirtoidea,110010,Scirtidae,,exact,
+Scraptiidae,,"Gistel, 1848",Tenebrionoidea,219440,Scraptiidae,,exact,
+Septiventeridae,,"Bai et al., 2012",Scarabaeoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Silvanidae,,"W. Kirby, 1837",Cucujoidea,196982,Silvanidae,,exact,
+Sinopyrophoridae,,"Bi & X.-Y. Li, 2019",Elateroidea,7050,Elateridae,,conflict,NCBI treats Sinopyrophoridae as Sinopyrophorinae within Elateridae; Bouchard separates
+Smicripidae,,"G.H. Horn, 1880",Nitiduloidea,196977,Smicripidae,,exact,
+Spercheidae,,"Erichson, 1837",Hydrophiloidea,290639,Spercheidae,,exact,
+Sphaeritidae,,"Shuckard, 1839",Histeroidea,110041,Sphaeritidae,,exact,
+Sphaeriusidae,,"Erichson, 1845",Sphaeriusoidea,110033,Sphaeriusidae,Microsporidae,exact,
+Sphindidae,,"Jacquelin du Val, 1860",Nitiduloidea,196975,Sphindidae,Aspidiphoridae,exact,
+Staphylinidae,,"Latreille, 1802",Staphylinoidea,29026,Staphylinidae,,exact,
+Stenotrachelidae,,"C.G. Thomson, 1859",Tenebrionoidea,219439,Stenotrachelidae,,exact,
+Synchroidae,,"Lacordaire, 1859",Tenebrionoidea,219438,Synchroidae,,exact,
+Synteliidae,,"Lewis, 1882",Histeroidea,110042,Synteliidae,,exact,
+Tasmosalpingidae,,"Lawrence & Britton, 1991",Cucujoidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Tenebrionidae,,"Latreille, 1802",Tenebrionoidea,7065,Tenebrionidae,Lagriidae,exact,
+Teredidae,,"Seidlitz, 1888",Coccinelloidea,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Tetrameropsidae,,"Kirejtshuk & Azar, 2008",Coccinelloidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Tetratomidae,,"Billberg, 1820",Tenebrionoidea,219429,Tetratomidae,,exact,
+Thanerocleridae,,"Chapin, 1924",Cleroidea,2571940,Thanerocleridae,,exact,
+Throscidae,,"Laporte, 1840",Elateroidea,195305,Throscidae,Trixagidae,exact,
+Thymalidae,,"Léveillé, 1888",Cleroidea,2571931,Thymalidae,,exact,
+Torridincolidae,,"Steffan, 1964",Sphaeriusoidea,110035,Torridincolidae,,exact,
+Trachypachidae,,"C.G. Thomson, 1857",,60838,Trachypachidae,Trachypaninae,exact,
+Triadocupedidae,,"Ponomarenko, 1966",Cupedoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Triaplidae,,"Ponomarenko, 1977",,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Tricoleidae,,"Ponomarenko, 1969",Asiocoleoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Trictenotomidae,,"Blanchard, 1845",Tenebrionoidea,432918,Trictenotomidae,,exact,
+Tritarsusidae,,"Hong, 2002",,,,,missing,Not found in NCBI Coleoptera taxonomy; may be recently elevated or circumscription differs
+Trogidae,,"W.S. MacLeay, 1819",Scarabaeoidea,110048,Trogidae,,exact,
+Trogossitidae,,"Latreille, 1802",Cleroidea,186089,Trogossitidae,Trogositidae,exact,
+Tshekardocoleidae,,"Rohdendorf, 1944",Permocupedoidea,,,,missing,Likely fossil/ichnotaxon family not yet in NCBI
+Ulodidae,,"Pascoe, 1869",Tenebrionoidea,219433,Ulodidae,,exact,
+Vesperidae,,"Mulsant, 1839",Chrysomeloidea,584324,Vesperidae,,exact,
+Zopheridae,,"Solier, 1834",Tenebrionoidea,219432,Zopheridae,,exact,
+Agyrtidae,Agyrtinae,"C.G. Thomson, 1859",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Agyrtidae,Necrophilinae,"Newton, 1997",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Agyrtidae,Pterolomatinae,"C.G. Thomson, 1862",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Anthicidae,Anthicinae,"Latreille, 1819",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Anthicidae,Copobaeninae,"M. Abdullah, 1969",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Anthicidae,Eurygeniinae,"J.L. LeConte, 1862",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Anthicidae,Lemodinae,"E.G. Matthews, 1987",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Anthicidae,Macratriinae,"J.L. LeConte, 1862",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Anthicidae,Notoxinae,"Stephens, 1829",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Anthicidae,Steropinae,"Jacquelin du Val, 1863",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Anthicidae,Tomoderinae,"Bonadona, 1961",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Anthribidae,Anthribinae,"Billberg, 1820",,166894,Anthribinae,,exact,
+Anthribidae,Choraginae,"W. Kirby, 1819",,251757,Choraginae,,exact,
+Anthribidae,Ulyaninae,"Zherikhin, 1993",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Anthribidae,Urodontinae,"C.G. Thomson, 1859",,123509,Urodontinae,,exact,
+Artematopodidae,Allopogoniinae,"Crowson, 1973",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Artematopodidae,Artematopodinae,"Lacordaire, 1857",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Artematopodidae,Electribiinae,"Crowson, 1975",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Attelabidae,Apoderinae,"Jekel, 1860",,701798,Apoderinae,,exact,
+Attelabidae,Attelabinae,"Billberg, 1820",,123510,Attelabinae,,exact,
+Attelabidae,Pterocolinae,"Lacordaire, 1865",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Attelabidae,Rhynchitinae,"Gistel, 1848",,123511,Rhynchitinae,Rhynchitidae,exact,
+Attelabidae,Sayrevilleinae,"Legalov, 2003",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Belidae,Belinae,"Schönherr, 1826",,123512,Belinae,,exact,
+Belidae,Montsecbelinae,"Legalov, 2016",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Belidae,Oxycoryninae,"Schönherr, 1840",,123513,Oxycoryninae,,exact,
+Berendtimiridae,Berendtimirinae,"Winkler, 1987",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Berendtimiridae,Retromalisinae,"Fanti et al., 2023",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Boganiidae,Boganiinae,"Sen Gupta & Crowson, 1966",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Boganiidae,Paracucujinae,"Endrödy-Younga & Crowson, 1986",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Bolboceratidae,Athyreinae,"Lynch Arribálzaga, 1878",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Bolboceratidae,Bolboceratinae,"Mulsant, 1842",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Boridae,Borinae,"C.G. Thomson, 1859",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Boridae,Synercticinae,"Lawrence & Pollock, 1994",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Bostrichidae,Alitrepaninae,"Peng, Jiang, Engel & Wang, 2022",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Bostrichidae,Bostrichinae,"Latreille, 1802",,297228,Bostrichinae,,exact,
+Bostrichidae,Dinoderinae,"C.G. Thomson, 1863",,297230,Dinoderinae,,exact,
+Bostrichidae,Dysidinae,"Lesne, 1894",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Bostrichidae,Endecatominae,"J.L. LeConte, 1861",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Bostrichidae,Euderiinae,"Lesne, 1934",,297231,Euderiinae,,exact,
+Bostrichidae,Lyctinae,"Billberg, 1820",,295665,Lyctinae,Lyctidae,exact,
+Bostrichidae,Polycaoninae,"Lesne, 1896",,297227,Polycaoninae,,exact,
+Bostrichidae,Psoinae,"Blanchard, 1851",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Brentidae,Apioninae,"Schönherr, 1823",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Brentidae,Brentinae,"Billberg, 1820",,123514,Brentinae,,exact,
+Brentidae,Eurhynchinae,"Lacordaire, 1863",,638844,Eurhynchinae,Eurhynchidae,exact,
+Brentidae,Ithycerinae,"Schönherr, 1823",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Brentidae,Microcerinae,"Lacordaire, 1863",,298252,Microcerinae,,exact,
+Brentidae,Nanophyinae,"Gistel, 1848",,298317,Nanophyinae,Nanophyidae,exact,
+Buprestidae,Agrilinae,"Laporte, 1835",,261156,Agrilinae,Trachyinae,exact,
+Buprestidae,Buprestinae,"Leach, 1815",,261155,Buprestinae,,exact,
+Buprestidae,Chrysochroinae,"Laporte, 1835",,1205684,Chrysochroinae,,exact,
+Buprestidae,Galbellinae,"Reitter, 1911",,261153,Galbellinae,,exact,
+Buprestidae,Julodinae,"Lacordaire, 1857",,261151,Julodinae,,exact,
+Buprestidae,Parathyreinae,"Alexeev, 1994",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Buprestidae,Polycestinae,"Lacordaire, 1857",,261152,Polycestinae,,exact,
+Byrrhidae,Amphicyrtinae,"J.L. LeConte, 1861",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Byrrhidae,Byrrhinae,"Latreille, 1804",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Byrrhidae,Lidryopinae,"Kirejtshuk & Nel, 2016",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Byrrhidae,Syncalyptinae,"Mulsant & Rey, 1869",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Byturidae,Byturinae,"Gistel, 1848",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Byturidae,Platydascillinae,"Pic, 1914",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Cantharidae,Cantharinae,"Imhoff, 1856",,433502,Cantharinae,,exact,
+Cantharidae,Chauliognathinae,"J.L. LeConte, 1861",,433505,Chauliognathinae,Chauliognathidae,exact,
+Cantharidae,Dysmorphocerinae,"Brancucci, 1980",,433506,Dysmorphocerinae,,exact,
+Cantharidae,Heteromastiginae,"Motyka et al., 2023",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Cantharidae,Malthininae,"Kiesenwetter, 1852",,433503,Malthininae,,exact,
+Cantharidae,Silinae,"Mulsant, 1862",,433504,Silinae,,exact,
+Carabidae,Apotominae,"J.L. LeConte, 1853",,706619,Apotominae,,exact,
+Carabidae,Brachininae,"Bonelli, 1810",,71531,Brachininae,,exact,
+Carabidae,Broscinae,"Hope, 1838",,706621,Broscinae,,exact,
+Carabidae,Carabinae,"Latreille, 1802",,71533,Carabinae,,exact,
+Carabidae,Cicindinae,"Csiki, 1927",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Carabidae,Conjunctiinae,"Ponomarenko, 1977",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Carabidae,Elaphrinae,"Latreille, 1802",,706624,Elaphrinae,,exact,
+Carabidae,Gehringiinae,"Darlington, 1933",,706626,Gehringiinae,,exact,
+Carabidae,Harpalinae,"Bonelli, 1810",,71541,Harpalinae,,exact,
+Carabidae,Hiletinae,"Schiødte, 1847",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Carabidae,Loricerinae,"Bonelli, 1810",,706629,Loricerinae,,exact,
+Carabidae,Melaeninae,"Csiki, 1933",,706623,Melaeninae,,exact,
+Carabidae,Migadopinae,"Chaudoir, 1861",,706630,Migadopinae,,exact,
+Carabidae,Nebriinae,"Laporte, 1834",,71539,Nebriinae,,exact,
+Carabidae,Nototylinae,"Bänninger, 1927",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Carabidae,Omophroninae,"Bonelli, 1810",,71521,Omophroninae,,exact,
+Carabidae,Patrobinae,"W. Kirby, 1837",,3093835,Patrobinae,,exact,
+Carabidae,Paussinae,"Latreille, 1806",,71520,Paussinae,,exact,
+Carabidae,Protorabinae,"Ponomarenko, 1977",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Carabidae,Psydrinae,"J.L. LeConte, 1853",,706618,Psydrinae,,exact,
+Carabidae,Rhysodinae,"Laporte, 1840",,63897,Rhysodinae,Rhysodidae|Rhysodini,exact,
+Carabidae,Scaritinae,"Bonelli, 1810",,706622,Scaritinae,,exact,
+Carabidae,Siagoninae,"Bonelli, 1813",,706620,Siagoninae,,exact,
+Carabidae,Trechinae,"Bonelli, 1810",,686349,Trechinae,,exact,
+Caridae,Baissorhynchinae,"Zherikhin, 1993",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Caridae,Carinae,"Thompson, 1992",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Caridae,Chilecarinae,"Legalov, 2009",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Cerambycidae,Cerambycinae,"Latreille, 1802",,79510,Cerambycinae,,exact,
+Cerambycidae,Lamiinae,"Latreille, 1825",,79514,Lamiinae,Laminae,exact,
+Cerambycidae,Lepturinae,"Latreille, 1802",,41155,Lepturinae,,exact,
+Cerambycidae,Prioninae,"Latreille, 1802",,41154,Prioninae,,exact,
+Cerambycidae,Spondylidinae,"Audinet-Serville, 1832",,1553908,Spondylidinae,,exact,
+Cerylonidae,Ceryloninae,"Billberg, 1820",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Cerylonidae,Loeblioryloninae,"Ślipiński, 1990",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Cerylonidae,Ostomopsinae,"Sen Gupta & Crowson, 1973",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Chrysomelidae,Bruchinae,"Latreille, 1802",,64387,Bruchinae,Bruchidae,exact,
+Chrysomelidae,Cassidinae,"Gyllenhal, 1813",,107219,Cassidinae,Hispinae,exact,
+Chrysomelidae,Chrysomelinae,"Latreille, 1802",,63707,Chrysomelinae,,exact,
+Chrysomelidae,Criocerinae,"Latreille, 1804",,63716,Criocerinae,,exact,
+Chrysomelidae,Cryptocephalinae,"Gyllenhal, 1813",,131688,Cryptocephalinae,,exact,
+Chrysomelidae,Donaciinae,"W. Kirby, 1837",,111198,Donaciinae,,exact,
+Chrysomelidae,Eumolpinae,"Hope, 1841",,107214,Eumolpinae,Megascelinae|Synetinae,exact,
+Chrysomelidae,Galerucinae,"Latreille, 1802",,63710,Galerucinae,,exact,
+Chrysomelidae,Lamprosomatinae,"Lacordaire, 1848",,213584,Lamprosomatinae,,exact,
+Chrysomelidae,Protoscelidinae,"L.N. Medvedev, 1968",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Chrysomelidae,Sagrinae,"Leach, 1815",,295311,Sagrinae,,exact,
+Chrysomelidae,Spilopyrinae,"Chapuis, 1874",,284345,Spilopyrinae,,exact,
+Chrysomelidae,Synetinae,"J.L. LeConte & G.H. Horn, 1883",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ciidae,Ciinae,"Leach, 1819",,577181,Ciinae,,exact,
+Ciidae,Xylographellinae,"Kawanabe & Miyatake, 1996",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Clambidae,Acalyptomerinae,"Crowson, 1979",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Clambidae,Calyptomerinae,"Crowson, 1955",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Clambidae,Clambinae,"Fischer von Waldheim, 1821",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Cleridae,Clerinae,"Latreille, 1802",,2571558,Clerinae,,exact,
+Cleridae,Epiclininae,"Gunter et al., 2013",,2571942,Epiclininae,,exact,
+Cleridae,Korynetinae,"Laporte, 1838",,2571812,Korynetinae,Dermestoidinae|Enopliinae|Epiphloeinae|Neorthopleurinae|Orthopleurinae|Peloniinae|Platynopterinae|Tarsosteninae,exact,
+Cleridae,Tillinae,"Fischer von Waldheim, 1813",,2571674,Tillinae,,exact,
+Coccinellidae,Coccinellinae,"Latreille, 1807",,7081,Coccinellinae,,exact,
+Coccinellidae,Microweiseinae,"Leng, 1920",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Coccinellidae,Monocoryninae,"Miyatake, 1988",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Coptoclavidae,Charonoscaphinae,"Ponomarenko, 1977",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Coptoclavidae,Coptoclavinae,"Ponomarenko, 1961",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Coptoclavidae,Coptoclaviscinae,"Soriano et al., 2007",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Coptoclavidae,Hispanoclavinae,"Soriano et al., 2007",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Coptoclavidae,Timarchopsinae,"B. Wang et al., 2010",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Corylophidae,Corylophinae,"J.L. LeConte, 1852",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Corylophidae,Periptyctinae,"Ślipiński et al., 2001",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Cryptophagidae,Atomariinae,"J.L. LeConte, 1861",,3233969,Atomariinae,,exact,
+Cryptophagidae,Cryptophaginae,"W. Kirby, 1826",,3233948,Cryptophaginae,,exact,
+Cucujidae,Cucujinae,"Latreille, 1802",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Cucujidae,Pediacinae,"Jin et al., 2020",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Cucujidae,Platisinae,"Jin et al., 2020",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Cupedidae,Cupedinae,"Laporte, 1838",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Cupedidae,Mesocupedinae,"Ponomarenko, 1969",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Cupedidae,Priacminae,"Crowson, 1962",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Curculionidae,Bagoinae,"C.G. Thomson, 1859",,166840,Bagoinae,,exact,
+Curculionidae,Baridinae,"Schönherr, 1836",,122838,Baridinae,,exact,
+Curculionidae,Brachycerinae,"Billberg, 1820",,159791,Brachycerinae,,conflict,NCBI places in Brachyceridae; Bouchard places in Curculionidae
+Curculionidae,Ceutorhynchinae,"Gistel, 1848",,123516,Ceutorhynchinae,Ceutorhynchini|Ceutorrhynchini,exact,
+Curculionidae,Conoderinae,"Schönherr, 1833",,167476,Conoderinae,Zygopinae,exact,
+Curculionidae,Cossoninae,"Schönherr, 1825",,122827,Cossoninae,,exact,
+Curculionidae,Cryptorhynchinae,"Schönherr, 1825",,190812,Cryptorhynchinae,,exact,
+Curculionidae,Curculioninae,"Latreille, 1802",,39816,Curculioninae,,exact,
+Curculionidae,Cyclominae,"Schönherr, 1826",,167475,Cyclominae,,exact,
+Curculionidae,Dryophthorinae,"Schönherr, 1825",,39812,Dryophthorinae,Calendrinae|Dryophthoridae|Rhynchophoridae|Rhynchophorinae,exact,
+Curculionidae,Entiminae,"Schönherr, 1823",,39814,Entiminae,,exact,
+Curculionidae,Hyperinae,"Lacordaire, 1863",,39819,Hyperinae,Phytonominae,exact,
+Curculionidae,Lixinae,"Schönherr, 1823",,122885,Lixinae,,exact,
+Curculionidae,Mesoptiliinae,"Lacordaire, 1863",,2480567,Mesoptiliinae,,exact,
+Curculionidae,Molytinae,"Schönherr, 1823",,54544,Molytinae,Pissodinae,exact,
+Curculionidae,Orobitidinae,"C.G. Thomson, 1859",,342694,Orobitidinae,,exact,
+Curculionidae,Platypodinae,"Shuckard, 1839",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Curculionidae,Xiphaspidinae,"G.A.K. Marshall, 1920",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Dascillidae,Dascillinae,"Guérin-Méneville, 1843",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Dascillidae,Karumiinae,"Escalera, 1913",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Dermestidae,Attageninae,"Laporte, 1840",,2987447,Attageninae,,exact,
+Dermestidae,Dermestinae,"Latreille, 1804",,2987448,Dermestinae,,exact,
+Dermestidae,Megatominae,"Leach, 1815",,2987417,Megatominae,,exact,
+Dermestidae,Orphilinae,"J.L. LeConte, 1861",,2987449,Orphilinae,,exact,
+Dermestidae,Trinodinae,"Casey, 1900",,2987451,Trinodinae,,exact,
+Dermestidae,Trogoparvinae,"Zhou et al., 2022",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Derodontidae,Derodontinae,"J.L. LeConte, 1861",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Derodontidae,Laricobiinae,"Mulsant & Rey, 1864",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Derodontidae,Peltasticinae,"J.L. LeConte, 1861",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Discolomatidae,Aphanocephalinae,"Jakobson, 1904",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Discolomatidae,Cephalophaninae,"John, 1954",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Discolomatidae,Discolomatinae,"G.H. Horn, 1878",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Discolomatidae,Notiophyginae,"Jakobson, 1915",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Discolomatidae,Pondonatinae,"John, 1954",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Dytiscidae,Agabinae,"C.G. Thomson, 1867",,422058,Agabinae,,exact,
+Dytiscidae,Colymbetinae,"Erichson, 1837",,107840,Colymbetinae,,exact,
+Dytiscidae,Copelatinae,"Branden, 1884",,107841,Copelatinae,,exact,
+Dytiscidae,Coptotominae,"Branden, 1885",,422068,Coptotominae,,exact,
+Dytiscidae,Cybisterinae,"Sharp, 1880",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Dytiscidae,Dytiscinae,"Leach, 1815",,107842,Dytiscinae,,exact,
+Dytiscidae,Hydrodytinae,"K.B. Miller, 2001",,183331,Hydrodytinae,,exact,
+Dytiscidae,Hydroporinae,"Aubé, 1836",,107843,Hydroporinae,,exact,
+Dytiscidae,Laccophilinae,"Gistel, 1848",,107844,Laccophilinae,,exact,
+Dytiscidae,Lancetinae,"Branden, 1884",,107845,Lancetinae,,exact,
+Dytiscidae,Liadytiscinae,"Prokin & Ren, 2010",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Dytiscidae,Matinae,"Branden, 1884",,183391,Matinae,,exact,
+Dytiscidae,Palaeogyrininae,"Schlechtendal, 1894",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Elateridae,Agrypninae,"Candèze, 1857",,195166,Agrypninae,,exact,
+Elateridae,Cardiophorinae,"Candèze, 1859",,186096,Cardiophorinae,,exact,
+Elateridae,Dendrometrinae,"Gistel, 1848",,195296,Dendrometrinae,,exact,
+Elateridae,Elaterinae,"Leach, 1815",,116139,Elaterinae,,exact,
+Elateridae,Hapatesinae,"Kusy et al., 2021",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Elateridae,Hemiopinae,"Fleutiaux, 1941",,1490810,Hemiopinae,,exact,
+Elateridae,Hypnoidinae,"Schwarz, 1906",,341427,Hypnoidinae,,exact,
+Elateridae,Lissominae,"Laporte, 1835",,445473,Lissominae,,exact,
+Elateridae,Morostominae,"Dolin, 2000",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Elateridae,Negastriinae,"Nakane & Kishii, 1956",,341450,Negastriinae,,exact,
+Elateridae,Oestodinae,"Hyslop, 1917",,109587,Oestodinae,,exact,
+Elateridae,Omalisinae,"Lacordaire, 1857",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Elateridae,Physodactylinae,"Lacordaire, 1857",,1028095,Physodactylinae,,exact,
+Elateridae,Pityobiinae,"Hyslop, 1917",,1857320,Pityobiinae,,exact,
+Elateridae,Protagrypninae,"Dolin, 1973",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Elateridae,Subprotelaterinae,"Fleutiaux, 1920",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Elateridae,Tetralobinae,"Laporte, 1840",,1028094,Tetralobinae,,exact,
+Elateridae,Thylacosterninae,"Fleutiaux, 1920",,350105,Thylacosterninae,Balginae,exact,
+Elmidae,Elminae,"Curtis, 1830",,186992,Elminae,,exact,
+Elmidae,Larainae,"J.L. LeConte, 1861",,186993,Larainae,Larinae,exact,
+Endomychidae,Cyclotominae,"Imhoff, 1856",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Endomychidae,Danascelinae,"Tomaszewska, 2000",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Endomychidae,Endomychinae,"Leach, 1815",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Endomychidae,Epipocinae,"Gorham, 1873",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Endomychidae,Leiestinae,"C.G. Thomson, 1863",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Endomychidae,Lycoperdininae,"Bromhead, 1838",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Endomychidae,Merophysiinae,"Seidlitz, 1872",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Endomychidae,Pleganophorinae,"Jacquelin du Val, 1858",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Endomychidae,Xenomycetinae,"Strohecker, 1962",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Erotylidae,Cryptophilinae,"Casey, 1900",,3410461,Cryptophilinae,,exact,
+Erotylidae,Erotylinae,"Latreille, 1802",,2055806,Erotylinae,,exact,
+Erotylidae,Languriinae,"Hope, 1841",,196991,Languriinae,Languriidae,exact,
+Erotylidae,Loberinae,"Bruce, 1951",,2083784,Loberinae,,exact,
+Erotylidae,Pharaxonothinae,"Crowson, 1952",,2055807,Pharaxonothinae,,exact,
+Erotylidae,Xenoscelinae,"Ganglbauer, 1899",,2055808,Xenoscelinae,,exact,
+Eucnemidae,Anischiinae,"Fleutiaux, 1936",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Eucnemidae,Eucneminae,"Eschscholtz, 1829",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Eucnemidae,Macraulacinae,"Fleutiaux, 1923",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Eucnemidae,Melasinae,"Fleming, 1821",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Eucnemidae,Palaeoxeninae,"Muona, 1993",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Eucnemidae,Perothopinae,"Lacordaire, 1857",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Eucnemidae,Phlegoninae,"Muona, 1993",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Eucnemidae,Phyllocerinae,"Reitter, 1905",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Eucnemidae,Pseudomeninae,"Muona, 1993",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Eucnemidae,Schizophilinae,"Muona, 1993",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Geotrupidae,Geotrupinae,"Latreille, 1802",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Geotrupidae,Taurocerastinae,"Germain, 1897",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Glaphyridae,Amphicominae,"Blanchard, 1845",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Glaphyridae,Cretoglaphyrinae,"Nikolajev, 2005",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Glaphyridae,Glaphyrinae,"W.S. MacLeay, 1819",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Gyrinidae,Gyrininae,"Latreille, 1810",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Gyrinidae,Heterogyrinae,"Brinck, 1956",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Gyrinidae,Spanglerogyrinae,"Folkerts, 1979",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Heteroceridae,Elythomerinae,"Pacheco, 1964",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Heteroceridae,Heterocerinae,"W.S. MacLeay, 1825",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Histeridae,Abraeinae,"W.S. MacLeay, 1819",,154152,Abraeinae,,exact,
+Histeridae,Antigracilinae,"Zhou, Caterino, Ren & Ślipiński, 2020",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Histeridae,Chlamydopsinae,"Bickhardt, 1914",,1541387,Chlamydopsinae,,exact,
+Histeridae,Dendrophilinae,"Reitter, 1909",,154184,Dendrophilinae,,exact,
+Histeridae,Haeteriinae,"Marseul, 1857",,154229,Haeteriinae,Hetaeriinae,exact,
+Histeridae,Histerinae,"Gyllenhal, 1808",,154210,Histerinae,,exact,
+Histeridae,Niponiinae,"Fowler, 1912",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Histeridae,Onthophilinae,"W.S. MacLeay, 1819",,154181,Onthophilinae,,exact,
+Histeridae,Saprininae,"Blanchard, 1845",,154165,Saprininae,,exact,
+Histeridae,Tribalinae,"Bickhardt, 1914",,154174,Tribalinae,,exact,
+Hybosoridae,Anaidinae,"Nikolajev, 1996",,2606940,Anaidinae,,exact,
+Hybosoridae,Ceratocanthinae,"Martínez, 1968",,2606939,Ceratocanthinae,,exact,
+Hybosoridae,Hybosorinae,"Erichson, 1847",,2607020,Hybosorinae,,exact,
+Hybosoridae,Liparochrinae,"Ocampo, 2006",,2607022,Liparochrinae,,exact,
+Hybosoridae,Mimaphodiinae,"Nikolajev, 2007",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Hybosoridae,Pachyplectrinae,"Ocampo, 2006",,2607021,Pachyplectrinae,,exact,
+Hydraenidae,Hydraeninae,"Mulsant, 1844",,2962270,Hydraeninae,,exact,
+Hydraenidae,Ochthebiinae,"C.G. Thomson, 1859",,2962271,Ochthebiinae,,exact,
+Hydraenidae,Orchymontiinae,"Perkins, 1997",,2962272,Orchymontiinae,,exact,
+Hydraenidae,Prosthetopinae,"Perkins, 1994",,2962273,Prosthetopinae,,exact,
+Hydrophilidae,Acidocerinae,"Zaitzev, 1908",,1383238,Acidocerinae,,exact,
+Hydrophilidae,Chaetarthriinae,"Bedel, 1881",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Hydrophilidae,Cylominae,"Zaitzev, 1908",,1397837,Cylominae,Rygmodinae,exact,
+Hydrophilidae,Enochrinae,"Short & Fikáček, 2013",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Hydrophilidae,Hydrophilinae,"Latreille, 1802",,1383205,Hydrophilinae,,exact,
+Hydrophilidae,Sphaeridiinae,"Latreille, 1802",,1383126,Sphaeridiinae,,exact,
+Hydroscaphidae,Hydroscaphinae,"J.L. LeConte, 1874",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Hydroscaphidae,Leehermaniinae,"Kirejtshuk et al., 2023",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Hydroscaphidae,Triamyxinae,"Qvarnström et al., 2021",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Kateretidae,Antirhelinae,"Kirejtshuk, 2023",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Kateretidae,Kateretinae,"W. Kirby, 1837",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Lampyridae,Amydetinae,"E. Olivier, 1907",,433526,Amydetinae,,exact,
+Lampyridae,Cheguevariinae,"Kazantsev, 2007",,3138599,Cheguevariinae,,exact,
+Lampyridae,Chespiritoinae,"Ferreira et al., 2020",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Lampyridae,Cladodinae,"Bocákova et al., 2022",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Lampyridae,Cyphonocerinae,"Crowson, 1972",,454574,Cyphonocerinae,,exact,
+Lampyridae,Lamprohizinae,"Kazantsev, 2010",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Lampyridae,Lampyrinae,"Rafinesque, 1815",,433514,Lampyrinae,,exact,
+Lampyridae,Luciolinae,"Lacordaire, 1857",,433515,Luciolinae,,exact,
+Lampyridae,Ototretinae,"McDermott, 1964",,433517,Ototretinae,,exact,
+Lampyridae,Photurinae,"Lacordaire, 1857",,433518,Photurinae,,exact,
+Lampyridae,Psilocladinae,"McDermott, 1964",,433524,Psilocladinae,,exact,
+Lampyridae,Pterotinae,"J.L. LeConte, 1861",,433519,Pterotinae,,exact,
+Latridiidae,Corticariinae,"Curtis, 1829",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Latridiidae,Latridiinae,"Erichson, 1842",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Leiodidae,Camiarinae,"Jeannel, 1911",,66536,Camiarinae,,exact,
+Leiodidae,Catopocerinae,"Hatch, 1927",,1542314,Catopocerinae,,exact,
+Leiodidae,Cholevinae,"W. Kirby, 1837",,144794,Cholevinae,Cholevidae,exact,
+Leiodidae,Leiodinae,"Fleming, 1821",,174917,Leiodinae,,exact,
+Leiodidae,Platypsyllinae,"Ritsema, 1869",,1542315,Platypsyllinae,,exact,
+Limnichidae,Cephalobyrrhinae,"Champion, 1925",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Limnichidae,Hyphalinae,"Britton, 1971",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Limnichidae,Limnichinae,"Erichson, 1846",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Limnichidae,Thaumastodinae,"Champion, 1924",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Lucanidae,Aesalinae,"W.S. MacLeay, 1819",,614532,Aesalinae,,exact,
+Lucanidae,Ceruchitinae,"Nikolajev, 2006",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Lucanidae,Lampriminae,"W.S. MacLeay, 1819",,614533,Lampriminae,,exact,
+Lucanidae,Litholampriminae,"Nikolajev, 2015",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Lucanidae,Lucaninae,"Latreille, 1804",,614534,Lucaninae,,exact,
+Lucanidae,Paralucaninae,"Nikolajev, 2000",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Lucanidae,Protolucaninae,"Nikolajev, 2007",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Lucanidae,Syndesinae,"W.S. MacLeay, 1819",,614536,Syndesinae,,exact,
+Lycidae,Ateliinae,"Kleine, 1929",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Lycidae,Calochrominae,"Lacordaire, 1857",,2043420,Calochrominae,,exact,
+Lycidae,Dexorinae,"Bocák & Bocáková, 1989",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Lycidae,Erotinae,"J.L. LeConte, 1881",,2043421,Erotinae,,exact,
+Lycidae,Lycinae,"Laporte, 1838",,2043423,Lycinae,,exact,
+Lycidae,Lyropaeinae,"Bocák & Bocáková, 1989",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Lycidae,Metriorrhynchinae,"Kleine, 1926",,2043424,Metriorrhynchinae,,exact,
+Lycidae,Platerodrilinae,"Kazantsev, 2004",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Lymexylidae,Atractocerinae,"Laporte, 1840",,3435669,Atractocerinae,,exact,
+Lymexylidae,Hylecoetinae,"Germar, 1818",,3435670,Hylecoetinae,,exact,
+Lymexylidae,Lymexylinae,"Fleming, 1821",,3435668,Lymexylinae,,exact,
+Lymexylidae,Melittommatinae,"Wheeler, 1986",,3435621,Melittommatinae,,exact,
+Megalopodidae,Atelederinae,"Rodríguez-Mirón, 2021",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Megalopodidae,Megalopodinae,"Latreille, 1802",,131663,Megalopodinae,Megalopodidae,conflict,NCBI places in Chrysomelidae; Bouchard places in Megalopodidae
+Megalopodidae,Palophaginae,"Kuschel & May, 1990",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Megalopodidae,Zeugophorinae,"Böving & Craighead, 1931",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Melandryidae,Melandryinae,"Leach, 1815",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Melandryidae,Osphyinae,"Mulsant, 1856",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Meloidae,Eleticinae,"Wellman, 1910",,2507035,Eleticinae,,exact,
+Meloidae,Meloinae,"Gyllenhal, 1810",,2507001,Meloinae,,exact,
+Meloidae,Nemognathinae,"Laporte, 1840",,2507023,Nemognathinae,,exact,
+Meloidae,Tetraonycinae,"Böving & Craighead, 1931",,2507036,Tetraonycinae,,exact,
+Melyridae,Dasytinae,"Laporte, 1840",,353827,Dasytinae,,exact,
+Melyridae,Malachiinae,"Fleming, 1821",,353826,Malachiinae,,exact,
+Melyridae,Melyrinae,"Leach, 1815",,353829,Melyrinae,,exact,
+Mesophyletidae,Aepyceratinae,"Poinar, A.E. Bown & Legalov, 2017",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Mesophyletidae,Mesophyletinae,"Poinar, 2006",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Monotomidae,Monotominae,"Laporte, 1840",,297219,Monotominae,,exact,
+Monotomidae,Rhizophaginae,"L. Redtenbacher, 1845",,295918,Rhizophaginae,,exact,
+Mordellidae,Ctenidiinae,"Franciscolo, 1951",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Mordellidae,Mordellinae,"Latreille, 1802",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Mordellidae,Praemordellinae,"Ščegoleva-Barovskaya, 1929",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Mycetophagidae,Bergininae,"Leng, 1920",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Mycetophagidae,Esarcinae,"Reitter, 1882",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Mycetophagidae,Mycetophaginae,"Leach, 1815",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Mycteridae,Eurypinae,"J. Thomson, 1860",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Mycteridae,Hemipeplinae,"Lacordaire, 1854",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Mycteridae,Mycterinae,"Perty, 1840",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Nemonychidae,Brenthorrhininae,"Arnoldi, 1977",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Nemonychidae,Cretonemonychinae,"Gratshev & Legalov, 2009",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Nemonychidae,Eccoptarthrinae,"Arnoldi, 1977",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Nemonychidae,Eobelinae,"Arnoldi, 1977",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Nemonychidae,Metrioxenoidinae,"Legalov, 2009",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Nemonychidae,Nemonychinae,"Bedel, 1882",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Nemonychidae,Paleocartinae,"Legalov, 2003",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Nemonychidae,Rhinorhynchinae,"Voss, 1922",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Nemonychidae,Selengarhynchinae,"Gratshev & Legalov, 2009",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Nemonychidae,Slonikinae,"Zherikhin, 1977",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Nitidulidae,Amphicrossinae,"Kirejtshuk, 1986",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Nitidulidae,Calonecrinae,"Kirejtshuk, 1982",,577236,Calonecrinae,,exact,
+Nitidulidae,Carpophilinae,"Erichson, 1842",,577237,Carpophilinae,,exact,
+Nitidulidae,Cillaeinae,"Kirejtshuk & Audisio, 1986",,577238,Cillaeinae,,exact,
+Nitidulidae,Cryptarchinae,"C.G. Thomson, 1859",,577239,Cryptarchinae,,exact,
+Nitidulidae,Cybocephalinae,"Jacquelin du Val, 1858",,577240,Cybocephalinae,,exact,
+Nitidulidae,Epuraeinae,"Kirejtshuk, 1986",,1771138,Epuraeinae,,exact,
+Nitidulidae,Maynipeplinae,"Kirejtshuk, 1998",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Nitidulidae,Meligethinae,"C.G. Thomson, 1859",,577241,Meligethinae,,exact,
+Nitidulidae,Nitidulinae,"Latreille, 1802",,577242,Nitidulinae,,exact,
+Nitidulidae,Prometopiinae,"Böving & Craighead, 1931",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Noteridae,Noterinae,"C.G. Thomson, 1860",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Noteridae,Notomicrinae,"Branden, 1884",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ochodaeidae,Chaetocanthinae,"Scholtz, 1988",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ochodaeidae,Cretochodaeinae,"Nikolajev, 1995",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ochodaeidae,Ochodaeinae,"Streubel, 1846",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Oedemeridae,Calopodinae,"A. Costa, 1852",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Oedemeridae,Oedemerinae,"Latreille, 1810",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Oedemeridae,Polypriinae,"Lawrence, 2005",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Omethidae,Driloniinae,"Crowson, 1972",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Omethidae,Matheteinae,"J.L. LeConte, 1881",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Omethidae,Omethinae,"J.L. LeConte, 1861",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Omethidae,Telegeusinae,"Leng, 1920",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ommatidae,Brochocoleinae,"Hong, 1982",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ommatidae,Ommatinae,"Sharp & Muir, 1912",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ommatidae,Tetraphalerinae,"Crowson, 1962",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Orsodacnidae,Aulacoscelidinae,"Chapuis, 1874",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Orsodacnidae,Orsodacninae,"C.G. Thomson, 1859",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Passalidae,Aulacocyclinae,"Kaup, 1868",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Passalidae,Passalinae,"Leach, 1815",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Passandridae,Mesopassandrinae,"Jin et al., 2019",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Passandridae,Passandrinae,"Blanchard, 1845",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Permocupedidae,Permocupedinae,"Martynov, 1933",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Permocupedidae,Taldycupedinae,"Rohdendorf, 1961",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Phalacridae,Phaenocephalinae,"A. Matthews, 1899",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Phalacridae,Phalacrinae,"Leach, 1815",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Phengodidae,Cydistinae,"Paulus, 1972",,2725892,Cydistinae,,exact,
+Phengodidae,Mastinocerinae,"J.L. LeConte, 1881",,660951,Mastinocerinae,,exact,
+Phengodidae,Penicillophorinae,"Paulus, 1975",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Phengodidae,Phengodinae,"J.L. LeConte, 1861",,343732,Phengodinae,,exact,
+Pleocomidae,Archescarabaeinae,"Nikolajev, 2010",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Pleocomidae,Cretocominae,"Nikolajev, 2002",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Pleocomidae,Pleocominae,"J.L. LeConte, 1861",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Psephenidae,Afroeubriinae,"Lee, Satô, Shepard & Jäch, 2007",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Psephenidae,Eubrianacinae,"Jakobson, 1913",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Psephenidae,Eubriinae,"Lacordaire, 1857",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Psephenidae,Psepheninae,"Lacordaire, 1854",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Psephenidae,Psephenoidinae,"Bollow, 1938",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ptiliidae,Nossidiinae,"Sörensson & Delgado, 2019",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ptiliidae,Ptiliinae,"Erichson, 1845",,361591,Ptiliinae,,exact,
+Ptilodactylidae,Anchytarsinae,"Champion, 1897",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ptilodactylidae,Aploglossinae,"Champion, 1897",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ptilodactylidae,Araeopidiinae,"Lawrence, 1991",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ptilodactylidae,Cladotominae,"Pic, 1914",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ptilodactylidae,Ptilodactylinae,"Laporte, 1838",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ptinidae,Alvarenganiellinae,"Viana & Martínez, 1971",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ptinidae,Anobiinae,"Fleming, 1821",,441275,Anobiinae,Anobiidae,exact,
+Ptinidae,Dorcatominae,"C.G. Thomson, 1859",,441280,Dorcatominae,,exact,
+Ptinidae,Dryophilinae,"Gistel, 1848",,441277,Dryophilinae,,exact,
+Ptinidae,Ernobiinae,"Pic, 1912",,441278,Ernobiinae,,exact,
+Ptinidae,Eucradinae,"J.L. LeConte, 1861",,441276,Eucradinae,,exact,
+Ptinidae,Mesocoelopodinae,"Mulsant & Rey, 1864",,441282,Mesocoelopodinae,,exact,
+Ptinidae,Ptilininae,"Shuckard, 1839",,441297,Ptilininae,,exact,
+Ptinidae,Ptininae,"Latreille, 1802",,3044489,Ptininae,,exact,
+Ptinidae,Xyletininae,"Gistel, 1848",,3044490,Xyletininae,Xyletinae,exact,
+Pyrochroidae,Agnathinae,"Lacordaire, 1859",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Pyrochroidae,Pedilinae,"Lacordaire, 1859",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Pyrochroidae,Pilipalpinae,"M. Abdullah, 1964",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Pyrochroidae,Pogonocerinae,"Iablokoff-Khnzorian, 1985",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Pyrochroidae,Pyrochroinae,"Latreille, 1806",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Pyrochroidae,Tydessinae,"Nikitsky, 1986",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Pyrochroidae,Waidelotinae,"Bukejs et al., 2019",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Rhadalidae,Gietellinae,"Constantin & Menier, 1987",,2571895,Gietellinae,,exact,
+Rhadalidae,Rhadalinae,"J.L. LeConte, 1861",,353828,Rhadalinae,,exact,
+Rhipiceridae,Rhipicerinae,"Latreille, 1834",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Rhipiceridae,Sandalinae,"Jakobson, 1913",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ripiphoridae,Hemirhipidiinae,"Heller, 1920",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ripiphoridae,Pelecotominae,"Guérin-Méneville, 1857",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ripiphoridae,Ptilophorinae,"Gerstaecker, 1855",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ripiphoridae,Ripidiinae,"Gerstaecker, 1855",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Ripiphoridae,Ripiphorinae,"Laporte, 1840",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Salpingidae,Aegialitinae,"J.L. LeConte, 1862",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Salpingidae,Agleninae,"G.H. Horn, 1878",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Salpingidae,Dacoderinae,"J.L. LeConte, 1862",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Salpingidae,Inopeplinae,"Grouvelle, 1908",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Salpingidae,Othniinae,"J.L. LeConte, 1861",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Salpingidae,Prostominiinae,"Grouvelle, 1914",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Salpingidae,Salpinginae,"Leach, 1815",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scarabaeidae,Aclopinae,"Blanchard, 1850",,702309,Aclopinae,,exact,
+Scarabaeidae,Aegialiinae,"Laporte, 1840",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scarabaeidae,Allidiostomatinae,"Arrow, 1940",,702055,Allidiostomatinae,,exact,
+Scarabaeidae,Aphodiinae,"Leach, 1815",,166306,Aphodiinae,Aegialiinae|Aphodiidae,exact,
+Scarabaeidae,Aulonocneminae,"A. Janssens, 1946",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scarabaeidae,Cetoniinae,"Leach, 1815",,7056,Cetoniinae,Cetonidae|Cetoniidae|Cetoninae,exact,
+Scarabaeidae,Chironinae,"Blanchard, 1845",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scarabaeidae,Cretoscarabaeinae,"Nikolajev, 1995",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scarabaeidae,Dynamopodinae,"Arrow, 1911",,3085250,Dynamopodinae,,exact,
+Scarabaeidae,Dynastinae,"W.S. MacLeay, 1819",,50519,Dynastinae,,exact,
+Scarabaeidae,Electrorubesopsinae,"Bai & B. Wang, 2018",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scarabaeidae,Eremazinae,"Stebnicka, 1977",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scarabaeidae,Lithoscarabaeinae,"Nikolajev, 1992",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scarabaeidae,Melolonthinae,"Leach, 1819",,7059,Melolonthinae,Melolonthidae,exact,
+Scarabaeidae,Oncerinae,"J.L. LeConte, 1861",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scarabaeidae,Orphninae,"Erichson, 1847",,207266,Orphninae,,exact,
+Scarabaeidae,Phaenomeridinae,"Erichson, 1847",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scarabaeidae,Podolasiinae,"Howden, 1997",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scarabaeidae,Prototroginae,"Nikolajev, 2000",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scarabaeidae,Rutelinae,"W.S. MacLeay, 1819",,7062,Rutelinae,Rutelidae,exact,
+Scarabaeidae,Scarabaeinae,"Latreille, 1802",,41142,Scarabaeinae,,exact,
+Scarabaeidae,Sericinae,"W. Kirby, 1837",,360072,Sericinae,,exact,
+Scarabaeidae,Sericoidinae,"Erichson, 1847",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scarabaeidae,Termitotroginae,"Wasmann, 1918",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scirtidae,Mesernobiinae,"Engel, 2010",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scirtidae,Nipponocyphoninae,"Lawrence & Yoshitomi, 2007",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scirtidae,Scirtinae,"Fleming, 1821",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scirtidae,Stenocyphoninae,"Lawrence & Yoshitomi, 2007",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scraptiidae,Anaspidinae,"Mulsant, 1856",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Scraptiidae,Scraptiinae,"Gistel, 1848",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Silvanidae,Brontinae,"Blanchard, 1845",,353831,Brontinae,,exact,
+Silvanidae,Silvaninae,"W. Kirby, 1837",,353830,Silvaninae,,exact,
+Sphindidae,Libanopsinae,"Kirejtshuk, 2015",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Sphindidae,Odontosphindinae,"Sen Gupta & Crowson, 1979",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Sphindidae,Protosphindinae,"Sen Gupta & Crowson, 1979",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Sphindidae,Sphindinae,"Jacquelin du Val, 1860",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Sphindidae,Sphindiphorinae,"Sen Gupta & Crowson, 1979",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Staphylinidae,Aleocharinae,"Fleming, 1821",,135860,Aleocharinae,,exact,
+Staphylinidae,Apateticinae,"Fauvel, 1895",,351513,Apateticinae,,exact,
+Staphylinidae,Dasycerinae,"Reitter, 1887",,82878,Dasycerinae,,exact,
+Staphylinidae,Empelinae,"Newton & Tayer, 1992",,351505,Empelinae,,exact,
+Staphylinidae,Euaesthetinae,"C.G. Thomson, 1859",,82884,Euaesthetinae,,exact,
+Staphylinidae,Glypholomatinae,"Jeannel, 1962",,295602,Glypholomatinae,,exact,
+Staphylinidae,Habrocerinae,"Mulsant & Rey, 1876",,82880,Habrocerinae,,exact,
+Staphylinidae,Leptotyphlinae,"Fauvel, 1874",,351516,Leptotyphlinae,,exact,
+Staphylinidae,Megalopsidiinae,"Leng, 1920",,295613,Megalopsidiinae,,exact,
+Staphylinidae,Micropeplinae,"Leach, 1815",,295605,Micropeplinae,,exact,
+Staphylinidae,Microsilphinae,"Crowson, 1950",,351504,Microsilphinae,,exact,
+Staphylinidae,Mycetoporinae,"C.G. Thomson, 1859",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Staphylinidae,Neophoninae,"Fauvel, 1905",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Staphylinidae,Olisthaerinae,"C.G. Thomson, 1858",,351510,Olisthaerinae,,exact,
+Staphylinidae,Omaliinae,"W.S. MacLeay, 1825",,66542,Omaliinae,Omalinae,exact,
+Staphylinidae,Osoriinae,"Erichson, 1839",,295624,Osoriinae,,exact,
+Staphylinidae,Oxyporinae,"Fleming, 1821",,82902,Oxyporinae,,exact,
+Staphylinidae,Oxytelinae,"Fleming, 1821",,82877,Oxytelinae,,exact,
+Staphylinidae,Paederinae,"Fleming, 1821",,82885,Paederinae,,exact,
+Staphylinidae,Phloeocharinae,"Erichson, 1839",,295634,Phloeocharinae,,exact,
+Staphylinidae,Piestinae,"Erichson, 1839",,295637,Piestinae,,exact,
+Staphylinidae,Protactinae,"Heer, 1847",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Staphylinidae,Proteininae,"Erichson, 1839",,66543,Proteininae,,exact,
+Staphylinidae,Protopselaphinae,"Newton & Tayer, 1995",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Staphylinidae,Pselaphinae,"Latreille, 1802",,66544,Pselaphinae,,exact,
+Staphylinidae,Pseudopsinae,"Ganglbauer, 1895",,295640,Pseudopsinae,,exact,
+Staphylinidae,Scaphidiinae,"Latreille, 1806",,82879,Scaphidiinae,,exact,
+Staphylinidae,Scydmaeninae,"Leach, 1815",,1213603,Scydmaeninae,Scydmaenidae,exact,
+Staphylinidae,Silphinae,"Latreille, 1806",,82881,Silphinae,,conflict,NCBI places in Silphidae; Bouchard places in Staphylinidae
+Staphylinidae,Solieriinae,"Newton & Tayer, 1992",,351515,Solieriinae,,exact,
+Staphylinidae,Staphylininae,"Latreille, 1802",,82886,Staphylininae,Xanthopyginae,exact,
+Staphylinidae,Steninae,"W.S. MacLeay, 1825",,82883,Steninae,,exact,
+Staphylinidae,Tachyporinae,"W.S. MacLeay, 1825",,82876,Tachyporinae,,exact,
+Staphylinidae,Trichophyinae,"C.G. Thomson, 1858",,351511,Trichophyinae,,exact,
+Staphylinidae,Trigonurinae,"Reiche, 1866",,351501,Trigonurinae,,exact,
+Stenotrachelidae,Cephaloinae,"J.L. LeConte, 1862",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Stenotrachelidae,Nematoplinae,"J.L. LeConte, 1862",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Stenotrachelidae,Stenotrachelinae,"C.G. Thomson, 1859",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Stenotrachelidae,Stoliinae,"Nikitsky, 1985",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Tenebrionidae,Alleculinae,"Laporte, 1840",,1586648,Alleculinae,Cteniopodinae,exact,
+Tenebrionidae,Blaptinae,"Leach, 1815",,2870904,Blaptinae,,exact,
+Tenebrionidae,Diaperinae,"Latreille, 1802",,1272144,Diaperinae,,exact,
+Tenebrionidae,Kuhitangiinae,"G.S. Medvedev, 1962",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Tenebrionidae,Lagriinae,"Latreille, 1825",,1272142,Lagriinae,,exact,
+Tenebrionidae,Nilioninae,"Oken, 1843",,1272145,Nilioninae,,exact,
+Tenebrionidae,Phrenapatinae,"Solier, 1834",,1272146,Phrenapatinae,,exact,
+Tenebrionidae,Pimeliinae,"Latreille, 1802",,1271710,Pimeliinae,,exact,
+Tenebrionidae,Stenochiinae,"W. Kirby, 1837",,1272147,Stenochiinae,,exact,
+Tenebrionidae,Tenebrioninae,"Latreille, 1802",,1272141,Tenebrioninae,,exact,
+Tenebrionidae,Zolodininae,"Watt, 1975",,1272148,Zolodininae,,exact,
+Teredidae,Anommatinae,"Ganglbauer, 1899",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Teredidae,Teredinae,"Seidlitz, 1888",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Teredidae,Xylariophilinae,"Pal & Lawrence, 1986",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Tetratomidae,Eustrophinae,"Gistel, 1848",,297225,Eustrophinae,,exact,
+Tetratomidae,Hallomeninae,"Gistel, 1848",,3003481,Hallomeninae,,exact,
+Tetratomidae,Penthinae,"Lacordaire, 1859",,297223,Penthinae,,exact,
+Tetratomidae,Piseninae,"Miyatake, 1960",,2109498,Piseninae,,exact,
+Tetratomidae,Sphindociinae,"Lawrence, 1974",,577182,Sphindociinae,,conflict,NCBI places in Ciidae; Bouchard places in Tetratomidae
+Tetratomidae,Tetratominae,"Billberg, 1820",,297224,Tetratominae,,exact,
+Thanerocleridae,Thaneroclerinae,"Chapin, 1924",,2571814,Thaneroclerinae,,exact,
+Thanerocleridae,Zenodosinae,"Kolibáč, 1992",,2571941,Zenodosinae,,exact,
+Thymalidae,Decamerinae,"Crowson, 1964",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Thymalidae,Thymalinae,"Léveillé, 1888",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Torridincolidae,Deleveinae,"Endrödy-Younga, 1997",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Torridincolidae,Torridincolinae,"Steffan, 1964",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Trachypachidae,Eodromeinae,"Ponomarenko, 1977",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Trachypachidae,Trachypachinae,"C.G. Thomson, 1857",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Trogidae,Kresnikinae,"Tihelka et al., 2019",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Trogidae,Omorginae,"Nikolajev, 2005",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Trogidae,Troginae,"W.S. MacLeay, 1819",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Trogossitidae,Calityinae,"Houlbert, 1922",,2571928,Calityinae,,exact,
+Trogossitidae,Egoliinae,"Lacordaire, 1854",,2571929,Egoliinae,,exact,
+Trogossitidae,Larinotinae,"Ślipiński, 1992",,2571930,Larinotinae,,exact,
+Trogossitidae,Trogossitinae,"Latreille, 1802",,295802,Trogossitinae,,exact,
+Vesperidae,Anoplodermatinae,"Guérin-Méneville, 1840",,558408,Anoplodermatinae,,conflict,NCBI places in Cerambycidae; Bouchard places in Vesperidae
+Vesperidae,Philinae,"J. Thomson, 1861",,,,,missing,Not found in NCBI Coleoptera subfamilies
+Vesperidae,Vesperinae,"Mulsant, 1839",,294820,Vesperinae,,conflict,NCBI places in Cerambycidae; Bouchard places in Vesperidae
+Zopheridae,Colydiinae,"Billberg, 1820",,124799,Colydiinae,Colydiidae,exact,
+Zopheridae,Zopherinae,"Solier, 1834",,297220,Zopherinae,,exact,

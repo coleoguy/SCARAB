@@ -1,0 +1,191 @@
+family,suborder,superfamily,n_species,n_chromosome,n_scaffold,n_contig,n_complete,n_scarab_source,n_new_pull_source,notes
+Cupedidae,Archostemata,Cupedoidea,1,0,0,1,0,1,0,singleton; critical root/archostemata
+Jurodidae,Archostemata,Cupedoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Micromalthidae,Archostemata,Cupedoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Ommatidae,Archostemata,Cupedoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Schizophoridae,Archostemata,Cupedoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Hydroscaphidae,Myxophaga,Myxophaga,0,0,0,0,0,0,0,ABSENT from TOB; ABSENT - critical outgroup for rooting
+Lepiceridae,Myxophaga,Myxophaga,0,0,0,0,0,0,0,ABSENT from TOB; ABSENT - critical outgroup for rooting
+Sphaeriusidae,Myxophaga,Myxophaga,0,0,0,0,0,0,0,ABSENT from TOB; ABSENT - critical outgroup for rooting
+Torridincolidae,Myxophaga,Myxophaga,0,0,0,0,0,0,0,ABSENT from TOB; ABSENT - critical outgroup for rooting
+Amphizoidae,Adephaga,Caraboidea,0,0,0,0,0,0,0,ABSENT from TOB
+Aspidytidae,Adephaga,Caraboidea,0,0,0,0,0,0,0,ABSENT from TOB
+Carabidae,Adephaga,Caraboidea,56,41,13,2,0,47,9,
+Dytiscidae,Adephaga,Caraboidea,1,1,0,0,0,1,0,singleton
+Gyrinidae,Adephaga,Caraboidea,0,0,0,0,0,0,0,ABSENT from TOB
+Haliplidae,Adephaga,Caraboidea,0,0,0,0,0,0,0,ABSENT from TOB
+Hygrobiidae,Adephaga,Caraboidea,0,0,0,0,0,0,0,ABSENT from TOB
+Meruidae,Adephaga,Caraboidea,0,0,0,0,0,0,0,ABSENT from TOB
+Noteridae,Adephaga,Caraboidea,0,0,0,0,0,0,0,ABSENT from TOB
+Rhysodidae,Adephaga,Caraboidea,0,0,0,0,0,0,0,ABSENT from TOB
+Trachypachidae,Adephaga,Caraboidea,0,0,0,0,0,0,0,ABSENT from TOB
+Anobiidae,Polyphaga,Bostrichoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Bostrichidae,Polyphaga,Bostrichoidea,1,1,0,0,0,0,1,singleton
+Dermestidae,Polyphaga,Bostrichoidea,2,2,0,0,0,2,0,
+Endecatomidae,Polyphaga,Bostrichoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Jacobsoniidae,Polyphaga,Bostrichoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Nosodendridae,Polyphaga,Bostrichoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Ptinidae,Polyphaga,Bostrichoidea,2,2,0,0,0,1,1,
+Buprestidae,Polyphaga,Buprestoidea,5,4,1,0,0,3,2,"under-represented (<0.05% of ~15,500 spp)"
+Schizopodidae,Polyphaga,Buprestoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Byrrhidae,Polyphaga,Byrrhoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Callirhipidae,Polyphaga,Byrrhoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Chelonariidae,Polyphaga,Byrrhoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Cneoglossidae,Polyphaga,Byrrhoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Dryopidae,Polyphaga,Byrrhoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Elmidae,Polyphaga,Byrrhoidea,1,1,0,0,0,1,0,singleton
+Eulichadidae,Polyphaga,Byrrhoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Heteroceridae,Polyphaga,Byrrhoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Limnichidae,Polyphaga,Byrrhoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Lutrochidae,Polyphaga,Byrrhoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Psephenidae,Polyphaga,Byrrhoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Ptilodactylidae,Polyphaga,Byrrhoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Cerambycidae,Polyphaga,Chrysomeloidea,35,28,0,6,1,33,2,
+Chrysomelidae,Polyphaga,Chrysomeloidea,78,58,16,4,0,63,15,
+Disteniidae,Polyphaga,Chrysomeloidea,0,0,0,0,0,0,0,ABSENT from TOB
+Megalopodidae,Polyphaga,Chrysomeloidea,0,0,0,0,0,0,0,ABSENT from TOB
+Orsodacnidae,Polyphaga,Chrysomeloidea,0,0,0,0,0,0,0,ABSENT from TOB
+Oxypeltidae,Polyphaga,Chrysomeloidea,0,0,0,0,0,0,0,ABSENT from TOB
+Vesperidae,Polyphaga,Chrysomeloidea,0,0,0,0,0,0,0,ABSENT from TOB
+Acanthocnemidae,Polyphaga,Cleroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Chaetosomatidae,Polyphaga,Cleroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Cleridae,Polyphaga,Cleroidea,2,2,0,0,0,2,0,
+Mauroniscidae,Polyphaga,Cleroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Melyridae,Polyphaga,Cleroidea,2,2,0,0,0,2,0,
+Phloiophilidae,Polyphaga,Cleroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Trogossitidae,Polyphaga,Cleroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Aglycoderidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Alexiidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Biphyllidae,Polyphaga,Cucujoidea,2,2,0,0,0,2,0,
+Boganiidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Bothrideridae,Polyphaga,Cucujoidea,1,1,0,0,0,1,0,singleton
+Byturidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Cavognathidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Cerylonidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Coccinellidae,Polyphaga,Cucujoidea,27,22,1,4,0,23,4,
+Corylophidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Cryptophagidae,Polyphaga,Cucujoidea,1,1,0,0,0,1,0,singleton
+Cucujidae,Polyphaga,Cucujoidea,1,1,0,0,0,1,0,singleton
+Dendrophagidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Discolomatidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Endomychidae,Polyphaga,Cucujoidea,2,2,0,0,0,2,0,
+Erotylidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Helotidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Hobartiidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Kateretidae,Polyphaga,Cucujoidea,1,1,0,0,0,1,0,singleton
+Laemophloeidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Lamingtoniidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Languriidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Latridiidae,Polyphaga,Cucujoidea,1,1,0,0,0,1,0,singleton
+Monotomidae,Polyphaga,Cucujoidea,1,1,0,0,0,1,0,singleton
+Myraboliidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Nitidulidae,Polyphaga,Cucujoidea,3,3,0,0,0,2,1,
+Phalacridae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Phloeostichidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Propalticidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Protocucujidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Silvanidae,Polyphaga,Cucujoidea,3,2,1,0,0,2,1,
+Smicripidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Sphindidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Tasmosalpingidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Toramidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Xenoscelidae,Polyphaga,Cucujoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Anthribidae,Polyphaga,Curculionoidea,4,3,0,1,0,4,0,
+Apionidae,Polyphaga,Curculionoidea,4,4,0,0,0,4,0,
+Attelabidae,Polyphaga,Curculionoidea,2,2,0,0,0,1,1,
+Belidae,Polyphaga,Curculionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Brentidae,Polyphaga,Curculionoidea,1,0,1,0,0,0,1,singleton
+Caridae,Polyphaga,Curculionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Curculionidae,Polyphaga,Curculionoidea,67,47,15,5,0,58,9,
+Dryophthoridae,Polyphaga,Curculionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Eccoptarthridae,Polyphaga,Curculionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Erirhinidae,Polyphaga,Curculionoidea,1,1,0,0,0,1,0,singleton
+Ithyceridae,Polyphaga,Curculionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Nemonychidae,Polyphaga,Curculionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Platypodidae,Polyphaga,Curculionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Raymondionymidae,Polyphaga,Curculionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Dascillidae,Polyphaga,Dascilloidea,1,1,0,0,0,1,0,singleton
+Rhipiceridae,Polyphaga,Dascilloidea,0,0,0,0,0,0,0,ABSENT from TOB
+Derodontidae,Polyphaga,Derodontoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Artematopodidae,Polyphaga,Elateroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Brachypsectridae,Polyphaga,Elateroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Cantharidae,Polyphaga,Elateroidea,19,18,0,1,0,18,1,
+Cerophytidae,Polyphaga,Elateroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Drilidae,Polyphaga,Elateroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Elateridae,Polyphaga,Elateroidea,23,12,9,2,0,18,5,
+Eucnemidae,Polyphaga,Elateroidea,1,1,0,0,0,1,0,singleton
+Lampyridae,Polyphaga,Elateroidea,9,3,3,3,0,8,1,
+Lycidae,Polyphaga,Elateroidea,1,0,0,1,0,1,0,singleton
+Omalisidae,Polyphaga,Elateroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Omethidae,Polyphaga,Elateroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Phengodidae,Polyphaga,Elateroidea,1,0,0,1,0,1,0,singleton
+Plastoceridae,Polyphaga,Elateroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Podabrocephalidae,Polyphaga,Elateroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Rhagophthalmidae,Polyphaga,Elateroidea,1,0,0,1,0,1,0,singleton
+Rhinorhipidae,Polyphaga,Elateroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Telegeusidae,Polyphaga,Elateroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Throscidae,Polyphaga,Elateroidea,0,0,0,0,0,0,0,ABSENT from TOB
+Histeridae,Polyphaga,Histeroidea,1,1,0,0,0,1,0,singleton
+Georissidae,Polyphaga,Hydrophiloidea,0,0,0,0,0,0,0,ABSENT from TOB
+Helophoridae,Polyphaga,Hydrophiloidea,0,0,0,0,0,0,0,ABSENT from TOB
+Hydraenidae,Polyphaga,Hydrophiloidea,0,0,0,0,0,0,0,ABSENT from TOB
+Hydrochidae,Polyphaga,Hydrophiloidea,1,0,0,1,0,1,0,singleton
+Hydrophilidae,Polyphaga,Hydrophiloidea,9,3,0,6,0,8,1,
+Sphaeritidae,Polyphaga,Hydrophiloidea,0,0,0,0,0,0,0,ABSENT from TOB
+Synteliidae,Polyphaga,Hydrophiloidea,0,0,0,0,0,0,0,ABSENT from TOB
+Lymexylidae,Polyphaga,Lymexyloidea,0,0,0,0,0,0,0,ABSENT from TOB
+Belohinidae,Polyphaga,Scarabaeoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Bolboceratidae,Polyphaga,Scarabaeoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Ceratocanthidae,Polyphaga,Scarabaeoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Diphyllostomatidae,Polyphaga,Scarabaeoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Geotrupidae,Polyphaga,Scarabaeoidea,3,1,2,0,0,3,0,
+Glaphyridae,Polyphaga,Scarabaeoidea,1,1,0,0,0,1,0,singleton
+Glaresidae,Polyphaga,Scarabaeoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Hybosoridae,Polyphaga,Scarabaeoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Lucanidae,Polyphaga,Scarabaeoidea,7,6,1,0,0,6,1,
+Ochodaeidae,Polyphaga,Scarabaeoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Passalidae,Polyphaga,Scarabaeoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Pleocomidae,Polyphaga,Scarabaeoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Scarabaeidae,Polyphaga,Scarabaeoidea,50,20,15,15,0,41,9,
+Trogidae,Polyphaga,Scarabaeoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Clambidae,Polyphaga,Scirtoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Decliniidae,Polyphaga,Scirtoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Eucinetidae,Polyphaga,Scirtoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Scirtidae,Polyphaga,Scirtoidea,1,1,0,0,0,0,1,singleton
+Agyrtidae,Polyphaga,Staphylinoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Leiodidae,Polyphaga,Staphylinoidea,11,9,0,2,0,9,2,
+Ptiliidae,Polyphaga,Staphylinoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Silphidae,Polyphaga,Staphylinoidea,5,3,2,0,0,4,1,
+Staphylinidae,Polyphaga,Staphylinoidea,60,22,38,0,0,53,7,
+Aderidae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Anthicidae,Polyphaga,Tenebrionoidea,1,1,0,0,0,1,0,singleton
+Archeocrypticidae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Boridae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Chalcodryidae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Ciidae,Polyphaga,Tenebrionoidea,1,1,0,0,0,1,0,singleton
+Colydiidae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Melandryidae,Polyphaga,Tenebrionoidea,1,1,0,0,0,1,0,singleton
+Meloidae,Polyphaga,Tenebrionoidea,13,3,7,3,0,13,0,
+Mordellidae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Mycetophagidae,Polyphaga,Tenebrionoidea,3,3,0,0,0,3,0,
+Mycteridae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Oedemeridae,Polyphaga,Tenebrionoidea,2,2,0,0,0,2,0,
+Perimylopidae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Prostomidae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Pterogeniidae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Pyrochroidae,Polyphaga,Tenebrionoidea,2,2,0,0,0,1,1,
+Pythidae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Ripiphoridae,Polyphaga,Tenebrionoidea,1,1,0,0,0,1,0,singleton
+Salpingidae,Polyphaga,Tenebrionoidea,1,1,0,0,0,1,0,singleton
+Scraptiidae,Polyphaga,Tenebrionoidea,3,3,0,0,0,3,0,
+Stenotrachelidae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Synchroidae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Tenebrionidae,Polyphaga,Tenebrionoidea,25,22,3,0,0,17,8,
+Tetratomidae,Polyphaga,Tenebrionoidea,1,1,0,0,0,1,0,singleton
+Trachelostenidae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Trictenotomidae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Ulodidae,Polyphaga,Tenebrionoidea,0,0,0,0,0,0,0,ABSENT from TOB
+Zopheridae,Polyphaga,Tenebrionoidea,4,4,0,0,0,3,1,
+Mengenillidae,Mengenillidia,Strepsiptera,1,0,0,1,0,0,1,Strepsiptera outgroup; singleton
+Stylopidae,Stylopidia,Strepsiptera,1,1,0,0,0,0,1,Strepsiptera outgroup; singleton
+Xenidae,Stylopidia,Strepsiptera,1,0,0,1,0,0,1,Strepsiptera outgroup; singleton

@@ -315,3 +315,108 @@ The full literature reviews are in `literature/notes/01–08_*.md`. Anchor paper
 - **Smith & O'Meara 2012** *Bioinformatics* 28 — treePL penalized likelihood dating
 - **Smith & Walker 2019** *Appl Plant Sci* — PyPHLAWD
 - **Zhang et al. 2018** *Nat Commun* 9:205 — Coleoptera phylogenomics with anchored hybrid enrichment
+
+---
+
+# Phase 0 progress log (chronological)
+
+## 2026-05-03
+
+### Step 1 — `01_setup_tob_scratch.sh` (login node)
+
+- 21:45 CDT: complete. Created `$SCRATCH/tob/{alignments, genomes, logs, orthologs, outgroups, scripts, sphaerius, transcriptomes, trees}`. NCBI Datasets CLI **v18.25.1** installed at `~/bin/datasets`. Reminder logged that `~/bin` should be added to `~/.bashrc` PATH for persistence.
+
+### Step 2 — `02_pull_new_genomes.sh` (login node)
+
+First attempt (single 93-accession bundle): **failed at 10.4 GB / 100% with NCBI HTTP/2 INTERNAL_ERROR**. Retried with batched implementation (10 accessions per `datasets download`, 3 retries with 30 s back-off, ANSI escapes stripped from log). Batched run: 22:16–22:41 (~25 min), all 10 batches OK on first try, 0 retries needed.
+
+**Result:** 88 of 93 accessions unpacked with FASTA. Five returned valid-but-empty packages (NCBI Datasets metadata stub only):
+
+| Accession | Species | Family | Cause |
+|-----------|---------|--------|-------|
+| GCA_055755885.1 | *Nicrophorus americanus* | Silphidae | 404 on FTP |
+| GCA_944317955.1 | *Callosobruchus chinensis* | Chrysomelidae | `status=suppressed` |
+| GCA_947858975.1 | *Callosobruchus analis* | Chrysomelidae | `status=suppressed` |
+| GCA_964262855.1 | *Dendarus foraminosus* | Tenebrionidae | datasets returns metadata-only |
+| GCA_964417215.1 | *Prionocyphon serricornis* | Scirtidae | datasets returns metadata-only |
+
+Of these, 3 species (Nicrophorus, both Callosobruchus) have **no alternate** — they drop entirely from TOB Tier 1 (remain Tier-3 candidates for Phase 2). Two have working alternatives: *Dendarus* covered by SCARAB GCA_965152765.1; *Prionocyphon* substituted with new GCA_965648555.1 (chromosome, 6 Mb N50, manually pulled via `datasets download` direct).
+
+`select_best_per_species.py` updated with a `SUPPRESSED_ACCESSIONS` set so the winners CSV stays consistent. Final state: **89 new genomes with FASTA on Grace**, matching the regenerated 89-accession pull list exactly.
+
+### Step 3 — `03_pull_transcriptomes.sh` (login node)
+
+First attempt assumed `/genbank/wgs/wgs_aux/<prefix>/...fsa_nt.gz` FTP layout; NCBI no longer maintains that path for these projects (404). All 4 TSAs failed both FTP fetch and the efetch fallback.
+
+Rewrote: efetch the master record as GenBank text → regex `consists\s+of\s+sequences\s+(ACC1)\s*-\s*(ACC2)` from COMMENT field → enumerate contig accessions in range → batch-fetch FASTA in chunks of 200 via efetch POST → gzip. Re-ran 22:16–22:52.
+
+**Three of four succeeded on first re-run; *Priacma* failed on a line-wrap edge case in the regex** (`consists of` and `sequences` straddled a physical line break in the GenBank text). Patched regex to `\s+` between every word + `re.S`, re-ran *Priacma* alone via inline Python at 22:56.
+
+| Species | Family | Suborder | Contigs | Size |
+|---------|--------|----------|--------:|-----:|
+| *Priacma serrata* | Cupedidae | Archostemata | 18,752 / 18,752 | 3.0 MB |
+| *Micromalthus debilis* | Micromalthidae | Archostemata | 28,718 / 28,718 | 9.3 MB |
+| *Hydroscapha redfordi* | Hydroscaphidae | Myxophaga | 18,852 / 18,852 | 7.0 MB |
+| *Lepicerus* sp. AD-2013 | Lepiceridae | Myxophaga | 96,025 / 96,025 | 17 MB |
+
+Total: 33 MB, all 162,347 contigs accounted for.
+
+### Step 4 — `04_pull_hymenoptera_anchors.sh` (login node)
+
+22:16–22:17, ~1 min. All 3 anchors pulled cleanly:
+
+| Species | Family | Sub-clade | Size |
+|---------|--------|-----------|------|
+| *Apis mellifera* (GCF_003254395.2) | Apidae | Apocrita | 228 MB genome + 21 MB protein |
+| *Nasonia vitripennis* (GCF_009193385.2) | Pteromalidae | Apocrita | 301 MB genome + 27 MB protein |
+| *Athalia rosae* (GCA_910592395.2) | Tenthredinidae | Symphyta | 396 MB genome (no protein.faa for GCA accession) |
+
+### Step 7 — `07_link_scarab_genomes.sh` (any node)
+
+23:15 CDT, instant. **439 SCARAB genome dirs symlinked** into `$SCRATCH/tob/genomes/scarab_existing/`. Note: the script's "expect ~478" comment was wrong — the actual count of materialized genome dirs in `$SCRATCH/scarab/genomes/` is 439 (matches the SCARAB tip count after Phase-2 quality filters). The CLAUDE.md "478" figure refers to the catalog target before filtering.
+
+### Step 5 — `05_pull_sphaerius_reads.sh` (login node)
+
+First attempt failed: `module load SRA-Toolkit/3.0.5` — that version doesn't exist on Grace. Available versions are 3.0.3, 3.0.10, 3.1.1, 3.2.0. Patched script to use 3.2.0 (latest) and re-ran in background.
+
+### Step 6 — `06_assemble_sphaerius.slurm` (bigmem)
+
+NOT YET SUBMITTED. Awaiting Heath's approval given the 24–48 h × 2-task bigmem footprint. Will queue with `sbatch` once step 05 reads are confirmed downloaded.
+
+---
+
+# Sub-agent dispatch results (2026-05-03)
+
+10 parallel sub-agents dispatched between 22:54–23:01 CDT to advance Phase 1+ prep, methodology data files, and Grace environment checks. All completed within ~10 minutes.
+
+## Methodology data files
+
+| Agent | Result | Output |
+|-------|--------|--------|
+| Creedy 2025 constraint nodes | Paper retrieved (PMC13048007); 43 narrative-described nodes extracted into CSV. **Full 83-node Newick S5 is on Dryad (10.5061/dryad.zkh1893f4) under embargo.** Agent recommends emailing Alfried Vogler (a.vogler@nhm.ac.uk) or trying TAMU library proxy. | `data/creedy2025_constraint_nodes.csv` (43 rows), `literature/notes/creedy2025_retrieval.md` |
+| Cai 2022 calibrations | All **57 calibrations** extracted from figshare PDF supplement via pdfplumber. **51 applicable at TOB family-level scope** (6 excluded as too fine or outgroup). **9 Burmese amber calibrations** all anchor to 98.17 Ma — the sensitivity-test block per workflow. **Caveats:** node 28 reuses node 25's fossil (can't double-apply in treePL); maxima are MCMCtree 2.5%-tail soft bounds; node 39 has wide 53–165 Ma uncertainty. | `data/cai2022_calibrations.csv`, `literature/notes/cai2022_retrieval.md` |
+| Bouchard 2024 ↔ NCBI reconciliation | Used CoL ChecklistBank dataset 290628. **231 Bouchard families vs 195 NCBI families.** 176 exact matches, 6 conflicts, 49 missing. Top GenBank-mining gotchas: 6 Bouchard families are NCBI subfamilies (Cicindelidae→Carabidae, etc.); 3 NCBI families are Bouchard synonyms (stale); 14 Bouchard families have no NCBI taxid at all (need type-genus searches). | `data/bouchard2024_ncbi_reconciliation.csv` (790 rows), `data/bouchard2024_ncbi_reconciliation_notes.md` |
+| Coleoptera mitogenome inventory | 2,551 complete mitogenome records / 1,521 unique species / 97 families. **1,409 species are mitogenome-only** (not in nuclear Tier 1) — material expansion potential for Tier 4 placement. Top mito-only families: Curculionidae 192, Cerambycidae 118, Chrysomelidae 117, Scarabaeidae 94, Carabidae 88. | `data/coleoptera_mitogenomes.csv`, `data/coleoptera_mitogenomes_notes.md` |
+| Burmese amber fossil compilation | 9 Burmese amber calibrations confirmed (matches Cai). **Only 2 of 9 have viable non-Burmese replacements** (Bostrichidae → Charentes amber, Rhipiphoridae → Daohugou). 7 nodes have NO pre-Eocene non-Burmese alternative — excluding Burmese amber forces them down to Eocene Baltic amber (~37–47 Ma), creating a **~50 Ma calibration gap**. | `data/burmese_amber_coleoptera_fossils.csv`, `data/non_burmese_replacements.csv`, `literature/notes/coleoptera_amber_fossils.md` |
+| Family coverage analysis | TOB Tier-1 covers **61 of 187 families (32.6%)** — 67% chromosome, 22% scaffold, 10% contig. **27 singleton families.** 126 absent. **Important caveat:** report was nuclear-only; with Tier-2 transcriptomes added, real Tier 1+2 coverage is **~66 of 187 = 35.3%**. See `family_coverage_addendum.md` for the corrections. Persistent concerns (still valid): Derodontidae + Lymexylidae (entire superfamilies absent); Dryophthoridae (~1,200 spp); Gyrinidae; Erotylidae. | `data/family_coverage_report.md`, `data/family_coverage_per_family.csv`, `data/family_coverage_addendum.md` |
+
+## Tools / environment
+
+| Agent | Result | Output |
+|-------|--------|--------|
+| Grace modules survey | **Phase 1 fully supported by existing modules** (BUSCO 5.7.1/6.0.0, MAFFT 7.520/7.526, TrimAl 1.4.1, IQ-TREE 2.3.6 (includes GHOST), ASTER 1.20.4 (replaces ASTRAL-III, no Java needed), HMMER 3.4, BLAST+ 2.14.0, AUGUSTUS 3.5.0, MetaEuk 6, Anaconda3 24.1.2, Miniconda3 24.11.1). **treePL** missing (Conda install or email HPRC). **BaCoCa** R-script only (download + invoke via R/4.4.2). | `literature/notes/grace_modules_survey.md` |
+| SuperCRUNCH on Grace | Not pre-installed; cleanly installable via `Anaconda3/2024.02-1` + pip from GitHub. **Gotcha:** Grace's BLAST+ and MAFFT modules use incompatible GCC toolchains (12.2.0 vs 12.3.0); install both deps via Conda inside the SuperCRUNCH env to avoid the conflict. | `literature/notes/supercrunch_grace_install.md` |
+| Non-NCBI Coleoptera survey | ~80–200 likely-missing assemblies, primarily Darwin Tree of Life pre-release. Single recommended action: **GoaT REST API call** (`tax_tree(Coleoptera) AND assembly_span>0`) aggregates DToL/ERGA/Ag100Pest/EBP in one call. ENA portal `PRJEB*` diff for additional. BAT1K and BIPAA confirmed irrelevant for beetles. | `literature/notes/non_ncbi_genome_survey.md` |
+| Phase 1 SLURM script drafts | **9 scripts written** in `scripts/phase1/`: BUSCO array, ortholog collection, filter+align array, supermatrix concat, IQ-TREE concatenated ML, ASTRAL gene-tree+species-tree, gCF/sCF concordance, BaCoCa/GHOST compositional check, README. Confirmed Grace modules; **5 items flagged for confirmation** (constraint tree path, ASTRAL rooting tip labels, BaCoCa fallback acceptance, ASTRAL dual-stage file layout, transcriptome ext detection). | `scripts/phase1/00_README.md` + 8 scripts |
+
+---
+
+# Decision log additions (2026-05-03 evening)
+
+| Decision | Rationale | Source |
+|----------|-----------|--------|
+| Filter Phase 0 step 02 pulls: drop suborder ∈ {Apocrita, Pulicomorpha} + total_length_mb < 50 | Bleed-through (Hymenoptera, fleas) and mitogenome misregistrations identified during inventory review | conversation 2026-05-03 |
+| Pull strategy = best-per-species (option B) — pull only when NEW > SCARAB | 562 raw → 89 actual pulls (84% reduction); avoids duplicating species already covered | conversation 2026-05-03 |
+| Drop *Nicrophorus americanus*, *Callosobruchus chinensis*, *C. analis* from TOB Tier 1 | NCBI confirmed all three are suppressed/404; no alternates exist; remain Tier-3 candidates | step 02 cleanup |
+| treePL via Conda env (`tob-treepl`), not modulised build | EasyBuild recipe exists but unbuilt; Conda is faster + reversible | Grace modules survey + Heath autonomy 2026-05-03 |
+| SCARAB-existing genome count is **439, not 478** | The 478 was the catalog target; only 439 made it through Phase-2 quality filters and into `$SCRATCH/scarab/genomes/`. Step 07 confirmed 439 dirs linked. | Phase 0 step 07 output |
