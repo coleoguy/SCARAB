@@ -46,7 +46,10 @@ def log(msg):
 def get_contig_range(master_acc):
     url = '%s/efetch.fcgi?db=nuccore&id=%s&rettype=gb&retmode=text' % (EUTILS, master_acc)
     txt = urllib.request.urlopen(url, timeout=60).read().decode('utf-8', errors='replace')
-    m = re.search(r'consists of sequences\s+(\w+\d+)-(\w+\d+)', txt)
+    # GenBank text wraps long lines; "consists of" and "sequences" can be on
+    # separate physical lines (e.g. Priacma serrata GACO master record).
+    # Use \s+ between every word and re.S so . matches newlines.
+    m = re.search(r'consists\s+of\s+sequences\s+(\w+\d+)\s*-\s*(\w+\d+)', txt, re.S)
     if not m:
         return None, None
     return m.group(1), m.group(2)
