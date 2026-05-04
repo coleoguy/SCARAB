@@ -11,7 +11,8 @@ mkdir -p "$READS_DIR" "$TOB_ROOT/logs"
 
 # Load SRA Toolkit (verify module name on current Grace; adjust if different)
 module purge
-module load SRA-Toolkit/3.2.0  # 3.0.5 doesn't exist on Grace; available: 3.0.3, 3.0.10, 3.1.1, 3.2.0
+# SRA-Toolkit/3.2.0 requires this exact toolchain prereq pair on Grace:
+module load GCC/13.3.0 OpenMPI/5.0.3 SRA-Toolkit/3.2.0
 
 cd "$READS_DIR"
 
