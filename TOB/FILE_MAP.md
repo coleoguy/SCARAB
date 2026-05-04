@@ -8,6 +8,8 @@ Stub. Populate as the project takes shape.
 TOB/
 ├── context.md                            # project status, strategy, data inventory — read first
 ├── workflow_v1.md                        # locked-in methodology + 5-phase pipeline
+├── TOB_methods.Rmd                       # chronological methods notebook — every step,
+│                                         # every command, every decision; knit to HTML/PDF
 ├── FILE_MAP.md                           # this file
 ├── data/
 │   ├── ncbi_inventory_refresh_2026-05.csv     # 1,105 NCBI assemblies + tob_recommendation

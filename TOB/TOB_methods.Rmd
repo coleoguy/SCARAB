@@ -1,0 +1,317 @@
+---
+title: "TOB — Tree of Beetles: Methods Notebook"
+author: "Heath Blackmon (PI), TAMU"
+date: "Started 2026-05-03; last updated `r format(Sys.Date())`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    number_sections: true
+    code_folding: show
+    theme: cosmo
+    df_print: paged
+  pdf_document:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+# Knit from TOB/ directory; paths are relative to this file.
+knitr::opts_knit$set(root.dir = ".")
+```
+
+# Project overview
+
+**Goal.** Build the most complete Coleoptera phylogeny ever assembled, covering all four suborders (Archostemata, Myxophaga, Adephaga, Polyphaga) and all ~180 families, with fossil-calibrated divergence dates and quantified topological uncertainty.
+
+**Origin.** TOB was split off from the SCARAB project (478-beetle whole-genome alignment via ProgressiveCactus) on **2026-05-03**. The trigger: the SCARAB tree (439 tips after filtering) was missing both Archostemata and Myxophaga, leaving the deep root of Coleoptera unresolvable from genomic data alone. The species tree is a critical Cactus input, so SCARAB is paused at git tag `scarab-pause-2026-05-03` until TOB delivers a proper backbone.
+
+**Strategy.** Hierarchical phylogenomics with three data tiers:
+
+| Tier | Data type | Source | Approx. taxa |
+|------|-----------|--------|--------------|
+| 1 | Whole genomes | NCBI assemblies (SCARAB existing + new pulls + Strepsiptera + Hymenoptera + Neuropterida outgroups) | ~580 species |
+| 2 | Transcriptomes (TSA) + DIY assemblies | NCBI TSA, McKenna 2019, plus DIY assembly of *Sphaerius* WGS | ~6 ancient-suborder taxa |
+| 3 | Sanger markers from GenBank | SuperCRUNCH mining, per-family supermatrices | ~10,000–30,000 species |
+
+The Tier 1 + 2 data feed the **backbone** phylogeny via concatenated ML + ASTRAL coalescent inference. The Tier 3 supermatrices are placed onto that backbone via topology-constrained per-family ML (`iqtree -g backbone.tre`). Final tree is dated with treePL using fossil priors from Cai et al. 2022.
+
+Locked-in methodology decisions are documented in `workflow_v1.md`, with rationale traceable to the eight literature reviews in `literature/notes/01-08_*.md`.
+
+# Project organization
+
+## Repo layout (Mac side)
+
+```
+TOB/
+├── context.md                          # cold-start project status
+├── workflow_v1.md                      # locked-in 5-phase methodology
+├── TOB_methods.Rmd                     # THIS file — chronological lab notebook
+├── FILE_MAP.md                         # repo + Grace tree
+├── data/
+│   ├── ncbi_inventory_refresh_2026-05.csv     # 1,105 NCBI assemblies surveyed
+│   ├── ncbi_inventory_refresh_notes.md
+│   ├── best_assembly_per_species.csv          # 577 winners (one per species)
+│   └── accessions_to_pull.txt                 # 93-accession pull list for Grace
+├── literature/notes/                   # 8 sub-agent literature reviews
+├── scripts/
+│   ├── ncbi_inventory_refresh.py
+│   ├── select_best_per_species.py
+│   └── phase0/                         # Grace deployment scripts
+└── results/                            # downloaded outputs from Grace
+```
+
+## Grace working directory
+
+```
+$SCRATCH/tob/   # = /scratch/user/blackmon/tob/
+├── genomes/        # NCBI Datasets pulls + symlinks to SCARAB
+├── transcriptomes/ # 4 TSAs
+├── outgroups/      # Hymenoptera anchors
+├── sphaerius/      # raw reads + DIY assemblies
+├── orthologs/      # (Phase 1) BUSCO output
+├── alignments/     # (Phase 1)
+├── trees/          # (Phase 1+)
+└── logs/           # timestamped per-script logs
+```
+
+# Phase 0 — Data acquisition
+
+Status as of `r format(Sys.Date())`: see per-step subsections below.
+
+## Step 1 — Setup `$SCRATCH/tob/` and install NCBI Datasets CLI
+
+**Status: COMPLETE (2026-05-03 21:45 CDT)**
+
+Created the Grace working directory tree and installed the NCBI Datasets CLI binary needed by subsequent pull steps. Run on the Grace login node (compute nodes have no internet per CLAUDE.md).
+
+**Script:** `scripts/phase0/01_setup_tob_scratch.sh`
+
+**Command:**
+
+```bash
+ssh blackmon@grace.hprc.tamu.edu \
+    "bash ~/SCARAB/TOB/scripts/phase0/01_setup_tob_scratch.sh"
+```
+
+**Output:**
+
+- Created `/scratch/user/blackmon/tob/` with subdirs `{alignments, genomes, logs, orthologs, outgroups, scripts, sphaerius, transcriptomes, trees}`
+- Installed NCBI Datasets CLI **v18.25.1** to `~/bin/`
+- Reminder: add `export PATH=$HOME/bin:$PATH` to `~/.bashrc` for persistence across sessions
+
+## Step 2 — Pull curated set of new NCBI genomes
+
+**Status: IN PROGRESS (started 2026-05-03)**
+
+### Background: inventory refresh
+
+Earlier this session, an autonomous sub-agent queried NCBI for all current assemblies under Coleoptera (taxid 7041), Strepsiptera (7407), and Neuropterida (Neuroptera 7515, Megaloptera 7461, Raphidioptera 7445). It found **1,105 total assemblies**, of which **562 were NEW** (not in the SCARAB catalog).
+
+The script that did this is `scripts/ncbi_inventory_refresh.py`. Output: `data/ncbi_inventory_refresh_2026-05.csv` and `data/ncbi_inventory_refresh_notes.md`.
+
+```{r inventory-summary}
+suppressPackageStartupMessages({
+    library(readr); library(dplyr); library(knitr)
+})
+inv <- read_csv("data/ncbi_inventory_refresh_2026-05.csv", show_col_types = FALSE)
+cat("Total inventory rows:", nrow(inv), "\n")
+cat("Already in SCARAB:   ", sum(inv$in_scarab_catalog == "yes"), "\n")
+cat("New candidates:      ", sum(inv$in_scarab_catalog == "no"),  "\n\n")
+
+inv %>%
+    filter(in_scarab_catalog == "no") %>%
+    count(suborder, sort = TRUE) %>%
+    kable(caption = "New NCBI candidates by suborder (raw, before filter)")
+```
+
+### Concerns identified during inventory review
+
+A manual review (Mac, 2026-05-03) flagged three classes of issue in the raw 562 new candidates:
+
+1. **Bleed-through from NCBI taxonomy expansion** of "Coleoptera":
+   - 16 *Apocrita* (Hymenoptera, mostly *Apis cerana* and *Vespa crabro* duplicates)
+   - 2 *Pulicomorpha* (fleas, Siphonaptera — *Ctenocephalides felis*, mislabeled as Strepsiptera by the inventory script)
+
+2. **Misregistered "assemblies"** (likely mitogenomes or endosymbiont contigs tagged with the host taxon):
+   - 1 mitogenome (GCA_945836925.1 *Elaeidobius kamerunicus*, 220 kb total, 245 bp N50)
+   - 15 sub-50 Mb assemblies, mostly Wellcome Sanger Institute Staphylinidae deposits at 1–2 Mb (real beetle nuclear genomes are 150 Mb+)
+
+3. **Massive species-level redundancy:**
+   - 80 species had 2–12 new assemblies each (e.g., *Apis cerana* ×12, *Tenebrio molitor* ×10, *Tribolium castaneum* ×6)
+   - **447 of 562** new candidates were species *already in SCARAB* (mostly quality upgrades, not genuinely new species)
+   - Only ~115 were truly novel species
+
+### Decision: filter + dedup (option B, Heath 2026-05-03)
+
+For each species, pick the **single best assembly** by `(assembly_level rank, contig_N50)` after dropping bleed-through and sub-50 Mb candidates. Compare new candidates against SCARAB's existing assembly; pull only when new is better.
+
+Implementation: `scripts/select_best_per_species.py`. Run locally on Mac.
+
+```{r dedup-summary}
+winners <- read_csv("data/best_assembly_per_species.csv", show_col_types = FALSE)
+to_pull  <- readLines("data/accessions_to_pull.txt")
+
+cat("Species with a winning assembly:", nrow(winners), "\n")
+cat("  - SCARAB-existing:            ", sum(winners$winner_source == "scarab"), "\n")
+cat("  - New pull required:          ", sum(winners$winner_source == "new_pull"), "\n")
+cat("Pull list length:               ", length(to_pull), "\n\n")
+
+winners %>%
+    count(suborder, winner_source) %>%
+    tidyr::pivot_wider(names_from = winner_source, values_from = n, values_fill = 0L) %>%
+    kable(caption = "Winners by suborder × source")
+```
+
+**Result: 562 raw → 93 actual pulls** (83% reduction). Estimated download time drops from 4–8 hr to 1–2 hr; disk from ~150 GB to ~30–60 GB.
+
+### Pull command
+
+**Script:** `scripts/phase0/02_pull_new_genomes.sh`
+
+```bash
+ssh blackmon@grace.hprc.tamu.edu \
+    "cd ~/SCARAB && git pull && \
+     bash ~/SCARAB/TOB/scripts/phase0/02_pull_new_genomes.sh"
+```
+
+Run in background; output written to `$SCRATCH/tob/logs/02_pull_new_genomes_<timestamp>.log`. Each accession unpacked under `$SCRATCH/tob/genomes/ncbi_dataset/data/{ACC}/`.
+
+**Outputs (TBD when complete):** assembly count, total disk, any failed pulls, sanity-check assembly-size distribution.
+
+## Step 3 — Pull ancient-suborder transcriptomes (TSA)
+
+**Status: NOT STARTED**
+
+Four verified TSA-deposited transcriptomes covering Archostemata + Myxophaga (where genomes are absent or unusable):
+
+| Species | Family | Suborder | TSA accession |
+|---------|--------|----------|---------------|
+| *Priacma serrata* | Cupedidae | Archostemata | GACO00000000.1 |
+| *Micromalthus debilis* | Micromalthidae | Archostemata | GDOQ00000000.1 |
+| *Hydroscapha redfordi* | Hydroscaphidae | Myxophaga | GDMJ00000000.1 |
+| *Lepicerus* sp. AD-2013 | Lepiceridae | Myxophaga | GAZB00000000.2 |
+
+**Script:** `scripts/phase0/03_pull_transcriptomes.sh` (WGS FTP fetch, efetch fallback)
+
+**Will document on completion:** retrieved sizes, contig counts.
+
+## Step 4 — Pull Hymenoptera outgroup anchors
+
+**Status: NOT STARTED**
+
+Per the Strepsiptera-outgroup analysis (literature/notes/07), Hymenoptera anchors stabilise Strepsiptera placement and avoid LBA artifacts. McKenna 2019 outgroup composition adopted as guide.
+
+| Species | Family | Sub-clade | Accession |
+|---------|--------|-----------|-----------|
+| *Apis mellifera* | Apidae | Apocrita | GCF_003254395.2 |
+| *Nasonia vitripennis* | Pteromalidae | Apocrita | GCF_009193385.2 |
+| *Athalia rosae* | Tenthredinidae | Symphyta | GCA_910592395.2 |
+
+**Script:** `scripts/phase0/04_pull_hymenoptera_anchors.sh`
+
+## Step 5 — Pull *Sphaerius* WGS read sets
+
+**Status: NOT STARTED**
+
+Sphaeriusidae (Myxophaga) has no assembled genomes in NCBI but does have two raw WGS deposits from Oregon State (BioProject PRJNA870497, released Sept 2023):
+
+| SRA run | Species | Bases | Platform |
+|---------|---------|-------|----------|
+| SRR21231095 | *Sphaerius* sp. Arizona DRM-2022b | 18.4 Gb | HiSeq 3000 |
+| SRR21231096 | *Sphaerius* cf. *minutus* | 16.1 Gb | HiSeq 3000 |
+
+Coverage estimates (genome size unknown for Myxophaga, bracketed): 23×–170× depending on actual genome size; tiny-insect genome guess is 200–500 Mb.
+
+**Script:** `scripts/phase0/05_pull_sphaerius_reads.sh` (uses sra-toolkit `prefetch` + `fasterq-dump`, then gzip)
+
+## Step 6 — DIY assembly of *Sphaerius* genomes (SPAdes)
+
+**Status: NOT STARTED**
+
+SLURM array job (2 tasks, one per species) on Grace bigmem partition. Resources: 32 cores, 300 GB RAM, 48 h wall per task.
+
+**Script:** `scripts/phase0/06_assemble_sphaerius.slurm`
+
+Expected output: draft contigs, N50 ~30–100 kb (typical PE-only short-read assembly of small insect). Sufficient for BUSCO ortholog extraction.
+
+## Step 7 — Symlink existing SCARAB genomes into TOB tree
+
+**Status: NOT STARTED**
+
+Symlinks the 478 SCARAB genomes from `$SCRATCH/scarab/genomes/{ACC}/` into `$SCRATCH/tob/genomes/scarab_existing/{ACC}/` so Phase 1 can treat them uniformly with the new pulls.
+
+**Script:** `scripts/phase0/07_link_scarab_genomes.sh`
+
+# Phase 1 — Backbone inference (BUSCO + IQ-TREE + ASTRAL)
+
+**Status: NOT STARTED.** Scripts to be written after Phase 0 outputs are inspected.
+
+Planned workflow (per workflow_v1.md):
+
+1. **BUSCO insecta_odb10** on every Tier 1 + 2 assembly/transcriptome.
+2. **Per-locus filter:** retain orthologs present in ≥50% of taxa.
+3. **MAFFT-LINSI** alignment → **TrimAl `-automated1`** trimming.
+4. **Concatenated supermatrix** → **IQ-TREE LG+C60+F+R** (NOT vanilla GTR — Strepsiptera + Cucujiformia + Curculionoidea exhibit LBA under site-homogeneous models per Li et al. 2023/2024).
+5. **Topology constraint:** pin >80 universally supported nodes from Creedy et al. 2025 *Syst Biol*.
+6. **Branch support:** ultrafast bootstrap (1000) + SH-aLRT.
+7. **ASTRAL-III** on per-locus gene trees as a coalescent cross-check.
+8. **gCF / sCF concordance** at every node.
+9. **Compositional bias check:** BaCoCa or IQ-TREE GHOST on a 50-locus subsample.
+
+**Inspection gate:** review the resulting backbone before committing to Phases 2–5. Looking for: all four suborders resolved; Strepsiptera correctly placed as Coleoptera-sister (not at LBA position); Adephaga/Polyphaga split clean; no obvious compositional artifacts.
+
+# Phase 2 — Tier-3 GenBank mining
+
+**Status: NOT STARTED.** Will use SuperCRUNCH primary, phylotaR fallback for obscure families. Bouchard 2024 taxonomy via Catalogue of Life ChecklistBank API for name reconciliation.
+
+# Phase 3 — Per-family ML, backbone-constrained
+
+**Status: NOT STARTED.** IQ-TREE per family with `-g backbone.tre`. Bootstrap + concordance per family.
+
+# Phase 4 — Synthesis
+
+**Status: NOT STARTED.** Graft family trees onto backbone at stem nodes. EPA-ng for barcode-only taxa.
+
+# Phase 5 — Dating + uncertainty
+
+**Status: NOT STARTED.** treePL with Cai et al. 2022 calibration set (~25 nodes applicable at TOB scope), Curculionoidea crown→stem fix per Cai. 100 IQ-TREE bootstrap → 100 treePL runs (SLURM array) for branch-length uncertainty + calibration jackknife (drop-one fossil per run) for fossil sensitivity. Burmese amber sensitivity test (with vs without).
+
+# Decision log
+
+| Date | Decision | Rationale | Source |
+|------|----------|-----------|--------|
+| 2026-05-03 | Split SCARAB → SCARAB (paused) + TOB (active) | SCARAB tree missing Archostemata + Myxophaga; species tree is critical Cactus input | this notebook §1 |
+| 2026-05-03 | Adopt three-tier data strategy (genomes + transcriptomes + Sanger) | Single tier insufficient: ancient suborders lack genomes; species-level fill-in needs Sanger | workflow_v1.md |
+| 2026-05-03 | Use Creedy et al. 2025 *Syst Biol* universally-supported nodes as backbone constraint | >80 nodes corroborated across multiple studies | notes/01, 06 |
+| 2026-05-03 | LG+C60+F+R or CAT-GTR+G4, not vanilla GTR | Strepsiptera and Cucujiformia/Curculionoidea show LBA under site-homogeneous models | notes/01, 07 |
+| 2026-05-03 | SuperCRUNCH primary + phylotaR fallback for Tier-3 mining | SuperCRUNCH targets named loci with synonym flagging; phylotaR's BLAST clustering catches what SuperCRUNCH misses | notes/02 |
+| 2026-05-03 | Bouchard et al. 2024 *ZooKeys* 1194 as taxonomic authority via Catalogue of Life ChecklistBank API | Most current Coleoptera classification; CoL conformed to it | notes/05 |
+| 2026-05-03 | Cai et al. 2022 *R Soc Open Sci* 9:211771 as starting calibration set | Only fully justified per Parham 2012 best practice; 57 calibrations (~25 applicable at TOB scope) | notes/03 |
+| 2026-05-03 | treePL primary, RelTime cross-check for dating | treePL only method with verified record at >10k tips; RelTime statistically equivalent to Bayesian per Barba-Montoya 2022 | notes/04 |
+| 2026-05-03 | Outgroup composition: 2 Strepsiptera + 6 Neuropterida + 2-3 Hymenoptera anchors | Matches McKenna 2019; Hymenoptera anchors stabilise Strepsiptera | notes/07 |
+| 2026-05-03 | BUSCO from scratch on all assemblies (do not reuse SCARAB extraction) | Want consistent insecta_odb10 run across new + old | this notebook §6 (Phase 1) |
+| 2026-05-03 | Pull strategy = best-per-species (option B), not all 562 | 447 of 562 new candidates were species already in SCARAB; many were duplicates | this notebook §3.2 |
+| 2026-05-03 | Skip emailing McKenna re: *Tetraphalerus* | Ommatidae locks to Tier-3 (Sanger + mitogenome) only | conversation |
+| 2026-05-03 | Phase 0 + Phase 1 only first; inspect backbone before scaling to Tier 3 | Risk-managed checkpoint before committing weeks of compute | conversation |
+| 2026-05-03 | Grace work in `$SCRATCH/tob/` parallel to existing `$SCRATCH/scarab/` | Keeps state clean; SCARAB resumable | conversation |
+
+# Key references
+
+The full literature reviews are in `literature/notes/01–08_*.md`. Anchor papers:
+
+- **Bouchard et al. 2024** *ZooKeys* 1194 — current Coleoptera family-group classification
+- **Bocak et al. 2014** *Syst Biol* 63 — precedent ~8,000-species mega-phylogeny + lessons
+- **Cai et al. 2022** *R Soc Open Sci* 9:211771 — fossil-calibrated dating set, Curculionoidea correction
+- **Creedy et al. 2025** *Syst Biol* — >80 universally supported beetle nodes, our backbone constraint source
+- **Li et al. 2023** *Biol Lett*; **Li et al. 2024** *JSE*, *eLife* — LBA artifacts in Cucujiformia/Curculionoidea under standard GTR
+- **McKenna et al. 2019** *PNAS* 116:24729 — phylogenomic backbone (89 taxa, 4,818 nuclear genes)
+- **Niehuis et al. 2012** *Curr Biol* 22 — Strepsiptera-Coleoptera sister relationship
+- **Portik & Wiens 2020** *MEE* 11 — SuperCRUNCH GenBank mining
+- **Smith & Brown 2018** *Am J Bot* 105 — backbone + grafting at scale (seed plants)
+- **Smith & O'Meara 2012** *Bioinformatics* 28 — treePL penalized likelihood dating
+- **Smith & Walker 2019** *Appl Plant Sci* — PyPHLAWD
+- **Zhang et al. 2018** *Nat Commun* 9:205 — Coleoptera phylogenomics with anchored hybrid enrichment
