@@ -1,0 +1,584 @@
+tip_label,species,family,suborder,tier,source_path_on_grace,file_present_yet,busco_mode,assembly_level
+GCA_964197645.1,Abax parallelepipedus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964197645.1/ncbi_dataset/data/GCA_964197645.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030710515.1,Abscondita cerata,Lampyridae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_013368085.1,Abscondita terminalis,Lampyridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_013368085.1/ncbi_dataset/data/GCA_013368085.1/*_genomic.fna,yes,genome,Scaffold
+GCA_963669975.1,Acanthoscelides obtectus,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963669975.1/ncbi_dataset/data/GCA_963669975.1/*_genomic.fna,yes,genome,Scaffold
+GCA_964234755.1,Actenicerus siaelandicus,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964234755.1/ncbi_dataset/data/GCA_964234755.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977071005.1,Acupalpus dubius,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977071005.1/ncbi_dataset/data/GCA_977071005.1/*_genomic.fna,yes,genome,Chromosome
+GCA_981690485.1,Acupalpus parvulus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_981690485.1/ncbi_dataset/data/GCA_981690485.1/*_genomic.fna,yes,genome,Chromosome
+GCA_910592335.1,Adalia bipunctata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_910592335.1/ncbi_dataset/data/GCA_910592335.1/*_genomic.fna,yes,genome,Chromosome
+GCA_951802165.1,Adalia decempunctata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_951802165.1/ncbi_dataset/data/GCA_951802165.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977014165.1,Adelopsella bosnica,Leiodidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977014165.1/ncbi_dataset/data/GCA_977014165.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030264715.1,Adinopsis sp. GC000173,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_009867245.1,Adranes taylori,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_009867245.1/*_genomic.fna,yes,genome,Scaffold
+GCA_978045345.1,Aegialia arenaria,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978045345.1/ncbi_dataset/data/GCA_978045345.1/*_genomic.fna,yes,genome,Chromosome
+GCA_010014765.1,Aenictocupidus jacobsonorum,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_010014765.1/*_genomic.fna,yes,genome,Scaffold
+GCA_024364675.1,Aethina tumida,Nitidulidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_024364675.1/*_genomic.fna,yes,genome,Chromosome
+GCA_950111635.1,Agelastica alni,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_950111635.1/*_genomic.fna,yes,genome,Chromosome
+GCA_947534325.1,Agonum fuliginosum,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_947534325.1/ncbi_dataset/data/GCA_947534325.1/*_genomic.fna,yes,genome,Chromosome
+GCA_982290465.1,Agonum gracile,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_982290465.1/ncbi_dataset/data/GCA_982290465.1/*_genomic.fna,yes,genome,Chromosome
+GCA_982345065.1,Agonum thoreyi,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_982345065.1/*_genomic.fna,yes,genome,Chromosome
+GCA_978021445.1,Agonum viduum,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978021445.1/ncbi_dataset/data/GCA_978021445.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963921985.1,Agrilus biguttatus,Buprestidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963921985.1/ncbi_dataset/data/GCA_963921985.1/*_genomic.fna,yes,genome,Chromosome
+GCA_947389935.1,Agrilus cyanescens,Buprestidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_947389935.1/ncbi_dataset/data/GCA_947389935.1/*_genomic.fna,yes,genome,Chromosome
+GCA_029378335.1,Agrilus mali,Buprestidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_029378335.1/*_genomic.fna,yes,genome,Chromosome
+GCA_000699045.2,Agrilus planipennis,Buprestidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_000699045.2/*_genomic.fna,yes,genome,Scaffold
+GCA_044115295.2,Agriotes ferrugineipennis,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_044115295.2/ncbi_dataset/data/GCA_044115295.2/*_genomic.fna,yes,genome,Scaffold
+GCA_965788545.1,Agriotes lineatus,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965788545.1/ncbi_dataset/data/GCA_965788545.1/*_genomic.fna,yes,genome,Chromosome
+GCA_041228545.2,Agriotes mancus,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_041228545.2/*_genomic.fna,yes,genome,Scaffold
+GCA_040955265.2,Agriotes obscurus,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_040955265.2/*_genomic.fna,yes,genome,Scaffold
+GCA_044115395.2,Agriotes pubescens,Elateridae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_044115325.2,Agriotes sputator,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_044115325.2/ncbi_dataset/data/GCA_044115325.2/*_genomic.fna,yes,genome,Scaffold
+GCA_929113105.1,Agrypnus murinus,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_929113105.1/ncbi_dataset/data/GCA_929113105.1/*_genomic.fna,yes,genome,Chromosome
+GCA_009852465.1,Alaus oculatus,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_009852465.1/*_genomic.fna,yes,genome,Scaffold
+GCA_003054995.1,Aleochara bilineata,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_963978815.1,Aleochara curtula,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963978815.1/ncbi_dataset/data/GCA_963978815.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030264555.1,Aleochara sp. GC000083,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_964028335.1,Altica lythri,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964028335.1/ncbi_dataset/data/GCA_964028335.1/*_genomic.fna,yes,genome,Chromosome
+GCA_973350105.1,Amara aenea,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_973350105.1/ncbi_dataset/data/GCA_973350105.1/*_genomic.fna,yes,genome,Chromosome
+GCA_982446755.1,Amara aulica,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_982446755.1/*_genomic.fna,yes,genome,Chromosome
+GCA_981560045.1,Amara convexiuscula,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_981560045.1/ncbi_dataset/data/GCA_981560045.1/*_genomic.fna,yes,genome,Chromosome
+GCA_978120735.1,Amara familiaris,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978120735.1/ncbi_dataset/data/GCA_978120735.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965279875.1,Amara ovata,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_965279875.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964234815.1,Ampedus sanguinolentus,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964234815.1/ncbi_dataset/data/GCA_964234815.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963170755.1,Amphimallon solstitiale,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963170755.1/ncbi_dataset/data/GCA_963170755.1/*_genomic.fna,yes,genome,Chromosome
+GCA_033557545.1,Amphistomus primonactus,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_978041785.1,Anaglyptus mysticus,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978041785.1/ncbi_dataset/data/GCA_978041785.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964243895.1,Anaspis frontalis,Scraptiidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964243895.1/ncbi_dataset/data/GCA_964243895.1/*_genomic.fna,yes,genome,Chromosome
+GCA_949128115.1,Anaspis maculata,Scraptiidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_949128115.1/ncbi_dataset/data/GCA_949128115.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964204715.1,Anaspis regimbarti,Scraptiidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964204715.1/ncbi_dataset/data/GCA_964204715.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030264675.1,Anaulacaspis nigra,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_964188095.1,Anisosticta novemdecimpunctata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964188095.1/ncbi_dataset/data/GCA_964188095.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965643755.1,Anobium punctatum,Ptinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965643755.1/ncbi_dataset/data/GCA_965643755.1/*_genomic.fna,yes,genome,Chromosome
+GCA_052815205.1,Anoplophora chinensis,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_052815205.1/ncbi_dataset/data/GCA_052815205.1/*_genomic.fna,yes,genome,Chromosome
+GCA_054644005.1,Anoplophora glabripennis,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_054644005.1/ncbi_dataset/data/GCA_054644005.1/*_genomic.fna,yes,genome,Chromosome
+GCA_054644075.1,Anoplophora malasiaca,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_054644075.1/ncbi_dataset/data/GCA_054644075.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965663565.1,Anthobium unicolor,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965663565.1/ncbi_dataset/data/GCA_965663565.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964258815.1,Anthocomus fasciatus,Melyridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964258815.1/ncbi_dataset/data/GCA_964258815.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030068095.1,Anthonomus grandis,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_030068095.1/ncbi_dataset/data/GCA_030068095.1/*_genomic.fna,yes,genome,Chromosome
+GCA_050242925.2,Anthonomus rubi,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_050242925.2/ncbi_dataset/data/GCA_050242925.2/*_genomic.fna,yes,genome,Scaffold
+GCA_978045665.1,Anthroherpon ganglbaueri,Leiodidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978045665.1/ncbi_dataset/data/GCA_978045665.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963966015.1,Aphidecta obliterata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963966015.1/ncbi_dataset/data/GCA_963966015.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964211865.1,Aphodius fimetarius,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964211865.1/ncbi_dataset/data/GCA_964211865.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963971325.1,Aphodius granarius,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963971325.1/ncbi_dataset/data/GCA_963971325.1/*_genomic.fna,yes,genome,Chromosome
+GCA_032191705.1,Aphodius immundus,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_963966075.1,Aphodius sticticus,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963966075.1/ncbi_dataset/data/GCA_963966075.1/*_genomic.fna,yes,genome,Chromosome
+GCA_978018165.1,Aplotarsus incanus,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978018165.1/ncbi_dataset/data/GCA_978018165.1/*_genomic.fna,yes,genome,Chromosome
+GCA_911728435.1,Apoderus coryli,Attelabidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_911728435.1/*_genomic.fna,yes,genome,Chromosome
+GCA_035610365.1,Aquatica leii,Lampyridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_035610365.1/ncbi_dataset/data/GCA_035610365.1/*_genomic.fna,yes,genome,Chromosome
+GCA_050578095.1,Araecerus fasciculatus,Anthribidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_046563155.1,Arhopalus rusticus,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_046563155.1/ncbi_dataset/data/GCA_046563155.1/*_genomic.fna,yes,genome,Chromosome
+GCA_045514315.1,Arhopalus unicolor,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_045514315.1/ncbi_dataset/data/GCA_045514315.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965642075.1,Aromia moschata,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965642075.1/ncbi_dataset/data/GCA_965642075.1/*_genomic.fna,yes,genome,Chromosome
+GCA_004193795.1,Asbolus verrucosus,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_004193795.1/*_genomic.fna,yes,genome,Scaffold
+GCA_963576565.1,Aspidapion aeneum,Apionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963576565.1/ncbi_dataset/data/GCA_963576565.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965278915.1,Astagobius angustatus,Leiodidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_030264155.1,Atheta pasadenae,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_978258735.1,Attagenus pellio,Dermestidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978258735.1/ncbi_dataset/data/GCA_978258735.1/*_genomic.fna,yes,genome,Chromosome
+GCA_051251045.1,Aulacophora lewisii,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_051251045.1/ncbi_dataset/data/GCA_051251045.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963991005.1,Barypeithes pellucidus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963991005.1/ncbi_dataset/data/GCA_963991005.1/*_genomic.fna,yes,genome,Chromosome
+GCA_979853965.1,Bathyscidius tristiculus,Leiodidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_979853965.1/ncbi_dataset/data/GCA_979853965.1/*_genomic.fna,yes,genome,Chromosome
+GCA_052815245.1,Batocera lineolata,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_052815245.1/ncbi_dataset/data/GCA_052815245.1/*_genomic.fna,yes,genome,Chromosome
+GCA_050941775.1,Batocera rufomaculata,Cerambycidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_033557775.1,Berosus sp. SLE1611,Hydrophilidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_966183525.1,Betulapion simile,Apionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_966183525.1/ncbi_dataset/data/GCA_966183525.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965194465.1,Biphyllus lunatus,Biphyllidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965194465.1/ncbi_dataset/data/GCA_965194465.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964656825.1,Bitoma crenata,Zopheridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_964656825.1/*_genomic.fna,yes,genome,Chromosome
+GCA_042257705.1,Blaps rhynchoptera,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_042257705.1/ncbi_dataset/data/GCA_042257705.1/*_genomic.fna,yes,genome,Chromosome
+GCA_050230235.1,Blemus discus,Carabidae,Adephaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_958510825.1,Brachypterus glaber,Kateretidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_958510825.1/ncbi_dataset/data/GCA_958510825.1/*_genomic.fna,yes,genome,Chromosome
+GCA_921294245.1,Brassicogethes aeneus,Nitidulidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_921294245.1/ncbi_dataset/data/GCA_921294245.1/*_genomic.fna,yes,genome,Chromosome
+GCA_040580785.1,Brontispa longissima,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_040580785.1/ncbi_dataset/data/GCA_040580785.1/*_genomic.fna,yes,genome,Chromosome
+GCA_949316355.1,Bruchidius siliquastri,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_949316355.1/ncbi_dataset/data/GCA_949316355.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964204745.1,Bruchidius varius,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964204745.1/ncbi_dataset/data/GCA_964204745.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965643515.1,Bruchidius villosus,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965643515.1/ncbi_dataset/data/GCA_965643515.1/*_genomic.fna,yes,genome,Chromosome
+GCA_033557405.1,Caccobius schreberi,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_978122415.1,Calathus fuscipes,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978122415.1/ncbi_dataset/data/GCA_978122415.1/*_genomic.fna,yes,genome,Chromosome
+GCA_966096355.1,Calathus melanocephalus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_966096355.1/ncbi_dataset/data/GCA_966096355.1/*_genomic.fna,yes,genome,Chromosome
+GCA_046129265.1,Calligrapha alni,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_046129265.1/*_genomic.fna,yes,genome,Contig
+GCA_040182625.1,Callosobruchus maculatus,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_040182625.1/ncbi_dataset/data/GCA_040182625.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977063495.1,Calodromius spilotus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977063495.1/ncbi_dataset/data/GCA_977063495.1/*_genomic.fna,yes,genome,Chromosome
+GCA_022063505.1,Calosoma granatense,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_022063505.1/ncbi_dataset/data/GCA_022063505.1/*_genomic.fna,yes,genome,Scaffold
+GCA_055275695.1,Calosoma relictum,Carabidae,Adephaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_044734075.1,Calosoma tepidum,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_044734075.1/ncbi_dataset/data/GCA_044734075.1/*_genomic.fna,yes,genome,Scaffold
+GCA_044734065.1,Calosoma wilkesii,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_044734065.1/ncbi_dataset/data/GCA_044734065.1/*_genomic.fna,yes,genome,Scaffold
+GCA_964059645.1,Calvia quattuordecimguttata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964059645.1/ncbi_dataset/data/GCA_964059645.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965642435.1,Cantharis decipiens,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965642435.1/ncbi_dataset/data/GCA_965642435.1/*_genomic.fna,yes,genome,Chromosome
+GCA_949152465.1,Cantharis flavilabris,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_949152465.1/ncbi_dataset/data/GCA_949152465.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963170105.1,Cantharis lateralis,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963170105.1/ncbi_dataset/data/GCA_963170105.1/*_genomic.fna,yes,genome,Chromosome
+GCA_958510845.1,Cantharis nigra,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_958510845.1/ncbi_dataset/data/GCA_958510845.1/*_genomic.fna,yes,genome,Chromosome
+GCA_978407175.1,Cantharis pallida,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978407175.1/ncbi_dataset/data/GCA_978407175.1/*_genomic.fna,yes,genome,Chromosome
+GCA_982552315.1,Cantharis pellucida,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_982552315.1/*_genomic.fna,yes,genome,Chromosome
+GCA_947369205.1,Cantharis rufa,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_947369205.1/ncbi_dataset/data/GCA_947369205.1/*_genomic.fna,yes,genome,Chromosome
+GCA_911387805.1,Cantharis rustica,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_911387805.1/ncbi_dataset/data/GCA_911387805.1/*_genomic.fna,yes,genome,Chromosome
+GCA_054832385.1,Canthon chalcites,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_054832385.1/ncbi_dataset/data/GCA_054832385.1/*_genomic.fna,yes,genome,Scaffold
+GCA_964291765.1,Carabus banonii,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_964291765.1/*_genomic.fna,yes,genome,Chromosome
+GCA_050785175.1,Carabus blaptoides,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_050785175.1/ncbi_dataset/data/GCA_050785175.1/*_genomic.fna,yes,genome,Scaffold
+GCA_048127345.1,Carabus depressus,Carabidae,Adephaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_054785535.1,Carabus esakii,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_054785535.1/ncbi_dataset/data/GCA_054785535.1/*_genomic.fna,yes,genome,Scaffold
+GCA_977790985.1,Carabus nemoralis,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977790985.1/ncbi_dataset/data/GCA_977790985.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963422195.1,Carabus problematicus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963422195.1/ncbi_dataset/data/GCA_963422195.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977013385.1,Carabus staehlini,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977013385.1/ncbi_dataset/data/GCA_977013385.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963920755.1,Cartodere bifasciata,Latridiidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963920755.1/ncbi_dataset/data/GCA_963920755.1/*_genomic.fna,yes,genome,Chromosome
+GCA_051362485.1,Catharsius molossus,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_051362485.1/ncbi_dataset/data/GCA_051362485.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965642105.1,Catops nigricans,Leiodidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_965642105.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965287095.1,Cedrorum azoricus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965287095.1/ncbi_dataset/data/GCA_965287095.1/*_genomic.fna,yes,genome,Chromosome
+GCA_949128085.1,Cetonia aurata,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_949128085.1/ncbi_dataset/data/GCA_949128085.1/*_genomic.fna,yes,genome,Chromosome
+GCA_917834065.1,Ceutorhynchus assimilis,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_917834065.1/ncbi_dataset/data/GCA_917834065.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965178145.1,Ceutorhynchus obstrictus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965178145.1/ncbi_dataset/data/GCA_965178145.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965653155.1,Chaetocnema hortensis,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965653155.1/ncbi_dataset/data/GCA_965653155.1/*_genomic.fna,yes,genome,Chromosome
+GCA_056790185.1,Chelymorpha alternans,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_056790185.1/*_genomic.fna,yes,genome,Contig
+GCA_038088585.1,Chrysina gloriosa,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_038088585.1/ncbi_dataset/data/GCA_038088585.1/*_genomic.fna,yes,genome,Chromosome
+GCA_010091895.1,Chrysina resplendens,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_010091895.1/*_genomic.fna,yes,genome,Scaffold
+GCA_958502065.1,Chrysolina americana,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_958502065.1/ncbi_dataset/data/GCA_958502065.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964197785.1,Chrysolina graminis,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964197785.1/ncbi_dataset/data/GCA_964197785.1/*_genomic.fna,yes,genome,Chromosome
+GCA_958298965.1,Chrysolina haemoptera,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_958298965.1/ncbi_dataset/data/GCA_958298965.1/*_genomic.fna,yes,genome,Chromosome
+GCA_979300175.1,Chrysolina herbacea,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_979300175.1/ncbi_dataset/data/GCA_979300175.1/*_genomic.fna,yes,genome,Chromosome
+GCA_982264245.1,Chrysolina hyperici,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_982264245.1/ncbi_dataset/data/GCA_982264245.1/*_genomic.fna,yes,genome,Chromosome
+GCA_944452925.2,Chrysolina oricalcia,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_944452925.2/ncbi_dataset/data/GCA_944452925.2/*_genomic.fna,yes,genome,Chromosome
+GCA_027562985.1,Chrysomela aeneicollis,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_027562985.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965642295.1,Chrysomela populi,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965642295.1/ncbi_dataset/data/GCA_965642295.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965121785.1,Chrysomela saliceti,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965121785.1/ncbi_dataset/data/GCA_965121785.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977930235.1,Cis bilamellatus,Ciidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977930235.1/ncbi_dataset/data/GCA_977930235.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963966155.1,Clivina fossor,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963966155.1/ncbi_dataset/data/GCA_963966155.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965178175.1,Coccidula rufa,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965178175.1/ncbi_dataset/data/GCA_965178175.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965644565.1,Coccinella magnifica,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965644565.1/ncbi_dataset/data/GCA_965644565.1/*_genomic.fna,yes,genome,Chromosome
+GCA_907165205.1,Coccinella septempunctata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_907165205.1/*_genomic.fna,yes,genome,Chromosome
+GCA_056522465.1,Coccinella transversoguttata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_056522465.1/*_genomic.fna,yes,genome,Chromosome
+GCA_979606585.1,Coelostoma orbiculare,Hydrophilidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_979606585.1/ncbi_dataset/data/GCA_979606585.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964656385.1,Colydium elongatum,Zopheridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964656385.1/ncbi_dataset/data/GCA_964656385.1/*_genomic.fna,yes,genome,Chromosome
+GCA_032191685.1,Copris fidius,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_027574865.2,Coproporus ventriculus,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_033557675.1,Coptodactyla brooksi,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_031761425.1,Cosmopolites sordidus,Curculionidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_965645225.1,Crepidodera aurata,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965645225.1/ncbi_dataset/data/GCA_965645225.1/*_genomic.fna,yes,genome,Chromosome
+GCA_949320105.1,Crepidodera aurea,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_949320105.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965615805.1,Crepidodera fulvicornis,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965615805.1/ncbi_dataset/data/GCA_965615805.1/*_genomic.fna,yes,genome,Chromosome
+GCA_958507055.1,Crioceris asparagi,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_958507055.1/ncbi_dataset/data/GCA_958507055.1/*_genomic.fna,yes,genome,Chromosome
+GCA_978018155.1,Crudosilis ruficollis,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978018155.1/ncbi_dataset/data/GCA_978018155.1/*_genomic.fna,yes,genome,Chromosome
+GCA_946251905.1,Cryptocephalus moraei,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_946251905.1/ncbi_dataset/data/GCA_946251905.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963576515.1,Cryptocephalus primarius,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963576515.1/ncbi_dataset/data/GCA_963576515.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965663585.1,Cryptocephalus pusillus,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965663585.1/ncbi_dataset/data/GCA_965663585.1/*_genomic.fna,yes,genome,Chromosome
+GCA_013387265.2,Cryptolaemus montrouzieri,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_013387265.2/ncbi_dataset/data/GCA_013387265.2/*_genomic.fna,yes,genome,Scaffold
+GCA_963556235.1,Cryptophagus acutangulus,Cryptophagidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963556235.1/ncbi_dataset/data/GCA_963556235.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965641385.1,Cryptorhynchus lapathi,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965641385.1/ncbi_dataset/data/GCA_965641385.1/*_genomic.fna,yes,genome,Chromosome
+GCA_958336395.1,Ctenicera cuprea,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_958336395.1/ncbi_dataset/data/GCA_958336395.1/*_genomic.fna,yes,genome,Chromosome
+GCA_051047995.1,Curculio caryae,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_051047995.1/ncbi_dataset/data/GCA_051047995.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965648435.1,Curculio glandium,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965648435.1/ncbi_dataset/data/GCA_965648435.1/*_genomic.fna,yes,genome,Chromosome
+GCA_029955315.1,Cylas formicarius,Brentidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_029955315.1/*_genomic.fna,yes,genome,Scaffold
+GCA_030157275.1,Cynaeus angustus,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_030157275.1/ncbi_dataset/data/GCA_030157275.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030704885.1,Cynegetis impunctata,Coccinellidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_030264615.1,Cypha longicornis,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_056777075.1,Cyrtotrachelus buqueti,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_056777075.1/*_genomic.fna,yes,genome,Chromosome
+GCA_976941425.1,Dailognatha quadricollis,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_976941425.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965112895.1,Dalopius marginatus,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965112895.1/ncbi_dataset/data/GCA_965112895.1/*_genomic.fna,yes,genome,Chromosome
+GCA_025399875.2,Dalotia coriaria,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_025399875.2/*_genomic.fna,yes,genome,Scaffold
+GCA_949768715.1,Dascillus cervinus,Dascillidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_949768715.1/ncbi_dataset/data/GCA_949768715.1/*_genomic.fna,yes,genome,Chromosome
+GCA_028583605.1,Dastarcus helophoroides,Bothrideridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_028583605.1/ncbi_dataset/data/GCA_028583605.1/*_genomic.fna,yes,genome,Chromosome
+GCA_027574845.2,Deinopsis erosa,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_965152765.1,Dendarus foraminosus,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965152765.1/ncbi_dataset/data/GCA_965152765.1/*_genomic.fna,yes,genome,Chromosome
+GCA_040113315.1,Dendroctonus frontalis,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_040113315.1/ncbi_dataset/data/GCA_040113315.1/*_genomic.fna,yes,genome,Chromosome
+GCA_020466585.2,Dendroctonus ponderosae,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_020466585.2/ncbi_dataset/data/GCA_020466585.2/*_genomic.fna,yes,genome,Scaffold
+GCA_024550625.1,Dendroctonus valens,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_024550625.1/ncbi_dataset/data/GCA_024550625.1/*_genomic.fna,yes,genome,Scaffold
+GCA_964205235.1,Denticollis linearis,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964205235.1/ncbi_dataset/data/GCA_964205235.1/*_genomic.fna,yes,genome,Chromosome
+GCA_031893035.2,Dermolepida albohirtum,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_918026665.1,Diabrotica balteata,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_918026665.1/ncbi_dataset/data/GCA_918026665.1/*_genomic.fna,yes,genome,Chromosome
+GCA_040954645.1,Diabrotica undecimpunctata,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_040954645.1/*_genomic.fna,yes,genome,Chromosome
+GCA_917563875.2,Diabrotica virgifera,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_917563875.2/*_genomic.fna,yes,genome,Chromosome
+GCA_963583935.1,Diaperis boleti,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963583935.1/ncbi_dataset/data/GCA_963583935.1/*_genomic.fna,yes,genome,Chromosome
+GCA_034092305.1,Diaprepes abbreviatus,Curculionidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_043773845.1,Dicheirus dilatatus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_043773845.1/*_genomic.fna,yes,genome,Scaffold
+GCA_036711955.1,Digitonthophagus gazella,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_036711955.1/ncbi_dataset/data/GCA_036711955.1/*_genomic.fna,yes,genome,Scaffold
+GCA_029229535.1,Diorhabda carinata,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_029229535.1/ncbi_dataset/data/GCA_029229535.1/*_genomic.fna,yes,genome,Chromosome
+GCA_026250575.1,Diorhabda carinulata,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_026250575.1/*_genomic.fna,yes,genome,Chromosome
+GCA_026230145.1,Diorhabda elongata,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_026230145.1/ncbi_dataset/data/GCA_026230145.1/*_genomic.fna,yes,genome,Chromosome
+GCA_026230105.1,Diorhabda sublineata,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_026230105.1/*_genomic.fna,yes,genome,Chromosome
+GCA_033557515.1,Diorygopyx duplodentatus,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_975146085.1,Diplocoelus fagi,Biphyllidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_975146085.1/ncbi_dataset/data/GCA_975146085.1/*_genomic.fna,yes,genome,Chromosome
+GCA_027575565.1,Diploeciton nevermanni,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_027575565.1/ncbi_dataset/data/GCA_027575565.1/*_genomic.fna,yes,genome,Scaffold
+GCA_055671715.1,Distenia gracilis,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_055671715.1/ncbi_dataset/data/GCA_055671715.1/*_genomic.fna,yes,genome,Chromosome
+GCA_052550795.1,Donacia provostii,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_052550795.1/ncbi_dataset/data/GCA_052550795.1/*_genomic.fna,yes,genome,Scaffold
+GCA_033060865.1,Dorcus hopei,Lucanidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_033060865.1/ncbi_dataset/data/GCA_033060865.1/*_genomic.fna,yes,genome,Chromosome
+GCA_958336345.1,Dorcus parallelipipedus,Lucanidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_958336345.1/ncbi_dataset/data/GCA_958336345.1/*_genomic.fna,yes,genome,Chromosome
+GCA_027580035.1,Dorylogaster longipes,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_052815825.1,Dorysthenes granulosus,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_052815825.1/ncbi_dataset/data/GCA_052815825.1/*_genomic.fna,yes,genome,Chromosome
+GCA_973896625.1,Drilus flavescens,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_973896625.1/ncbi_dataset/data/GCA_973896625.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963989225.1,Dromius quadrimaculatus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963989225.1/ncbi_dataset/data/GCA_963989225.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965644065.1,Drusilla canaliculata,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965644065.1/ncbi_dataset/data/GCA_965644065.1/*_genomic.fna,yes,genome,Chromosome
+GCA_029619325.2,Dynastes grantii,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_029619325.2/ncbi_dataset/data/GCA_029619325.2/*_genomic.fna,yes,genome,Scaffold
+GCA_051939025.1,Dynastes hercules,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_051939025.1/ncbi_dataset/data/GCA_051939025.1/*_genomic.fna,yes,genome,Scaffold
+GCA_029619255.1,Dynastes hyllus,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_029619255.1/*_genomic.fna,yes,genome,Scaffold
+GCA_029619315.1,Dynastes maya,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_029619315.1/*_genomic.fna,yes,genome,Scaffold
+GCA_029618875.1,Dynastes tityus,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_029618875.1/*_genomic.fna,yes,genome,Scaffold
+GCA_027574905.2,Earota dentata,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_030557295.1,Ecitodaemon sp. MM-2014,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_027574925.1,Ecitoglossa quadriceps,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_027574945.2,Ecitomorpha arachnoides,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_027574965.2,Ecitophya simulans,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_014849505.1,Elaeidobius kamerunicus,Curculionidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_964023215.1,Eledona agricola,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_964023215.1/*_genomic.fna,yes,genome,Chromosome
+GCA_947652605.1,Elmis aenea,Elmidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_947652605.1/ncbi_dataset/data/GCA_947652605.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977013105.1,Endomychus armeniacus,Endomychidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977013105.1/ncbi_dataset/data/GCA_977013105.1/*_genomic.fna,yes,genome,Chromosome
+GCA_958510875.1,Endomychus coccineus,Endomychidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_958510875.1/ncbi_dataset/data/GCA_958510875.1/*_genomic.fna,yes,genome,Chromosome
+GCA_033557785.1,Enochrus cinctus,Hydrophilidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_021725515.1,Epicauta chinensis,Meloidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_033557285.1,Epilissus splendidus,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_040894065.1,Eucryptorrhynchus brandti,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_040894065.1/ncbi_dataset/data/GCA_040894065.1/*_genomic.fna,yes,genome,Chromosome
+GCA_046736385.1,Eucryptorrhynchus scrobiculatus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_046736385.1/ncbi_dataset/data/GCA_046736385.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965643585.1,Eulagius filicornis,Mycetophagidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965643585.1/ncbi_dataset/data/GCA_965643585.1/*_genomic.fna,yes,genome,Chromosome
+GCA_032191655.1,Euoniticellus fulvus,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_040115645.1,Euwallacea fornicatus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_040115645.1/*_genomic.fna,yes,genome,Chromosome
+GCA_039881205.1,Euwallacea similis,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_039881205.1/*_genomic.fna,yes,genome,Chromosome
+GCA_029955175.1,Exocentrus adspersus,Cerambycidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_030556245.1,Falagria sp. GC000072,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_963921935.1,Galeruca laticollis,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963921935.1/ncbi_dataset/data/GCA_963921935.1/*_genomic.fna,yes,genome,Chromosome
+GCA_910591675.1,Galerucella calmariensis,Chrysomelidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_963978555.1,Galerucella nymphaeae,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963978555.1/ncbi_dataset/data/GCA_963978555.1/*_genomic.fna,yes,genome,Chromosome
+GCA_910591695.1,Galerucella pusilla,Chrysomelidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_980434365.1,Galerucella sagittariae,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_980434365.1/ncbi_dataset/data/GCA_980434365.1/*_genomic.fna,yes,genome,Chromosome
+GCA_910591685.1,Galerucella tenella,Chrysomelidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_963576655.1,Gastrophysa polygoni,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963576655.1/ncbi_dataset/data/GCA_963576655.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965641405.1,Gastrophysa viridula,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965641405.1/ncbi_dataset/data/GCA_965641405.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030264215.1,Geostiba sp. GC000077,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_959613385.1,Geotrupes spiniger,Geotrupidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_959613385.1/ncbi_dataset/data/GCA_959613385.1/*_genomic.fna,yes,genome,Chromosome
+GCA_029298725.1,Gnatocerus cornutus,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_029298725.1/ncbi_dataset/data/GCA_029298725.1/*_genomic.fna,yes,genome,Chromosome
+GCA_018342105.1,Gonioctena quinquepunctata,Chrysomelidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_977014565.1,Gonodera luperus,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977014565.1/ncbi_dataset/data/GCA_977014565.1/*_genomic.fna,yes,genome,Chromosome
+GCA_978019395.1,Graciliella metohijensis,Leiodidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978019395.1/ncbi_dataset/data/GCA_978019395.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964332215.1,Grammoptera ruficornis,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964332215.1/ncbi_dataset/data/GCA_964332215.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964656865.1,Grypus equiseti,Erirhinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964656865.1/ncbi_dataset/data/GCA_964656865.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030264735.1,Gymnusa sp. GC000175,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_965648495.1,Hallomenus binotatus,Tetratomidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965648495.1/ncbi_dataset/data/GCA_965648495.1/*_genomic.fna,yes,genome,Chromosome
+GCA_937662695.2,Halyzia sedecimguttata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_937662695.2/ncbi_dataset/data/GCA_937662695.2/*_genomic.fna,yes,genome,Chromosome
+GCA_914767665.1,Harmonia axyridis,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_914767665.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965642415.1,Harmonia quadripunctata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965642415.1/ncbi_dataset/data/GCA_965642415.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965601895.1,Harpalus anxius,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965601895.1/ncbi_dataset/data/GCA_965601895.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963082715.1,Harpalus rubripes,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963082715.1/ncbi_dataset/data/GCA_963082715.1/*_genomic.fna,yes,genome,Chromosome
+GCA_951394225.1,Harpalus rufipes,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_951394225.1/ncbi_dataset/data/GCA_951394225.1/*_genomic.fna,yes,genome,Chromosome
+GCA_033557245.1,Helictopleurus sicardi,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_033557835.1,Helochares maculicollis,Hydrophilidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_963082805.1,Hemicrepidius hirtus,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963082805.1/ncbi_dataset/data/GCA_963082805.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030704895.1,Henosepilachna vigintioctopunctata,Coccinellidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_951812935.1,Hermaeophaga mercurialis,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_951812935.1/ncbi_dataset/data/GCA_951812935.1/*_genomic.fna,yes,genome,Chromosome
+GCA_981691985.1,Herpes porcellus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_981691985.1/ncbi_dataset/data/GCA_981691985.1/*_genomic.fna,yes,genome,Chromosome
+GCA_038502775.1,Hippodamia convergens,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_038502775.1/ncbi_dataset/data/GCA_038502775.1/*_genomic.fna,yes,genome,Chromosome
+GCA_046424425.1,Hippodamia variegata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_046424425.1/ncbi_dataset/data/GCA_046424425.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030556065.1,Holobus sp. GC000080,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_963695495.2,Hololepta plana,Histeridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963695495.2/ncbi_dataset/data/GCA_963695495.2/*_genomic.fna,yes,genome,Chromosome
+GCA_023690525.1,Holotrichia oblita,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_023690525.1/ncbi_dataset/data/GCA_023690525.1/*_genomic.fna,yes,genome,Chromosome
+GCA_013841215.1,Hycleus cichorii,Meloidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_051167335.1,Hycleus marcipoli,Meloidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_051167335.1/ncbi_dataset/data/GCA_051167335.1/*_genomic.fna,yes,genome,Chromosome
+GCA_013841185.1,Hycleus phaleratus,Meloidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_033557855.1,Hydrochus callosus,Hydrochidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_965643735.1,Hypera rumicis,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965643735.1/ncbi_dataset/data/GCA_965643735.1/*_genomic.fna,yes,genome,Chromosome
+GCA_041296355.1,Hypothenemus hampei,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_041296355.1/ncbi_dataset/data/GCA_041296355.1/*_genomic.fna,yes,genome,Scaffold
+GCA_052863015.1,Ichthyurus bourgeoisi,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_052863015.1/ncbi_dataset/data/GCA_052863015.1/*_genomic.fna,yes,genome,Chromosome
+GCA_011009095.1,Ignelater luminosus,Elateridae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_056632495.1,Ips calligraphus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_056632495.1/*_genomic.fna,yes,genome,Chromosome
+GCA_018691245.2,Ips nitidus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_018691245.2/ncbi_dataset/data/GCA_018691245.2/*_genomic.fna,yes,genome,Chromosome
+GCA_976954485.1,Ips sexdentatus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_976954485.1/*_genomic.fna,yes,genome,Chromosome
+GCA_016097725.2,Ips typographus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_016097725.2/ncbi_dataset/data/GCA_016097725.2/*_genomic.fna,yes,genome,Chromosome
+GCA_037464855.1,Iselma pallidipennis,Meloidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_043790905.1,Kibakoganea sinica,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_043790905.1/ncbi_dataset/data/GCA_043790905.1/*_genomic.fna,yes,genome,Chromosome
+GCA_046237675.1,Kibakoganea tamdaoensis,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_046237675.1/ncbi_dataset/data/GCA_046237675.1/*_genomic.fna,yes,genome,Chromosome
+GCA_050230135.1,Kurasawatrechus hirakei,Carabidae,Adephaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_030620095.1,Kuschelorhynchus macadamiae,Curculionidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_964211925.1,Kyklioacalles roboris,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964211925.1/ncbi_dataset/data/GCA_964211925.1/*_genomic.fna,yes,genome,Chromosome
+GCA_025447835.1,Labidoglobus nevermanni,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_051313465.2,Labidomera clivicollis,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_051313465.2/ncbi_dataset/data/GCA_051313465.2/*_genomic.fna,yes,genome,Scaffold
+GCA_027574705.1,Labidopullus appendiculatus,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_965654235.1,Laccobius striatulus,Hydrophilidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_965654235.1/*_genomic.fna,yes,genome,Chromosome
+GCA_947359425.1,Lagria hirta,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_947359425.1/ncbi_dataset/data/GCA_947359425.1/*_genomic.fna,yes,genome,Chromosome
+GCA_013368075.1,Lamprigera yunnana,Lampyridae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_050947525.1,Lampyris noctiluca,Lampyridae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_976997085.1,Laparocerus anagae,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_976997085.1/ncbi_dataset/data/GCA_976997085.1/*_genomic.fna,yes,genome,Chromosome
+GCA_041228435.2,Larinus minutus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_041228435.2/*_genomic.fna,yes,genome,Scaffold
+GCA_977012605.1,Larinus planus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977012605.1/ncbi_dataset/data/GCA_977012605.1/*_genomic.fna,yes,genome,Chromosome
+GCA_979861375.1,Larinus ursus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_979861375.1/*_genomic.fna,yes,genome,Chromosome
+GCA_976916715.1,Lasiorhynchites cavifrons,Attelabidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_976916715.1/ncbi_dataset/data/GCA_976916715.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030157265.1,Latheticus oryzae,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_030157265.1/ncbi_dataset/data/GCA_030157265.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965240315.1,Lathrobium brunnipes,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965240315.1/ncbi_dataset/data/GCA_965240315.1/*_genomic.fna,yes,genome,Chromosome
+GCA_982375295.1,Lathrobium fulvipenne,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_982375295.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965260835.1,Leiosoma deflexum,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965260835.1/ncbi_dataset/data/GCA_965260835.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965644585.1,Leistus fulvibarbis,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_965644585.1/*_genomic.fna,yes,genome,Chromosome
+GCA_966112595.1,Leistus rufomarginatus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_966112595.1/ncbi_dataset/data/GCA_966112595.1/*_genomic.fna,yes,genome,Chromosome
+GCA_933228885.1,Leistus spinibarbis,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_933228885.1/ncbi_dataset/data/GCA_933228885.1/*_genomic.fna,yes,genome,Chromosome
+GCA_978019415.1,Leonhardella angulicollis,Leiodidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978019415.1/ncbi_dataset/data/GCA_978019415.1/*_genomic.fna,yes,genome,Chromosome
+GCA_024712935.1,Leptinotarsa decemlineata,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_024712935.1/ncbi_dataset/data/GCA_024712935.1/*_genomic.fna,yes,genome,Chromosome
+GCA_015342085.1,Leptinotarsa defecta,Chrysomelidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_015342125.1,Leptinotarsa haldemani,Chrysomelidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_015342165.1,Leptinotarsa juncta,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_015342165.1/*_genomic.fna,yes,genome,Scaffold
+GCA_015342045.1,Leptinotarsa lineolata,Chrysomelidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_015342205.1,Leptinotarsa peninsularis,Chrysomelidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_015342145.1,Leptinotarsa rubiginosa,Chrysomelidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_015342105.1,Leptinotarsa texana,Chrysomelidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_015342025.1,Leptinotarsa tumamoca,Chrysomelidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_015342065.1,Leptinotarsa undecemlineata,Chrysomelidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_947310635.1,Leptodirus hochenwartii,Leiodidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_947310635.1/ncbi_dataset/data/GCA_947310635.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963675555.1,Leptura quadrifasciata,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963675555.1/ncbi_dataset/data/GCA_963675555.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030264655.1,Leptusa sp. GC000079,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_965644545.1,Lesteva pubescens,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965644545.1/ncbi_dataset/data/GCA_965644545.1/*_genomic.fna,yes,genome,Chromosome
+GCA_975739945.1,Lesteva punctata,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_975739945.1/ncbi_dataset/data/GCA_975739945.1/*_genomic.fna,yes,genome,Chromosome
+GCA_051989325.1,Lethrus apterus,Geotrupidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_051989325.1/ncbi_dataset/data/GCA_051989325.1/*_genomic.fna,yes,genome,Scaffold
+GCA_052696345.1,Lethrus scoparius,Geotrupidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_046866795.1,Librodor japonicus,Nitidulidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_046866795.1/ncbi_dataset/data/GCA_046866795.1/*_genomic.fna,yes,genome,Chromosome
+GCA_014611495.1,Limonius californicus,Elateridae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_057128385.1,Limonius infuscatus,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_057128385.1/*_genomic.fna,yes,genome,Scaffold
+GCA_965119585.1,Limonius poneli,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_965119585.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030264535.1,Liometoxenus newtonarum,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_978021545.1,Liophloeus tessulatus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978021545.1/ncbi_dataset/data/GCA_978021545.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963971575.1,Liopterus haemorrhoidalis,Dytiscidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963971575.1/ncbi_dataset/data/GCA_963971575.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030264695.1,Lissagria laeviuscula,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_014170235.1,Listronotus bonariensis,Curculionidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_019359885.1,Listronotus oregonensis,Curculionidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_949126875.1,Lochmaea capreae,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_949126875.1/ncbi_dataset/data/GCA_949126875.1/*_genomic.fna,yes,genome,Chromosome
+GCA_947563755.1,Lochmaea crataegi,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_947563755.1/ncbi_dataset/data/GCA_947563755.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965178105.1,Longitarsus dorsalis,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965178105.1/ncbi_dataset/data/GCA_965178105.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964258785.1,Longitarsus flavicornis,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964258785.1/ncbi_dataset/data/GCA_964258785.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963942505.1,Lordithon lunulatus,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963942505.1/ncbi_dataset/data/GCA_963942505.1/*_genomic.fna,yes,genome,Chromosome
+GCA_050437245.1,Lucanus miwai,Lucanidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_050437245.1/ncbi_dataset/data/GCA_050437245.1/*_genomic.fna,yes,genome,Scaffold
+GCA_982553785.1,Lucanus tetraodon,Lucanidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_982553785.1/*_genomic.fna,yes,genome,Chromosome
+GCA_054859625.1,Luciola italica,Lampyridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_054859625.1/ncbi_dataset/data/GCA_054859625.1/*_genomic.fna,yes,genome,Chromosome
+GCA_982446645.1,Luperus flavipes,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_982446645.1/*_genomic.fna,yes,genome,Chromosome
+GCA_982374535.1,Luperus longicornis,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_982374535.1/*_genomic.fna,yes,genome,Chromosome
+GCA_036346125.1,Lycocerus yunnanus,Cantharidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_037414755.1,Lydus trimaculatus,Meloidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_965663545.1,Magdalis barbicornis,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965663545.1/ncbi_dataset/data/GCA_965663545.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965642045.1,Magdalis cerasi,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965642045.1/ncbi_dataset/data/GCA_965642045.1/*_genomic.fna,yes,genome,Chromosome
+GCA_910589415.1,Malachius bipustulatus,Melyridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_910589415.1/ncbi_dataset/data/GCA_910589415.1/*_genomic.fna,yes,genome,Chromosome
+GCA_950108345.1,Malthinus flaveolus,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_950108345.1/ncbi_dataset/data/GCA_950108345.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963924605.1,Malthinus seriepunctatus,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963924605.1/ncbi_dataset/data/GCA_963924605.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965119235.1,Malthodes marginatus,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965119235.1/ncbi_dataset/data/GCA_965119235.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964263285.1,Malthodes minimus,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964263285.1/ncbi_dataset/data/GCA_964263285.1/*_genomic.fna,yes,genome,Chromosome
+GCA_902655005.1,Marronus borbonicus,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_902655005.1/*_genomic.fna,yes,genome,Scaffold
+GCA_034642435.1,Megalocaria dilatata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_034642435.1/ncbi_dataset/data/GCA_034642435.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965643495.1,Megatoma undata,Dermestidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965643495.1/ncbi_dataset/data/GCA_965643495.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963082815.1,Melanotus villosus,Elateridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963082815.1/ncbi_dataset/data/GCA_963082815.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964023965.1,Melinopterus prodromus,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964023965.1/ncbi_dataset/data/GCA_964023965.1/*_genomic.fna,yes,genome,Chromosome
+GCA_028455855.1,Meloe dianella,Meloidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_935421215.1,Melolontha melolontha,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_935421215.1/*_genomic.fna,yes,genome,Chromosome
+GCA_000281935.1,Mengenilla moldrzyki,Mengenillidae,Mengenillidia,outgroup,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_000281935.1/*_genomic.fna,yes,genome,Contig
+GCA_965282865.1,Metoecus paradoxus,Ripiphoridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965282865.1/ncbi_dataset/data/GCA_965282865.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030674115.1,Micraspis discolor,Coccinellidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_965643785.1,Microrhagus pygmaeus,Eucnemidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965643785.1/ncbi_dataset/data/GCA_965643785.1/*_genomic.fna,yes,genome,Chromosome
+GCA_027575185.1,Mimaenictus wilsoni,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_029963825.1,Molorchus minor,Cerambycidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_035320865.1,Monochamus alternatus,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_035320865.1/*_genomic.fna,yes,genome,Chromosome
+GCA_025584915.1,Monochamus saltuarius,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_025584915.1/ncbi_dataset/data/GCA_025584915.1/*_genomic.fna,yes,genome,Chromosome
+GCA_052862855.1,Monochamus scutellatus,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_052862855.1/ncbi_dataset/data/GCA_052862855.1/*_genomic.fna,yes,genome,Chromosome
+GCA_052757275.1,Monochamus sutor,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_052757275.1/ncbi_dataset/data/GCA_052757275.1/*_genomic.fna,yes,genome,Chromosome
+GCA_045514875.1,Monolepta hieroglyphica,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_045514875.1/ncbi_dataset/data/GCA_045514875.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977066395.1,Mononychus punctumalbum,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977066395.1/ncbi_dataset/data/GCA_977066395.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977065965.1,Monotoma picipes,Monotomidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977065965.1/ncbi_dataset/data/GCA_977065965.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977013095.1,Morimus asper,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977013095.1/ncbi_dataset/data/GCA_977013095.1/*_genomic.fna,yes,genome,Chromosome
+GCA_976714775.1,Morimus orientalis,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_976714775.1/ncbi_dataset/data/GCA_976714775.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977112535.1,Mycetophagus atomarius,Mycetophagidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977112535.1/ncbi_dataset/data/GCA_977112535.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965642255.1,Mycetophagus piceus,Mycetophagidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965642255.1/ncbi_dataset/data/GCA_965642255.1/*_genomic.fna,yes,genome,Chromosome
+GCA_020740385.1,Mylabris phalerata,Meloidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_977015545.1,Mylabris quadripunctata,Meloidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977015545.1/ncbi_dataset/data/GCA_977015545.1/*_genomic.fna,yes,genome,Chromosome
+GCA_039776855.1,Mylabris sibirica,Meloidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_039776855.1/ncbi_dataset/data/GCA_039776855.1/*_genomic.fna,yes,genome,Chromosome
+GCA_037464815.1,Mylabris variabilis,Meloidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_030264135.1,Myllaena sp. GC000078,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_958510865.1,Myrrha octodecimguttata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_958510865.1/ncbi_dataset/data/GCA_958510865.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965279825.1,Nacerdes melanura,Oedemeridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965279825.1/ncbi_dataset/data/GCA_965279825.1/*_genomic.fna,yes,genome,Chromosome
+GCA_051225655.1,Nadezhdiella cantori,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_051225655.1/ncbi_dataset/data/GCA_051225655.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965649385.1,Nalassus laevioctostriatus,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965649385.1/ncbi_dataset/data/GCA_965649385.1/*_genomic.fna,yes,genome,Chromosome
+GCA_032191585.1,Nanos sp. ST009,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_032191565.1,Nanos vadoni,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_944738965.1,Nebria brevicollis,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_944738965.1/ncbi_dataset/data/GCA_944738965.1/*_genomic.fna,yes,genome,Chromosome
+GCA_018344505.1,Nebria ingens,Carabidae,Adephaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_944039245.1,Nebria salina,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_944039245.1/ncbi_dataset/data/GCA_944039245.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977969715.1,Nedyus quadrimaculatus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977969715.1/ncbi_dataset/data/GCA_977969715.1/*_genomic.fna,yes,genome,Chromosome
+GCA_047371185.1,Neoclytus acuminatus,Cerambycidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_963243735.1,Neocrepidodera transversa,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963243735.1/ncbi_dataset/data/GCA_963243735.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963457615.1,Nicrophorus investigator,Silphidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963457615.1/ncbi_dataset/data/GCA_963457615.1/*_genomic.fna,yes,genome,Chromosome
+GCA_018845635.2,Nicrophorus orbicollis,Silphidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_048003765.1,Nicrophorus vespilloides,Silphidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_048003765.1/*_genomic.fna,yes,genome,Scaffold
+GCA_050230155.1,Nipponaphaenops erraticus,Carabidae,Adephaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_965642445.1,Notiophilus biguttatus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965642445.1/ncbi_dataset/data/GCA_965642445.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965276455.1,Notoxus monoceros,Anthicidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965276455.1/ncbi_dataset/data/GCA_965276455.1/*_genomic.fna,yes,genome,Chromosome
+GCA_020654155.1,Novius pumilus,Coccinellidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_034190945.1,Octodonta nipae,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_034190945.1/ncbi_dataset/data/GCA_034190945.1/*_genomic.fna,yes,genome,Chromosome
+GCA_910593695.1,Ocypus olens,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_910593695.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965282375.1,Ocys tachysoides,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965282375.1/ncbi_dataset/data/GCA_965282375.1/*_genomic.fna,yes,genome,Chromosome
+GCA_049462965.1,Odontolabis cuvera,Lucanidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_049462965.1/ncbi_dataset/data/GCA_049462965.1/*_genomic.fna,yes,genome,Chromosome
+GCA_979846555.1,Oedemera lurida,Oedemeridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_979846555.1/ncbi_dataset/data/GCA_979846555.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030264595.1,Oligota sp. GC000189,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_963969525.1,Ontholestes murinus,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963969525.1/ncbi_dataset/data/GCA_963969525.1/*_genomic.fna,yes,genome,Chromosome
+GCA_054643895.1,Onthophagus binodis,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_054643895.1/ncbi_dataset/data/GCA_054643895.1/*_genomic.fna,yes,genome,Chromosome
+GCA_036711965.1,Onthophagus sagittarius,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_036711965.1/ncbi_dataset/data/GCA_036711965.1/*_genomic.fna,yes,genome,Scaffold
+GCA_036711975.1,Onthophagus taurus,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_036711975.1/*_genomic.fna,yes,genome,Chromosome
+GCA_943142095.1,Ophonus ardosiacus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_943142095.1/ncbi_dataset/data/GCA_943142095.1/*_genomic.fna,yes,genome,Chromosome
+GCA_035357415.1,Ophraella communa,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_035357415.1/ncbi_dataset/data/GCA_035357415.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964338635.1,Opilo mollis,Cleridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964338635.1/ncbi_dataset/data/GCA_964338635.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965642315.1,Orchesia undulata,Melandryidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965642315.1/ncbi_dataset/data/GCA_965642315.1/*_genomic.fna,yes,genome,Chromosome
+GCA_958502075.1,Orchestes rusci,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_958502075.1/ncbi_dataset/data/GCA_958502075.1/*_genomic.fna,yes,genome,Chromosome
+GCA_902654985.1,Oryctes borbonicus,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_902654985.1/*_genomic.fna,yes,genome,Scaffold
+GCA_020654165.1,Oryctes rhinoceros,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_020654165.1/ncbi_dataset/data/GCA_020654165.1/*_genomic.fna,yes,genome,Scaffold
+GCA_004796505.1,Oryzaephilus surinamensis,Silvanidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_004796505.1/*_genomic.fna,yes,genome,Scaffold
+GCA_031763485.1,Osmoderma eremita,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_951805005.1,Othius punctulatus,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_951805005.1/ncbi_dataset/data/GCA_951805005.1/*_genomic.fna,yes,genome,Chromosome
+GCA_982191755.1,Otiorhynchus rugosostriatus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_982191755.1/ncbi_dataset/data/GCA_982191755.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030264175.1,Oxypoda opaca,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_982345265.1,Oxypselaphus obscurus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_982345265.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963921995.1,Oxystoma pomonae,Apionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963921995.1/ncbi_dataset/data/GCA_963921995.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965118235.1,Pachyrhinus lethierryi,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965118235.1/ncbi_dataset/data/GCA_965118235.1/*_genomic.fna,yes,genome,Chromosome
+GCA_019049505.1,Pachyrhynchus sulphureomaculatus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_019049505.1/ncbi_dataset/data/GCA_019049505.1/*_genomic.fna,yes,genome,Chromosome
+GCA_978046105.1,Paederus riparius,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978046105.1/ncbi_dataset/data/GCA_978046105.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963942485.1,Pediacus dermestoides,Cucujidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963942485.1/ncbi_dataset/data/GCA_963942485.1/*_genomic.fna,yes,genome,Chromosome
+GCA_979016925.1,Phaedon cochleariae,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_979016925.1/ncbi_dataset/data/GCA_979016925.1/*_genomic.fna,yes,genome,Chromosome
+GCA_982319415.1,Phaedon tumidulus,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_982319415.1/*_genomic.fna,yes,genome,Chromosome
+GCA_033557805.1,Phaenonotum sp. SLE1380,Hydrophilidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_977013135.1,Phaleria cadaverina,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977013135.1/ncbi_dataset/data/GCA_977013135.1/*_genomic.fna,yes,genome,Chromosome
+GCA_054832365.1,Phanaeus vindex,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_054832365.1/ncbi_dataset/data/GCA_054832365.1/*_genomic.fna,yes,genome,Scaffold
+GCA_932526585.1,Philonthus cognatus,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_932526585.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963082785.1,Philonthus spinipes,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963082785.1/ncbi_dataset/data/GCA_963082785.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963971165.1,Philopedon plagiatum,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963971165.1/ncbi_dataset/data/GCA_963971165.1/*_genomic.fna,yes,genome,Chromosome
+GCA_944588485.1,Phosphuga atrata,Silphidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_944588485.1/ncbi_dataset/data/GCA_944588485.1/*_genomic.fna,yes,genome,Chromosome
+GCA_008802855.1,Photinus pyralis,Lampyridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_008802855.1/*_genomic.fna,yes,genome,Scaffold
+GCA_977071015.1,Phratora vitellinae,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977071015.1/ncbi_dataset/data/GCA_977071015.1/*_genomic.fna,yes,genome,Chromosome
+GCA_024586415.1,Phrixothrix hirtus,Phengodidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_965654395.1,Phyllobius argentatus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_965654395.1/*_genomic.fna,yes,genome,Chromosome
+GCA_980746795.1,Phyllobius pyri,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_980746795.1/ncbi_dataset/data/GCA_980746795.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965643005.1,Phyllobius virideaeris,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965643005.1/ncbi_dataset/data/GCA_965643005.1/*_genomic.fna,yes,genome,Chromosome
+GCA_917563865.1,Phyllotreta cruciferae,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_917563865.1/ncbi_dataset/data/GCA_917563865.1/*_genomic.fna,yes,genome,Chromosome
+GCA_918026865.1,Phyllotreta striolata,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_918026865.1/ncbi_dataset/data/GCA_918026865.1/*_genomic.fna,yes,genome,Chromosome
+GCA_982374485.1,Phytoecia cylindrica,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_982374485.1/*_genomic.fna,yes,genome,Chromosome
+GCA_016904865.1,Pissodes strobi,Curculionidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_035321685.1,Plagiodera versicolora,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_035321685.1/*_genomic.fna,yes,genome,Chromosome
+GCA_036346225.1,Platerodrilus igneus,Lycidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_050242975.1,Plateumaris germari,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_050242975.1/*_genomic.fna,yes,genome,Contig
+GCA_978021435.1,Platydracus latebricola,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978021435.1/ncbi_dataset/data/GCA_978021435.1/*_genomic.fna,yes,genome,Chromosome
+GCA_949748235.1,Platypus cylindrus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_949748235.1/ncbi_dataset/data/GCA_949748235.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977061565.1,Platyrhinus resinosus,Anthribidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977061565.1/ncbi_dataset/data/GCA_977061565.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964106875.1,Platystomos albinus,Anthribidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964106875.1/ncbi_dataset/data/GCA_964106875.1/*_genomic.fna,yes,genome,Chromosome
+GCA_027576655.1,Platyusa sonomae,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_932274525.1,Podabrus alpinus,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_932274525.1/ncbi_dataset/data/GCA_932274525.1/*_genomic.fna,yes,genome,Chromosome
+GCA_980253055.1,Podagrica fuscicornis,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_980253055.1/ncbi_dataset/data/GCA_980253055.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963942605.1,Poecilus cupreus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963942605.1/ncbi_dataset/data/GCA_963942605.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963924545.1,Pogonocherus hispidulus,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963924545.1/ncbi_dataset/data/GCA_963924545.1/*_genomic.fna,yes,genome,Chromosome
+GCA_002278615.1,Pogonus chalceus,Carabidae,Adephaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Chromosome
+GCA_935413205.1,Polydrusus cervinus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_935413205.1/ncbi_dataset/data/GCA_935413205.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977013515.1,Polydrusus impressifrons,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977013515.1/ncbi_dataset/data/GCA_977013515.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963969555.1,Polydrusus pterygomalis,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963969555.1/ncbi_dataset/data/GCA_963969555.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963920685.1,Polydrusus tereticollis,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963920685.1/ncbi_dataset/data/GCA_963920685.1/*_genomic.fna,yes,genome,Chromosome
+GCA_042919755.1,Popillia japonica,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_042919755.1/*_genomic.fna,yes,genome,Scaffold
+GCA_000281835.1,Priacma serrata,Cupedidae,Archostemata,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_965648555.1,Prionocyphon serricornis,Scirtidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_965648555.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965112505.1,Prionychus ater,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965112505.1/ncbi_dataset/data/GCA_965112505.1/*_genomic.fna,yes,genome,Chromosome
+GCA_054205895.1,Promethis valgipes,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_054205895.1/ncbi_dataset/data/GCA_054205895.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977019095.1,Propomacrus cypriacus,Glaphyridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977019095.1/ncbi_dataset/data/GCA_977019095.1/*_genomic.fna,yes,genome,Chromosome
+GCA_013421045.1,Propylea japonica,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_013421045.1/ncbi_dataset/data/GCA_013421045.1/*_genomic.fna,yes,genome,Chromosome
+GCA_976925235.1,Propylea quattuordecimpunctata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_976925235.1/ncbi_dataset/data/GCA_976925235.1/*_genomic.fna,yes,genome,Chromosome
+GCA_036172665.1,Prosopocoilus inquinatus,Lucanidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_036172665.1/ncbi_dataset/data/GCA_036172665.1/*_genomic.fna,yes,genome,Chromosome
+GCA_051903415.1,Protaetia brevitarsis,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_051903415.1/ncbi_dataset/data/GCA_051903415.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963920635.1,Pseudeuparius sepicola,Anthribidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963920635.1/ncbi_dataset/data/GCA_963920635.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965601595.1,Pseudocistela ceramboides,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965601595.1/ncbi_dataset/data/GCA_965601595.1/*_genomic.fna,yes,genome,Chromosome
+GCA_027576155.1,Pseudomimeciton antennatum,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_927349885.1,Psylliodes chrysocephalus,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_927349885.1/ncbi_dataset/data/GCA_927349885.1/*_genomic.fna,yes,genome,Chromosome
+GCA_976289695.1,Pterostichus diligens,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_976289695.1/ncbi_dataset/data/GCA_976289695.1/*_genomic.fna,yes,genome,Chromosome
+GCA_911728475.1,Pterostichus madidus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_911728475.1/*_genomic.fna,yes,genome,Chromosome
+GCA_947425015.1,Pterostichus niger,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_947425015.1/ncbi_dataset/data/GCA_947425015.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965283465.1,Pterostichus vernalis,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965283465.1/ncbi_dataset/data/GCA_965283465.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963924575.1,Pycnomerus fuliginosus,Zopheridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963924575.1/ncbi_dataset/data/GCA_963924575.1/*_genomic.fna,yes,genome,Chromosome
+GCA_905333025.1,Pyrochroa serraticornis,Pyrochroidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_905333025.1/*_genomic.fna,yes,genome,Chromosome
+GCA_036250285.1,Pyrocoelia pectoralis,Lampyridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_036250285.1/ncbi_dataset/data/GCA_036250285.1/*_genomic.fna,yes,genome,Chromosome
+GCA_033557875.1,Quadriops clusia,Hydrophilidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_964338995.1,Quedius lateralis,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964338995.1/ncbi_dataset/data/GCA_964338995.1/*_genomic.fna,yes,genome,Chromosome
+GCA_979475445.1,Radziella styx,Leiodidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_979475445.1/ncbi_dataset/data/GCA_979475445.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963680705.1,Rhagium mordax,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963680705.1/ncbi_dataset/data/GCA_963680705.1/*_genomic.fna,yes,genome,Chromosome
+GCA_905340355.1,Rhagonycha fulva,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_905340355.1/ncbi_dataset/data/GCA_905340355.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965212295.1,Rhagonycha lignosa,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965212295.1/ncbi_dataset/data/GCA_965212295.1/*_genomic.fna,yes,genome,Chromosome
+GCA_958510855.1,Rhagonycha lutea,Cantharidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_958510855.1/ncbi_dataset/data/GCA_958510855.1/*_genomic.fna,yes,genome,Chromosome
+GCA_036326145.1,Rhagophthalmus giganteus,Rhagophthalmidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_029963845.1,Rhamnusium bicolor,Cerambycidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_965643555.1,Rhizotrogus aestivus,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965643555.1/ncbi_dataset/data/GCA_965643555.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030347505.1,Rhynchophorus ferrugineus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_030347505.1/*_genomic.fna,yes,genome,Scaffold
+GCA_966185095.1,Rhyzobius forestieri,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_966185095.1/ncbi_dataset/data/GCA_966185095.1/*_genomic.fna,yes,genome,Chromosome
+GCA_054553145.1,Rhyzopertha dominica,Bostrichidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_054553145.1/*_genomic.fna,yes,genome,Chromosome
+GCA_037954035.1,Rosalia funebris,Cerambycidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_936432065.2,Rutpela maculata,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_936432065.2/ncbi_dataset/data/GCA_936432065.2/*_genomic.fna,yes,genome,Chromosome
+GCA_949788335.1,Salpingus planirostris,Salpingidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_949788335.1/ncbi_dataset/data/GCA_949788335.1/*_genomic.fna,yes,genome,Chromosome
+GCA_047651835.1,Sambus kanssuensis,Buprestidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_047651835.1/ncbi_dataset/data/GCA_047651835.1/*_genomic.fna,yes,genome,Chromosome
+GCA_032191635.1,Sarophorus costatus,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_965282785.1,Scaphidium quadrimaculatum,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965282785.1/ncbi_dataset/data/GCA_965282785.1/*_genomic.fna,yes,genome,Chromosome
+GCA_982297005.1,Scarites abbreviatus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_982297005.1/*_genomic.fna,yes,genome,Chromosome
+GCA_025399995.1,Sceptobius lativentris,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_951805265.1,Schizotus pectinicornis,Pyrochroidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_951805265.1/ncbi_dataset/data/GCA_951805265.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030264515.1,Sepedophilus sp. GC000190,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_040543525.1,Serangium japonicum,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_040543525.1/*_genomic.fna,yes,genome,Chromosome
+GCA_973946265.1,Serica brunnea,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_973946265.1/ncbi_dataset/data/GCA_973946265.1/*_genomic.fna,yes,genome,Chromosome
+GCA_039766575.1,Serrognathus titanus,Lucanidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_039766575.1/ncbi_dataset/data/GCA_039766575.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963930825.1,Silvanus unidentatus,Silvanidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963930825.1/ncbi_dataset/data/GCA_963930825.1/*_genomic.fna,yes,genome,Chromosome
+GCA_036346155.1,Sinelater perroti,Elateridae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_036325965.1,Sinopyrophorus schimmeli,Elateridae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_977862225.1,Sisyphus schaefferi,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977862225.1/ncbi_dataset/data/GCA_977862225.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964263205.1,Sitona lineatus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964263205.1/ncbi_dataset/data/GCA_964263205.1/*_genomic.fna,yes,genome,Chromosome
+GCA_002938485.2,Sitophilus oryzae,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_002938485.2/ncbi_dataset/data/GCA_002938485.2/*_genomic.fna,yes,genome,Scaffold
+GCA_047936755.1,Sitophilus zeamais,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_047936755.1/ncbi_dataset/data/GCA_047936755.1/*_genomic.fna,yes,genome,Chromosome
+GCA_982345495.1,Spelaeobates novaki,Leiodidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_982345495.1/*_genomic.fna,yes,genome,Chromosome
+GCA_033557685.1,Sperchopsis tessellata,Hydrophilidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_977013595.1,Sphaeridium bipustulatum,Hydrophilidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977013595.1/ncbi_dataset/data/GCA_977013595.1/*_genomic.fna,yes,genome,Chromosome
+GCA_971796245.1,Sphaeroderma testaceum,Chrysomelidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_971796245.1/ncbi_dataset/data/GCA_971796245.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964211955.1,Staphylinus erythropterus,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964211955.1/ncbi_dataset/data/GCA_964211955.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977017535.1,Stenocarus ruficornis,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977017535.1/ncbi_dataset/data/GCA_977017535.1/*_genomic.fna,yes,genome,Chromosome
+GCA_037414795.1,Stenodera caucasica,Meloidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_035578165.1,Stenolophus ochropezus,Carabidae,Adephaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_035578165.1/ncbi_dataset/data/GCA_035578165.1/*_genomic.fna,yes,genome,Scaffold
+GCA_976980505.1,Stenosis austini,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_976980505.1/ncbi_dataset/data/GCA_976980505.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963583905.1,Stenurella melanura,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963583905.1/ncbi_dataset/data/GCA_963583905.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963971135.1,Stenus bimaculatus,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963971135.1/ncbi_dataset/data/GCA_963971135.1/*_genomic.fna,yes,genome,Chromosome
+GCA_051294475.1,Sternochetus mangiferae,Curculionidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_964212005.1,Stictoleptura scutellata,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964212005.1/ncbi_dataset/data/GCA_964212005.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965240395.1,Stylops aterrimus,Stylopidae,Stylopidia,outgroup,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_965240395.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965783985.1,Subcoccinella vigintiquattuorpunctata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965783985.1/ncbi_dataset/data/GCA_965783985.1/*_genomic.fna,yes,genome,Chromosome
+GCA_963932245.1,Tachinus rufipes,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_963932245.1/ncbi_dataset/data/GCA_963932245.1/*_genomic.fna,yes,genome,Chromosome
+GCA_030264575.1,Tachinus sp. AB-2021,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_965783885.1,Tachyporus hypnorum,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965783885.1/ncbi_dataset/data/GCA_965783885.1/*_genomic.fna,yes,genome,Chromosome
+GCA_978019935.1,Taeniapion urticarium,Apionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978019935.1/ncbi_dataset/data/GCA_978019935.1/*_genomic.fna,yes,genome,Chromosome
+GCA_951812265.1,Taphrorychus bicolor,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_951812265.1/ncbi_dataset/data/GCA_951812265.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964277315.1,Tarphius canariensis,Zopheridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964277315.1/ncbi_dataset/data/GCA_964277315.1/*_genomic.fna,yes,genome,Chromosome
+GCA_033557385.1,Temnoplectron lewisense,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_963966145.1,Tenebrio molitor,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_963966145.1/*_genomic.fna,yes,genome,Chromosome
+GCA_025400035.1,Tetradonia laticeps,Staphylinidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_054850815.1,Tetraopes melanurus,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_054850815.1/ncbi_dataset/data/GCA_054850815.1/*_genomic.fna,yes,genome,Chromosome
+GCA_054850805.1,Tetraopes sublaevis,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_054850805.1/ncbi_dataset/data/GCA_054850805.1/*_genomic.fna,yes,genome,Chromosome
+GCA_054850835.1,Tetraopes tetrophthalmus,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_054850835.1/ncbi_dataset/data/GCA_054850835.1/*_genomic.fna,yes,genome,Chromosome
+GCA_964058775.1,Tetropium fuscum,Cerambycidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964058775.1/ncbi_dataset/data/GCA_964058775.1/*_genomic.fna,yes,genome,Chromosome
+GCA_051122355.1,Thanatophilus sinuatus,Silphidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_051122355.1/ncbi_dataset/data/GCA_051122355.1/*_genomic.fna,yes,genome,Chromosome
+GCA_033557495.1,Thyregis relictus,Scarabaeidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_964006375.1,Tillus elongatus,Cleridae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_964006375.1/ncbi_dataset/data/GCA_964006375.1/*_genomic.fna,yes,genome,Chromosome
+GCA_054825155.1,Tomicus yunnanensis,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_054825155.1/ncbi_dataset/data/GCA_054825155.1/*_genomic.fna,yes,genome,Chromosome
+GCA_054771555.1,Trechiama kuznetsovi,Carabidae,Adephaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_050230255.1,Trechiama lewisi,Carabidae,Adephaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_031307605.1,Tribolium castaneum,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_031307605.1/*_genomic.fna,yes,genome,Chromosome
+GCA_019155225.1,Tribolium confusum,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_019155225.1/*_genomic.fna,yes,genome,Chromosome
+GCA_939628115.1,Tribolium freemani,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_939628115.1/ncbi_dataset/data/GCA_939628115.1/*_genomic.fna,yes,genome,Chromosome
+GCA_015345945.1,Tribolium madens,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_015345945.1/*_genomic.fna,yes,genome,Scaffold
+GCA_046128435.1,Trigonoscuta pilosa,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_046128435.1/ncbi_dataset/data/GCA_046128435.1/*_genomic.fna,yes,genome,Scaffold
+GCA_982185335.1,Troglocharinus ferreri,Leiodidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_055532135.1,Trypodendron lineatum,Curculionidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_023509865.1,Trypoxylus dichotomus,Scarabaeidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_023509865.1/ncbi_dataset/data/GCA_023509865.1/*_genomic.fna,yes,genome,Chromosome
+GCA_977970285.1,Tytthaspis sedecimpunctata,Coccinellidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_977970285.1/ncbi_dataset/data/GCA_977970285.1/*_genomic.fna,yes,genome,Chromosome
+GCA_965112455.1,Uleiota planata,Silvanidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_965112455.1/ncbi_dataset/data/GCA_965112455.1/*_genomic.fna,yes,genome,Chromosome
+GCA_040954815.1,Ulomoides dermestoides,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_040954815.1/ncbi_dataset/data/GCA_040954815.1/*_genomic.fna,yes,genome,Chromosome
+GCA_036346205.1,Vesta saturnalis,Lampyridae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Contig
+GCA_019419845.1,Weissflogia rhopalogaster,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_019419845.1/*_genomic.fna,yes,genome,Scaffold
+GCA_978045125.1,Xantholinus longiventris,Staphylinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_978045125.1/ncbi_dataset/data/GCA_978045125.1/*_genomic.fna,yes,genome,Chromosome
+GCA_040167675.1,Xenos peckii,Xenidae,Stylopidia,outgroup,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_040167675.1/*_genomic.fna,yes,genome,Contig
+GCA_963966045.1,Xestobium rufovillosum,Ptinidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_963966045.1/*_genomic.fna,yes,genome,Chromosome
+GCA_046766355.1,Xyleborus affinis,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_046766355.1/ncbi_dataset/data/GCA_046766355.1/*_genomic.fna,yes,genome,Scaffold
+GCA_049176215.1,Xyleborus bispinatus,Curculionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_049176215.1/ncbi_dataset/data/GCA_049176215.1/*_genomic.fna,yes,genome,Scaffold
+GCA_049176235.1,Xyleborus glabratus,Curculionidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_037414775.1,Zonitis immaculata,Meloidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+GCA_022388445.1,Zophobas atratus,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/scarab_existing/GCA_022388445.1/ncbi_dataset/data/GCA_022388445.1/*_genomic.fna,yes,genome,Chromosome
+GCA_042767095.1,Zophobas morio,Tenebrionidae,Polyphaga,1,/scratch/user/blackmon/tob/genomes/ncbi_dataset/data/GCA_042767095.1/*_genomic.fna,yes,genome,Scaffold
+GCA_032362365.1,Zygogramma bicolorata,Chrysomelidae,Polyphaga,1,NOT FOUND ON GRACE,pending: not found in scarab_existing or ncbi_dataset (needs pull),genome,Scaffold
+Hydroscapha_redfordi_GDMJ00000000.1,Hydroscapha redfordi,Hydroscaphidae,Myxophaga,2,/scratch/user/blackmon/tob/transcriptomes/Hydroscapha_redfordi_GDMJ00000000.1.fasta.gz,yes,transcriptome,TSA
+Lepicerus_sp_GAZB00000000.2,Lepicerus sp.,Lepiceridae,Myxophaga,2,/scratch/user/blackmon/tob/transcriptomes/Lepicerus_sp_GAZB00000000.2.fasta.gz,yes,transcriptome,TSA
+Micromalthus_debilis_GDOQ00000000.1,Micromalthus debilis,Micromalthidae,Archostemata,2,/scratch/user/blackmon/tob/transcriptomes/Micromalthus_debilis_GDOQ00000000.1.fasta.gz,yes,transcriptome,TSA
+Priacma_serrata_GACO00000000.1,Priacma serrata,Cupedidae,Archostemata,2,/scratch/user/blackmon/tob/transcriptomes/Priacma_serrata_GACO00000000.1.fasta.gz,yes,transcriptome,TSA
+Sphaerius_sp_Arizona_DIY,Sphaerius sp. Arizona,Sphaeriusidae,Myxophaga,2,/scratch/user/blackmon/tob/sphaerius/assemblies/Arizona/contigs.fasta,pending: Phase 0 step 06 (DIY assembly) not yet run,genome,DIY-draft
+Sphaerius_sp_Texas_DIY,Sphaerius sp. Texas,Sphaeriusidae,Myxophaga,2,/scratch/user/blackmon/tob/sphaerius/assemblies/Texas/contigs.fasta,pending: Phase 0 step 06 (DIY assembly) not yet run,genome,DIY-draft
+GCA_910592395.2,Linepithema humile,Formicidae,Hymenoptera,outgroup,/scratch/user/blackmon/tob/outgroups/hymenoptera/ncbi_dataset/data/GCA_910592395.2/GCA_910592395.2_tnLinLong1.2_genomic.fna,yes,genome,Chromosome
+GCF_003254395.2,Apis mellifera,Apidae,Hymenoptera,outgroup,/scratch/user/blackmon/tob/outgroups/hymenoptera/ncbi_dataset/data/GCF_003254395.2/GCF_003254395.2_Amel_HAv3.1_genomic.fna,yes,genome,Chromosome
+GCF_009193385.2,Nasonia vitripennis,Pteromalidae,Hymenoptera,outgroup,/scratch/user/blackmon/tob/outgroups/hymenoptera/ncbi_dataset/data/GCF_009193385.2/GCF_009193385.2_Nvit_psr_1.1_genomic.fna,yes,genome,Scaffold
