@@ -43,16 +43,21 @@ OUT_PULL = os.path.normpath(os.path.join(REPO, 'TOB/data/accessions_to_pull.txt'
 EXCLUDE_SUBORDERS = {'apocrita', 'pulicomorpha'}
 MIN_SIZE_MB = 50.0
 
-# Accessions confirmed unavailable on 2026-05-03:
+# Accessions confirmed unavailable or unusable on 2026-05-03:
 #   GCA_055755885.1  Nicrophorus americanus      404 on FTP (recently submitted, not propagated?)
 #   GCA_944317955.1  Callosobruchus chinensis    status=suppressed
 #   GCA_947858975.1  Callosobruchus analis       status=suppressed
 #   GCA_964262855.1  Dendarus foraminosus        NCBI Datasets returns metadata-only stub
 #   GCA_964417215.1  Prionocyphon serricornis    NCBI Datasets returns metadata-only stub
+#   GCA_000281835.1  Priacma serrata             12 Mb / 4.8 kb N50 - cannot be a beetle nuclear
+#                                                genome. Use the TSA Priacma_serrata_GACO00000000.1
+#                                                (Tier-2 transcriptome) instead, which is wired into
+#                                                the Phase 1 manifest separately.
 # The selector skips these so they are not chosen as winners.
 SUPPRESSED_ACCESSIONS = {
     'GCA_055755885.1', 'GCA_944317955.1', 'GCA_947858975.1',
     'GCA_964262855.1', 'GCA_964417215.1',
+    'GCA_000281835.1',
 }
 
 
