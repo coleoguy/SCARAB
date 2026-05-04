@@ -11,7 +11,7 @@ All scripts run on Grace. Most pull from the internet, so they need to run on th
 ## Order of operations
 
 1. **`01_setup_tob_scratch.sh`** — login node. Creates `$SCRATCH/tob/` directory tree; installs NCBI Datasets CLI to `~/bin/`. Run once. ~2 min.
-2. **`02_pull_new_genomes.sh`** — login node. Pulls all 546 new Coleoptera/Strepsiptera/Neuropterida assemblies from NCBI Datasets. Reads accession list from `TOB/data/ncbi_inventory_refresh_2026-05.csv` filtering on `in_scarab_catalog == "no"`. Includes everything (per Heath 2026-05-03 — BUSCO completeness will be the real filter, not assembly metadata). Estimated time: 4–8 hr depending on NCBI throughput. Disk: ~100–200 GB.
+2. **`02_pull_new_genomes.sh`** — login node. Pulls the **93 curated new assemblies** identified by `TOB/scripts/select_best_per_species.py` (best-per-species after dropping Hymenoptera/flea bleed-through and sub-50 Mb misregistrations). Reads from `TOB/data/accessions_to_pull.txt`. **Run that selector locally on Mac and commit before deploying.** Estimated time: 1–2 hr. Disk: ~30–60 GB.
 3. **`03_pull_transcriptomes.sh`** — login node. Pulls 4 verified Tier-2 TSAs for ancient suborders (*Priacma*, *Micromalthus*, *Hydroscapha*, *Lepicerus*). 5–15 min. <100 MB.
 4. **`04_pull_hymenoptera_anchors.sh`** — login node. Pulls 3 Hymenoptera reference genomes (*Apis*, *Nasonia*, *Athalia*) for deep outgroup anchoring. 10–30 min. ~1 GB.
 5. **`05_pull_sphaerius_reads.sh`** — login node. Pulls 2 raw WGS read sets (SRR21231095, SRR21231096) via SRA Toolkit prefetch + fasterq-dump. 1–3 hr per accession. ~30 GB compressed FASTQ.
