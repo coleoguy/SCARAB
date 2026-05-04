@@ -1,0 +1,1106 @@
+accession,organism,taxid,family,suborder,assembly_level,contig_N50,scaffold_N50,total_length_mb,submission_date,submitter,in_scarab_catalog,tob_score,tob_recommendation
+GCA_035320865.1,Monochamus alternatus,192382,Cerambycidae,Polyphaga,Chromosome,82973183,82973183,792.14,2024-01-09,Beijing Forestry University,no,A,include
+GCA_054643955.1,Onthophagus binodis,560254,Scarabaeidae,Polyphaga,Chromosome,58686139,102981365,880.47,2026-01-22,Indiana University,no,A,include
+GCA_979861375.1,Larinus ursus,1342031,Curculionidae,Polyphaga,Chromosome,45364611,86231057,1743.48,2026-02-27,Centro Nacional de Análisis Genómico,no,A,include
+GCA_056522465.1,Coccinella transversoguttata,1790162,Coccinellidae,Polyphaga,Chromosome,41602012,41602012,376.26,2026-04-02,Jiangsu University of Science and Technology,no,A,include
+GCA_036711975.1,Onthophagus taurus,166361,Scarabaeidae,Polyphaga,Chromosome,33052070,33174080,290.86,2024-02-21,Indiana University,no,A,include
+GCA_056632495.1,Ips calligraphus,102827,Curculionidae,Polyphaga,Chromosome,32862705,32862705,492.99,2026-04-08,Kunming Institute of Zoology,no,A,include
+GCA_932526585.1,Philonthus cognatus,346820,Staphylinidae,Polyphaga,Chromosome,29486216,108863099,1030.58,2022-03-23,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_056777075.1,Cyrtotrachelus buqueti,1892066,Curculionidae,Polyphaga,Chromosome,27634790,75426724,632.31,2026-04-17,Leshan normal university,no,A,include
+GCA_976997095.1,Laparocerus anagae,1963931,Curculionidae,Polyphaga,Chromosome,25606415,52580765,513.84,2025-11-24,NBIS (National Bioinformatics Infrastructure Sweden),no,A,include
+GCA_964262855.1,Dendarus foraminosus,2712997,Tenebrionidae,Polyphaga,Chromosome,24404000,51873200,593.99,2024-09-13,Genoscope CEA,no,A,include
+GCA_026250575.1,Diorhabda carinulata,1163345,Chrysomelidae,Polyphaga,Chromosome,23459757,34144059,415.39,2022-11-21,United States Department of Agriculture,no,A,include
+GCA_964417215.1,Prionocyphon serricornis,1569171,Scirtidae,Polyphaga,Chromosome,23304763,24479486,711.54,2024-12-06,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_914767665.1,Harmonia axyridis,115357,Coccinellidae,Polyphaga,Chromosome,22915403,63675256,425.52,2021-09-19,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_982297005.1,Scarites abbreviatus,3349997,Carabidae,Adephaga,Chromosome,17448818,30887957,749.67,2026-03-19,NBIS (National Bioinformatics Infrastructure Sweden),no,A,include
+GCA_907165205.1,Coccinella septempunctata,41139,Coccinellidae,Polyphaga,Chromosome,16512651,41442133,398.85,2021-05-19,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_031307605.1,Tribolium castaneum,7070,Tenebrionidae,Polyphaga,Chromosome,16193484,20636470,241.86,2023-09-14,USDA-ARS Ag100Pest,no,A,include
+GCA_982374485.1,Phytoecia cylindrica,1588379,Cerambycidae,Polyphaga,Chromosome,16066490,87406049,831.48,2026-04-05,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_911728475.1,Pterostichus madidus,767470,Carabidae,Adephaga,Chromosome,15821749,37879541,705.16,2021-08-08,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_911728435.1,Apoderus coryli,201766,Attelabidae,Polyphaga,Chromosome,15031106,23694900,428.08,2021-08-08,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_937662695.1,Halyzia sedecimguttata,347359,Coccinellidae,Polyphaga,Chromosome,13814148,110337179,911.6,2022-05-30,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_029169275.1,Apis cerana,7461,Apidae,Apocrita,Chromosome,13386827,13386827,223.06,2023-03-14,Incheon National University,no,A,include
+GCA_982345065.1,Agonum thoreyi,1553045,Carabidae,Adephaga,Chromosome,13218560,45893524,824.47,2026-03-26,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_905333025.1,Pyrochroa serraticornis,346838,Pyrochroidae,Polyphaga,Chromosome,12970676,37181734,249.41,2021-03-26,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_040543525.1,Serangium japonicum,544596,Coccinellidae,Polyphaga,Chromosome,12608783,59259543,668.33,2024-07-08,South China Agricultural University,no,A,include
+GCA_976941425.1,Dailognatha quadricollis,575809,Tenebrionidae,Polyphaga,Chromosome,12600000,32277009,320.41,2025-11-17,Genoscope CEA,no,A,include
+GCA_026230105.1,Diorhabda sublineata,1163346,Chrysomelidae,Polyphaga,Chromosome,12487216,38450617,456.22,2022-11-18,United States Department of Agriculture,no,A,include
+GCA_024364675.1,Aethina tumida,116153,Nitidulidae,Polyphaga,Chromosome,11742490,36783356,259.98,2022-07-22,USDA Ag100Pest,no,A,include
+GCA_982552315.1,Cantharis pellucida,877753,Cantharidae,Polyphaga,Chromosome,11565240,52222768,461.62,2026-04-28,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_035321685.1,Plagiodera versicolora,154017,Chrysomelidae,Polyphaga,Chromosome,10689844,13925967,233.27,2024-01-11,Hubei University,no,A,include
+GCA_982375295.1,Lathrobium fulvipenne,878051,Staphylinidae,Polyphaga,Chromosome,9753159,47176579,575.84,2026-04-05,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_965643715.1,Hypera rumicis,346786,Curculionidae,Polyphaga,Chromosome,9598395,206056481,1709.03,2025-07-19,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_978123715.1,Amara familiaris,1553055,Carabidae,Adephaga,Chromosome,9189600,53763055,857.12,2026-03-01,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_965654235.1,Laccobius striatulus,446446,Hydrophilidae,Polyphaga,Chromosome,8827139,127081533,1048.64,2025-08-03,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_964213965.2,Arhopalus rusticus,256647,Cerambycidae,Polyphaga,Chromosome,8726949,159240323,1275.13,2025-11-19,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_964291195.1,Arhopalus rusticus,256647,Cerambycidae,Polyphaga,Chromosome,8726949,159240323,1275.13,2024-10-29,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_964213965.1,Arhopalus rusticus,256647,Cerambycidae,Polyphaga,Chromosome,8690151,159240323,1275.13,2024-08-23,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_976954485.1,Ips sexdentatus,55985,Curculionidae,Polyphaga,Chromosome,8625464,25174074,264.12,2025-11-25,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_965194665.1,Biphyllus lunatus,197003,Biphyllidae,Polyphaga,Chromosome,8572763,26848231,417.61,2025-03-10,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_917563875.2,Diabrotica virgifera,50390,Chrysomelidae,Polyphaga,Chromosome,7930419,264456228,2533.4,2022-08-04,ROTHAMSTED RESEARCH,no,A,include
+GCA_917563875.1,Diabrotica virgifera,50390,Chrysomelidae,Polyphaga,Chromosome,7930419,264456228,2534.26,2022-06-30,ROTHAMSTED RESEARCH,no,A,include
+GCA_039655025.1,Apis cerana,7461,Apidae,Apocrita,Chromosome,7756638,13279023,215.27,2024-05-17,China Agricultural University,no,A,include
+GCA_965119585.1,Limonius poneli,1588201,Elateridae,Polyphaga,Chromosome,7740000,133651995,1247.44,2025-02-11,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_964291765.1,Carabus banonii,3023605,Carabidae,Adephaga,Chromosome,7491500,14906334,207.83,2024-10-28,Genoscope CEA,no,A,include
+GCA_963966045.1,Xestobium rufovillosum,879067,Ptinidae,Polyphaga,Chromosome,7346478,36916890,475.78,2024-02-13,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_964213945.2,Arhopalus rusticus,256647,Cerambycidae,Polyphaga,Chromosome,7305804,158070591,1246.21,2025-11-24,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_964291205.1,Arhopalus rusticus,256647,Cerambycidae,Polyphaga,Chromosome,7305804,158070591,1246.21,2024-10-29,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_020141525.2,Apis cerana,7461,Apidae,Apocrita,Chromosome,7065000,13276899,226.96,2022-06-28,Chongqing Normal University,no,A,include
+GCA_020141525.1,Apis cerana,7461,Apidae,Apocrita,Chromosome,7065000,13276899,226.97,2021-09-27,Chongqing Normal University,no,A,include
+GCA_963966145.1,Tenebrio molitor,7067,Tenebrionidae,Polyphaga,Chromosome,7033857,29772305,276.83,2024-02-13,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_022605725.3,Anthonomus grandis,2921223,Curculionidae,Polyphaga,Chromosome,6865999,36454210,697.45,2022-08-10,United States Department of Agriculture,no,A,include
+GCA_022605725.2,Anthonomus grandis,2921223,Curculionidae,Polyphaga,Chromosome,6865999,36454210,697.54,2022-08-03,United States Department of Agriculture,no,A,include
+GCA_965642995.1,Phyllobius virideaeris,878368,Curculionidae,Polyphaga,Chromosome,6429082,98611267,1174.98,2025-07-19,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_964656825.1,Bitoma crenata,346746,Zopheridae,Polyphaga,Chromosome,6067263,17562620,141.17,2025-01-06,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_965648555.1,Prionocyphon serricornis,1569171,Scirtidae,Polyphaga,Chromosome,6066410,38945523,421.17,2025-07-28,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_982345495.1,Spelaeobates novaki,3086108,Leiodidae,Polyphaga,Chromosome,5965395,15758168,247.72,2026-03-27,Centro Nacional de Análisis Genómico,no,A,include
+GCA_935421215.1,Melolontha melolontha,7061,Scarabaeidae,Polyphaga,Chromosome,5929690,180468607,1656.88,2022-05-01,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_965279875.1,Amara ovata,346692,Carabidae,Adephaga,Chromosome,5534976,51439285,806.54,2025-05-11,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_944452925.1,Chrysolina oricalcia,1587174,Chrysomelidae,Polyphaga,Chromosome,5478000,69502699,1425.05,2022-07-06,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_965654395.1,Phyllobius argentatus,346824,Curculionidae,Polyphaga,Chromosome,5342107,83882080,937.0,2025-08-03,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_040954645.1,Diabrotica undecimpunctata,50387,Chrysomelidae,Polyphaga,Chromosome,5175425,162785928,1742.96,2024-08-01,USDA-ARS Ag100Pest,no,A,include
+GCA_976919195.1,Lasiorhynchites cavifrons,202013,Attelabidae,Polyphaga,Chromosome,4985498,251133681,1324.68,2025-11-23,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_963584125.1,Plagiodera versicolora,154017,Chrysomelidae,Polyphaga,Chromosome,4745322,14121880,236.74,2023-11-07,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_910593695.1,Ocypus olens,662956,Staphylinidae,Polyphaga,Chromosome,4567902,57303393,1083.87,2021-07-08,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_950111635.1,Agelastica alni,131577,Chrysomelidae,Polyphaga,Chromosome,4545743,66306276,692.29,2023-05-16,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_949320105.1,Crepidodera aurea,346762,Chrysomelidae,Polyphaga,Chromosome,4358255,76910125,508.98,2023-03-31,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_029378335.1,Agrilus mali,1917227,Buprestidae,Polyphaga,Chromosome,4341085,28461508,291.3,2023-03-28,Chinese academy of forestry,no,A,include
+GCA_964023215.1,Eledona agricola,347340,Tenebrionidae,Polyphaga,Chromosome,4218407,22633678,363.61,2024-04-09,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_936432065.1,Rutpela maculata,878968,Cerambycidae,Polyphaga,Chromosome,4195726,185716378,2022.61,2022-05-30,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_029531695.1,Apis cerana,7461,Apidae,Apocrita,Chromosome,4154103,13370683,217.68,2023-04-06,Chinese Academy of Agricultural Sciences,no,A,include
+GCA_019155225.1,Tribolium confusum,7071,Tenebrionidae,Polyphaga,Chromosome,4094517,27691043,305.13,2021-07-07,UC Berkeley,no,A,include
+GCA_039881205.1,Euwallacea similis,1736056,Curculionidae,Polyphaga,Chromosome,3987509,5137944,177.6,2024-05-29,CSIRO,no,A,include
+GCA_011100585.1,Apis cerana,94128,Apidae,Apocrita,Chromosome,3898192,13171513,215.67,2020-03-10,Jiangxi agricultural university,no,A,include
+GCA_022605725.1,Anthonomus grandis,7044,Curculionidae,Polyphaga,Chromosome,3889697,30312058,861.58,2022-03-17,United States Department of Agriculture,no,A,include
+GCA_039881215.1,Euwallacea similis,1736056,Curculionidae,Polyphaga,Chromosome,3719186,4716787,179.16,2024-05-29,CSIRO,no,A,include
+GCA_040115645.1,Euwallacea fornicatus,995702,Curculionidae,Polyphaga,Chromosome,3683252,3845785,219.83,2024-06-11,CSIRO,no,A,include
+GCA_047716315.1,Plagiodera versicolora,154017,Chrysomelidae,Polyphaga,Chromosome,3589613,13029527,214.53,2025-02-12,Chinese Academy of Agricultural Sciences,no,A,include
+GCA_040115655.1,Euwallacea fornicatus,995702,Curculionidae,Polyphaga,Chromosome,3582182,3606299,239.62,2024-06-11,CSIRO,no,A,include
+GCA_982319415.1,Phaedon tumidulus,346819,Chrysomelidae,Polyphaga,Chromosome,3027198,119062041,1537.24,2026-03-22,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_910589235.2,Vespa crabro,7445,Vespidae,Apocrita,Chromosome,2980993,9767562,229.31,2022-02-13,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_910589235.1,Vespa crabro,7445,Vespidae,Apocrita,Chromosome,2980993,9767562,229.6,2021-07-08,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_965644585.1,Leistus fulvibarbis,346789,Carabidae,Adephaga,Chromosome,2906524,6481029,218.71,2025-07-28,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_054553145.1,Rhyzopertha dominica,92692,Bostrichidae,Polyphaga,Chromosome,2728449,56704619,490.55,2026-01-20,Academy of National Food and Strategic Rserves Administration,no,A,include
+GCA_965649375.1,Nalassus laevioctostriatus,878205,Tenebrionidae,Polyphaga,Chromosome,2328048,49469900,558.9,2025-07-30,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_963695495.1,Hololepta plana,290657,Histeridae,Polyphaga,Chromosome,2129432,14286131,153.91,2023-12-13,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_982553785.1,Lucanus tetraodon,618066,Lucanidae,Polyphaga,Chromosome,1983884,23875370,337.6,2026-04-28,"Universita' degli Studi di Bari Aldo Moro, DBBA: Dipartimento di Bioscienze, Biotecnologie e Ambiente",no,A,include
+GCA_918026855.4,Phaedon cochleariae,80249,Chrysomelidae,Polyphaga,Chromosome,1950330,57205461,869.73,2022-10-19,ROTHAMSTED RESEARCH,no,A,include
+GCA_918026855.3,Phaedon cochleariae,80249,Chrysomelidae,Polyphaga,Chromosome,1950330,57205461,869.73,2022-09-26,ROTHAMSTED RESEARCH,no,A,include
+GCA_918026855.2,Phaedon cochleariae,80249,Chrysomelidae,Polyphaga,Chromosome,1950330,57205461,869.73,2022-09-11,ROTHAMSTED RESEARCH,no,A,include
+GCA_982446645.1,Luperus flavipes,1553543,Chrysomelidae,Polyphaga,Chromosome,1716876,53372501,1214.6,2026-04-19,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_965642105.1,Catops nigricans,346753,Leiodidae,Polyphaga,Chromosome,1708696,18385198,204.7,2025-07-19,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_977012685.1,Larinus planus,202009,Curculionidae,Polyphaga,Chromosome,1628523,50092412,1181.72,2025-11-23,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_982345265.1,Oxypselaphus obscurus,877726,Carabidae,Adephaga,Chromosome,1554830,32202442,613.65,2026-03-27,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_963576705.1,Polydrusus tereticollis,1342093,Curculionidae,Polyphaga,Chromosome,1537882,120623329,1392.7,2023-11-04,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_973896695.1,Drilus flavescens,295522,Elateridae,Polyphaga,Chromosome,1069827,87807106,748.31,2025-11-22,WELLCOME SANGER INSTITUTE,no,A,include
+GCA_022388455.1,Tribolium freemani,7072,Tenebrionidae,Polyphaga,Chromosome,1044995,13956990,300.43,2022-02-24,Kansas State University,no,A,include
+GCA_055755885.1,Nicrophorus americanus,64900,Silphidae,Polyphaga,Chromosome,1030540,36237825,227.72,2026-03-10,Baruch College,no,A,include
+GCA_011033045.2,Harmonia axyridis,115357,Coccinellidae,Polyphaga,Chromosome,889999,45919539,415.31,2023-01-09,Zhejiang University,no,B,include
+GCA_965240395.1,Stylops aterrimus,2793623,Stylopidae,Stylopidia,Chromosome,838485,8351253,85.43,2025-04-14,WELLCOME SANGER INSTITUTE,no,B,include
+GCA_982374535.1,Luperus longicornis,281588,Chrysomelidae,Polyphaga,Chromosome,748388,89780195,1340.44,2026-04-05,WELLCOME SANGER INSTITUTE,no,B,include
+GCA_982446755.1,Amara aulica,536885,Carabidae,Adephaga,Chromosome,556235,30579777,640.25,2026-04-19,WELLCOME SANGER INSTITUTE,no,B,include
+GCA_965653175.1,Chaetocnema hortensis,346761,Chrysomelidae,Polyphaga,Chromosome,447560,40169932,383.8,2025-08-01,WELLCOME SANGER INSTITUTE,no,B,include
+GCA_940337035.1,Agriotes lineatus,292458,Elateridae,Polyphaga,Chromosome,201347,95282374,3159.86,2022-06-30,ROTHAMSTED RESEARCH,no,B,include
+GCA_965663555.1,Anthobium unicolor,347271,Staphylinidae,Polyphaga,Chromosome,140477,22650015,352.14,2025-08-23,WELLCOME SANGER INSTITUTE,no,B,include
+GCA_037075425.1,Tenebrio molitor,7067,Tenebrionidae,Polyphaga,Chromosome,102413,26202212,400.5,2024-03-13,Ag100Pest,no,B,include
+GCA_000002335.3,Tribolium castaneum,7070,Tenebrionidae,Polyphaga,Chromosome,73049,4456720,165.94,2016-03-10,Kansas State University,no,B,include
+GCA_000002335.1,Tribolium castaneum,7070,Tenebrionidae,Polyphaga,Chromosome,43511,19135781,210.27,2012-01-04,Kansas State University,no,B,include
+GCA_000002335.2,Tribolium castaneum,7070,Tenebrionidae,Polyphaga,Chromosome,43511,975455,210.26,2012-01-11,Baylor College of Medicine,no,B,include
+GCA_027562985.1,Chrysomela aeneicollis,153825,Chrysomelidae,Polyphaga,Chromosome,35526,18176930,353.92,2023-01-04,UC Berkeley,no,B,include
+GCA_041430155.1,Tribolium castaneum,7070,Tenebrionidae,Polyphaga,Chromosome,22147,14471316,165.54,2024-08-23,National Centre for Biological Sciences,no,B,include
+GCA_042919755.1,Popillia japonica,7064,Scarabaeidae,Polyphaga,Scaffold,31226420,60602979,545.74,2024-10-10,"University of California, Santa Cruz",no,C,include
+GCA_978258505.1,Attagenus pellio,41096,Dermestidae,Polyphaga,Scaffold,29821268,30061214,316.81,2026-03-01,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965279815.1,Nacerdes melanura,878157,Oedemeridae,Polyphaga,Scaffold,26313290,64874646,525.71,2025-05-11,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_977017545.1,Stenocarus ruficornis,1342239,Curculionidae,Polyphaga,Scaffold,26297405,53528151,600.14,2025-11-23,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_977013155.1,Polydrusus impressifrons,1342090,Curculionidae,Polyphaga,Scaffold,21473277,51500188,540.56,2025-11-23,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_030347505.1,Rhynchophorus ferrugineus,354439,Curculionidae,Polyphaga,Scaffold,20155528,43002243,778.73,2023-06-27,UAE University,no,C,include
+GCA_978021415.1,Liophloeus tessulatus,202024,Curculionidae,Polyphaga,Scaffold,19502891,132008410,1201.08,2026-02-25,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_977066425.1,Mononychus punctumalbum,1342213,Curculionidae,Polyphaga,Scaffold,15997243,31317029,385.56,2025-11-28,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_982345025.1,Agonum thoreyi,1553045,Carabidae,Adephaga,Scaffold,15996939,43267464,814.19,2026-03-26,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_978018175.1,Aplotarsus incanus,350097,Elateridae,Polyphaga,Scaffold,15872020,68481933,632.64,2026-02-05,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_041228545.2,Agriotes mancus,1132040,Elateridae,Polyphaga,Scaffold,15208965,209635797,2106.57,2024-12-23,Canada's national platform for genome sequencing and analysis,no,C,include
+GCA_982290455.1,Agonum gracile,1553041,Carabidae,Adephaga,Scaffold,14908039,33440588,624.25,2026-03-18,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_982259055.1,Chrysolina hyperici,111402,Chrysomelidae,Polyphaga,Scaffold,13242675,39318955,672.23,2026-03-14,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_044115255.2,Agriotes ferrugineipennis,2083513,Elateridae,Polyphaga,Scaffold,13177664,112824164,1267.92,2025-07-24,Canada's national platform for genome sequencing and analysis,no,C,include
+GCA_029619315.1,Dynastes maya,1767016,Scarabaeidae,Polyphaga,Scaffold,13030375,59779349,719.21,2023-04-07,Academia Sinica,no,C,include
+GCA_982191845.1,Otiorhynchus rugosostriatus,703598,Curculionidae,Polyphaga,Scaffold,12945056,13515860,351.86,2026-03-10,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_981690495.1,Acupalpus parvulus,877764,Carabidae,Adephaga,Scaffold,12536701,29421622,589.99,2026-03-03,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_044115275.2,Agriotes sputator,346689,Elateridae,Polyphaga,Scaffold,11899110,90494813,1056.56,2025-08-28,Canada's national platform for genome sequencing and analysis,no,C,include
+GCA_964212015.1,Stictoleptura scutellata,879004,Cerambycidae,Polyphaga,Scaffold,10125014,170599067,1480.1,2024-08-03,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965642155.1,Aromia moschata,1265417,Cerambycidae,Polyphaga,Scaffold,9315063,60635210,691.68,2025-07-13,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_057128385.1,Limonius infuscatus,1415923,Elateridae,Polyphaga,Scaffold,9093642,90669364,821.62,2026-05-01,Canada's national platform for genome sequencing and analysis,no,C,include
+GCA_018691245.1,Ips nitidus,432259,Curculionidae,Polyphaga,Scaffold,9008284,10238297,345.0,2021-06-03,Chinese Academy of Forestry,no,C,include
+GCA_025532065.1,Leptinotarsa decemlineata,7539,Chrysomelidae,Polyphaga,Scaffold,8926322,15302254,810.46,2022-10-03,University of Wisconsin-Madison,no,C,include
+GCA_980434555.1,Galerucella sagittariae,227477,Chrysomelidae,Polyphaga,Scaffold,8526124,20107520,335.28,2026-02-28,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964258825.1,Anthocomus fasciatus,346704,Melyridae,Polyphaga,Scaffold,8314020,54529162,530.75,2024-08-30,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_978045385.1,Aegialia arenaria,206943,Scarabaeidae,Polyphaga,Scaffold,8183181,43604820,418.28,2026-03-01,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_978120685.1,Calathus fuscipes,127480,Carabidae,Adephaga,Scaffold,7940226,59033199,993.01,2026-03-03,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965119225.1,Malthodes marginatus,346798,Cantharidae,Polyphaga,Scaffold,7903628,44168853,332.93,2025-01-30,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_978407185.1,Cantharis pallida,877887,Cantharidae,Polyphaga,Scaffold,7845000,52025584,387.78,2026-03-01,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964213945.1,Arhopalus rusticus,256647,Cerambycidae,Polyphaga,Scaffold,7305804,158070591,1246.21,2024-08-09,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_978041825.1,Anaglyptus mysticus,877856,Cerambycidae,Polyphaga,Scaffold,7263778,101954285,933.65,2026-02-25,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964332075.1,Grammoptera ruficornis,351486,Cerambycidae,Polyphaga,Scaffold,7197351,37222247,431.82,2024-11-08,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965643635.1,Megatoma undata,878194,Dermestidae,Polyphaga,Scaffold,6930725,43756318,368.9,2025-07-19,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964211985.1,Staphylinus erythropterus,1553746,Staphylinidae,Polyphaga,Scaffold,6719939,77489434,1331.79,2024-08-03,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_907166875.3,Tenebrio molitor,7067,Tenebrionidae,Polyphaga,Scaffold,6326592,21885684,287.84,2022-03-14,Genoscope CEA,no,C,include
+GCA_907166875.2,Tenebrio molitor,7067,Tenebrionidae,Polyphaga,Scaffold,6326592,21885684,287.93,2022-03-14,Genoscope CEA,no,C,include
+GCA_907166875.1,Tenebrio molitor,7067,Tenebrionidae,Polyphaga,Scaffold,6326592,22440466,287.93,2022-03-14,Genoscope CEA,no,C,include
+GCA_965642355.1,Harmonia quadripunctata,346781,Coccinellidae,Polyphaga,Scaffold,6272178,88541891,655.05,2025-07-19,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965648505.1,Hallomenus binotatus,295970,Tetratomidae,Polyphaga,Scaffold,6261000,16540926,200.1,2025-07-28,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_973897575.1,Amara aenea,585988,Carabidae,Adephaga,Scaffold,6197426,44133562,779.72,2025-11-22,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965178285.1,Coccidula rufa,115345,Coccinellidae,Polyphaga,Scaffold,6142486,120543591,1073.54,2025-03-05,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965641335.1,Cryptorhynchus lapathi,201897,Curculionidae,Polyphaga,Scaffold,6019000,26885655,440.97,2025-07-09,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964338625.1,Opilo mollis,1445684,Cleridae,Polyphaga,Scaffold,5984000,171040891,1591.6,2024-11-11,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965276425.1,Notoxus monoceros,1553591,Anthicidae,Polyphaga,Scaffold,5787856,135108468,1120.36,2025-05-04,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965644505.1,Coccinella magnifica,185877,Coccinellidae,Polyphaga,Scaffold,5644604,36646883,558.91,2025-07-28,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_977061615.1,Platyrhinus resinosus,1586622,Anthribidae,Polyphaga,Scaffold,5543836,77902460,758.34,2025-11-17,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_973358345.1,Serica brunnea,465155,Scarabaeidae,Polyphaga,Scaffold,5414559,144497857,1482.9,2025-11-22,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964234845.1,Ampedus sanguinolentus,941989,Elateridae,Polyphaga,Scaffold,5398259,143644008,1572.87,2024-08-30,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_029955535.1,Chrysomela aeneicollis,153825,Chrysomelidae,Polyphaga,Scaffold,5166779,14825180,646.74,2023-05-08,UCLA,no,C,include
+GCA_965260825.1,Leiosoma deflexum,1342033,Curculionidae,Polyphaga,Scaffold,5009517,37547102,629.82,2025-04-27,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_057128345.1,Limonius infuscatus,1415923,Elateridae,Polyphaga,Scaffold,5007243,88490866,808.4,2026-05-01,Canada's national platform for genome sequencing and analysis,no,C,include
+GCA_964106955.1,Platystomos albinus,197009,Anthribidae,Polyphaga,Scaffold,4813988,68519913,554.55,2024-06-03,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965643565.1,Bruchidius villosus,256915,Chrysomelidae,Polyphaga,Scaffold,4763205,101933805,962.34,2025-07-19,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_966112745.1,Calathus melanocephalus,127479,Carabidae,Adephaga,Scaffold,4514173,49663604,976.61,2025-08-14,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965642215.1,Orchesia undulata,351518,Melandryidae,Polyphaga,Scaffold,4401460,24117115,227.58,2025-07-17,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_042767095.1,Zophobas morio,2755281,Tenebrionidae,Polyphaga,Scaffold,4352000,24972000,619.41,2024-10-08,Quanzhou Normal University,no,C,include
+GCA_048003765.1,Nicrophorus vespilloides,110193,Silphidae,Polyphaga,Scaffold,4348815,9068783,199.92,2025-02-25,University of Georgia,no,C,include
+GCA_965601815.1,Harpalus anxius,247284,Carabidae,Adephaga,Scaffold,4337460,59266683,1031.14,2025-07-07,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_042767475.1,Euwallacea fornicatus,995702,Curculionidae,Polyphaga,Scaffold,4315094,4506111,253.42,2024-10-08,UCLA,no,C,include
+GCA_966112655.1,Leistus rufomarginatus,346790,Carabidae,Adephaga,Scaffold,4304529,14747797,257.83,2025-08-14,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964188085.1,Anisosticta novemdecimpunctata,185876,Coccinellidae,Polyphaga,Scaffold,4253225,4253225,425.45,2024-06-20,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964211975.1,Kyklioacalles roboris,501664,Curculionidae,Polyphaga,Scaffold,4107426,30513364,609.02,2024-08-03,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965788365.1,Agriotes lineatus,292458,Elateridae,Polyphaga,Scaffold,4104806,214170943,2557.49,2025-08-10,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_975143845.1,Diplocoelus fagi,433040,Biphyllidae,Polyphaga,Scaffold,3789930,63999119,1451.45,2025-11-22,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964277185.1,Tarphius canariensis,124803,Zopheridae,Polyphaga,Scaffold,3748692,30641328,318.28,2024-10-29,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964339035.1,Quedius lateralis,878401,Staphylinidae,Polyphaga,Scaffold,3644730,39431557,835.79,2024-11-11,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964059575.1,Calvia quattuordecimguttata,419956,Coccinellidae,Polyphaga,Scaffold,3599899,40346767,1731.69,2024-05-29,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965643725.1,Anobium punctatum,877859,Ptinidae,Polyphaga,Scaffold,3523807,35406603,284.04,2025-07-19,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964204965.1,Bruchidius varius,256828,Chrysomelidae,Polyphaga,Scaffold,3251757,128828166,1143.24,2024-07-28,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_981558475.1,Amara convexiuscula,1553052,Carabidae,Adephaga,Scaffold,3156096,37835971,714.13,2026-03-01,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_978021455.1,Platydracus latebricola,1553674,Staphylinidae,Polyphaga,Scaffold,3117354,96181028,1253.22,2026-02-25,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_982319525.1,Phaedon tumidulus,346819,Chrysomelidae,Polyphaga,Scaffold,3069027,111397588,1458.46,2026-03-22,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964197765.1,Chrysolina graminis,111401,Chrysomelidae,Polyphaga,Scaffold,3004824,129356550,1455.42,2024-07-06,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_029955315.1,Cylas formicarius,197179,Brentidae,Polyphaga,Scaffold,2934011,36172098,391.12,2023-05-08,United States Department of Agriculture,no,C,include
+GCA_977063465.1,Calodromius spilotus,1553381,Carabidae,Adephaga,Scaffold,2820911,70831827,1070.59,2025-11-25,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_971785815.1,Sphaeroderma testaceum,428710,Chrysomelidae,Polyphaga,Scaffold,2678904,58753766,1522.33,2025-11-22,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_949126855.1,Lochmaea capreae,227480,Chrysomelidae,Polyphaga,Scaffold,2598267,2598267,527.33,2023-04-18,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_043773845.1,Dicheirus dilatatus,2890184,Carabidae,Adephaga,Scaffold,2484792,14596153,518.93,2024-10-24,UCLA,no,C,include
+GCA_980747085.1,Phyllobius pyri,202125,Curculionidae,Polyphaga,Scaffold,2474889,68672705,760.76,2026-02-28,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965112435.1,Uleiota planata,346868,Silvanidae,Polyphaga,Scaffold,2218670,2218670,727.35,2025-01-23,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_041228435.2,Larinus minutus,1342029,Curculionidae,Polyphaga,Scaffold,2177891,44684014,1320.16,2025-02-11,Canada's national platform for genome sequencing and analysis,no,C,include
+GCA_965643615.1,Rhizotrogus aestivus,1971888,Scarabaeidae,Polyphaga,Scaffold,2066696,177127195,1871.47,2025-07-19,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965122525.1,Chrysomela saliceti,1587176,Chrysomelidae,Polyphaga,Scaffold,2044294,43772658,703.32,2025-02-10,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963989235.1,Dromius quadrimaculatus,346772,Carabidae,Adephaga,Scaffold,2040953,2040953,876.92,2024-03-30,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_932526485.1,Philonthus cognatus,346820,Staphylinidae,Polyphaga,Scaffold,2006501,2006537,909.49,2022-03-23,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_979300185.1,Phaedon cochleariae,80249,Chrysomelidae,Polyphaga,Scaffold,1983865,53376849,907.61,2026-02-27,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_918026855.1,Phaedon cochleariae,80249,Chrysomelidae,Polyphaga,Scaffold,1950330,57205461,869.73,2022-09-04,ROTHAMSTED RESEARCH,no,C,include
+GCA_964028145.1,Altica lythri,346691,Chrysomelidae,Polyphaga,Scaffold,1915886,18345038,1786.86,2024-04-20,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_910591895.1,Adalia bipunctata,7084,Coccinellidae,Polyphaga,Scaffold,1842588,1842588,357.82,2021-07-08,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_979843775.1,Oedemera lurida,1553597,Oedemeridae,Polyphaga,Scaffold,1829806,1829806,1225.28,2026-02-28,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965642245.1,Mycetophagus piceus,1501876,Mycetophagidae,Polyphaga,Scaffold,1811000,17944367,141.81,2025-07-17,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963942615.1,Poecilus cupreus,270614,Carabidae,Adephaga,Scaffold,1800667,1819077,624.96,2024-02-10,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964468445.1,Prionocyphon serricornis,1569171,Scirtidae,Polyphaga,Scaffold,1692592,22988916,704.23,2024-12-07,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_042257075.1,Tetraopes tetrophthalmus,1206596,Cerambycidae,Polyphaga,Scaffold,1658148,2221309,779.32,2024-09-25,University of Memphis,no,C,include
+GCA_965112465.1,Prionychus ater,347445,Tenebrionidae,Polyphaga,Scaffold,1640624,31699122,347.54,2025-01-23,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965644435.1,Lesteva pubescens,346794,Staphylinidae,Polyphaga,Scaffold,1615374,102305544,983.04,2025-07-28,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_951394325.1,Harpalus rufipes,247442,Carabidae,Adephaga,Scaffold,1600630,1600630,847.23,2023-05-17,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_982446895.1,Luperus flavipes,1553543,Chrysomelidae,Polyphaga,Scaffold,1565463,48206148,1195.54,2026-04-19,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_040955265.2,Agriotes obscurus,350085,Elateridae,Polyphaga,Scaffold,1554508,29246681,2087.5,2025-02-27,Canada's national platform for genome sequencing and analysis,no,C,include
+GCA_964258775.1,Longitarsus flavicornis,878065,Chrysomelidae,Polyphaga,Scaffold,1524663,69508136,1045.44,2024-08-30,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_025399875.2,Dalotia coriaria,877792,Staphylinidae,Polyphaga,Scaffold,1365799,8658950,193.92,2023-06-22,IRIDIAN GENOMES,no,C,include
+GCA_963277525.1,Neocrepidodera transversa,877844,Chrysomelidae,Polyphaga,Scaffold,1360670,1360670,585.79,2023-08-23,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_982345255.1,Oxypselaphus obscurus,877726,Carabidae,Adephaga,Scaffold,1333625,28665723,614.65,2026-03-27,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_042767365.1,Euwallacea fornicatus,995702,Curculionidae,Polyphaga,Scaffold,1325806,3799349,198.52,2024-10-08,UCLA,no,C,include
+GCA_011033045.1,Harmonia axyridis,115357,Coccinellidae,Polyphaga,Scaffold,1254346,2054022,417.14,2020-02-27,Zhejiang University,no,C,include
+GCA_963082845.1,Melanotus villosus,346801,Elateridae,Polyphaga,Scaffold,1247578,1268950,749.99,2023-08-08,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965641435.1,Gastrophysa viridula,154015,Chrysomelidae,Polyphaga,Scaffold,1247426,23922723,333.45,2025-07-09,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_979299855.1,Chrysolina herbacea,75521,Chrysomelidae,Polyphaga,Scaffold,1242014,113487441,1204.85,2026-02-27,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_911387815.1,Cantharis rustica,195172,Cantharidae,Polyphaga,Scaffold,1241017,1241017,417.66,2021-07-25,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_977066045.1,Monotoma picipes,878149,Monotomidae,Polyphaga,Scaffold,1227421,10683293,164.77,2025-11-28,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965642275.1,Chrysomela populi,154003,Chrysomelidae,Polyphaga,Scaffold,1152832,34754923,544.77,2025-07-17,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_978018185.1,Crudosilis ruficollis,879036,Cantharidae,Polyphaga,Scaffold,1118927,1123046,1358.39,2026-02-05,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_982375225.1,Lathrobium fulvipenne,878051,Staphylinidae,Polyphaga,Scaffold,1117673,36457616,422.79,2026-04-05,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963971265.1,Aphodius granarius,207157,Scarabaeidae,Polyphaga,Scaffold,1086545,1086545,291.66,2024-03-06,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965240505.1,Lathrobium brunnipes,346787,Staphylinidae,Polyphaga,Scaffold,1049616,45434400,422.78,2025-04-14,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_029618875.1,Dynastes tityus,1248199,Scarabaeidae,Polyphaga,Scaffold,1020787,59088467,697.77,2023-04-07,Academia Sinica,no,C,include
+GCA_963932205.1,Tachinus rufipes,1588496,Staphylinidae,Polyphaga,Scaffold,1007446,1007446,1030.06,2024-02-07,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_030068065.1,Anthonomus grandis,2921224,Curculionidae,Polyphaga,Scaffold,970205,972562,619.64,2023-05-24,United States Department of Agriculture,no,C,include
+GCA_947369215.1,Cantharis rufa,350087,Cantharidae,Polyphaga,Scaffold,968230,968230,339.66,2022-12-05,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_910589365.1,Malachius bipustulatus,295700,Melyridae,Polyphaga,Scaffold,945557,945557,542.32,2021-07-08,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963966135.1,Clivina fossor,795047,Carabidae,Adephaga,Scaffold,914385,914385,576.52,2024-02-13,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965283345.1,Pterostichus vernalis,878440,Carabidae,Adephaga,Scaffold,910782,917699,999.92,2025-05-18,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_977071055.1,Phratora vitellinae,153785,Chrysomelidae,Polyphaga,Scaffold,903000,32028419,593.36,2025-12-01,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_025024175.1,Rhyzopertha dominica,92692,Bostrichidae,Polyphaga,Scaffold,878850,53594014,479.17,2022-09-07,USDA ARS Center for Grain and Animal Health Research,no,C,include
+GCA_051313455.2,Labidomera clivicollis,131652,Chrysomelidae,Polyphaga,Scaffold,856924,36966823,599.82,2026-01-27,Canada's national platform for genome sequencing and analysis,no,C,include
+GCA_937616445.2,Halyzia sedecimguttata,347359,Coccinellidae,Polyphaga,Scaffold,843446,847274,902.25,2022-10-10,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_051048005.1,Curculio caryae,13025,Curculionidae,Polyphaga,Scaffold,821239,821239,2053.91,2025-06-25,USDA Ag100Pest,no,C,include
+GCA_963969565.1,Polydrusus pterygomalis,202138,Curculionidae,Polyphaga,Scaffold,799908,799908,1124.77,2024-03-06,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964204705.1,Anaspis regimbarti,346699,Scraptiidae,Polyphaga,Scaffold,765541,56224633,467.93,2024-07-28,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_937616445.1,Halyzia sedecimguttata,347359,Coccinellidae,Polyphaga,Scaffold,734643,737873,909.38,2022-05-30,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963930795.1,Silvanus unidentatus,295940,Silvanidae,Polyphaga,Scaffold,729864,738100,192.61,2024-01-31,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964205195.1,Denticollis linearis,333879,Elateridae,Polyphaga,Scaffold,699147,709200,1392.35,2024-07-29,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_951805015.1,Othius punctulatus,347424,Staphylinidae,Polyphaga,Scaffold,697565,700448,867.54,2023-06-04,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963584005.1,Stenurella melanura,877990,Cerambycidae,Polyphaga,Scaffold,686301,703321,1531.13,2023-11-06,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965642425.1,Notiophilus biguttatus,346812,Carabidae,Adephaga,Scaffold,677247,680901,506.8,2025-07-19,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964243875.1,Anaspis frontalis,433021,Scraptiidae,Polyphaga,Scaffold,671465,100455230,802.05,2024-08-30,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_982374675.1,Phytoecia cylindrica,1588379,Cerambycidae,Polyphaga,Scaffold,658190,61737797,703.74,2026-04-05,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_947425025.1,Pterostichus niger,106386,Carabidae,Adephaga,Scaffold,657240,664026,589.48,2022-12-11,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965118225.1,Pachyrhinus lethierryi,857166,Curculionidae,Polyphaga,Scaffold,649918,43772980,512.45,2025-01-29,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_976576855.1,Pterostichus diligens,360359,Carabidae,Adephaga,Scaffold,645914,36743570,528.81,2025-11-22,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964656835.2,Bitoma crenata,346746,Zopheridae,Polyphaga,Scaffold,622504,16633718,145.78,2025-11-24,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963083015.1,Harpalus rubripes,247297,Carabidae,Adephaga,Scaffold,592307,603827,1154.55,2023-08-08,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964656835.1,Bitoma crenata,346746,Zopheridae,Polyphaga,Scaffold,591749,13503920,147.04,2025-01-06,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_932273715.1,Podabrus alpinus,1553677,Cantharidae,Polyphaga,Scaffold,587059,587059,741.84,2022-03-30,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_977014665.1,Gonodera luperus,700380,Tenebrionidae,Polyphaga,Scaffold,574649,42182711,344.83,2025-11-23,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_982446815.1,Amara aulica,536885,Carabidae,Adephaga,Scaffold,539291,31921375,544.1,2026-04-19,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963966065.1,Xestobium rufovillosum,879067,Ptinidae,Polyphaga,Scaffold,539148,539148,445.16,2024-02-13,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_019250055.1,Apis cerana,7461,Apidae,Apocrita,Scaffold,523645,2852611,214.43,2021-07-15,Chinese Academy of Agricultural Sciences,no,C,include
+GCA_965283225.1,Scaphidium quadrimaculatum,295644,Staphylinidae,Polyphaga,Scaffold,519534,102474065,1254.35,2025-05-18,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965178215.1,Longitarsus dorsalis,346795,Chrysomelidae,Polyphaga,Scaffold,496309,51108305,990.33,2025-03-19,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963576425.1,Aspidapion aeneum,877730,Apionidae,Polyphaga,Scaffold,492646,494872,1267.91,2023-11-04,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_975740015.1,Lesteva punctata,290674,Staphylinidae,Polyphaga,Scaffold,459486,131383721,1226.4,2025-11-25,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_929114945.1,Agrypnus murinus,195168,Elateridae,Polyphaga,Scaffold,448824,448824,1216.22,2022-02-13,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965789425.1,Subcoccinella vigintiquattuorpunctata,295815,Coccinellidae,Polyphaga,Scaffold,433538,32368212,589.79,2025-08-10,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963920745.1,Cartodere bifasciata,1587142,Latridiidae,Polyphaga,Scaffold,417192,417475,178.61,2023-12-26,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963422185.1,Carabus problematicus,49291,Carabidae,Adephaga,Scaffold,403213,406438,241.25,2023-09-04,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_944567605.1,Phosphuga atrata,414934,Silphidae,Polyphaga,Scaffold,402671,404699,1139.23,2022-07-17,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963971565.1,Liopterus haemorrhoidalis,107794,Dytiscidae,Adephaga,Scaffold,400796,401026,920.55,2024-03-06,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964263185.1,Sitona lineatus,202195,Curculionidae,Polyphaga,Scaffold,400587,17325095,1207.71,2024-09-15,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963966085.1,Aphodius sticticus,207213,Scarabaeidae,Polyphaga,Scaffold,387746,388456,646.34,2024-02-13,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964211875.1,Aphodius fimetarius,207148,Scarabaeidae,Polyphaga,Scaffold,387017,387216,1158.84,2024-08-01,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965644185.1,Drusilla canaliculata,135868,Staphylinidae,Polyphaga,Scaffold,385837,32588319,342.98,2025-07-24,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_978046075.1,Paederus riparius,878345,Staphylinidae,Polyphaga,Scaffold,383133,69381169,1227.89,2026-03-03,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_944739395.1,Nebria brevicollis,110024,Carabidae,Adephaga,Scaffold,381756,381756,223.35,2022-07-17,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_977013325.1,Phaleria cadaverina,1470699,Tenebrionidae,Polyphaga,Scaffold,375384,13117526,392.5,2025-11-23,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964023935.1,Melinopterus prodromus,1971315,Scarabaeidae,Polyphaga,Scaffold,368429,370065,652.43,2024-04-12,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_040955365.2,Agriotes lineatus,292458,Elateridae,Polyphaga,Scaffold,362001,915219,2257.81,2025-02-12,Canada's national platform for genome sequencing and analysis,no,C,include
+GCA_965601655.1,Pseudocistela ceramboides,295998,Tenebrionidae,Polyphaga,Scaffold,350824,25097327,357.26,2025-07-07,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_977969695.1,Nedyus quadrimaculatus,202049,Curculionidae,Polyphaga,Scaffold,343631,355897,966.97,2026-02-05,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_050242875.2,Anthonomus rubi,201759,Curculionidae,Polyphaga,Scaffold,343352,7999384,280.62,2025-07-18,Canada's national platform for genome sequencing and analysis,no,C,include
+GCA_965615775.1,Crepidodera fulvicornis,1425550,Chrysomelidae,Polyphaga,Scaffold,337879,30505762,562.59,2025-07-07,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965648465.1,Curculio glandium,197013,Curculionidae,Polyphaga,Scaffold,337018,87414335,1112.8,2025-07-28,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_033238705.1,Apis cerana,292787,Apidae,Apocrita,Scaffold,329359,12866345,217.41,2023-11-02,"Insect Design Technology Module, Division of Insect Advanced Technology, Institute of Agrobiological Sciences, National Agriculture and Food Research Organization",no,C,include
+GCA_965642005.1,Magdalis cerasi,1143066,Curculionidae,Polyphaga,Scaffold,320553,66915580,1555.11,2025-07-13,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_004143645.1,Protaetia brevitarsis,348688,Scarabaeidae,Polyphaga,Scaffold,318221,1955572,1143.92,2019-02-07,"Institute of Plant Protection, Chinese Academy of Agricultural Sciences",no,C,include
+GCA_965663605.1,Magdalis barbicornis,878129,Curculionidae,Polyphaga,Scaffold,316014,65976285,1399.1,2025-08-10,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_040955275.2,Agriotes lineatus,292458,Elateridae,Polyphaga,Scaffold,306820,740691,845.5,2025-02-11,Canada's national platform for genome sequencing and analysis,no,C,include
+GCA_977117645.1,Mycetophagus atomarius,433053,Mycetophagidae,Polyphaga,Scaffold,296302,11046548,133.67,2026-02-04,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_978045115.1,Xantholinus longiventris,346870,Staphylinidae,Polyphaga,Scaffold,288501,32939392,480.32,2026-03-01,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965282505.1,Ocys tachysoides,1940097,Carabidae,Adephaga,Scaffold,280932,281787,546.13,2025-05-18,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_966183735.1,Betulapion simile,382944,Apionidae,Polyphaga,Scaffold,275992,84999299,1183.19,2025-08-22,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964023225.1,Eledona agricola,347340,Tenebrionidae,Polyphaga,Scaffold,268094,268094,694.27,2024-04-08,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_949319345.2,Crepidodera aurea,346762,Chrysomelidae,Polyphaga,Scaffold,265917,265917,502.7,2023-07-19,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_949319345.1,Crepidodera aurea,346762,Chrysomelidae,Polyphaga,Scaffold,265917,265917,502.7,2023-05-13,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_964023225.2,Eledona agricola,347340,Tenebrionidae,Polyphaga,Scaffold,264109,264109,677.32,2025-03-30,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963170735.1,Amphimallon solstitiale,360071,Scarabaeidae,Polyphaga,Scaffold,261090,261564,1372.12,2023-08-23,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_911728425.1,Pterostichus madidus,767470,Carabidae,Adephaga,Scaffold,255117,255117,594.61,2021-08-01,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_977930305.1,Cis bilamellatus,577748,Ciidae,Polyphaga,Scaffold,254911,254911,2.03,2026-02-05,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965783505.1,Tachyporus hypnorum,346861,Staphylinidae,Polyphaga,Scaffold,251000,14070238,618.71,2025-08-10,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_979606525.1,Coelostoma orbiculare,290652,Hydrophilidae,Polyphaga,Scaffold,248329,53431539,729.11,2026-02-28,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_978021525.1,Agonum viduum,795042,Carabidae,Adephaga,Scaffold,243144,27225785,647.11,2026-02-25,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_965240455.1,Stylops aterrimus,2793623,Stylopidae,Stylopidia,Scaffold,241086,244860,484.93,2025-04-14,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_936443135.1,Rutpela maculata,878968,Cerambycidae,Polyphaga,Scaffold,222818,222882,1667.6,2022-05-30,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963556225.1,Cryptophagus acutangulus,1553241,Cryptophagidae,Polyphaga,Scaffold,218088,218088,147.4,2023-10-13,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_029619325.1,Dynastes grantii,60843,Scarabaeidae,Polyphaga,Scaffold,215311,56993767,689.26,2023-04-07,Academia Sinica,no,C,include
+GCA_027725215.1,Tenebrio molitor,7067,Tenebrionidae,Polyphaga,Scaffold,204901,20827499,258.29,2023-01-12,Open Plastic,no,C,include
+GCA_963680695.1,Rhagium mordax,295679,Cerambycidae,Polyphaga,Scaffold,197342,197342,642.81,2023-12-11,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_040143775.1,Popillia japonica,7064,Scarabaeidae,Polyphaga,Scaffold,195694,894660,578.05,2024-06-12,University of Siena,no,C,include
+GCA_963966125.1,Tenebrio molitor,7067,Tenebrionidae,Polyphaga,Scaffold,188840,188913,220.33,2024-02-13,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_044115355.2,Agriotes pubescens,1845008,Elateridae,Polyphaga,Scaffold,187334,404628,887.49,2025-07-15,Canada's national platform for genome sequencing and analysis,no,C,include
+GCA_949768705.1,Dascillus cervinus,285223,Dascillidae,Polyphaga,Scaffold,183088,183088,197.01,2023-05-14,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_002217905.1,Apis cerana,292787,Apidae,Apocrita,Scaffold,179487,180259,211.2,2017-07-13,"Division of Applied Genetics/Insect Genome Research and Engineering Unit, Institute of Agrobiological Sciences, The National Agriculture and Food Research Organization",no,C,include
+GCA_902654985.1,Oryctes borbonicus,1629725,Scarabaeidae,Polyphaga,Scaffold,171752,8422691,388.63,2020-03-25,MAX PLANCK INSTITUTE FOR DEVELOPMENTAL BIOLOGY,no,C,include
+GCA_008802855.1,Photinus pyralis,7054,Lampyridae,Polyphaga,Scaffold,170308,47017841,471.51,2019-10-02,Photinus pyralis genome working group,no,C,include
+GCA_963969535.1,Ontholestes murinus,875675,Staphylinidae,Polyphaga,Scaffold,165988,176930,973.03,2024-03-06,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_026230165.1,Diorhabda sublineata,1163346,Chrysomelidae,Polyphaga,Scaffold,164786,164786,208.94,2022-11-18,USDA Ag100Pest,no,C,include
+GCA_964263265.1,Malthodes minimus,878135,Cantharidae,Polyphaga,Scaffold,164693,64858852,523.48,2024-09-15,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_050785125.1,Trypoxylus dichotomus,273928,Scarabaeidae,Polyphaga,Scaffold,155672,8021426,614.92,2025-06-05,"Division of Evolutionary Developmental Biology, National Institute for Basic Biology",no,C,include
+GCA_963971095.1,Philopedon plagiatum,202117,Curculionidae,Polyphaga,Scaffold,154689,154689,930.09,2024-03-06,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_963576715.1,Polydrusus tereticollis,1342093,Curculionidae,Polyphaga,Scaffold,152709,152709,1175.32,2023-11-04,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_977071085.1,Acupalpus dubius,346686,Carabidae,Adephaga,Scaffold,152069,19921096,933.36,2025-11-30,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_982374335.1,Luperus longicornis,281588,Chrysomelidae,Polyphaga,Scaffold,152057,152112,1225.1,2026-04-05,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_949361665.2,Callosobruchus maculatus,64391,Chrysomelidae,Polyphaga,Scaffold,148360,98582428,1012.33,2024-01-12,Evolutionary Biology Centre,no,C,include
+GCA_949361665.1,Callosobruchus maculatus,64391,Chrysomelidae,Polyphaga,Scaffold,148360,98582428,1012.33,2024-01-12,Evolutionary Biology Centre,no,C,include
+GCA_963924635.1,Malthinus seriepunctatus,1588223,Cantharidae,Polyphaga,Scaffold,146722,146766,379.96,2024-01-30,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_029955295.1,Cylas formicarius,197179,Brentidae,Polyphaga,Scaffold,136754,136754,342.26,2023-05-08,USDA-ARS Ag100Pest,no,C,include
+GCA_029229525.1,Diorhabda carinata,1163344,Chrysomelidae,Polyphaga,Scaffold,132569,132569,130.15,2023-03-17,USDA Ag100Pest,no,C,include
+GCA_964656875.1,Grypus equiseti,1553333,Erirhinidae,Polyphaga,Scaffold,129001,47448789,746.96,2025-01-05,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_977013195.1,Sphaeridium bipustulatum,290649,Hydrophilidae,Polyphaga,Scaffold,127221,17779139,280.56,2025-11-11,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_022605985.2,Anthonomus grandis,2921223,Curculionidae,Polyphaga,Scaffold,120506,120554,371.8,2022-07-29,United States Department of Agriculture,no,C,include
+GCA_022605985.1,Anthonomus grandis,7044,Curculionidae,Polyphaga,Scaffold,120506,120554,371.8,2022-03-17,United States Department of Agriculture,no,C,include
+GCA_029207795.1,Tribolium confusum,7071,Tenebrionidae,Polyphaga,Scaffold,110158,111809,202.53,2023-03-14,United States Department of Agriculture,no,C,include
+GCA_902655005.1,Marronus borbonicus,2654888,Scarabaeidae,Polyphaga,Scaffold,107748,16829227,406.94,2020-03-25,MAX PLANCK INSTITUTE FOR DEVELOPMENTAL BIOLOGY,no,C,include
+GCA_965645195.1,Crepidodera aurata,200911,Chrysomelidae,Polyphaga,Scaffold,101419,101419,955.0,2025-07-28,WELLCOME SANGER INSTITUTE,no,C,include
+GCA_000648695.2,Onthophagus taurus,166361,Scarabaeidae,Polyphaga,Scaffold,101202,337157,267.08,2017-11-02,The i5k Initiative,no,C,include
+GCA_044115295.1,Agriotes ferrugineipennis,2083513,Elateridae,Polyphaga,Contig,20637005,20637005,1230.57,2024-10-30,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_044115325.1,Agriotes sputator,346689,Elateridae,Polyphaga,Contig,16345600,16345600,1922.87,2024-10-30,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_036711695.1,Zophobas morio,2755281,Tenebrionidae,Polyphaga,Contig,15905963,15905963,592.43,2024-02-20,CSIRO Applied Genomics Initiative,no,D,conditional
+GCA_041228545.1,Agriotes mancus,1132040,Elateridae,Polyphaga,Contig,15208965,15208965,2106.53,2024-08-13,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_041228495.1,Agriotes mancus,1132040,Elateridae,Polyphaga,Contig,15085314,15085314,2454.98,2024-08-13,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_965279765.1,Tribolium madens,41895,Tenebrionidae,Polyphaga,Contig,13786189,13786189,362.94,2026-02-28,rudjer boskovic institute,no,D,conditional
+GCA_044115255.1,Agriotes ferrugineipennis,2083513,Elateridae,Polyphaga,Contig,13177664,13177664,1267.86,2024-10-30,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_907165185.1,Coccinella septempunctata,41139,Coccinellidae,Polyphaga,Contig,12431197,12431197,389.07,2021-05-16,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_048182545.1,Apis cerana,7461,Apidae,Apocrita,Contig,12191520,12191520,226.91,2025-02-27,Institute of Zoology Chinese Academy of Sciences,no,D,conditional
+GCA_044115275.1,Agriotes sputator,346689,Elateridae,Polyphaga,Contig,11899110,11899110,1056.53,2024-10-30,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_013387265.1,Cryptolaemus montrouzieri,559131,Coccinellidae,Polyphaga,Contig,10375940,10375940,988.11,2020-07-02,Sun Yat-sen University,no,D,conditional
+GCA_056790185.1,Chelymorpha alternans,111230,Chrysomelidae,Polyphaga,Contig,9721795,9721795,1938.36,2026-04-20,Max Planck Institute for Biology,no,D,conditional
+GCA_951848785.1,Callosobruchus maculatus,64391,Chrysomelidae,Polyphaga,Contig,9445077,9445077,1246.71,2023-09-04,Uppsala University,no,D,conditional
+GCA_914767675.1,Harmonia axyridis,115357,Coccinellidae,Polyphaga,Contig,8504002,8504002,407.54,2021-09-19,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_014905495.1,Trypoxylus dichotomus,273928,Scarabaeidae,Polyphaga,Contig,7929129,7929129,739.41,2020-10-21,Nihon BioData Corporation,no,D,conditional
+GCA_040167675.1,Xenos peckii,50526,Xenidae,Stylopidia,Contig,7378620,7378620,72.12,2024-06-14,University of Rochester,no,D,conditional
+GCA_016097725.1,Ips typographus,55986,Curculionidae,Polyphaga,Contig,6654004,6654004,236.82,2020-12-16,Czech University of Life Sciences,no,D,conditional
+GCA_963675865.1,Leptura quadrifasciata,1143061,Cerambycidae,Polyphaga,Contig,6481551,6481551,1403.37,2023-12-11,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_976923555.1,Propylea quattuordecimpunctata,558720,Coccinellidae,Polyphaga,Contig,5346787,5346787,525.42,2025-11-23,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_951802185.1,Adalia decempunctata,115343,Coccinellidae,Polyphaga,Contig,4344916,4344916,463.83,2023-06-03,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_047676095.1,Asbolus verrucosus,1661398,Tenebrionidae,Polyphaga,Contig,4182277,4182277,215.01,2025-02-11,Dean Rider,no,D,conditional
+GCA_947359435.1,Lagria hirta,296003,Tenebrionidae,Polyphaga,Contig,2923370,2923370,304.31,2022-11-30,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963924625.1,Pycnomerus fuliginosus,878397,Zopheridae,Polyphaga,Contig,2891086,2891086,317.01,2024-01-30,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963082675.1,Philonthus spinipes,878362,Staphylinidae,Polyphaga,Contig,2385291,2385291,621.35,2023-08-08,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963583915.1,Diaperis boleti,433215,Tenebrionidae,Polyphaga,Contig,2300784,2300784,421.83,2023-11-06,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963978855.1,Aleochara curtula,135881,Staphylinidae,Polyphaga,Contig,2214126,2214126,133.39,2024-03-30,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_041228435.1,Larinus minutus,1342029,Curculionidae,Polyphaga,Contig,2177891,2177891,1319.96,2024-08-13,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_977970265.1,Tytthaspis sedecimpunctata,347477,Coccinellidae,Polyphaga,Contig,2103888,2103888,302.16,2026-03-01,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_041228525.1,Larinus minutus,1342029,Curculionidae,Polyphaga,Contig,2091210,2091210,1418.94,2024-08-13,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_963921965.1,Agrilus biguttatus,324823,Buprestidae,Polyphaga,Contig,1923156,1923156,355.9,2024-01-15,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_040114445.1,Euwallacea fornicatus,995702,Curculionidae,Polyphaga,Contig,1845244,1845244,227.54,2024-06-10,Stellenbosch University,no,D,conditional
+GCA_026250545.1,Diorhabda carinulata,1163345,Chrysomelidae,Polyphaga,Contig,1814905,1814905,367.49,2022-11-21,USDA Ag100Pest,no,D,conditional
+GCA_911728465.1,Apoderus coryli,201766,Attelabidae,Polyphaga,Contig,1748940,1748940,392.67,2021-08-01,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_040955265.1,Agriotes obscurus,350085,Elateridae,Polyphaga,Contig,1554508,1554508,2087.1,2024-07-30,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_963978485.1,Galerucella nymphaeae,131645,Chrysomelidae,Polyphaga,Contig,1438123,1438123,282.45,2024-03-11,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_040955315.1,Agriotes obscurus,350085,Elateridae,Polyphaga,Contig,1433701,1433701,2492.41,2024-08-01,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_959613335.1,Geotrupes spiniger,295525,Geotrupidae,Polyphaga,Contig,1371697,1371697,484.37,2023-07-25,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_958510835.1,Cantharis nigra,1553174,Cantharidae,Polyphaga,Contig,1356651,1356651,363.48,2023-07-23,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963921945.1,Oxystoma pomonae,1588336,Apionidae,Polyphaga,Contig,1263678,1263678,1132.23,2024-01-15,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_040114495.1,Euwallacea fornicatus,995702,Curculionidae,Polyphaga,Contig,1252622,1252622,217.64,2024-06-10,Stellenbosch University,no,D,conditional
+GCA_947310685.1,Leptodirus hochenwartii,2996356,Leiodidae,Polyphaga,Contig,1232347,1232347,434.1,2022-11-28,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_958510795.1,Myrrha octodecimguttata,703265,Coccinellidae,Polyphaga,Contig,1151152,1151152,613.01,2023-07-23,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_029963805.1,Aromia moschata,1265417,Cerambycidae,Polyphaga,Contig,1105269,1105269,687.74,2023-05-10,Max Planck Institute for Chemical Ecology,no,D,conditional
+GCA_963585885.1,Plagiodera versicolora,154017,Chrysomelidae,Polyphaga,Contig,1102757,1102757,234.21,2023-12-11,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_949152385.1,Cantharis flavilabris,877752,Cantharidae,Polyphaga,Contig,1075827,1075827,346.27,2023-04-18,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_982552535.1,Cantharis pellucida,877753,Cantharidae,Polyphaga,Contig,1024079,1024079,482.54,2026-04-28,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_051313465.1,Labidomera clivicollis,131652,Chrysomelidae,Polyphaga,Contig,991131,991131,978.75,2025-07-14,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_963992275.1,Barypeithes pellucidus,397350,Curculionidae,Polyphaga,Contig,976313,976313,630.71,2024-03-30,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963576645.1,Gastrophysa polygoni,878018,Chrysomelidae,Polyphaga,Contig,901162,901162,380.4,2023-11-04,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_949316485.1,Bruchidius siliquastri,1649775,Chrysomelidae,Polyphaga,Contig,871284,871284,258.82,2023-05-13,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_051313455.1,Labidomera clivicollis,131652,Chrysomelidae,Polyphaga,Contig,856924,856924,599.62,2025-07-14,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_024364635.1,Aethina tumida,116153,Nitidulidae,Polyphaga,Contig,840799,840799,207.55,2022-07-21,USDA Ag100Pest,no,D,conditional
+GCA_963170035.1,Cantharis lateralis,877886,Cantharidae,Polyphaga,Contig,831000,831000,323.24,2023-08-23,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_944039265.1,Nebria salina,878211,Carabidae,Adephaga,Contig,809889,809889,219.58,2022-06-20,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_944317955.1,Callosobruchus chinensis,146774,Chrysomelidae,Polyphaga,Contig,800721,800721,1402.44,2023-05-14,Evolutionary Biology Centre,no,D,conditional
+GCA_933228535.1,Acanthoscelides obtectus,200917,Chrysomelidae,Polyphaga,Contig,791033,791033,2206.66,2023-02-02,Evolutionary Biology Centre,no,D,conditional
+GCA_935421255.1,Melolontha melolontha,7061,Scarabaeidae,Polyphaga,Contig,787599,787599,1504.82,2022-04-17,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_949128095.1,Cetonia aurata,290679,Scarabaeidae,Polyphaga,Contig,765071,765071,407.31,2023-04-18,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_965178005.1,Ceutorhynchus obstrictus,307131,Curculionidae,Polyphaga,Contig,757707,757707,577.58,2025-03-05,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_947534335.1,Agonum fuliginosum,1553040,Carabidae,Adephaga,Contig,748655,748655,626.01,2022-12-18,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963082985.1,Hemicrepidius hirtus,1132043,Elateridae,Polyphaga,Contig,734177,734177,327.91,2023-08-08,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_950111595.1,Malthinus flaveolus,195224,Cantharidae,Polyphaga,Contig,720151,720151,233.62,2023-05-16,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_040955085.1,Diabrotica undecimpunctata,50387,Chrysomelidae,Polyphaga,Contig,670861,670861,1284.87,2024-07-30,USDA-ARS Ag100Pest,no,D,conditional
+GCA_946251935.1,Cryptocephalus moraei,204949,Chrysomelidae,Polyphaga,Contig,669611,669611,432.23,2022-09-21,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_965112795.1,Dalopius marginatus,1553258,Elateridae,Polyphaga,Contig,659420,659420,686.19,2025-01-25,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_935413225.1,Polydrusus cervinus,202137,Curculionidae,Polyphaga,Contig,655570,655570,681.55,2022-04-17,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_943138245.1,Ophonus ardosiacus,247415,Carabidae,Adephaga,Contig,650894,650894,884.35,2022-06-13,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_958501965.1,Crioceris asparagi,131627,Chrysomelidae,Polyphaga,Contig,595382,595382,437.54,2023-07-23,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963457645.1,Nicrophorus investigator,414950,Silphidae,Polyphaga,Contig,587776,587776,195.68,2023-09-21,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_958501925.1,Chrysolina americana,75506,Chrysomelidae,Polyphaga,Contig,568128,568128,866.37,2023-07-23,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_951805255.1,Schizotus pectinicornis,351686,Pyrochroidae,Polyphaga,Contig,563495,563495,173.28,2023-06-04,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_905340395.1,Rhagonycha fulva,41101,Cantharidae,Polyphaga,Contig,549097,549097,363.53,2021-03-26,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_947389945.1,Agrilus cyanescens,1586972,Buprestidae,Polyphaga,Contig,540517,540517,260.94,2022-12-15,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963966065.2,Xestobium rufovillosum,879067,Ptinidae,Polyphaga,Contig,539148,539148,439.98,2024-06-27,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963965955.1,Aphidecta obliterata,1501862,Coccinellidae,Polyphaga,Contig,530418,530418,292.9,2024-02-13,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963942465.1,Lordithon lunulatus,347394,Staphylinidae,Polyphaga,Contig,495246,495246,606.29,2024-02-10,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_949789865.1,Salpingus planirostris,577144,Salpingidae,Polyphaga,Contig,485600,485600,126.14,2023-05-14,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_958336375.1,Ctenicera cuprea,1132042,Elateridae,Polyphaga,Contig,462208,462208,596.22,2023-07-17,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963971105.1,Stenus bimaculatus,1202164,Staphylinidae,Polyphaga,Contig,403735,403735,412.7,2024-03-06,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_031893035.1,Dermolepida albohirtum,1980614,Scarabaeidae,Polyphaga,Contig,365707,365707,886.22,2023-09-25,CSIRO Applied Genomics Initiative,no,D,conditional
+GCA_040955365.1,Agriotes lineatus,292458,Elateridae,Polyphaga,Contig,362001,362001,2256.78,2024-08-01,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_950106765.2,Agelastica alni,131577,Chrysomelidae,Polyphaga,Contig,355703,355703,589.99,2024-06-04,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_950106765.1,Agelastica alni,131577,Chrysomelidae,Polyphaga,Contig,355703,355703,589.99,2023-05-16,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_050242925.1,Anthonomus rubi,201759,Curculionidae,Polyphaga,Contig,346941,346941,385.4,2025-05-07,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_965213395.1,Rhagonycha lignosa,195289,Cantharidae,Polyphaga,Contig,344917,344917,542.73,2025-03-20,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_050242875.1,Anthonomus rubi,201759,Curculionidae,Polyphaga,Contig,343352,343352,280.42,2025-05-07,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_046128455.1,Trigonoscuta pilosa,2919430,Curculionidae,Polyphaga,Contig,326844,326844,1951.36,2024-12-17,"University of California, Santa Cruz",no,D,conditional
+GCA_933228875.1,Leistus spinibarbis,878056,Carabidae,Adephaga,Contig,321871,321871,203.76,2022-03-23,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_040955275.1,Agriotes lineatus,292458,Elateridae,Polyphaga,Contig,306820,306820,845.06,2024-07-30,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_947563735.1,Lochmaea crataegi,1143063,Chrysomelidae,Polyphaga,Contig,303436,303436,736.12,2022-12-18,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_001937115.1,Aethina tumida,116153,Nitidulidae,Polyphaga,Contig,298879,298879,234.34,2017-01-05,Small Hive Beetle Consortium,no,D,conditional
+GCA_963924615.1,Pogonocherus hispidulus,1143099,Cerambycidae,Polyphaga,Contig,296972,296972,630.82,2024-01-30,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_905333035.1,Pyrochroa serraticornis,346838,Pyrochroidae,Polyphaga,Contig,288810,288810,226.8,2021-03-26,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_958510815.1,Rhagonycha lutea,1553715,Cantharidae,Polyphaga,Contig,274740,274740,389.55,2023-07-23,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_910593855.1,Ocypus olens,662956,Staphylinidae,Polyphaga,Contig,273013,273013,1026.2,2021-07-08,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_949748395.1,Platypus cylindrus,298138,Curculionidae,Polyphaga,Contig,271727,271727,127.33,2023-05-13,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_949128105.1,Anaspis maculata,295995,Scraptiidae,Polyphaga,Contig,270564,270564,722.94,2023-04-18,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_030157255.1,Cynaeus angustus,1553252,Tenebrionidae,Polyphaga,Contig,265060,265060,90.82,2023-06-02,United States Department of Agriculture,no,D,conditional
+GCA_936443135.2,Rutpela maculata,878968,Cerambycidae,Polyphaga,Contig,247200,247200,1684.64,2022-10-09,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_947858975.1,Callosobruchus analis,380381,Chrysomelidae,Polyphaga,Contig,240251,240251,1918.3,2023-06-03,Evolutionary Biology Centre,no,D,conditional
+GCA_958502085.1,Orchestes rusci,878341,Curculionidae,Polyphaga,Contig,217958,217958,589.28,2023-07-23,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_965283235.1,Metoecus paradoxus,433052,Ripiphoridae,Polyphaga,Contig,217038,217038,97.59,2025-05-18,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_900659725.1,Callosobruchus maculatus,64391,Chrysomelidae,Polyphaga,Contig,212245,212245,1007.82,2019-11-19,Evolutionary Biology Centre,no,D,conditional
+GCA_044115395.1,Agriotes pubescens,1845008,Elateridae,Polyphaga,Contig,206332,206332,2130.98,2024-10-30,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_963920815.1,Polydrusus tereticollis,1342093,Curculionidae,Polyphaga,Contig,205641,205641,1155.28,2023-12-26,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_902651945.1,Ophraella communa,38162,Chrysomelidae,Polyphaga,Contig,195463,195463,774.41,2020-06-11,SIB,no,D,conditional
+GCA_044115355.1,Agriotes pubescens,1845008,Elateridae,Polyphaga,Contig,187334,187334,886.91,2024-10-30,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_958336325.1,Dorcus parallelipipedus,41107,Lucanidae,Polyphaga,Contig,179977,179977,374.61,2023-07-15,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_958510805.1,Endomychus coccineus,295833,Endomychidae,Polyphaga,Contig,163229,163229,725.37,2023-07-23,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963700325.1,Hololepta plana,290657,Histeridae,Polyphaga,Contig,155337,155337,102.31,2023-12-13,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963700325.2,Hololepta plana,290657,Histeridae,Polyphaga,Contig,153025,153025,99.68,2025-11-24,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_947652985.1,Elmis aenea,186982,Elmidae,Polyphaga,Contig,151878,151878,469.2,2022-12-22,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963942455.1,Pediacus dermestoides,878348,Cucujidae,Polyphaga,Contig,146810,146810,212.65,2024-02-10,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_951812425.1,Taphrorychus bicolor,105251,Curculionidae,Polyphaga,Contig,122186,122186,454.27,2023-07-16,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_030157245.1,Latheticus oryzae,466960,Tenebrionidae,Polyphaga,Contig,109128,109128,71.16,2023-06-02,USDA Ag100Pest,no,D,conditional
+GCA_031307295.1,Tribolium castaneum,7070,Tenebrionidae,Polyphaga,Contig,103976,103976,81.66,2023-09-08,USDA-ARS Ag100Pest,no,D,conditional
+GCA_964197635.1,Abax parallelepipedus,102642,Carabidae,Adephaga,Scaffold,99981,100215,511.22,2024-07-03,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_978019945.1,Taeniapion urticarium,202217,Apionidae,Polyphaga,Scaffold,94404,44747679,759.63,2026-02-25,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_965663595.1,Cryptocephalus pusillus,877924,Chrysomelidae,Polyphaga,Scaffold,90346,90416,526.71,2025-08-10,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_026230125.1,Diorhabda elongata,217247,Chrysomelidae,Polyphaga,Scaffold,90299,90299,232.7,2022-11-18,USDA Ag100Pest,no,D,conditional
+GCA_965643575.1,Eulagius filicornis,1586587,Mycetophagidae,Polyphaga,Scaffold,90002,4637385,129.04,2025-07-19,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_964235275.1,Actenicerus siaelandicus,869165,Elateridae,Polyphaga,Scaffold,89605,89605,1430.37,2024-08-30,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_964006135.1,Tillus elongatus,295696,Cleridae,Polyphaga,Scaffold,89543,89546,1769.39,2024-03-30,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_003402655.2,Harmonia axyridis,115357,Coccinellidae,Polyphaga,Scaffold,86455,1106177,434.97,2023-11-09,Nagoya University,no,D,conditional
+GCA_977809175.1,Carabus nemoralis,49290,Carabidae,Adephaga,Contig,83246,83246,229.79,2026-02-04,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_029619255.1,Dynastes hyllus,1767015,Scarabaeidae,Polyphaga,Scaffold,81824,51928423,622.82,2023-04-07,Academia Sinica,no,D,conditional
+GCA_000390285.2,Anoplophora glabripennis,217634,Cerambycidae,Polyphaga,Scaffold,80490,678234,706.97,2017-12-13,The i5k Initiative,no,D,conditional
+GCA_015345945.1,Tribolium madens,41895,Tenebrionidae,Polyphaga,Scaffold,76672,15175020,149.38,2020-11-10,Kansas State University,no,D,conditional
+GCA_964656365.1,Colydium elongatum,295817,Zopheridae,Polyphaga,Scaffold,76624,26196487,382.01,2025-01-05,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963920675.1,Pseudeuparius sepicola,1586585,Anthribidae,Polyphaga,Contig,69855,69855,327.09,2023-12-26,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_003402655.1,Harmonia axyridis,115357,Coccinellidae,Polyphaga,Scaffold,69098,1616388,422.83,2018-08-17,Nagoya University,no,D,conditional
+GCA_958298995.1,Chrysolina haemoptera,75519,Chrysomelidae,Polyphaga,Contig,67971,67971,453.27,2023-07-07,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_001412225.1,Nicrophorus vespilloides,110193,Silphidae,Polyphaga,Scaffold,67958,122407,195.27,2015-10-23,University of Georgia,no,D,conditional
+GCA_029298695.1,Gnatocerus cornutus,1553328,Tenebrionidae,Polyphaga,Contig,67614,67614,148.42,2023-03-20,USDA Ag100Pest,no,D,conditional
+GCA_958510775.1,Brachypterus glaber,442081,Kateretidae,Polyphaga,Scaffold,67217,67217,593.1,2023-07-23,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_020975425.1,Diorhabda carinulata,1163345,Chrysomelidae,Polyphaga,Scaffold,62896,805047,315.35,2021-11-24,University of Idaho,no,D,conditional
+GCA_003426905.1,Ctenocephalides felis,7515,Pulicidae,Pulicomorpha,Scaffold,61000,71713785,775.45,2018-08-24,West Virginia University,no,D,conditional
+GCA_980251295.1,Podagrica fuscicornis,1425595,Chrysomelidae,Polyphaga,Contig,59598,59598,1915.28,2026-02-28,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_966185145.1,Rhyzobius forestieri,2849648,Coccinellidae,Polyphaga,Contig,52947,52947,745.96,2025-08-22,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_964058915.1,Tetropium fuscum,256650,Cerambycidae,Polyphaga,Contig,48991,48991,704.8,2024-05-22,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_000500325.2,Leptinotarsa decemlineata,7539,Chrysomelidae,Polyphaga,Scaffold,46596,139046,641.99,2017-11-02,The i5k Initiative,no,D,conditional
+GCA_910589515.1,Vespa crabro,7445,Vespidae,Apocrita,Scaffold,45968,45968,187.12,2021-07-08,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_001442555.1,Apis cerana,7461,Apidae,Apocrita,Scaffold,43751,1421626,228.33,2015-11-12,Seoul National University,no,D,conditional
+GCA_963921905.1,Galeruca laticollis,2017130,Chrysomelidae,Polyphaga,Scaffold,42924,42924,808.19,2024-01-15,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_944452915.1,Chrysolina oricalcia,1587174,Chrysomelidae,Polyphaga,Contig,39892,39892,301.75,2022-07-06,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_046129265.1,Calligrapha alni,359191,Chrysomelidae,Polyphaga,Contig,39435,39435,417.69,2024-12-17,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_944452915.2,Chrysolina oricalcia,1587174,Chrysomelidae,Polyphaga,Scaffold,39201,39201,328.97,2022-09-29,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_050242975.1,Plateumaris germari,462189,Chrysomelidae,Polyphaga,Contig,37986,37986,162.53,2025-05-07,Canada's national platform for genome sequencing and analysis,no,D,conditional
+GCA_014490705.1,Rhynchophorus ferrugineus,354439,Curculionidae,Polyphaga,Scaffold,37977,471583,588.8,2020-09-08,King Abdulaziz City for Science and Technology,no,D,conditional
+GCA_014462685.1,Rhynchophorus ferrugineus,354439,Curculionidae,Polyphaga,Scaffold,37927,471583,589.4,2020-09-03,King Abdulaziz City for Science and Technology,no,D,conditional
+GCA_013372445.1,Hypothenemus hampei,57062,Curculionidae,Polyphaga,Scaffold,36294,340248,162.57,2020-06-24,CENICAFE - Purdue University effort for the genome sequencing of the coffee berry borer,no,D,conditional
+GCA_965643775.1,Microrhagus pygmaeus,445480,Eucnemidae,Polyphaga,Scaffold,35244,35265,445.27,2025-07-19,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_913698435.1,Pseudomimeciton antennatum,1886653,Staphylinidae,Polyphaga,Contig,33840,33840,1.47,2021-09-15,UNIVERSITY OF LIVERPOOL,no,D,conditional
+GCA_001443705.1,Oryctes borbonicus,1629725,Scarabaeidae,Polyphaga,Contig,33367,33367,423.77,2015-11-13,Max Planck Institute for Developmental Biology,no,D,conditional
+GCA_965642375.1,Cantharis decipiens,877885,Cantharidae,Polyphaga,Scaffold,32718,32741,417.1,2025-07-19,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_963576505.1,Cryptocephalus primarius,1587206,Chrysomelidae,Polyphaga,Contig,31778,31778,81.69,2023-11-04,WELLCOME SANGER INSTITUTE,no,D,conditional
+GCA_009805905.1,Harmonia axyridis,115357,Coccinellidae,Polyphaga,Scaffold,30732,211403,10.44,2019-12-27,"State Key Laboratory of Genetic Engineering,Fudan University",no,D,conditional
+GCA_000699045.2,Agrilus planipennis,224129,Buprestidae,Polyphaga,Scaffold,28329,1113421,353.07,2018-01-29,The BCM-HGSC i5K pilot project,no,D,conditional
+GCA_009867245.1,Adranes taylori,1535445,Staphylinidae,Polyphaga,Scaffold,27425,583424,887.89,2020-01-14,IRIDIAN GENOMES,no,D,conditional
+GCA_003865315.1,Harmonia axyridis,115357,Coccinellidae,Polyphaga,Scaffold,26622,157105,557.78,2018-12-05,National Institute for Basic Biology,no,D,conditional
+GCA_020466585.1,Dendroctonus ponderosae,77166,Curculionidae,Polyphaga,Scaffold,26085,16553750,223.74,2021-10-13,Natural Resources Canada,no,D,conditional
+GCA_003865295.1,Harmonia axyridis,115357,Coccinellidae,Polyphaga,Scaffold,24360,100341,581.41,2018-12-05,National Institute for Basic Biology,no,D,conditional
+GCA_012979105.1,Rhynchophorus ferrugineus,354439,Curculionidae,Polyphaga,Scaffold,23825,64117472,782.1,2020-05-06,New York University Abu Dhabi,no,D,conditional
+GCA_003865275.1,Harmonia axyridis,115357,Coccinellidae,Polyphaga,Scaffold,23772,57217,510.55,2018-12-05,National Institute for Basic Biology,no,D,conditional
+GCA_014282415.3,Tenebrio molitor,7067,Tenebrionidae,Polyphaga,Scaffold,23310,27052,294.41,2022-11-15,Indiana University - Purdue University Indianapolis,no,D,conditional
+GCA_014282415.2,Tenebrio molitor,7067,Tenebrionidae,Polyphaga,Scaffold,23310,27052,294.41,2021-05-19,Indiana University - Purdue University Indianapolis,no,D,conditional
+GCA_003568925.1,Coccinella septempunctata,41139,Coccinellidae,Polyphaga,Scaffold,21314,67752,514.96,2018-09-13,National Institute for Basic Biology,no,D,conditional
+GCA_019419845.1,Weissflogia rhopalogaster,1962808,Staphylinidae,Polyphaga,Scaffold,21252,495503,233.44,2021-07-30,IRIDIAN GENOMES,no,D,conditional
+GCA_002290385.1,Apis cerana,94128,Apidae,Apocrita,Scaffold,21160,1393515,228.79,2017-09-13,Chinese National Human Genome Center at Shanghai,no,D,conditional
+GCA_010091895.1,Chrysina resplendens,1897488,Scarabaeidae,Polyphaga,Scaffold,20382,20696,611.44,2020-01-31,IRIDIAN GENOMES,no,D,conditional
+GCA_004796505.1,Oryzaephilus surinamensis,41112,Silvanidae,Polyphaga,Scaffold,19466,21917,104.01,2019-04-16,"College of Life Sciences, Wuhan University",no,D,conditional
+GCA_000390285.1,Anoplophora glabripennis,217634,Cerambycidae,Polyphaga,Scaffold,16551,658851,707.73,2013-05-14,The i5k Initiative,no,D,conditional
+GCA_020466635.2,Dendroctonus ponderosae,77166,Curculionidae,Polyphaga,Scaffold,16340,16386110,223.66,2022-05-12,Natural Resources Canada,no,D,conditional
+GCA_020466635.1,Dendroctonus ponderosae,77166,Curculionidae,Polyphaga,Scaffold,16218,16386110,224.79,2021-10-13,Natural Resources Canada,no,D,conditional
+GCA_000648695.1,Onthophagus taurus,166361,Scarabaeidae,Polyphaga,Scaffold,15427,251443,270.53,2014-05-01,The i5k Initiative,no,D,conditional
+GCA_002938485.1,Sitophilus oryzae,7048,Curculionidae,Polyphaga,Scaffold,15402,105687,651.86,2018-02-22,BF2I,no,D,conditional
+GCA_004785975.1,Popillia japonica,7064,Scarabaeidae,Polyphaga,Scaffold,13656,15169,531.53,2019-04-12,Canada's Genomic Enterprise,no,D,conditional
+GCA_018845635.1,Nicrophorus orbicollis,64902,Silphidae,Polyphaga,Scaffold,13046,178658,192.64,2021-06-11,University of Georgia,no,D,conditional
+GCA_000346045.1,Dendroctonus ponderosae,77166,Curculionidae,Polyphaga,Scaffold,10101,465763,261.33,2013-03-08,"BC Cancer Agency, Canada's Michael Smith Genome Sciences Centre",no,D,conditional
+GCA_000346045.2,Dendroctonus ponderosae,77166,Curculionidae,Polyphaga,Scaffold,10101,465763,261.33,2014-04-30,"BC Cancer Agency, Canada's Michael Smith Genome Sciences Centre",no,D,conditional
+GCA_913698365.1,Pyrocoelia pectoralis,417401,Lampyridae,Polyphaga,Contig,26987,26987,1.43,2021-09-15,UNIVERSITY OF LIVERPOOL,no,E,exclude
+GCA_913698445.1,Ecitomorpha arachnoides,1919235,Staphylinidae,Polyphaga,Contig,24590,24590,1.35,2021-09-15,UNIVERSITY OF LIVERPOOL,no,E,exclude
+GCA_014282415.1,Tenebrio molitor,7067,Tenebrionidae,Polyphaga,Contig,24135,24135,280.78,2020-08-31,Indiana University - Purdue University Indianapolis,no,E,exclude
+GCA_913698115.1,Omalisus fontisbellaquei,350094,Omalisidae,Polyphaga,Contig,22773,22773,1.53,2021-09-15,UNIVERSITY OF LIVERPOOL,no,E,exclude
+GCA_951812905.1,Hermaeophaga mercurialis,347362,Chrysomelidae,Polyphaga,Contig,19987,19987,101.49,2023-07-16,WELLCOME SANGER INSTITUTE,no,E,exclude
+GCA_913698155.1,Sceptobius lativentris,2015916,Staphylinidae,Polyphaga,Contig,17604,17604,1.3,2021-09-15,UNIVERSITY OF LIVERPOOL,no,E,exclude
+GCA_913698005.1,Platyusa sonomae,2015917,Staphylinidae,Polyphaga,Contig,17497,17497,1.49,2021-09-15,UNIVERSITY OF LIVERPOOL,no,E,exclude
+GCA_913698015.1,Oxypoda opaca,878185,Staphylinidae,Polyphaga,Contig,14164,14164,1.5,2021-09-15,UNIVERSITY OF LIVERPOOL,no,E,exclude
+GCA_913698135.1,Labidopullus appendiculatus,1916252,Staphylinidae,Polyphaga,Contig,12012,12012,1.33,2023-09-12,UNIVERSITY OF LIVERPOOL,no,E,exclude
+GCA_913698245.1,Bembidion corgenoma,2826921,Carabidae,Adephaga,Contig,10227,10227,1.42,2021-09-15,UNIVERSITY OF LIVERPOOL,no,E,exclude
+GCA_031211285.1,Popillia japonica,7064,Scarabaeidae,Polyphaga,Scaffold,9927,38583,479.75,2023-09-07,IRIDIAN GENOMES,no,E,exclude
+GCA_019329825.1,Oryctes rhinoceros,72550,Scarabaeidae,Polyphaga,Scaffold,8606,5428920,372.39,2021-07-23,"ICAR-CPCRI, Kasaragod",no,E,exclude
+GCA_000355655.1,Dendroctonus ponderosae,77166,Curculionidae,Polyphaga,Scaffold,7451,628732,252.85,2013-04-10,The Tria Project: Mountain Pine Beetle System Genomics,no,E,exclude
+GCA_052780765.1,Ctenocephalides felis,7515,Pulicidae,Pulicomorpha,Scaffold,7196,56317,477.12,2025-09-23,Zoologisches Forschungsmuseum Alexander Koenig (ZFMK),no,E,exclude
+GCA_018397195.1,Lethrus apterus,1612427,Geotrupidae,Polyphaga,Scaffold,7185,8902,286.93,2021-05-18,University of Debrecen,no,E,exclude
+GCA_000699045.1,Agrilus planipennis,224129,Buprestidae,Polyphaga,Scaffold,6314,910924,353.56,2014-06-11,The BCM-HGSC i5K pilot project,no,E,exclude
+GCA_003013835.1,Diabrotica virgifera,50390,Chrysomelidae,Polyphaga,Scaffold,6289,95089,2409.98,2018-05-11,University of Illinois at Urbana-Champaign,no,E,exclude
+GCA_003013835.2,Diabrotica virgifera,50390,Chrysomelidae,Polyphaga,Scaffold,6238,489108,2418.07,2018-12-12,University of Illinois at Urbana-Champaign,no,E,exclude
+GCA_010014765.1,Aenictocupidus jacobsonorum,1962788,Staphylinidae,Polyphaga,Scaffold,5917,445844,178.22,2020-01-30,IRIDIAN GENOMES,no,E,exclude
+GCA_026770135.1,Oryctes rhinoceros,72550,Scarabaeidae,Polyphaga,Scaffold,5754,5859,374.84,2022-12-09,Universiti Putra Malaysia,no,E,exclude
+GCA_026770175.1,Oryctes rhinoceros,72550,Scarabaeidae,Polyphaga,Scaffold,5296,5512,335.25,2022-12-09,Universiti Putra Malaysia,no,E,exclude
+GCA_026770155.1,Oryctes rhinoceros,72550,Scarabaeidae,Polyphaga,Scaffold,5293,5642,367.07,2022-12-09,Universiti Putra Malaysia,no,E,exclude
+GCA_000500325.1,Leptinotarsa decemlineata,7539,Chrysomelidae,Polyphaga,Scaffold,4913,414170,1170.24,2013-12-03,The i5k Initiative,no,E,exclude
+GCA_004193795.1,Asbolus verrucosus,1661398,Tenebrionidae,Polyphaga,Scaffold,4550,5726,249.61,2019-02-13,Wright State University,no,E,exclude
+GCA_025532075.1,Leptinotarsa decemlineata,7539,Chrysomelidae,Polyphaga,Scaffold,4176,675760,795.61,2022-10-03,University of Wisconsin-Madison,no,E,exclude
+GCA_025532095.1,Leptinotarsa decemlineata,7539,Chrysomelidae,Polyphaga,Scaffold,4172,15203468,874.27,2022-10-03,University of Wisconsin-Madison,no,E,exclude
+GCA_025399875.1,Dalotia coriaria,877792,Staphylinidae,Polyphaga,Scaffold,3245,6475,133.88,2022-09-25,IRIDIAN GENOMES,no,E,exclude
+GCA_027576775.1,Oxypoda opaca,878185,Staphylinidae,Polyphaga,Scaffold,3067,9207,171.54,2023-01-06,IRIDIAN GENOMES,no,E,exclude
+GCA_015342165.1,Leptinotarsa juncta,216192,Chrysomelidae,Polyphaga,Scaffold,2839,2922,523.98,2020-11-10,University of Wisconsin-Madison,no,E,exclude
+GCA_027574885.2,Drusilla canaliculata,135868,Staphylinidae,Polyphaga,Scaffold,2684,4662,265.28,2023-06-22,IRIDIAN GENOMES,no,E,exclude
+GCA_025400015.1,Plagiodera versicolora,154017,Chrysomelidae,Polyphaga,Scaffold,2673,3740,157.91,2022-09-25,IRIDIAN GENOMES,no,E,exclude
+GCA_027574845.1,Deinopsis erosa,347323,Staphylinidae,Polyphaga,Scaffold,2590,3059,175.68,2023-01-06,IRIDIAN GENOMES,no,E,exclude
+GCA_027574965.1,Ecitophya simulans,1886648,Staphylinidae,Polyphaga,Scaffold,2466,4389,195.82,2023-01-06,IRIDIAN GENOMES,no,E,exclude
+GCA_009852465.1,Alaus oculatus,374458,Elateridae,Polyphaga,Scaffold,2461,1329116,188.38,2020-01-10,IRIDIAN GENOMES,no,E,exclude
+GCA_027574945.1,Ecitomorpha arachnoides,1919235,Staphylinidae,Polyphaga,Scaffold,2007,2605,216.64,2023-01-06,IRIDIAN GENOMES,no,E,exclude
+GCA_001012855.1,Hypothenemus hampei,57062,Curculionidae,Polyphaga,Scaffold,1979,39211,151.27,2015-05-22,NYU School of Medicine,no,E,exclude
+GCA_025728115.1,Vespa crabro,7445,Vespidae,Apocrita,Scaffold,1624,34273,211.3,2022-10-17,BOKU - University of Natural Resources and Life Sciences,no,E,exclude
+GCA_027574885.1,Drusilla canaliculata,135868,Staphylinidae,Polyphaga,Scaffold,1405,1455,332.69,2023-01-06,IRIDIAN GENOMES,no,E,exclude
+GCA_027574865.1,Coproporus ventriculus,1542148,Staphylinidae,Polyphaga,Scaffold,1395,1590,302.17,2023-01-06,IRIDIAN GENOMES,no,E,exclude
+GCA_027574905.1,Earota dentata,866044,Staphylinidae,Polyphaga,Scaffold,1148,1191,208.68,2023-01-06,IRIDIAN GENOMES,no,E,exclude
+GCA_913698125.1,Bembidion lapponicum,447293,Carabidae,Adephaga,Contig,9933,9933,1.27,2021-09-15,UNIVERSITY OF LIVERPOOL,no,F,exclude
+GCA_913698285.1,Eriopis connexa,1981044,Coccinellidae,Polyphaga,Contig,5466,5466,1.07,2021-09-15,UNIVERSITY OF LIVERPOOL,no,F,exclude
+GCA_000281935.1,Mengenilla moldrzyki,1155016,Mengenillidae,Mengenillidia,Contig,4038,4038,155.73,2012-07-27,Zoologisches Forschungsmuseum Alexander Koenig,no,F,exclude
+GCA_033624655.1,Onthophagus taurus,166361,Scarabaeidae,Polyphaga,Contig,1024,1024,14.12,2023-11-14,Northern Arizona University,no,F,exclude
+GCA_032191615.1,Sarophorus costatus,206924,Scarabaeidae,Polyphaga,Contig,896,896,198.07,2023-09-29,Northern Arizona University,no,F,exclude
+GCA_018239625.1,Propylea japonica,158624,Coccinellidae,Polyphaga,Contig,610,610,730.97,2021-05-03,Florida Museum of Natural History,no,F,exclude
+GCA_033557145.1,Helictopleurus sicardi,422258,Scarabaeidae,Polyphaga,Contig,408,408,6.1,2023-11-13,Northern Arizona University,no,F,exclude
+GCA_945836925.1,Elaeidobius kamerunicus,2663966,Curculionidae,Polyphaga,Contig,245,245,0.22,2023-01-16,sime darby plantation technology centre sdn bhd,no,F,exclude
+GCA_046563155.1,Arhopalus rusticus,256647,Cerambycidae,Polyphaga,Chromosome,125011761,125011761,1232.51,2025-01-08,Beijing Forestry University,yes,A,include
+GCA_052757275.1,Monochamus sutor,236073,Cerambycidae,Polyphaga,Complete Genome,88393016,88393016,789.93,2025-09-22,Beijing Forestry University,yes,A,include
+GCA_054643895.1,Onthophagus binodis,560254,Scarabaeidae,Polyphaga,Chromosome,62142972,110368079,950.48,2026-01-22,Indiana University,yes,A,include
+GCA_037114965.1,Monochamus alternatus,192382,Cerambycidae,Polyphaga,Chromosome,55988924,86209243,789.5,2024-03-13,Hebei University,yes,A,include
+GCA_051362485.1,Catharsius molossus,206819,Scarabaeidae,Polyphaga,Chromosome,54965564,164062652,1536.64,2025-07-15,Ningxia University,yes,A,include
+GCA_051903415.1,Protaetia brevitarsis,348688,Scarabaeidae,Polyphaga,Chromosome,51133839,77620261,676.43,2025-08-08,Yantai university,yes,A,include
+GCA_034642435.1,Megalocaria dilatata,511882,Coccinellidae,Polyphaga,Chromosome,50481700,72475326,767.67,2023-12-27,Jiangsu University of Science and Technology,yes,A,include
+GCA_052862855.1,Monochamus scutellatus,1323392,Cerambycidae,Polyphaga,Chromosome,45367300,87924993,813.23,2025-09-26,Harvard University,yes,A,include
+GCA_979861375.2,Larinus ursus,1342031,Curculionidae,Polyphaga,Chromosome,45364611,86231057,1742.3,2026-03-01,Centro Nacional de Análisis Genómico,yes,A,include
+GCA_052863015.1,Ichthyurus bourgeoisi,2055709,Cantharidae,Polyphaga,Chromosome,43915757,98116930,664.72,2025-09-26,Hebei University,yes,A,include
+GCA_965279825.1,Nacerdes melanura,878157,Oedemeridae,Polyphaga,Chromosome,38393140,65472910,530.91,2025-05-11,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_039766575.1,Serrognathus titanus,618631,Lucanidae,Polyphaga,Chromosome,37829574,75805358,384.09,2024-05-24,Nanjing Agricultural University,yes,A,include
+GCA_046424425.1,Hippodamia variegata,703264,Coccinellidae,Polyphaga,Chromosome,33707572,43576503,443.72,2024-12-31,Jiangsu University of Science and Technology,yes,A,include
+GCA_980746795.1,Phyllobius pyri,202125,Curculionidae,Polyphaga,Chromosome,31606165,73663449,748.13,2026-02-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_978258735.1,Attagenus pellio,41096,Dermestidae,Polyphaga,Chromosome,31450487,37754977,365.45,2026-02-17,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977019095.1,Propomacrus cypriacus,1968893,Glaphyridae,Polyphaga,Chromosome,29712000,57489177,511.29,2025-11-23,NBIS (National Bioinformatics Infrastructure Sweden),yes,A,include
+GCA_932526585.2,Philonthus cognatus,346820,Staphylinidae,Polyphaga,Chromosome,29486216,108863099,1030.57,2022-10-26,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_053478235.1,Coccinella transversoguttata,1790162,Coccinellidae,Polyphaga,Chromosome,27814102,42967107,416.88,2025-11-14,Southwest University,yes,A,include
+GCA_977012605.1,Larinus planus,202009,Curculionidae,Polyphaga,Chromosome,27391000,59970235,1137.84,2025-11-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_055671715.1,Distenia gracilis,1498004,Cerambycidae,Polyphaga,Chromosome,27182915,203499518,1835.76,2026-03-04,Harvard University,yes,A,include
+GCA_978021545.1,Liophloeus tessulatus,202024,Curculionidae,Polyphaga,Chromosome,26848683,131213107,1199.45,2026-02-25,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_951802165.1,Adalia decempunctata,115343,Coccinellidae,Polyphaga,Chromosome,26378788,51987084,489.45,2023-06-03,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_036172665.1,Prosopocoilus inquinatus,618466,Lucanidae,Polyphaga,Chromosome,26364114,59502677,649.73,2024-01-26,TIBET ACADEMY OF AGRICULTURAL AND ANIMAL HUSBANDRY SCIENCES,yes,A,include
+GCA_976997085.1,Laparocerus anagae,1963931,Curculionidae,Polyphaga,Chromosome,25935046,55302066,481.68,2025-11-25,NBIS (National Bioinformatics Infrastructure Sweden),yes,A,include
+GCA_963989225.1,Dromius quadrimaculatus,346772,Carabidae,Adephaga,Chromosome,25783000,60826853,778.79,2024-03-30,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977017535.1,Stenocarus ruficornis,1342239,Curculionidae,Polyphaga,Chromosome,24964000,53441765,607.15,2025-11-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_040113315.1,Dendroctonus frontalis,77161,Curculionidae,Polyphaga,Chromosome,24829404,24829404,173.6,2024-06-12,Texas A&M University,yes,A,include
+GCA_029229535.1,Diorhabda carinata,1163344,Chrysomelidae,Polyphaga,Chromosome,24536916,40205471,449.9,2023-03-17,United States Department of Agriculture,yes,A,include
+GCA_043790905.1,Kibakoganea sinica,3161192,Scarabaeidae,Polyphaga,Chromosome,24491710,60227683,601.44,2024-10-25,Nanjing Agricultural University,yes,A,include
+GCA_921294245.1,Brassicogethes aeneus,1431903,Nitidulidae,Polyphaga,Chromosome,24416959,61642216,585.28,2022-01-19,ROTHAMSTED RESEARCH,yes,A,include
+GCA_965152765.1,Dendarus foraminosus,2712997,Tenebrionidae,Polyphaga,Chromosome,24404000,51873200,593.99,2025-02-19,Genoscope CEA,yes,A,include
+GCA_977013515.1,Polydrusus impressifrons,1342090,Curculionidae,Polyphaga,Chromosome,23749401,51561373,567.12,2025-11-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_026250575.2,Diorhabda carinulata,1163345,Chrysomelidae,Polyphaga,Chromosome,23459757,34144059,415.37,2026-02-24,United States Department of Agriculture,yes,A,include
+GCA_963969555.1,Polydrusus pterygomalis,202138,Curculionidae,Polyphaga,Chromosome,23161000,123839857,1051.57,2024-03-06,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_054850815.1,Tetraopes melanurus,134893,Cerambycidae,Polyphaga,Chromosome,23086903,74850470,684.56,2026-01-30,Harvard University,yes,A,include
+GCA_905340355.1,Rhagonycha fulva,41101,Cantharidae,Polyphaga,Chromosome,21086067,115753052,424.68,2021-03-26,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_976925235.1,Propylea quattuordecimpunctata,558720,Coccinellidae,Polyphaga,Chromosome,21063383,62243796,579.31,2025-11-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977862225.1,Sisyphus schaefferi,166372,Scarabaeidae,Polyphaga,Chromosome,19673571,37205513,398.36,2026-02-04,Genoscope CEA,yes,A,include
+GCA_045514315.1,Arhopalus unicolor,1191617,Cerambycidae,Polyphaga,Chromosome,19298574,161702413,1224.89,2024-12-02,Fujian Agriculture and Forestry University,yes,A,include
+GCA_935413205.1,Polydrusus cervinus,202137,Curculionidae,Polyphaga,Chromosome,19113408,72832772,713.37,2022-05-01,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_910592335.1,Adalia bipunctata,7084,Coccinellidae,Polyphaga,Chromosome,18317171,45869983,475.29,2021-07-08,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_911387805.1,Cantharis rustica,195172,Cantharidae,Polyphaga,Chromosome,17823022,57811309,445.94,2021-07-25,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_978018165.1,Aplotarsus incanus,350097,Elateridae,Polyphaga,Chromosome,17310533,66135170,694.45,2026-02-05,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_054205895.1,Promethis valgipes,1304790,Tenebrionidae,Polyphaga,Chromosome,17096667,21661016,212.13,2025-12-26,Xinyang Normal University,yes,A,include
+GCA_030157265.1,Latheticus oryzae,466960,Tenebrionidae,Polyphaga,Chromosome,16486265,16486265,170.05,2023-06-06,United States Department of Agriculture,yes,A,include
+GCA_018691245.2,Ips nitidus,432259,Curculionidae,Polyphaga,Chromosome,16438241,16438241,231.41,2022-06-07,Chinese Academy of Forestry,yes,A,include
+GCA_049462965.1,Odontolabis cuvera,618294,Lucanidae,Polyphaga,Chromosome,16385938,65358025,908.07,2025-04-10,Xinyang Normal University,yes,A,include
+GCA_052815245.1,Batocera lineolata,583388,Cerambycidae,Polyphaga,Chromosome,16240981,34454300,327.96,2025-09-24,Xinyang Normal University,yes,A,include
+GCA_964188095.1,Anisosticta novemdecimpunctata,185876,Coccinellidae,Polyphaga,Chromosome,16069806,38308147,438.69,2024-06-21,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_976980505.1,Stenosis austini,3229215,Tenebrionidae,Polyphaga,Chromosome,16021784,21101840,238.62,2026-03-11,NBIS (National Bioinformatics Infrastructure Sweden),yes,A,include
+GCA_911728475.2,Pterostichus madidus,767470,Carabidae,Adephaga,Chromosome,15821749,37879541,705.15,2022-02-13,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_982290465.1,Agonum gracile,1553041,Carabidae,Adephaga,Chromosome,15338390,33389852,646.99,2026-03-18,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_911728435.2,Apoderus coryli,201766,Attelabidae,Polyphaga,Chromosome,15031106,23694900,428.08,2022-10-16,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977066395.1,Mononychus punctumalbum,1342213,Curculionidae,Polyphaga,Chromosome,14901000,31290284,384.63,2025-11-28,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964277315.1,Tarphius canariensis,124803,Zopheridae,Polyphaga,Chromosome,14492433,31130618,310.74,2024-10-29,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_976714775.1,Morimus orientalis,2974020,Cerambycidae,Polyphaga,Chromosome,14040000,67096688,900.79,2025-11-22,Genoscope CEA,yes,A,include
+GCA_937662695.2,Halyzia sedecimguttata,347359,Coccinellidae,Polyphaga,Chromosome,14028202,111009446,919.11,2022-12-05,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963082815.1,Melanotus villosus,346801,Elateridae,Polyphaga,Chromosome,13836834,80210941,803.48,2023-08-09,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964059645.1,Calvia quattuordecimguttata,419956,Coccinellidae,Polyphaga,Chromosome,13501844,92850860,844.42,2024-06-07,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_039776855.1,Mylabris sibirica,2921314,Meloidae,Polyphaga,Chromosome,13495858,13838200,138.45,2024-05-24,Nanjing Agricultural University,yes,A,include
+GCA_982191755.1,Otiorhynchus rugosostriatus,703598,Curculionidae,Polyphaga,Chromosome,13140803,13769150,397.52,2026-03-10,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_023509865.1,Trypoxylus dichotomus,273928,Scarabaeidae,Polyphaga,Chromosome,12989000,71035100,636.27,2022-05-25,Zhejiang A&F University,yes,A,include
+GCA_905333025.2,Pyrochroa serraticornis,346838,Pyrochroidae,Polyphaga,Chromosome,12970676,37181734,249.41,2022-02-02,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_982297035.1,Scarites abbreviatus,3349997,Carabidae,Adephaga,Chromosome,12803616,32677719,888.53,2026-03-18,NBIS (National Bioinformatics Infrastructure Sweden),yes,A,include
+GCA_054644075.1,Anoplophora malasiaca,3680197,Cerambycidae,Polyphaga,Chromosome,12712079,43907390,674.36,2026-01-22,Harvard University,yes,A,include
+GCA_963920635.1,Pseudeuparius sepicola,1586585,Anthribidae,Polyphaga,Chromosome,12710576,68511602,769.08,2023-12-26,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_981690485.1,Acupalpus parvulus,877764,Carabidae,Adephaga,Chromosome,12668308,28561053,571.89,2026-03-03,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_947534325.1,Agonum fuliginosum,1553040,Carabidae,Adephaga,Chromosome,12663309,36153338,695.91,2022-12-18,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977013095.1,Morimus asper,1265421,Cerambycidae,Polyphaga,Chromosome,12620000,66557124,884.73,2025-11-22,Genoscope CEA,yes,A,include
+GCA_054644005.1,Anoplophora glabripennis,217634,Cerambycidae,Polyphaga,Chromosome,12457337,81285179,705.73,2026-01-22,Harvard University,yes,A,include
+GCA_963991005.1,Barypeithes pellucidus,397350,Curculionidae,Polyphaga,Chromosome,12223848,67615637,743.73,2024-03-30,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_040954815.1,Ulomoides dermestoides,1552300,Tenebrionidae,Polyphaga,Chromosome,12188387,28624954,253.33,2024-08-01,China Jiliang University,yes,A,include
+GCA_963932245.1,Tachinus rufipes,1588496,Staphylinidae,Polyphaga,Chromosome,12054482,121182260,1152.0,2024-02-07,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_042257705.1,Blaps rhynchoptera,1379410,Tenebrionidae,Polyphaga,Chromosome,12028085,22033018,379.24,2024-09-27,Dali University,yes,A,include
+GCA_026230145.1,Diorhabda elongata,217247,Chrysomelidae,Polyphaga,Chromosome,11993826,39189703,485.34,2022-11-18,United States Department of Agriculture,yes,A,include
+GCA_030157275.1,Cynaeus angustus,1553252,Tenebrionidae,Polyphaga,Chromosome,11790235,24549988,236.99,2023-06-06,United States Department of Agriculture,yes,A,include
+GCA_982264245.1,Chrysolina hyperici,111402,Chrysomelidae,Polyphaga,Chromosome,11703684,39449835,731.53,2026-03-15,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963921995.1,Oxystoma pomonae,1588336,Apionidae,Polyphaga,Chromosome,11698280,115244409,1174.36,2024-02-09,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963583935.1,Diaperis boleti,433215,Tenebrionidae,Polyphaga,Chromosome,11653919,59236001,542.64,2023-11-06,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963921985.1,Agrilus biguttatus,324823,Buprestidae,Polyphaga,Chromosome,11522278,34530510,368.13,2024-02-09,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_040543525.2,Serangium japonicum,544596,Coccinellidae,Polyphaga,Chromosome,11444110,42670600,433.73,2024-10-25,South China Agricultural University,yes,A,include
+GCA_965643735.1,Hypera rumicis,346786,Curculionidae,Polyphaga,Chromosome,11225160,205520964,1773.47,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965287095.1,Cedrorum azoricus,3116505,Carabidae,Adephaga,Chromosome,10971072,28853378,567.88,2025-06-07,Genoscope CEA,yes,A,include
+GCA_958510845.1,Cantharis nigra,1553174,Cantharidae,Polyphaga,Chromosome,10907000,41397323,397.81,2023-07-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964212005.1,Stictoleptura scutellata,879004,Cerambycidae,Polyphaga,Chromosome,10870000,172532277,1471.11,2024-08-03,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_035610365.1,Aquatica leii,1421715,Lampyridae,Polyphaga,Chromosome,10806843,125648631,1036.91,2024-01-12,Huazhong Agricultural University,yes,A,include
+GCA_963170105.1,Cantharis lateralis,877886,Cantharidae,Polyphaga,Chromosome,10697386,43798968,332.2,2023-08-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_037013635.1,Plagiodera versicolora,154017,Chrysomelidae,Polyphaga,Chromosome,10689844,13925967,233.27,2024-03-06,Hubei University,yes,A,include
+GCA_949152465.1,Cantharis flavilabris,877752,Cantharidae,Polyphaga,Chromosome,10505090,47548398,348.3,2023-03-31,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_947369205.1,Cantharis rufa,350087,Cantharidae,Polyphaga,Chromosome,10477904,50306085,355.33,2022-12-15,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965194465.1,Biphyllus lunatus,197003,Biphyllidae,Polyphaga,Chromosome,10442000,23050102,421.12,2025-03-10,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965112895.1,Dalopius marginatus,1553258,Elateridae,Polyphaga,Chromosome,10236000,57945030,831.22,2025-01-25,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977015545.1,Mylabris quadripunctata,268458,Meloidae,Polyphaga,Chromosome,10173611,19246236,190.38,2025-11-22,Genoscope CEA,yes,A,include
+GCA_932274525.1,Podabrus alpinus,1553677,Cantharidae,Polyphaga,Chromosome,9879682,103283173,777.25,2022-03-13,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_958510865.1,Myrrha octodecimguttata,703265,Coccinellidae,Polyphaga,Chromosome,9660000,72739419,769.91,2023-07-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_946251905.1,Cryptocephalus moraei,204949,Chrysomelidae,Polyphaga,Chromosome,9642473,35831563,500.56,2022-10-13,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965642075.1,Aromia moschata,1265417,Cerambycidae,Polyphaga,Chromosome,9572216,60918734,738.99,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_949126875.1,Lochmaea capreae,227480,Chrysomelidae,Polyphaga,Chromosome,9517382,31551978,534.69,2023-03-31,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_978120735.1,Amara familiaris,1553055,Carabidae,Adephaga,Chromosome,9411346,54555567,967.8,2026-03-03,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977063495.1,Calodromius spilotus,1553381,Carabidae,Adephaga,Chromosome,9193000,76300743,992.3,2026-02-04,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_030068095.1,Anthonomus grandis,2921224,Curculionidae,Polyphaga,Chromosome,9069096,32053755,738.37,2023-06-05,United States Department of Agriculture,yes,A,include
+GCA_977970285.1,Tytthaspis sedecimpunctata,347477,Coccinellidae,Polyphaga,Chromosome,8946478,32127224,355.7,2026-03-01,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964263205.1,Sitona lineatus,202195,Curculionidae,Polyphaga,Chromosome,8906263,87745720,835.42,2024-09-15,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963978815.1,Aleochara curtula,135881,Staphylinidae,Polyphaga,Chromosome,8903095,13180965,136.98,2024-03-30,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_949768715.1,Dascillus cervinus,285223,Dascillidae,Polyphaga,Chromosome,8885058,33150389,282.76,2023-05-14,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_951394225.1,Harpalus rufipes,247442,Carabidae,Adephaga,Chromosome,8784621,52722989,890.55,2023-06-17,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_029298725.1,Gnatocerus cornutus,1553328,Tenebrionidae,Polyphaga,Chromosome,8578702,17438670,342.67,2023-03-22,United States Department of Agriculture,yes,A,include
+GCA_939628115.1,Tribolium freemani,7072,Tenebrionidae,Polyphaga,Chromosome,8487211,32307706,269.17,2022-06-26,rudjer boskovic institute,yes,A,include
+GCA_978045345.1,Aegialia arenaria,206943,Scarabaeidae,Polyphaga,Chromosome,8448757,43928660,424.31,2026-03-01,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_943142095.1,Ophonus ardosiacus,247415,Carabidae,Adephaga,Chromosome,8331656,52059326,911.92,2022-06-13,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_981691985.1,Herpes porcellus,3065877,Curculionidae,Polyphaga,Chromosome,8297486,55530766,775.83,2026-03-03,University of Bari,yes,A,include
+GCA_016097725.2,Ips typographus,55986,Curculionidae,Polyphaga,Chromosome,8272750,12144430,224.98,2026-01-16,Czech University of Life Sciences,yes,A,include
+GCA_963082785.1,Philonthus spinipes,878362,Staphylinidae,Polyphaga,Chromosome,8244937,27346300,671.08,2023-08-09,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964258815.1,Anthocomus fasciatus,346704,Melyridae,Polyphaga,Chromosome,8206270,54688950,528.61,2024-09-03,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_976954535.1,Ips sexdentatus,55985,Curculionidae,Polyphaga,Chromosome,8200202,28052552,284.4,2025-11-25,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965118235.1,Pachyrhinus lethierryi,857166,Curculionidae,Polyphaga,Chromosome,8125853,55447666,619.59,2025-01-29,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_949128085.1,Cetonia aurata,290679,Scarabaeidae,Polyphaga,Chromosome,8085049,45601692,479.65,2023-04-18,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964205235.1,Denticollis linearis,333879,Elateridae,Polyphaga,Chromosome,8081841,141621488,1601.19,2024-07-29,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963924545.1,Pogonocherus hispidulus,1143099,Cerambycidae,Polyphaga,Chromosome,8036892,68278649,704.45,2024-01-30,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965119235.1,Malthodes marginatus,346798,Cantharidae,Polyphaga,Chromosome,7986321,44463143,343.84,2025-01-30,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965212295.1,Rhagonycha lignosa,195289,Cantharidae,Polyphaga,Chromosome,7941140,69891697,554.76,2025-04-30,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965642415.1,Harmonia quadripunctata,346781,Coccinellidae,Polyphaga,Chromosome,7798040,89500714,661.33,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_947359425.1,Lagria hirta,296003,Tenebrionidae,Polyphaga,Chromosome,7715647,31908519,336.78,2022-12-04,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_951805005.1,Othius punctulatus,347424,Staphylinidae,Polyphaga,Chromosome,7685560,97110198,870.47,2023-06-04,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_052815205.1,Anoplophora chinensis,217632,Cerambycidae,Polyphaga,Chromosome,7684180,44629700,661.15,2025-09-24,Xinyang Normal University,yes,A,include
+GCA_963082805.1,Hemicrepidius hirtus,1132043,Elateridae,Polyphaga,Chromosome,7643588,35742776,377.57,2023-08-09,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963924575.1,Pycnomerus fuliginosus,878397,Zopheridae,Polyphaga,Chromosome,7625985,37944690,359.24,2024-01-30,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_978407175.1,Cantharis pallida,877887,Cantharidae,Polyphaga,Chromosome,7578394,51773863,464.25,2026-03-01,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964291765.2,Carabus banonii,3023605,Carabidae,Adephaga,Chromosome,7491500,14906334,207.79,2025-04-05,Genoscope CEA,yes,A,include
+GCA_933228885.1,Leistus spinibarbis,878056,Carabidae,Adephaga,Chromosome,7480091,11648774,235.13,2022-03-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965644565.1,Coccinella magnifica,185877,Coccinellidae,Polyphaga,Chromosome,7477629,43533345,498.79,2025-07-28,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_958510855.1,Rhagonycha lutea,1553715,Cantharidae,Polyphaga,Chromosome,7455203,71007614,479.86,2023-07-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_024712935.1,Leptinotarsa decemlineata,7539,Chrysomelidae,Polyphaga,Chromosome,7451212,58315169,1008.32,2022-08-25,Zhejiang University,yes,A,include
+GCA_965654275.1,Laccobius striatulus,446446,Hydrophilidae,Polyphaga,Chromosome,7426591,127248362,1060.83,2025-08-03,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_959613385.1,Geotrupes spiniger,295525,Geotrupidae,Polyphaga,Chromosome,7348763,43979978,580.59,2023-07-25,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963966045.2,Xestobium rufovillosum,879067,Ptinidae,Polyphaga,Chromosome,7346478,36916890,475.56,2024-06-27,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965783985.1,Subcoccinella vigintiquattuorpunctata,295815,Coccinellidae,Polyphaga,Chromosome,7289122,40002734,532.05,2025-08-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_045514875.1,Monolepta hieroglyphica,327932,Chrysomelidae,Polyphaga,Chromosome,7255000,264114328,2294.53,2024-12-02,BAAFS,yes,A,include
+GCA_917563865.1,Phyllotreta cruciferae,224133,Chrysomelidae,Polyphaga,Chromosome,7248987,7733062,135.12,2022-06-30,ROTHAMSTED RESEARCH,yes,A,include
+GCA_965178105.1,Longitarsus dorsalis,346795,Chrysomelidae,Polyphaga,Chromosome,7050000,66341637,1034.97,2025-03-11,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_949316355.1,Bruchidius siliquastri,1649775,Chrysomelidae,Polyphaga,Chromosome,7036267,39857073,375.58,2023-03-31,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_978041785.1,Anaglyptus mysticus,877856,Cerambycidae,Polyphaga,Chromosome,6958517,102965239,938.96,2026-02-25,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965643495.1,Megatoma undata,878194,Dermestidae,Polyphaga,Chromosome,6947368,40739288,417.18,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_980434365.1,Galerucella sagittariae,227477,Chrysomelidae,Polyphaga,Chromosome,6935000,20842178,387.47,2026-02-28,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964204715.1,Anaspis regimbarti,346699,Scraptiidae,Polyphaga,Chromosome,6911245,64257360,457.63,2024-07-28,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964332215.1,Grammoptera ruficornis,351486,Cerambycidae,Polyphaga,Chromosome,6863000,36796261,431.6,2024-11-08,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964234815.1,Ampedus sanguinolentus,941989,Elateridae,Polyphaga,Chromosome,6816912,146597239,1574.78,2024-09-01,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_035357415.1,Ophraella communa,38162,Chrysomelidae,Polyphaga,Chromosome,6792531,45027102,733.13,2024-01-10,Chinese Academy of Agricultural Sciences,yes,A,include
+GCA_949128115.1,Anaspis maculata,295995,Scraptiidae,Polyphaga,Chromosome,6778000,95735550,757.84,2023-04-18,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_022388445.1,Zophobas atratus,7074,Tenebrionidae,Polyphaga,Chromosome,6737797,53050916,478.15,2022-02-24,Kansas State University,yes,A,include
+GCA_965282785.1,Scaphidium quadrimaculatum,295644,Staphylinidae,Polyphaga,Chromosome,6726481,160722045,1268.48,2025-05-18,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963978555.1,Galerucella nymphaeae,131645,Chrysomelidae,Polyphaga,Chromosome,6699100,20508763,350.18,2024-03-11,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965643005.1,Phyllobius virideaeris,878368,Curculionidae,Polyphaga,Chromosome,6641151,104084948,1178.12,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965119595.1,Limonius poneli,1588201,Elateridae,Polyphaga,Chromosome,6595346,136717598,1351.62,2025-02-11,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_978122415.1,Calathus fuscipes,127480,Carabidae,Adephaga,Chromosome,6459000,57823483,1037.87,2026-03-01,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965178175.1,Coccidula rufa,115345,Coccinellidae,Polyphaga,Chromosome,6434000,120539302,1068.75,2025-03-04,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963921935.1,Galeruca laticollis,2017130,Chrysomelidae,Polyphaga,Chromosome,6429013,231279273,2154.58,2024-02-09,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964234755.1,Actenicerus siaelandicus,869165,Elateridae,Polyphaga,Chromosome,6386061,83355646,854.93,2024-08-31,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_973350105.1,Amara aenea,585988,Carabidae,Adephaga,Chromosome,6359709,46477551,880.39,2025-11-22,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965641385.1,Cryptorhynchus lapathi,201897,Curculionidae,Polyphaga,Chromosome,6329822,27190077,478.9,2025-07-09,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977013385.1,Carabus staehlini,209733,Carabidae,Adephaga,Chromosome,6325665,14444430,203.44,2025-11-22,Genoscope CEA,yes,A,include
+GCA_944452925.2,Chrysolina oricalcia,1587174,Chrysomelidae,Polyphaga,Chromosome,6296000,69622592,1423.45,2022-12-05,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_051122355.1,Thanatophilus sinuatus,414939,Silphidae,Polyphaga,Chromosome,6249324,18969000,288.95,2025-06-27,Shihezi University,yes,A,include
+GCA_964211955.1,Staphylinus erythropterus,1553746,Staphylinidae,Polyphaga,Chromosome,6140586,75443792,1412.5,2024-08-03,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_046237675.1,Kibakoganea tamdaoensis,3241133,Scarabaeidae,Polyphaga,Chromosome,6125000,61839633,605.33,2024-12-23,Chinese Academy of Sciences,yes,A,include
+GCA_964338995.1,Quedius lateralis,878401,Staphylinidae,Polyphaga,Chromosome,6014424,45398306,753.04,2024-11-11,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963082715.1,Harpalus rubripes,247297,Carabidae,Adephaga,Chromosome,5994626,66357049,1253.24,2023-08-09,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977071015.1,Phratora vitellinae,153785,Chrysomelidae,Polyphaga,Chromosome,5970765,33983073,565.08,2025-12-01,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977061565.1,Platyrhinus resinosus,1586622,Anthribidae,Polyphaga,Chromosome,5966951,77122923,764.06,2025-11-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_935421215.2,Melolontha melolontha,7061,Scarabaeidae,Polyphaga,Chromosome,5929690,180468607,1656.88,2022-10-26,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963243735.1,Neocrepidodera transversa,877844,Chrysomelidae,Polyphaga,Chromosome,5881602,29279830,671.32,2023-08-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965648515.1,Prionocyphon serricornis,1569171,Scirtidae,Polyphaga,Chromosome,5823847,39608670,433.13,2025-07-28,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963942485.1,Pediacus dermestoides,878348,Cucujidae,Polyphaga,Chromosome,5783852,31898251,235.03,2024-02-10,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_978019395.1,Graciliella metohijensis,1849259,Leiodidae,Polyphaga,Chromosome,5769963,18044559,243.22,2026-02-05,University of Florence,yes,A,include
+GCA_965260835.1,Leiosoma deflexum,1342033,Curculionidae,Polyphaga,Chromosome,5745900,42277763,628.19,2025-04-27,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_910589415.1,Malachius bipustulatus,295700,Melyridae,Polyphaga,Chromosome,5740145,56302816,544.26,2021-07-08,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964656825.2,Bitoma crenata,346746,Zopheridae,Polyphaga,Chromosome,5672891,17562620,154.49,2025-11-24,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_028583605.1,Dastarcus helophoroides,1169899,Bothrideridae,Polyphaga,Chromosome,5669615,42556189,538.9,2023-02-13,Northwest A&F University,yes,A,include
+GCA_054850805.1,Tetraopes sublaevis,134895,Cerambycidae,Polyphaga,Chromosome,5570646,84477032,755.59,2026-01-30,Harvard University,yes,A,include
+GCA_964338635.1,Opilo mollis,1445684,Cleridae,Polyphaga,Chromosome,5501207,173272706,1597.81,2024-11-11,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_040580785.1,Brontispa longissima,111217,Chrysomelidae,Polyphaga,Chromosome,5498661,64566028,574.56,2024-07-10,"Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences",yes,A,include
+GCA_977013135.1,Phaleria cadaverina,1470699,Tenebrionidae,Polyphaga,Chromosome,5469000,22616628,367.35,2025-11-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_958507055.1,Crioceris asparagi,131627,Chrysomelidae,Polyphaga,Chromosome,5465325,90622434,639.3,2023-07-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965276455.1,Notoxus monoceros,1553591,Anthicidae,Polyphaga,Chromosome,5447211,130424048,1173.08,2025-05-04,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963675555.1,Leptura quadrifasciata,1143061,Cerambycidae,Polyphaga,Chromosome,5389979,166347592,1403.96,2023-12-10,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_054850835.1,Tetraopes tetrophthalmus,1206596,Cerambycidae,Polyphaga,Chromosome,5304993,85673404,788.9,2026-01-30,Harvard University,yes,A,include
+GCA_947389935.1,Agrilus cyanescens,1586972,Buprestidae,Polyphaga,Chromosome,5283000,29744825,292.35,2022-12-05,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_976916715.1,Lasiorhynchites cavifrons,202013,Attelabidae,Polyphaga,Chromosome,5090000,252295237,1354.95,2025-11-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965654255.1,Phyllobius argentatus,346824,Curculionidae,Polyphaga,Chromosome,5055939,84168171,977.79,2025-08-03,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963920685.1,Polydrusus tereticollis,1342093,Curculionidae,Polyphaga,Chromosome,4992693,146058287,1396.13,2023-12-26,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_979846555.1,Oedemera lurida,1553597,Oedemeridae,Polyphaga,Chromosome,4848000,88392728,1284.77,2026-02-27,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963966155.1,Clivina fossor,795047,Carabidae,Adephaga,Chromosome,4843297,24002212,612.62,2024-02-13,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965112455.1,Uleiota planata,346868,Silvanidae,Polyphaga,Chromosome,4820208,51641909,586.51,2025-01-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_025584915.1,Monochamus saltuarius,236074,Cerambycidae,Polyphaga,Chromosome,4817785,73685592,682.22,2022-10-06,Beijing Forestry University,yes,A,include
+GCA_051047995.1,Curculio caryae,13025,Curculionidae,Polyphaga,Chromosome,4816094,186897725,2169.79,2025-06-25,United States Department of Agriculture,yes,A,include
+GCA_965279835.1,Amara ovata,346692,Carabidae,Adephaga,Chromosome,4815345,51698131,812.77,2025-05-11,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963966075.1,Aphodius sticticus,207213,Scarabaeidae,Polyphaga,Chromosome,4795419,79043068,628.45,2024-02-13,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_973946265.1,Serica brunnea,465155,Scarabaeidae,Polyphaga,Chromosome,4783073,133671589,1695.57,2025-11-22,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965615805.1,Crepidodera fulvicornis,1425550,Chrysomelidae,Polyphaga,Chromosome,4757256,123137060,493.23,2025-07-08,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965178145.1,Ceutorhynchus obstrictus,307131,Curculionidae,Polyphaga,Chromosome,4747246,56416078,728.83,2025-03-11,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_051167335.1,Hycleus marcipoli,1914940,Meloidae,Polyphaga,Chromosome,4646650,10223839,111.45,2025-07-01,Shaanxi Normal University,yes,A,include
+GCA_910593695.2,Ocypus olens,662956,Staphylinidae,Polyphaga,Chromosome,4567902,57303393,1083.87,2022-10-16,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_950111635.2,Agelastica alni,131577,Chrysomelidae,Polyphaga,Chromosome,4545743,66306276,692.29,2024-06-05,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965642315.1,Orchesia undulata,351518,Melandryidae,Polyphaga,Chromosome,4513838,26832798,226.81,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965648495.1,Hallomenus binotatus,295970,Tetratomidae,Polyphaga,Chromosome,4510000,19143717,204.9,2025-07-28,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963942605.1,Poecilus cupreus,270614,Carabidae,Adephaga,Chromosome,4481000,28467149,748.49,2024-02-10,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963966015.1,Aphidecta obliterata,1501862,Coccinellidae,Polyphaga,Chromosome,4463513,38804974,349.58,2024-02-13,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_929113105.1,Agrypnus murinus,195168,Elateridae,Polyphaga,Chromosome,4463000,177293933,1578.52,2022-02-13,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965788545.1,Agriotes lineatus,292458,Elateridae,Polyphaga,Chromosome,4416720,212198138,2590.73,2025-08-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_949320105.2,Crepidodera aurea,346762,Chrysomelidae,Polyphaga,Chromosome,4358255,76910125,508.98,2023-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965643515.1,Bruchidius villosus,256915,Chrysomelidae,Polyphaga,Chromosome,4347107,100418657,972.8,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_055682225.1,Agrilus mali,1917227,Buprestidae,Polyphaga,Chromosome,4341085,28461508,291.19,2026-03-04,Chinese Academy of Forestry,yes,A,include
+GCA_964106875.1,Platystomos albinus,197009,Anthribidae,Polyphaga,Chromosome,4331580,69355648,555.33,2024-06-06,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965183915.1,Dailognatha quadricollis,575809,Tenebrionidae,Polyphaga,Chromosome,4327000,23571702,524.09,2025-03-04,Genoscope CEA,yes,A,include
+GCA_966112595.1,Leistus rufomarginatus,346790,Carabidae,Adephaga,Chromosome,4280190,14695566,264.41,2025-08-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_936432065.2,Rutpela maculata,878968,Cerambycidae,Polyphaga,Chromosome,4272090,187008567,2021.58,2022-12-05,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963422195.1,Carabus problematicus,49291,Carabidae,Adephaga,Chromosome,4259000,17524069,253.97,2023-09-11,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964023215.2,Eledona agricola,347340,Tenebrionidae,Polyphaga,Chromosome,4218407,22633678,358.84,2025-03-29,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963942505.1,Lordithon lunulatus,347394,Staphylinidae,Polyphaga,Chromosome,4216376,56801317,674.39,2024-02-09,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_046736385.1,Eucryptorrhynchus scrobiculatus,1552824,Curculionidae,Polyphaga,Chromosome,4215381,17602443,318.25,2025-01-16,Beijing Foresty University,yes,A,include
+GCA_977013595.1,Sphaeridium bipustulatum,290649,Hydrophilidae,Polyphaga,Chromosome,4115265,22902741,261.76,2025-11-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_958502065.1,Chrysolina americana,75506,Chrysomelidae,Polyphaga,Chromosome,4093593,89349863,980.59,2023-07-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963971325.1,Aphodius granarius,207157,Scarabaeidae,Polyphaga,Chromosome,4076730,24500248,397.22,2024-03-06,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_966096355.1,Calathus melanocephalus,127479,Carabidae,Adephaga,Chromosome,4009859,51750563,966.59,2025-08-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_040894065.1,Eucryptorrhynchus brandti,436910,Curculionidae,Polyphaga,Chromosome,4009376,21023917,401.81,2024-07-26,Beijing Foresty University,yes,A,include
+GCA_964006375.1,Tillus elongatus,295696,Cleridae,Polyphaga,Chromosome,4001000,190090450,1719.09,2024-03-30,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965601895.1,Harpalus anxius,247284,Carabidae,Adephaga,Chromosome,3992063,58613874,1066.25,2025-07-07,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964058775.1,Tetropium fuscum,256650,Cerambycidae,Polyphaga,Chromosome,3916055,43086128,555.65,2024-06-06,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963583905.1,Stenurella melanura,877990,Cerambycidae,Polyphaga,Chromosome,3913043,154376042,1616.91,2023-11-06,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_038088585.1,Chrysina gloriosa,3098083,Scarabaeidae,Polyphaga,Chromosome,3880439,72353455,642.29,2024-04-17,University of Memphis,yes,A,include
+GCA_965642445.1,Notiophilus biguttatus,346812,Carabidae,Adephaga,Chromosome,3818127,22792868,490.37,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977013105.1,Endomychus armeniacus,3366363,Endomychidae,Polyphaga,Chromosome,3810340,63483907,577.69,2025-11-22,Genoscope CEA,yes,A,include
+GCA_965282375.1,Ocys tachysoides,1940097,Carabidae,Adephaga,Chromosome,3804920,44569281,493.78,2025-05-18,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963170755.1,Amphimallon solstitiale,360071,Scarabaeidae,Polyphaga,Chromosome,3724788,150921111,1584.16,2023-08-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977969715.1,Nedyus quadrimaculatus,202049,Curculionidae,Polyphaga,Chromosome,3660000,67122161,1228.36,2026-02-05,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965643585.1,Eulagius filicornis,1586587,Mycetophagidae,Polyphaga,Chromosome,3619454,12507011,160.73,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_951805265.1,Schizotus pectinicornis,351686,Pyrochroidae,Polyphaga,Chromosome,3604651,18534248,181.13,2023-06-04,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_033060865.1,Dorcus hopei,618762,Lucanidae,Polyphaga,Chromosome,3575657,57259251,520.71,2023-10-27,Anhui University,yes,A,include
+GCA_963971135.1,Stenus bimaculatus,1202164,Staphylinidae,Polyphaga,Chromosome,3547562,51678104,450.61,2024-03-06,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_917834065.1,Ceutorhynchus assimilis,467358,Curculionidae,Polyphaga,Chromosome,3538480,55466945,674.95,2022-10-03,ROTHAMSTED RESEARCH,yes,A,include
+GCA_977112535.1,Mycetophagus atomarius,433053,Mycetophagidae,Polyphaga,Chromosome,3526068,14289502,140.07,2026-02-05,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963576565.1,Aspidapion aeneum,877730,Apionidae,Polyphaga,Chromosome,3520329,125843654,1286.19,2023-11-04,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963920755.1,Cartodere bifasciata,1587142,Latridiidae,Polyphaga,Chromosome,3482428,20851529,178.1,2023-12-26,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_950108345.1,Malthinus flaveolus,195224,Cantharidae,Polyphaga,Chromosome,3462109,36462998,236.72,2023-05-16,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_978019415.1,Leonhardella angulicollis,3073151,Leiodidae,Polyphaga,Chromosome,3458477,44176098,493.27,2026-02-05,University of Florence,yes,A,include
+GCA_947310635.1,Leptodirus hochenwartii,2996356,Leiodidae,Polyphaga,Chromosome,3374168,37274531,492.38,2022-11-30,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965641405.1,Gastrophysa viridula,154015,Chrysomelidae,Polyphaga,Chromosome,3283698,24941671,349.64,2025-07-09,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964197645.1,Abax parallelepipedus,102642,Carabidae,Adephaga,Chromosome,3250000,35806512,597.01,2024-07-03,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_047651835.1,Sambus kanssuensis,3045898,Buprestidae,Polyphaga,Chromosome,3192945,34038044,312.03,2025-02-11,China West Normal University,yes,A,include
+GCA_978018155.1,Crudosilis ruficollis,879036,Cantharidae,Polyphaga,Chromosome,3161911,101876541,1193.67,2026-02-05,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964204745.1,Bruchidius varius,256828,Chrysomelidae,Polyphaga,Chromosome,3151950,128549679,1210.05,2024-07-28,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_944039245.1,Nebria salina,878211,Carabidae,Adephaga,Chromosome,3131785,11282846,256.74,2022-06-30,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_978021435.1,Platydracus latebricola,1553674,Staphylinidae,Polyphaga,Chromosome,3085000,96449528,1396.26,2026-02-25,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963457615.1,Nicrophorus investigator,414950,Silphidae,Polyphaga,Chromosome,3077846,28407949,202.29,2023-09-21,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_036250285.1,Pyrocoelia pectoralis,417401,Lampyridae,Polyphaga,Chromosome,3077264,52870853,532.08,2024-01-31,Huazhong Agricultural University,yes,A,include
+GCA_964211925.1,Kyklioacalles roboris,501664,Curculionidae,Polyphaga,Chromosome,2967359,30383510,698.95,2024-08-03,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965644575.1,Leistus fulvibarbis,346789,Carabidae,Adephaga,Chromosome,2898318,6924332,261.73,2025-07-28,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964028335.1,Altica lythri,346691,Chrysomelidae,Polyphaga,Chromosome,2893756,77927963,1003.53,2024-04-20,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963680705.1,Rhagium mordax,295679,Cerambycidae,Polyphaga,Chromosome,2857000,80109270,775.65,2023-12-10,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_947563755.1,Lochmaea crataegi,1143063,Chrysomelidae,Polyphaga,Chromosome,2848502,53024378,891.3,2022-12-18,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964197785.1,Chrysolina graminis,111401,Chrysomelidae,Polyphaga,Chromosome,2842487,131681018,1467.21,2024-07-06,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_947425015.1,Pterostichus niger,106386,Carabidae,Adephaga,Chromosome,2834613,36870366,674.1,2022-12-15,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965649385.1,Nalassus laevioctostriatus,878205,Tenebrionidae,Polyphaga,Chromosome,2823984,51132463,534.59,2025-07-30,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_978021445.1,Agonum viduum,795042,Carabidae,Adephaga,Chromosome,2822791,31947219,583.19,2026-02-25,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963576655.1,Gastrophysa polygoni,878018,Chrysomelidae,Polyphaga,Chromosome,2815411,30539640,369.77,2023-11-04,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964211865.1,Aphodius fimetarius,207148,Scarabaeidae,Polyphaga,Chromosome,2803677,78759060,1343.4,2024-08-01,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_958336395.1,Ctenicera cuprea,1132042,Elateridae,Polyphaga,Chromosome,2792496,60302015,647.69,2023-07-15,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_981560045.1,Amara convexiuscula,1553052,Carabidae,Adephaga,Chromosome,2760791,46084974,742.51,2026-03-03,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_975146085.1,Diplocoelus fagi,433040,Biphyllidae,Polyphaga,Chromosome,2757361,53417606,1695.94,2025-11-22,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_055878605.1,Rhyzopertha dominica,92692,Bostrichidae,Polyphaga,Chromosome,2697104,56704619,497.29,2026-03-14,Academy of National Food and Strategic Rserves Administration,yes,A,include
+GCA_918026865.1,Phyllotreta striolata,444603,Chrysomelidae,Polyphaga,Chromosome,2676005,8716334,132.26,2022-10-03,ROTHAMSTED RESEARCH,yes,A,include
+GCA_965643755.1,Anobium punctatum,877859,Ptinidae,Polyphaga,Chromosome,2667738,36402331,349.97,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_958510875.1,Endomychus coccineus,295833,Endomychidae,Polyphaga,Chromosome,2494558,202803143,906.44,2023-07-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_944738965.1,Nebria brevicollis,110024,Carabidae,Adephaga,Chromosome,2458479,13798286,241.93,2022-07-14,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_949748235.1,Platypus cylindrus,298138,Curculionidae,Polyphaga,Chromosome,2446278,15234454,147.48,2023-05-13,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977014165.1,Adelopsella bosnica,3073150,Leiodidae,Polyphaga,Chromosome,2441452,50488338,860.51,2025-11-24,University of Florence,yes,A,include
+GCA_965648435.1,Curculio glandium,197013,Curculionidae,Polyphaga,Chromosome,2415291,99310684,1121.36,2025-07-28,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964656385.1,Colydium elongatum,295817,Zopheridae,Polyphaga,Chromosome,2413158,52950275,450.17,2025-01-05,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_971796245.1,Sphaeroderma testaceum,428710,Chrysomelidae,Polyphaga,Chromosome,2407971,58484549,1521.32,2025-11-22,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_052815825.1,Dorysthenes granulosus,690275,Cerambycidae,Polyphaga,Chromosome,2297689,81492938,1008.06,2025-09-24,Xinyang Normal University,yes,A,include
+GCA_980253055.1,Podagrica fuscicornis,1425595,Chrysomelidae,Polyphaga,Chromosome,2265000,110818420,1948.99,2026-03-11,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963971575.1,Liopterus haemorrhoidalis,107794,Dytiscidae,Adephaga,Chromosome,2239306,65667942,1020.13,2024-03-07,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965283465.1,Pterostichus vernalis,878440,Carabidae,Adephaga,Chromosome,2239000,16293436,972.3,2025-05-18,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_958298965.1,Chrysolina haemoptera,75519,Chrysomelidae,Polyphaga,Chromosome,2238999,35485444,718.32,2023-07-07,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_944588485.1,Phosphuga atrata,414934,Silphidae,Polyphaga,Chromosome,2238738,74247030,1200.0,2022-07-14,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963930825.1,Silvanus unidentatus,295940,Silvanidae,Polyphaga,Chromosome,2207987,23657960,187.17,2024-01-31,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963695495.2,Hololepta plana,290657,Histeridae,Polyphaga,Chromosome,2199103,14286131,139.52,2025-11-24,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_949788335.1,Salpingus planirostris,577144,Salpingidae,Polyphaga,Chromosome,2186765,8840065,127.54,2023-05-14,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965642435.1,Cantharis decipiens,877885,Cantharidae,Polyphaga,Chromosome,2185536,34757274,355.25,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965121785.1,Chrysomela saliceti,1587176,Chrysomelidae,Polyphaga,Chromosome,2151317,45385673,738.65,2025-02-11,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_979016925.1,Phaedon cochleariae,80249,Chrysomelidae,Polyphaga,Chromosome,2113065,60504008,936.68,2026-02-27,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963924605.1,Malthinus seriepunctatus,1588223,Cantharidae,Polyphaga,Chromosome,2081540,55191692,338.83,2024-01-30,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965643555.1,Rhizotrogus aestivus,1971888,Scarabaeidae,Polyphaga,Chromosome,2065809,199413833,2078.29,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964023965.1,Melinopterus prodromus,1971315,Scarabaeidae,Polyphaga,Chromosome,1982000,66599450,645.64,2024-04-12,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977930235.1,Cis bilamellatus,577748,Ciidae,Polyphaga,Chromosome,1966089,26646925,249.07,2026-02-05,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977065965.1,Monotoma picipes,878149,Monotomidae,Polyphaga,Chromosome,1957789,11246844,183.11,2025-11-28,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965642255.1,Mycetophagus piceus,1501876,Mycetophagidae,Polyphaga,Chromosome,1957516,16108877,169.63,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_966183525.1,Betulapion simile,382944,Apionidae,Polyphaga,Chromosome,1938912,97768225,1089.75,2025-08-24,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963576515.1,Cryptocephalus primarius,1587206,Chrysomelidae,Polyphaga,Chromosome,1867949,15602051,371.01,2023-11-04,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964263285.1,Malthodes minimus,878135,Cantharidae,Polyphaga,Chromosome,1842732,89909434,583.62,2024-09-15,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965112505.1,Prionychus ater,347445,Tenebrionidae,Polyphaga,Chromosome,1817819,31509337,385.24,2025-01-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_963971165.1,Philopedon plagiatum,202117,Curculionidae,Polyphaga,Chromosome,1795000,132169332,1080.35,2024-03-06,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965642125.1,Catops nigricans,346753,Leiodidae,Polyphaga,Chromosome,1705193,18718905,209.72,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965644545.1,Lesteva pubescens,346794,Staphylinidae,Polyphaga,Chromosome,1633415,103271849,984.75,2025-07-28,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_918026665.1,Diabrotica balteata,107213,Chrysomelidae,Polyphaga,Chromosome,1459540,161557722,1607.26,2022-10-03,ROTHAMSTED RESEARCH,yes,A,include
+GCA_958336345.1,Dorcus parallelipipedus,41107,Lucanidae,Polyphaga,Chromosome,1432485,48965044,470.9,2023-07-15,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_046866795.1,Librodor japonicus,433237,Nitidulidae,Polyphaga,Chromosome,1375000,77843278,816.92,2025-01-28,Guangxi University,yes,A,include
+GCA_964258785.1,Longitarsus flavicornis,878065,Chrysomelidae,Polyphaga,Chromosome,1366323,68774571,1128.27,2024-09-03,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_951812935.1,Hermaeophaga mercurialis,347362,Chrysomelidae,Polyphaga,Chromosome,1363883,47101683,479.41,2023-07-15,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_051225655.1,Nadezhdiella cantori,1261038,Cerambycidae,Polyphaga,Chromosome,1325372,87904585,737.74,2025-07-07,Xinyang Normal University,yes,A,include
+GCA_927349885.1,Psylliodes chrysocephalus,3402493,Chrysomelidae,Polyphaga,Chromosome,1287164,86653508,1181.81,2022-07-03,ROTHAMSTED RESEARCH,yes,A,include
+GCA_965643785.1,Microrhagus pygmaeus,445480,Eucnemidae,Polyphaga,Chromosome,1272189,28484166,320.83,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_979300175.1,Chrysolina herbacea,75521,Chrysomelidae,Polyphaga,Chromosome,1254064,117810277,1277.25,2026-02-27,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_047936755.1,Sitophilus zeamais,7047,Curculionidae,Polyphaga,Chromosome,1251010,61034850,693.21,2025-02-24,Henan University of Technology,yes,A,include
+GCA_958502075.1,Orchestes rusci,878341,Curculionidae,Polyphaga,Chromosome,1248716,81830918,624.05,2023-07-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_951812265.1,Taphrorychus bicolor,105251,Curculionidae,Polyphaga,Chromosome,1227000,48296002,575.24,2023-07-16,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_979853965.1,Bathyscidius tristiculus,3073148,Leiodidae,Polyphaga,Chromosome,1117445,34462195,488.14,2026-02-27,University of Florence,yes,A,include
+GCA_965642295.1,Chrysomela populi,154003,Chrysomelidae,Polyphaga,Chromosome,1112475,35876596,546.99,2025-07-19,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_973896625.1,Drilus flavescens,295522,Elateridae,Polyphaga,Chromosome,1096200,95407609,1008.87,2025-11-22,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965240315.1,Lathrobium brunnipes,346787,Staphylinidae,Polyphaga,Chromosome,1077214,42629934,465.52,2025-04-14,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965783885.1,Tachyporus hypnorum,346861,Staphylinidae,Polyphaga,Chromosome,1061911,19014134,531.39,2025-08-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_977071005.1,Acupalpus dubius,346686,Carabidae,Adephaga,Chromosome,1035434,35587265,656.08,2025-11-30,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_965663565.1,Anthobium unicolor,347271,Staphylinidae,Polyphaga,Chromosome,1023587,27205651,359.2,2025-08-23,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_034190945.1,Octodonta nipae,1432747,Chrysomelidae,Polyphaga,Chromosome,1021275,148600573,1303.76,2023-12-07,China Jiliang University,yes,A,include
+GCA_040182625.1,Callosobruchus maculatus,64391,Chrysomelidae,Polyphaga,Chromosome,1020411,117707481,1222.63,2024-06-14,Institute of Zoology Chinese Academy of Sciences,yes,A,include
+GCA_965645225.1,Crepidodera aurata,200911,Chrysomelidae,Polyphaga,Chromosome,1019463,61645881,840.29,2025-07-28,WELLCOME SANGER INSTITUTE,yes,A,include
+GCA_964656865.1,Grypus equiseti,1553333,Erirhinidae,Polyphaga,Chromosome,968598,84483945,779.29,2025-01-05,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_978045665.1,Anthroherpon ganglbaueri,1849190,Leiodidae,Polyphaga,Chromosome,954296,21074117,245.27,2026-02-26,University of Florence,yes,B,include
+GCA_947652605.1,Elmis aenea,186982,Elmidae,Polyphaga,Chromosome,911544,60347194,516.52,2022-12-22,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_979475445.1,Radziella styx,3237728,Leiodidae,Polyphaga,Chromosome,844232,31164774,340.01,2026-02-27,University of Florence,yes,B,include
+GCA_978019935.1,Taeniapion urticarium,202217,Apionidae,Polyphaga,Chromosome,819000,82144690,827.07,2026-02-25,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_013421045.1,Propylea japonica,158624,Coccinellidae,Polyphaga,Chromosome,813984,100336366,851.23,2020-07-23,Institute of Cotton Research of Chinese academy of agricultural sciences,yes,B,include
+GCA_965282865.1,Metoecus paradoxus,433052,Ripiphoridae,Polyphaga,Chromosome,698376,14268511,100.39,2025-05-18,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_964243895.1,Anaspis frontalis,433021,Scraptiidae,Polyphaga,Chromosome,663525,99753807,808.57,2024-09-01,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_963969525.1,Ontholestes murinus,875675,Staphylinidae,Polyphaga,Chromosome,662260,74692260,1023.33,2024-03-06,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_977014565.1,Gonodera luperus,700380,Tenebrionidae,Polyphaga,Chromosome,656533,53773301,327.53,2025-11-23,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_963556235.1,Cryptophagus acutangulus,1553241,Cryptophagidae,Polyphaga,Chromosome,622935,9223670,177.34,2023-10-13,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_038502775.1,Hippodamia convergens,64696,Coccinellidae,Polyphaga,Chromosome,621899,89672818,619.23,2024-04-29,San Diego State University,yes,B,include
+GCA_976289695.1,Pterostichus diligens,360359,Carabidae,Adephaga,Chromosome,587496,36590417,572.08,2025-11-22,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_965663585.1,Cryptocephalus pusillus,877924,Chrysomelidae,Polyphaga,Chromosome,580918,20342572,312.97,2025-08-23,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_054859625.1,Luciola italica,344611,Lampyridae,Polyphaga,Chromosome,517804,126850412,1210.02,2026-01-30,Ludwig Maximilians Universitaet Muenchen,yes,B,include
+GCA_965653155.1,Chaetocnema hortensis,346761,Chrysomelidae,Polyphaga,Chromosome,497099,40798368,384.64,2025-08-01,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_975739945.1,Lesteva punctata,290674,Staphylinidae,Polyphaga,Chromosome,443094,133440658,1256.76,2025-11-25,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_965644065.1,Drusilla canaliculata,135868,Staphylinidae,Polyphaga,Chromosome,398913,31642575,342.08,2025-07-28,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_023690525.1,Holotrichia oblita,644536,Scarabaeidae,Polyphaga,Chromosome,369487,159026469,1415.11,2022-06-08,Shandong Academy of Agricultural Sciences,yes,B,include
+GCA_978046105.1,Paederus riparius,878345,Staphylinidae,Polyphaga,Chromosome,358822,68032290,1201.43,2026-03-01,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_965642045.1,Magdalis cerasi,1143066,Curculionidae,Polyphaga,Chromosome,321191,77827345,1665.12,2025-07-19,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_977790985.1,Carabus nemoralis,49290,Carabidae,Adephaga,Chromosome,308120,13108008,237.47,2026-02-04,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_965601595.1,Pseudocistela ceramboides,295998,Tenebrionidae,Polyphaga,Chromosome,307262,24545939,356.61,2025-07-07,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_965663545.1,Magdalis barbicornis,878129,Curculionidae,Polyphaga,Chromosome,305565,66004839,1457.5,2025-08-23,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_019049505.1,Pachyrhynchus sulphureomaculatus,2840399,Curculionidae,Polyphaga,Chromosome,299666,215921627,2051.39,2021-06-29,California Academy of Sciences,yes,B,include
+GCA_978045125.1,Xantholinus longiventris,346870,Staphylinidae,Polyphaga,Chromosome,287807,34534338,474.09,2026-03-01,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_051251045.1,Aulacophora lewisii,226735,Chrysomelidae,Polyphaga,Chromosome,266548,55131139,1642.79,2025-07-08,Xinyang Normal University,yes,B,include
+GCA_979606585.1,Coelostoma orbiculare,290652,Hydrophilidae,Polyphaga,Chromosome,247587,53784477,751.01,2026-02-27,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_054825155.1,Tomicus yunnanensis,768153,Curculionidae,Polyphaga,Chromosome,228779,21590098,378.22,2026-01-29,China Agricultural University,yes,B,include
+GCA_958510825.1,Brachypterus glaber,442081,Kateretidae,Polyphaga,Chromosome,212382,55111238,648.3,2023-07-23,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_966185095.1,Rhyzobius forestieri,2849648,Coccinellidae,Polyphaga,Chromosome,158616,96482978,753.47,2025-08-23,WELLCOME SANGER INSTITUTE,yes,B,include
+GCA_002278615.1,Pogonus chalceus,235516,Carabidae,Adephaga,Chromosome,5623,66402,280.88,2017-09-15,Cambridge University,yes,B,include
+GCA_036711955.1,Digitonthophagus gazella,206854,Scarabaeidae,Polyphaga,Scaffold,33022298,33022298,340.79,2024-02-20,Indiana University,yes,C,include
+GCA_042919845.1,Popillia japonica,7064,Scarabaeidae,Polyphaga,Scaffold,27100407,69799175,565.11,2024-10-15,"University of California, Santa Cruz",yes,C,include
+GCA_052550795.1,Donacia provostii,225698,Chrysomelidae,Polyphaga,Scaffold,26426422,28576334,1760.45,2025-09-11,Yangzhou University,yes,C,include
+GCA_054832365.1,Phanaeus vindex,506474,Scarabaeidae,Polyphaga,Scaffold,21796443,21796443,409.25,2026-01-29,University of Tennessee,yes,C,include
+GCA_044115295.2,Agriotes ferrugineipennis,2083513,Elateridae,Polyphaga,Scaffold,20637005,122731983,1230.6,2025-07-24,Canada's national platform for genome sequencing and analysis,yes,C,include
+GCA_030347505.2,Rhynchophorus ferrugineus,354439,Curculionidae,Polyphaga,Scaffold,20155528,43002243,777.69,2025-08-08,UAE University,yes,C,include
+GCA_036711965.1,Onthophagus sagittarius,476082,Scarabaeidae,Polyphaga,Scaffold,17017457,67799835,553.2,2024-02-20,Indiana University,yes,C,include
+GCA_035578165.1,Stenolophus ochropezus,536894,Carabidae,Adephaga,Scaffold,16540314,26348653,826.48,2024-01-11,University of Illinois at Urbana-Champaign,yes,C,include
+GCA_044115325.2,Agriotes sputator,346689,Elateridae,Polyphaga,Scaffold,16345600,1243888664,1922.9,2025-08-28,Canada's national platform for genome sequencing and analysis,yes,C,include
+GCA_041228495.2,Agriotes mancus,1132040,Elateridae,Polyphaga,Scaffold,15085314,187609735,2455.03,2024-12-23,Canada's national platform for genome sequencing and analysis,yes,C,include
+GCA_041296355.1,Hypothenemus hampei,57062,Curculionidae,Polyphaga,Scaffold,13972184,13972216,172.63,2024-08-15,University of Muenster,yes,C,include
+GCA_029619315.2,Dynastes maya,1767016,Scarabaeidae,Polyphaga,Scaffold,13030375,59779349,719.21,2024-01-04,Academia Sinica,yes,C,include
+GCA_029207805.1,Tribolium confusum,7071,Tenebrionidae,Polyphaga,Scaffold,11537194,29665350,437.21,2023-03-14,United States Department of Agriculture,yes,C,include
+GCA_020654165.1,Oryctes rhinoceros,72550,Scarabaeidae,Polyphaga,Scaffold,10534518,10697081,377.36,2021-10-27,The University of Queensland,yes,C,include
+GCA_013387265.2,Cryptolaemus montrouzieri,559131,Coccinellidae,Polyphaga,Scaffold,10332729,101224041,988.02,2024-04-12,Sun Yat-sen University,yes,C,include
+GCA_029955515.1,Chrysomela aeneicollis,153825,Chrysomelidae,Polyphaga,Scaffold,6613287,20156593,570.36,2023-05-08,UCLA,yes,C,include
+GCA_054832385.1,Canthon chalcites,3456053,Scarabaeidae,Polyphaga,Scaffold,2253537,2284547,555.82,2026-01-29,University of Tennessee,yes,C,include
+GCA_043773905.1,Dicheirus dilatatus,2890184,Carabidae,Adephaga,Scaffold,2101690,13591923,698.5,2024-10-24,UCLA,yes,C,include
+GCA_041228525.2,Larinus minutus,1342029,Curculionidae,Polyphaga,Scaffold,2091210,58633535,1419.17,2025-02-11,Canada's national platform for genome sequencing and analysis,yes,C,include
+GCA_050437245.1,Lucanus miwai,618043,Lucanidae,Polyphaga,Scaffold,2023276,47663170,474.98,2025-05-19,Academia Sinica,yes,C,include
+GCA_044734075.1,Calosoma tepidum,3345128,Carabidae,Adephaga,Scaffold,1994820,6606476,256.96,2024-11-08,Geneva Natural History Museum,yes,C,include
+GCA_051939025.1,Dynastes hercules,1767012,Scarabaeidae,Polyphaga,Scaffold,1761913,66686056,837.13,2025-08-12,Academia Sinica,yes,C,include
+GCA_040955315.2,Agriotes obscurus,350085,Elateridae,Polyphaga,Scaffold,1433701,19135796,2492.93,2025-02-27,Canada's national platform for genome sequencing and analysis,yes,C,include
+GCA_025399875.3,Dalotia coriaria,877792,Staphylinidae,Polyphaga,Scaffold,1365799,8658950,193.88,2024-04-26,IRIDIAN GENOMES,yes,C,include
+GCA_051989325.1,Lethrus apterus,1612427,Geotrupidae,Polyphaga,Scaffold,1250744,1378308,293.02,2025-08-13,University of Debrecen,yes,C,include
+GCA_013368085.1,Abscondita terminalis,2069292,Lampyridae,Polyphaga,Scaffold,1220005,1220005,499.65,2020-06-23,Northwestern Polytechnical University,yes,C,include
+GCA_002938485.2,Sitophilus oryzae,7048,Curculionidae,Polyphaga,Scaffold,1039787,2860826,770.57,2019-09-09,BF2I,yes,C,include
+GCA_051313465.2,Labidomera clivicollis,131652,Chrysomelidae,Polyphaga,Scaffold,991131,45069713,979.02,2026-01-27,Canada's national platform for genome sequencing and analysis,yes,C,include
+GCA_024550625.1,Dendroctonus valens,77173,Curculionidae,Polyphaga,Scaffold,985469,1658008,322.41,2022-08-05,Insititute of Zoology,yes,C,include
+GCA_029618875.2,Dynastes tityus,1248199,Scarabaeidae,Polyphaga,Scaffold,974450,58841846,708.72,2024-01-04,Academia Sinica,yes,C,include
+GCA_963669975.1,Acanthoscelides obtectus,200917,Chrysomelidae,Polyphaga,Scaffold,772864,108704056,1105.07,2023-12-08,Evolutionary Biology Centre,yes,C,include
+GCA_051939005.1,Dynastes hercules,1767008,Scarabaeidae,Polyphaga,Scaffold,751886,78984168,770.98,2025-08-12,Academia Sinica,yes,C,include
+GCA_050947525.1,Lampyris noctiluca,41311,Lampyridae,Polyphaga,Scaffold,620402,655439,652.5,2025-06-17,Ludwig Maximilians University,yes,C,include
+GCA_044734065.1,Calosoma wilkesii,3345127,Carabidae,Adephaga,Scaffold,523703,13106759,220.97,2024-11-08,Geneva Natural History Museum,yes,C,include
+GCA_032362365.1,Zygogramma bicolorata,937811,Chrysomelidae,Polyphaga,Scaffold,448050,675871,935.93,2023-10-04,CSIR - Centre for Cellular and Molecular Biology,yes,C,include
+GCA_051938985.1,Dynastes hercules,1767011,Scarabaeidae,Polyphaga,Scaffold,402584,74811385,689.65,2025-08-12,Academia Sinica,yes,C,include
+GCA_046128435.1,Trigonoscuta pilosa,2919430,Curculionidae,Polyphaga,Scaffold,354045,147232456,2263.67,2024-12-17,"University of California, Santa Cruz",yes,C,include
+GCA_050242925.2,Anthonomus rubi,201759,Curculionidae,Polyphaga,Scaffold,346941,9984931,385.7,2025-07-18,Canada's national platform for genome sequencing and analysis,yes,C,include
+GCA_052696345.1,Lethrus scoparius,2609328,Geotrupidae,Polyphaga,Scaffold,301243,301243,266.04,2025-09-18,University of Debrecen,yes,C,include
+GCA_051938965.1,Dynastes hercules,1767013,Scarabaeidae,Polyphaga,Scaffold,281500,72960292,680.27,2025-08-12,Academia Sinica,yes,C,include
+GCA_027724725.1,Zophobas morio,2755281,Tenebrionidae,Polyphaga,Scaffold,228171,48007226,461.99,2023-01-12,Open Plastic,yes,C,include
+GCA_029619325.2,Dynastes grantii,60843,Scarabaeidae,Polyphaga,Scaffold,216440,57874787,678.74,2024-01-04,Academia Sinica,yes,C,include
+GCA_044115395.2,Agriotes pubescens,1845008,Elateridae,Polyphaga,Scaffold,206332,436499,2132.23,2025-07-15,Canada's national platform for genome sequencing and analysis,yes,C,include
+GCA_018344505.1,Nebria ingens,2783810,Carabidae,Adephaga,Scaffold,196262,301532,147.4,2021-05-12,University of Wisconsin-Madison,yes,C,include
+GCA_050785175.1,Carabus blaptoides,49296,Carabidae,Adephaga,Scaffold,163054,2655912,187.95,2025-06-05,"Department of Biology, Faculty of Science, Toho University",yes,C,include
+GCA_902654985.2,Oryctes borbonicus,1629725,Scarabaeidae,Polyphaga,Scaffold,150028,8361481,428.25,2021-03-16,MAX PLANCK INSTITUTE FOR DEVELOPMENTAL BIOLOGY,yes,C,include
+GCA_049176215.1,Xyleborus bispinatus,995685,Curculionidae,Polyphaga,Scaffold,139662,6615795,161.71,2025-03-30,Iridian Genomes,yes,C,include
+GCA_014170235.1,Listronotus bonariensis,292309,Curculionidae,Polyphaga,Scaffold,120328,122258,1112.44,2020-08-12,University of Otago,yes,C,include
+GCA_047371185.1,Neoclytus acuminatus,376231,Cerambycidae,Polyphaga,Contig,52593577,52593577,508.41,2025-02-05,University of Memphis,yes,D,conditional
+GCA_050941775.1,Batocera rufomaculata,1840708,Cerambycidae,Polyphaga,Contig,37032474,37032474,338.08,2025-06-17,Kunming Institute of Zoology,yes,D,conditional
+GCA_037954035.1,Rosalia funebris,3116773,Cerambycidae,Polyphaga,Contig,30181154,30181154,814.02,2024-04-05,University of Memphis,yes,D,conditional
+GCA_036326145.1,Rhagophthalmus giganteus,2591746,Rhagophthalmidae,Polyphaga,Contig,22250735,22250735,275.49,2024-02-01,"Kunming Institute of Zoology (KIZ), Chinese Academy of Science (CAS)",yes,D,conditional
+GCA_047676225.1,Asbolus verrucosus,1661398,Tenebrionidae,Polyphaga,Contig,20175144,20175144,286.01,2025-02-11,Dean Rider,yes,D,conditional
+GCA_036346155.1,Sinelater perroti,1028068,Elateridae,Polyphaga,Contig,16744002,16744002,1242.19,2024-02-02,"Kunming Institute of Zoology (KIZ), Chinese Academy of Science (CAS)",yes,D,conditional
+GCA_034092305.1,Diaprepes abbreviatus,13040,Curculionidae,Polyphaga,Contig,7800247,7800247,1623.14,2023-12-05,University of Memphis,yes,D,conditional
+GCA_020654155.1,Novius pumilus,1902202,Coccinellidae,Polyphaga,Contig,7579481,7579481,182.42,2021-10-27,Sun Yat-sen University,yes,D,conditional
+GCA_028455855.1,Meloe dianella,2109432,Meloidae,Polyphaga,Contig,7413378,7413378,100.08,2023-02-03,The State University of New York at Buffalo,yes,D,conditional
+GCA_020740385.1,Mylabris phalerata,580879,Meloidae,Polyphaga,Contig,5949474,5949474,135.7,2021-11-04,Shaanxi Normal University,yes,D,conditional
+GCA_030704895.1,Henosepilachna vigintioctopunctata,420089,Coccinellidae,Polyphaga,Contig,5762660,5762660,496.12,2023-08-09,Sun Yat-sen University,yes,D,conditional
+GCA_036346225.1,Platerodrilus igneus,2026625,Lycidae,Polyphaga,Contig,5663757,5663757,2714.43,2024-02-02,"Kunming Institute of Zoology (KIZ), Chinese Academy of Science (CAS)",yes,D,conditional
+GCA_051294475.1,Sternochetus mangiferae,925794,Curculionidae,Polyphaga,Contig,3574366,3574366,701.87,2025-07-10,Kunming Institute of Zoology,yes,D,conditional
+GCA_013368075.1,Lamprigera yunnana,370605,Lampyridae,Polyphaga,Contig,3509824,3509824,1052.93,2020-06-23,Northwestern Polytechnical University,yes,D,conditional
+GCA_036346125.1,Lycocerus yunnanus,2983378,Cantharidae,Polyphaga,Contig,3446455,3446455,392.74,2024-02-02,"Kunming Institute of Zoology (KIZ), Chinese Academy of Science (CAS)",yes,D,conditional
+GCA_982185335.1,Troglocharinus ferreri,1304164,Leiodidae,Polyphaga,Contig,3443960,3443960,404.2,2026-03-09,University of Oslo,yes,D,conditional
+GCA_036346205.1,Vesta saturnalis,370603,Lampyridae,Polyphaga,Contig,2975991,2975991,2140.13,2024-02-02,"Kunming Institute of Zoology (KIZ), Chinese Academy of Science (CAS)",yes,D,conditional
+GCA_036325965.1,Sinopyrophorus schimmeli,2488820,Elateridae,Polyphaga,Contig,2735891,2735891,289.31,2024-02-01,"Kunming Institute of Zoology (KIZ), Chinese Academy of Science (CAS)",yes,D,conditional
+GCA_030674115.1,Micraspis discolor,420093,Coccinellidae,Polyphaga,Contig,2628608,2628608,523.75,2023-08-07,Sun Yat-sen University,yes,D,conditional
+GCA_055275695.1,Calosoma relictum,3480209,Carabidae,Adephaga,Contig,2433412,2433412,214.75,2026-02-17,Natural History Museum of Geneva,yes,D,conditional
+GCA_029955175.1,Exocentrus adspersus,1586481,Cerambycidae,Polyphaga,Contig,1296204,1296204,257.54,2023-05-08,Max Planck Institute for Chemical Ecology,yes,D,conditional
+GCA_030620095.1,Kuschelorhynchus macadamiae,2754503,Curculionidae,Polyphaga,Contig,989531,989531,2040.83,2023-08-03,CSIRO Applied Genomics Initiative,yes,D,conditional
+GCA_048127345.1,Carabus depressus,135145,Carabidae,Adephaga,Contig,945386,945386,190.42,2025-02-26,Geneva Natural History Museum,yes,D,conditional
+GCA_055532135.1,Trypodendron lineatum,105211,Curculionidae,Polyphaga,Contig,915233,915233,83.62,2026-02-26,Lund University,yes,D,conditional
+GCA_031761425.1,Cosmopolites sordidus,206492,Curculionidae,Polyphaga,Contig,706383,706383,1068.54,2023-09-22,University of Puerto Rico Mayaguez,yes,D,conditional
+GCA_021725515.1,Epicauta chinensis,941254,Meloidae,Polyphaga,Contig,659431,659431,151.88,2022-01-30,Northwest A&F University,yes,D,conditional
+GCA_029963845.1,Rhamnusium bicolor,1586634,Cerambycidae,Polyphaga,Contig,632732,632732,1141.6,2023-05-10,Max Planck Institute for Chemical Ecology,yes,D,conditional
+GCA_030704885.1,Cynegetis impunctata,1553253,Coccinellidae,Polyphaga,Contig,562463,562463,796.0,2023-08-09,Sun Yat-sen University,yes,D,conditional
+GCA_018342105.1,Gonioctena quinquepunctata,63699,Chrysomelidae,Polyphaga,Contig,432124,432124,1731.95,2021-05-11,ULB,yes,D,conditional
+GCA_031893035.2,Dermolepida albohirtum,1980614,Scarabaeidae,Polyphaga,Contig,368483,368483,884.24,2025-03-14,CSIRO Applied Genomics Initiative,yes,D,conditional
+GCA_030710515.1,Abscondita cerata,2740424,Lampyridae,Polyphaga,Contig,325269,325269,967.16,2023-08-11,Taipei Medical University,yes,D,conditional
+GCA_050578095.1,Araecerus fasciculatus,251759,Anthribidae,Polyphaga,Contig,207620,207620,474.89,2025-05-27,University of Puerto Rico Mayaguez,yes,D,conditional
+GCA_965278915.1,Astagobius angustatus,1457099,Leiodidae,Polyphaga,Contig,203406,203406,278.6,2025-05-18,NBIS (National Bioinformatics Infrastructure Sweden),yes,D,conditional
+GCA_029963825.1,Molorchus minor,1323400,Cerambycidae,Polyphaga,Contig,140248,140248,364.69,2023-05-10,Max Planck Institute for Chemical Ecology,yes,D,conditional
+GCA_902655005.2,Marronus borbonicus,2654888,Scarabaeidae,Polyphaga,Scaffold,96023,12419137,441.47,2021-03-16,MAX PLANCK INSTITUTE FOR DEVELOPMENTAL BIOLOGY,yes,D,conditional
+GCA_027575565.1,Diploeciton nevermanni,1897744,Staphylinidae,Polyphaga,Scaffold,90103,2928743,110.46,2023-01-06,IRIDIAN GENOMES,yes,D,conditional
+GCA_013841215.1,Hycleus cichorii,1270216,Meloidae,Polyphaga,Scaffold,86942,99766,99.17,2020-07-28,Guizhou University,yes,D,conditional
+GCA_046766355.1,Xyleborus affinis,105120,Curculionidae,Polyphaga,Scaffold,84369,4846381,219.08,2025-01-19,Iridian Genomes,yes,D,conditional
+GCA_029619255.2,Dynastes hyllus,1767015,Scarabaeidae,Polyphaga,Scaffold,81759,52444804,621.81,2024-01-04,Academia Sinica,yes,D,conditional
+GCA_013841185.1,Hycleus phaleratus,1248972,Meloidae,Polyphaga,Scaffold,75478,78049,90.87,2020-07-28,Guizhou University,yes,D,conditional
+GCA_033557855.1,Hydrochus callosus,3050894,Hydrochidae,Polyphaga,Contig,75369,75369,20.91,2023-11-13,Northern Arizona University,yes,D,conditional
+GCA_019359885.1,Listronotus oregonensis,412987,Curculionidae,Polyphaga,Scaffold,53091,61395,1293.28,2021-07-27,Agriculture Agri-food Canada,yes,D,conditional
+GCA_033557835.1,Helochares maculicollis,2064893,Hydrophilidae,Polyphaga,Contig,48633,48633,25.69,2023-11-13,Northern Arizona University,yes,D,conditional
+GCA_054785535.1,Carabus esakii,118795,Carabidae,Adephaga,Scaffold,41418,2023420,193.16,2026-01-26,"Laboratory of Animal Ecology, Department of Zoology, Graduate School of Science, Kyoto University",yes,D,conditional
+GCA_046129895.1,Calligrapha alni,359191,Chrysomelidae,Polyphaga,Contig,39003,39003,900.14,2024-12-17,Canada's national platform for genome sequencing and analysis,yes,D,conditional
+GCA_052058915.1,Oryzaephilus surinamensis,41112,Silvanidae,Polyphaga,Contig,37040,37040,91.4,2025-08-15,University of Kerbala,yes,D,conditional
+GCA_050242995.1,Plateumaris germari,462189,Chrysomelidae,Polyphaga,Contig,35378,35378,907.37,2025-05-07,Canada's national platform for genome sequencing and analysis,yes,D,conditional
+GCA_033557685.1,Sperchopsis tessellata,1397758,Hydrophilidae,Polyphaga,Contig,32069,32069,22.62,2023-11-13,Northern Arizona University,yes,D,conditional
+GCA_011009095.1,Ignelater luminosus,2038154,Elateridae,Polyphaga,Scaffold,31102,95789,842.9,2020-02-25,Whitehead Institute,yes,D,conditional
+GCA_037414755.1,Lydus trimaculatus,2785641,Meloidae,Polyphaga,Scaffold,31079,45202,114.12,2024-03-20,University Roma Tre,yes,D,conditional
+GCA_030264675.1,Anaulacaspis nigra,1553355,Staphylinidae,Polyphaga,Scaffold,28042,31432,107.51,2023-06-13,California Institute of Technology,yes,D,conditional
+GCA_049176235.1,Xyleborus glabratus,889492,Curculionidae,Polyphaga,Scaffold,27990,47448,239.51,2025-03-30,Iridian Genomes,yes,D,conditional
+GCA_030556065.1,Holobus sp. GC000080,3034851,Staphylinidae,Polyphaga,Scaffold,27575,28646,115.99,2023-07-31,California Institute of Technology,yes,D,conditional
+GCA_030264555.1,Aleochara sp. GC000083,3032618,Staphylinidae,Polyphaga,Scaffold,27552,29507,152.72,2023-06-13,California Institute of Technology,yes,D,conditional
+GCA_020466585.2,Dendroctonus ponderosae,77166,Curculionidae,Polyphaga,Scaffold,26086,16553750,223.6,2022-05-12,Natural Resources Canada,yes,D,conditional
+GCA_016904865.1,Pissodes strobi,49927,Curculionidae,Polyphaga,Scaffold,24927,105159,2025.02,2021-02-24,Canada's Genomic Enterprise,yes,D,conditional
+GCA_027574925.1,Ecitoglossa quadriceps,1916246,Staphylinidae,Polyphaga,Scaffold,22296,186437,123.41,2023-01-06,IRIDIAN GENOMES,yes,D,conditional
+GCA_050230155.1,Nipponaphaenops erraticus,3410394,Carabidae,Adephaga,Scaffold,21837,75634,463.81,2025-05-07,Hokkaido University,yes,D,conditional
+GCA_910591685.1,Galerucella tenella,161257,Chrysomelidae,Polyphaga,Scaffold,21782,31588,460.59,2021-07-08,Stockholm University,yes,D,conditional
+GCA_037464855.1,Iselma pallidipennis,881134,Meloidae,Polyphaga,Scaffold,21541,61839,107.3,2024-03-22,University Roma Tre,yes,D,conditional
+GCA_014611495.1,Limonius californicus,1132045,Elateridae,Polyphaga,Scaffold,19395,19399,1072.67,2020-09-16,University of Idaho,yes,D,conditional
+GCA_910591675.1,Galerucella calmariensis,161252,Chrysomelidae,Polyphaga,Scaffold,18320,79674,588.27,2021-07-08,Stockholm University,yes,D,conditional
+GCA_027575185.1,Mimaenictus wilsoni,1962800,Staphylinidae,Polyphaga,Scaffold,16453,21013,230.3,2023-01-06,IRIDIAN GENOMES,yes,D,conditional
+GCA_910591695.1,Galerucella pusilla,161253,Chrysomelidae,Polyphaga,Scaffold,16278,45442,513.24,2021-07-08,Stockholm University,yes,D,conditional
+GCA_018845635.2,Nicrophorus orbicollis,64902,Silphidae,Polyphaga,Scaffold,16089,26547,226.7,2025-06-26,University of Georgia,yes,D,conditional
+GCA_030264715.1,Adinopsis sp. GC000173,3032616,Staphylinidae,Polyphaga,Scaffold,16056,16059,205.15,2023-06-13,California Institute of Technology,yes,D,conditional
+GCA_022063505.1,Calosoma granatense,196575,Carabidae,Adephaga,Scaffold,14497,5661974,167.87,2022-02-08,Royal Belgian Institute of Natural Sciences,yes,D,conditional
+GCA_003054995.1,Aleochara bilineata,135921,Staphylinidae,Polyphaga,Scaffold,12135,54149,85.9,2018-04-17,VU University Amsterdam,yes,D,conditional
+GCA_050230255.1,Trechiama lewisi,3410392,Carabidae,Adephaga,Scaffold,11403,31665,388.66,2025-05-07,Hokkaido University,yes,D,conditional
+GCA_031763485.1,Osmoderma eremita,314302,Scarabaeidae,Polyphaga,Scaffold,10029,14873,494.66,2023-09-20,Iridian Genomes,yes,D,conditional
+GCA_033557675.1,Coptodactyla brooksi,3050891,Scarabaeidae,Polyphaga,Contig,24517,24517,18.23,2023-11-13,Northern Arizona University,yes,E,exclude
+GCA_033557875.1,Quadriops clusia,2827049,Hydrophilidae,Polyphaga,Contig,10607,10607,191.57,2023-11-13,Northern Arizona University,yes,E,exclude
+GCA_033557805.1,Phaenonotum sp. SLE1380,3053245,Hydrophilidae,Polyphaga,Contig,10128,10128,28.7,2023-11-13,Northern Arizona University,yes,E,exclude
+GCA_037414775.1,Zonitis immaculata,2981214,Meloidae,Polyphaga,Scaffold,9755,15898,102.04,2024-03-20,University Roma Tre,yes,E,exclude
+GCA_054771555.1,Trechiama kuznetsovi,2989721,Carabidae,Adephaga,Scaffold,9573,16592,456.73,2026-01-26,"Course in Ecological Genetics Graduate School of Environmental Science, Hokkaido University",yes,E,exclude
+GCA_030264135.1,Myllaena sp. GC000078,3032614,Staphylinidae,Polyphaga,Scaffold,9424,11375,119.22,2023-06-13,California Institute of Technology,yes,E,exclude
+GCA_037414795.1,Stenodera caucasica,443667,Meloidae,Polyphaga,Scaffold,9204,31257,92.69,2024-03-20,University Roma Tre,yes,E,exclude
+GCA_030264535.1,Liometoxenus newtonarum,3028047,Staphylinidae,Polyphaga,Scaffold,8190,8439,182.09,2023-06-13,California Institute of Technology,yes,E,exclude
+GCA_019419845.2,Weissflogia rhopalogaster,1962808,Staphylinidae,Polyphaga,Scaffold,7721,16950,235.1,2022-11-30,IRIDIAN GENOMES,yes,E,exclude
+GCA_009867245.2,Adranes taylori,1535445,Staphylinidae,Polyphaga,Scaffold,7172,7622,887.79,2023-01-03,IRIDIAN GENOMES,yes,E,exclude
+GCA_027574965.2,Ecitophya simulans,1886648,Staphylinidae,Polyphaga,Scaffold,6923,14558,219.67,2023-06-22,IRIDIAN GENOMES,yes,E,exclude
+GCA_030264215.1,Geostiba sp. GC000077,3032613,Staphylinidae,Polyphaga,Scaffold,6791,11003,190.69,2023-06-13,California Institute of Technology,yes,E,exclude
+GCA_027576655.1,Platyusa sonomae,2015917,Staphylinidae,Polyphaga,Scaffold,6614,6817,229.68,2023-01-06,IRIDIAN GENOMES,yes,E,exclude
+GCA_050230235.1,Blemus discus,879042,Carabidae,Adephaga,Scaffold,6442,9408,473.59,2025-05-07,Hokkaido University,yes,E,exclude
+GCA_025399995.1,Sceptobius lativentris,2015916,Staphylinidae,Polyphaga,Scaffold,6386,10983,318.49,2022-09-25,IRIDIAN GENOMES,yes,E,exclude
+GCA_025447835.1,Labidoglobus nevermanni,1916250,Staphylinidae,Polyphaga,Scaffold,6360,7524,118.83,2022-09-27,IRIDIAN GENOMES,yes,E,exclude
+GCA_015342045.1,Leptinotarsa lineolata,2663499,Chrysomelidae,Polyphaga,Scaffold,6286,6547,647.43,2020-11-10,University of Wisconsin-Madison,yes,E,exclude
+GCA_030264655.1,Leptusa sp. GC000079,3032615,Staphylinidae,Polyphaga,Scaffold,6169,10633,170.31,2023-06-13,California Institute of Technology,yes,E,exclude
+GCA_030264175.1,Oxypoda opaca,878185,Staphylinidae,Polyphaga,Scaffold,6155,14628,183.12,2023-06-13,California Institute of Technology,yes,E,exclude
+GCA_015342065.1,Leptinotarsa undecemlineata,2663497,Chrysomelidae,Polyphaga,Scaffold,5685,5931,639.11,2020-11-10,University of Wisconsin-Madison,yes,E,exclude
+GCA_015342105.1,Leptinotarsa texana,937810,Chrysomelidae,Polyphaga,Scaffold,5536,5971,640.41,2020-11-10,University of Wisconsin-Madison,yes,E,exclude
+GCA_027576155.1,Pseudomimeciton antennatum,1886653,Staphylinidae,Polyphaga,Scaffold,5376,7332,85.21,2023-01-06,IRIDIAN GENOMES,yes,E,exclude
+GCA_037464815.1,Mylabris variabilis,268459,Meloidae,Polyphaga,Scaffold,5346,7044,145.43,2024-03-22,University Roma Tre,yes,E,exclude
+GCA_015342085.1,Leptinotarsa defecta,2663496,Chrysomelidae,Polyphaga,Scaffold,5300,5525,623.39,2020-11-10,University of Wisconsin-Madison,yes,E,exclude
+GCA_030557295.1,Ecitodaemon sp. MM-2014,3034929,Staphylinidae,Polyphaga,Scaffold,4976,18745,187.9,2023-07-31,California Institute of Technology,yes,E,exclude
+GCA_030264695.1,Lissagria laeviuscula,505471,Staphylinidae,Polyphaga,Scaffold,4854,6950,225.63,2023-06-13,California Institute of Technology,yes,E,exclude
+GCA_030264155.1,Atheta pasadenae,866018,Staphylinidae,Polyphaga,Scaffold,4822,23909,230.26,2023-06-13,California Institute of Technology,yes,E,exclude
+GCA_027574945.2,Ecitomorpha arachnoides,1919235,Staphylinidae,Polyphaga,Scaffold,4648,10065,233.59,2023-06-22,IRIDIAN GENOMES,yes,E,exclude
+GCA_030556245.1,Falagria sp. GC000072,3034850,Staphylinidae,Polyphaga,Scaffold,4617,12820,202.36,2023-07-31,California Institute of Technology,yes,E,exclude
+GCA_030264735.1,Gymnusa sp. GC000175,3032617,Staphylinidae,Polyphaga,Scaffold,4495,4495,405.54,2023-06-13,California Institute of Technology,yes,E,exclude
+GCA_050230135.1,Kurasawatrechus hirakei,3410397,Carabidae,Adephaga,Scaffold,4320,7060,647.79,2025-05-07,Hokkaido University,yes,E,exclude
+GCA_027574865.2,Coproporus ventriculus,1542148,Staphylinidae,Polyphaga,Scaffold,4235,5580,210.31,2023-06-22,IRIDIAN GENOMES,yes,E,exclude
+GCA_030264575.1,Tachinus sp. AB-2021,2877718,Staphylinidae,Polyphaga,Scaffold,4129,4454,580.27,2023-06-13,California Institute of Technology,yes,E,exclude
+GCA_015342025.1,Leptinotarsa tumamoca,2663498,Chrysomelidae,Polyphaga,Scaffold,3871,4193,578.68,2020-11-10,University of Wisconsin-Madison,yes,E,exclude
+GCA_015342205.1,Leptinotarsa peninsularis,2663494,Chrysomelidae,Polyphaga,Scaffold,3521,3825,558.7,2020-11-10,University of Wisconsin-Madison,yes,E,exclude
+GCA_027574845.2,Deinopsis erosa,347323,Staphylinidae,Polyphaga,Scaffold,3487,4203,152.98,2023-06-22,IRIDIAN GENOMES,yes,E,exclude
+GCA_027574905.2,Earota dentata,866044,Staphylinidae,Polyphaga,Scaffold,3091,12951,206.28,2023-06-22,IRIDIAN GENOMES,yes,E,exclude
+GCA_015342145.1,Leptinotarsa rubiginosa,2663495,Chrysomelidae,Polyphaga,Scaffold,2836,2883,566.67,2020-11-10,University of Wisconsin-Madison,yes,E,exclude
+GCA_015342185.1,Leptinotarsa juncta,216192,Chrysomelidae,Polyphaga,Scaffold,2814,2941,578.21,2020-11-10,University of Wisconsin-Madison,yes,E,exclude
+GCA_030264515.1,Sepedophilus sp. GC000190,3032620,Staphylinidae,Polyphaga,Scaffold,2480,2587,757.29,2023-06-13,California Institute of Technology,yes,E,exclude
+GCA_015342125.1,Leptinotarsa haldemani,380266,Chrysomelidae,Polyphaga,Scaffold,2472,2498,549.18,2020-11-10,University of Wisconsin-Madison,yes,E,exclude
+GCA_025400035.1,Tetradonia laticeps,1886649,Staphylinidae,Polyphaga,Scaffold,2413,3323,201.38,2022-09-25,IRIDIAN GENOMES,yes,E,exclude
+GCA_027580035.1,Dorylogaster longipes,1886655,Staphylinidae,Polyphaga,Scaffold,2250,2360,210.38,2023-01-06,IRIDIAN GENOMES,yes,E,exclude
+GCA_030264615.1,Cypha longicornis,347321,Staphylinidae,Polyphaga,Scaffold,2227,2227,124.9,2023-06-13,California Institute of Technology,yes,E,exclude
+GCA_030264595.1,Oligota sp. GC000189,3032619,Staphylinidae,Polyphaga,Scaffold,1743,4087,159.71,2023-06-13,California Institute of Technology,yes,E,exclude
+GCA_010014765.2,Aenictocupidus jacobsonorum,1962788,Staphylinidae,Polyphaga,Scaffold,1398,1596,176.36,2023-01-03,IRIDIAN GENOMES,yes,E,exclude
+GCA_027574705.1,Labidopullus appendiculatus,1916252,Staphylinidae,Polyphaga,Scaffold,1304,1384,160.3,2023-01-06,IRIDIAN GENOMES,yes,E,exclude
+GCA_010091895.2,Chrysina resplendens,1897488,Scarabaeidae,Polyphaga,Scaffold,852,860,68.25,2022-11-30,IRIDIAN GENOMES,yes,E,exclude
+GCA_014849505.1,Elaeidobius kamerunicus,2663966,Curculionidae,Polyphaga,Scaffold,849,1084,269.64,2020-10-05,PT. Astra Agro Lestari Tbk,yes,E,exclude
+GCA_009852465.2,Alaus oculatus,374458,Elateridae,Polyphaga,Scaffold,828,828,7.31,2022-09-27,IRIDIAN GENOMES,yes,E,exclude
+GCA_033557785.1,Enochrus cinctus,1397778,Hydrophilidae,Polyphaga,Contig,7453,7453,150.38,2023-11-13,Northern Arizona University,yes,F,exclude
+GCA_033557775.1,Berosus sp. SLE1611,3053244,Hydrophilidae,Polyphaga,Contig,7036,7036,20.44,2023-11-13,Northern Arizona University,yes,F,exclude
+GCA_000281835.1,Priacma serrata,50550,Cupedidae,Archostemata,Contig,4805,4805,12.08,2012-07-27,University of Memphis,yes,F,exclude
+GCA_033557495.1,Thyregis relictus,3050897,Scarabaeidae,Polyphaga,Contig,4522,4522,21.54,2023-11-13,Northern Arizona University,yes,F,exclude
+GCA_033557545.1,Amphistomus primonactus,318779,Scarabaeidae,Polyphaga,Contig,3959,3959,30.0,2023-11-13,Northern Arizona University,yes,F,exclude
+GCA_033557515.1,Diorygopyx duplodentatus,3050892,Scarabaeidae,Polyphaga,Contig,3850,3850,497.0,2023-11-13,Northern Arizona University,yes,F,exclude
+GCA_024586415.1,Phrixothrix hirtus,94779,Phengodidae,Polyphaga,Contig,2761,2761,2897.72,2022-08-08,UFSCar,yes,F,exclude
+GCA_033557385.1,Temnoplectron lewisense,211780,Scarabaeidae,Polyphaga,Contig,1369,1369,25.89,2023-11-13,Northern Arizona University,yes,F,exclude
+GCA_032191635.1,Sarophorus costatus,206924,Scarabaeidae,Polyphaga,Contig,926,926,197.14,2023-09-29,Northern Arizona University,yes,F,exclude
+GCA_032191705.1,Aphodius immundus,225233,Scarabaeidae,Polyphaga,Contig,706,706,144.53,2023-09-29,Northern Arizona University,yes,F,exclude
+GCA_033557405.1,Caccobius schreberi,166341,Scarabaeidae,Polyphaga,Contig,560,560,167.36,2023-11-13,Northern Arizona University,yes,F,exclude
+GCA_033557245.1,Helictopleurus sicardi,422258,Scarabaeidae,Polyphaga,Contig,555,555,8.73,2023-11-13,Northern Arizona University,yes,F,exclude
+GCA_032191655.1,Euoniticellus fulvus,166328,Scarabaeidae,Polyphaga,Contig,491,491,172.79,2023-09-29,Northern Arizona University,yes,F,exclude
+GCA_032191685.1,Copris fidius,1164999,Scarabaeidae,Polyphaga,Contig,400,400,230.03,2023-09-29,Northern Arizona University,yes,F,exclude
+GCA_032191565.1,Nanos vadoni,490873,Scarabaeidae,Polyphaga,Contig,363,363,132.44,2023-09-29,Northern Arizona University,yes,F,exclude
+GCA_033557285.1,Epilissus splendidus,3050893,Scarabaeidae,Polyphaga,Contig,338,338,6.15,2023-11-13,Northern Arizona University,yes,F,exclude
+GCA_032191585.1,Nanos sp. ST009,3053243,Scarabaeidae,Polyphaga,Contig,277,277,69.25,2023-09-29,Northern Arizona University,yes,F,exclude

@@ -60,12 +60,14 @@ Adopted plan: hierarchical, with backbone phylogenomics constraining everything 
 
 ## Pending tasks (not started)
 
-1. Literature review: 2024–2026 beetle phylogenomics. Anchor papers identified (McKenna 2019 PNAS; Zhang et al. 2018 Nat Commun; Bocak et al. 2014 Syst Biol; Smith & Brown 2018; Smith & Walker 2019 PyPHLAWD; Portik & Wiens 2020 SuperCRUNCH). Need: Cai et al. 2022 (or equivalent), most recent dating papers, any newer mega-phylogeny attempts, fossil calibration sources (Toussaint, Beutel & Leschen volumes).
-2. Refresh NCBI genome inventory.
-3. Sphaerius DIY assembly on Grace (see plan below).
+1. ~~Literature review~~ — DONE 2026-05-03 (8 lit-review agents). See [literature/notes/](literature/notes/) and the synthesis at [workflow_v1.md](workflow_v1.md).
+2. ~~Refresh NCBI genome inventory~~ — DONE 2026-05-03. **546 new candidates** found (323 include, 176 conditional, 47 exclude); 101 are chromosome-level. See [data/ncbi_inventory_refresh_2026-05.csv](data/ncbi_inventory_refresh_2026-05.csv) and [notes](data/ncbi_inventory_refresh_notes.md).
+3. *Sphaerius* DIY assembly on Grace (see plan below).
 4. Tier-2 transcriptome retrieval and BUSCO extraction pipeline.
-5. Decide GenBank mining tool: PyPHLAWD vs SuperCRUNCH (both viable; pick after lit review).
-6. Fossil calibration set assembly.
+5. ~~Decide GenBank mining tool~~ — DECIDED: SuperCRUNCH primary, phylotaR fallback. See [workflow_v1.md](workflow_v1.md).
+6. ~~Fossil calibration set assembly~~ — DECIDED: Cai et al. 2022 starting set (~25 nodes applicable at TOB scope). See [workflow_v1.md](workflow_v1.md).
+
+**Locked methodology** is captured in [workflow_v1.md](workflow_v1.md). Read that before any Phase-1+ work.
 
 ## Sphaerius DIY assembly plan (deferred)
 
