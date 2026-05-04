@@ -1,8 +1,19 @@
-# SCARAB — Claude Code Context
+# SCARAB / TOB — Claude Code Context
+
+**As of 2026-05-03 this repo hosts two projects.** Read [TOB/context.md](TOB/context.md) **first** if Heath's request relates to phylogeny inference, taxonomy, GenBank mining, fossil dating, transcriptomes, or anything outside the existing Cactus pipeline.
+
+- **TOB (Tree of Beetles)** — ACTIVE. Building the most complete Coleoptera phylogeny ever assembled (all four suborders, all ~180 families). Workdir: [TOB/](TOB/). The 478 SCARAB genomes are TOB's Tier-1 input.
+- **SCARAB** — PAUSED at git tag `scarab-pause-2026-05-03`. The 478-beetle ProgressiveCactus alignment was paused when we realized the species tree (critical Cactus input) was missing Archostemata + Myxophaga. Do not actively work SCARAB unless Heath explicitly asks; resume by checking out the tag. Workdir, scripts, and Grace state are intact.
+
+The Grace conventions, paths, and constraints below originated with SCARAB and apply to both projects.
+
+---
+
+## SCARAB project specifics
 
 SCARAB = 478-beetle whole-genome alignment (ProgressiveCactus) to map chromosomal rearrangements across Coleoptera. PI: Heath Blackmon, TAMU.
 
-**Before writing any script, read `context.md` for current project status, `FILE_MAP.md` for the full repo + Grace structure, and `grace_filesystem_map.md` for Grace paths.**
+**Before writing any SCARAB script, read `context.md` for current project status, `FILE_MAP.md` for the full repo + Grace structure, and `grace_filesystem_map.md` for Grace paths.**
 
 ## Grace HPC Constraints
 
